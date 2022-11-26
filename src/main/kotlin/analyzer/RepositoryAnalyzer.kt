@@ -50,19 +50,13 @@ class RepositoryAnalyzer {
     }
 
     private fun extractZip(fileName: String, outputDir: String) {
-/*        ZipFile(fileName).use { zip ->
-            zip.entries().asSequence().forEach { entry ->
-                zip.getInputStream(entry).use { input ->
-                    val targetFile = File("$outputDir/${entry.name}")
-                    targetFile.parentFile.mkdirs()
-                    targetFile.outputStream().use { output ->
-                        input.copyTo(output)
-                    }
-                }
-            }
-        }*/
-        ProcessBuilder()
-            .command("unzip", fileName, "-d", outputDir)
+        val processBuilder = ProcessBuilder()
+        if (System.getProperty("os.name").contains("Windows")) {
+            processBuilder.command("powershell.exe", "-Command", "Expand-Archive", "-Path", fileName, "-DestinationPath", outputDir)
+        } else {
+            processBuilder.command("unzip", fileName, "-d", outputDir)
+        }
+        processBuilder
             .redirectError(ProcessBuilder.Redirect.INHERIT)
             .redirectOutput(ProcessBuilder.Redirect.INHERIT)
             .start()
