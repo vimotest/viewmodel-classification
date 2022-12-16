@@ -4,9 +4,10 @@ import java.io.File
 import java.net.URL
 import java.nio.file.Files
 import java.nio.file.Paths
-import java.util.zip.ZipFile
 
-class RepositoryAnalyzer {
+class RepositoryAnalyzer(
+    val frameworkAnalyzers: List<FrameworkSpecificAnalyzer>
+) {
     fun analyze(repositoryUrl: String): RepositoryInfo {
         val repositoryName = repositoryUrl.substringAfterLast("/")
 
@@ -28,11 +29,13 @@ class RepositoryAnalyzer {
 
     private fun findViewModels(filePath: String): List<ViewModelInfo> {
         val viewModelInfos = mutableListOf<ViewModelInfo>()
-        File(filePath).walkTopDown().forEach {
-            if (it.isFile && it.name.contains("ViewModel")) {
-                viewModelInfos.add(ViewModelInfo(it.name, it.path))
+
+        frameworkAnalyzers.forEach { analyzer ->
+            if (analyzer.isRepositoryUsingKnownFramework(filePath)) {
+                viewModelInfos.addAll(analyzer.findViewModels(filePath))
             }
         }
+
         return viewModelInfos
     }
 

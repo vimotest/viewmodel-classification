@@ -9,5 +9,6 @@ data class RepositoryInfo(
 
 data class ViewModelInfo(
     val name: String,
-    val path: String
+    val path: String,
+    var relatedViewFilePath: String? = null
 )
