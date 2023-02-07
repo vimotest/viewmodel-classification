@@ -1,0 +1,166 @@
+https://developer.android.com/topic/libraries/architecture/viewmodel	ViewModel overview - Android Developers
+https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel	Model–view–viewmodel - Wikipedia
+https://medium.com/androiddevelopers/viewmodels-a-simple-example-ed5ac416317e	ViewModels : A Simple Example. Introduction | by Lyla Fujiwara
+https://www.geeksforgeeks.org/viewmodel-in-android-architecture-components/	ViewModel in Android Architecture Components
+https://stackoverflow.com/questions/11064316/what-is-viewmodel-in-mvc	What is ViewModel in MVC? - Stack Overflow
+https://www.youtube.com/watch?v=orH4K6qBzvE	Android Architecture Component - ViewModel Explained
+https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm	Model-View-ViewModel (MVVM) - Microsoft Learn
+https://github.com/rickclephas/KMM-ViewModel	rickclephas/KMM-ViewModel: Library to share Kotlin ... - GitHub
+https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-4-saving-user-data/lesson-10-storing-data-with-room/10-1-c-room-livedata-viewmodel/10-1-c-room-livedata-viewmodel.html	10.1: Room, LiveData, and ViewModel · GitBook - GitHub Pages
+https://insert-koin.io/docs/reference/koin-android/viewmodel	Android ViewModel & Navigation | Koin
+https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/lifecycle/lifecycle-viewmodel/src/main/java/androidx/lifecycle/ViewModel.java	lifecycle/lifecycle-viewmodel/src/main/java/androidx/lifecycle ...
+https://www.infoq.com/articles/View-Model-Definition/	So What Exactly is a View-Model? - InfoQ
+https://blog.mindorks.com/android-viewmodels-under-the-hood	Android ViewModels: Under the hood - MindOrks
+https://docs.oracle.com/en/middleware/developer-tools/jet/12/develop/define-viewmodel.html	Define the ViewModel - JET - Oracle Help Center
+https://www.techyourchance.com/you-dont-need-android-viewmodel/	You Don't Need Android ViewModel, Here is Why
+https://proandroiddev.com/viewmodel-magic-revealed-330476b5ab27	ViewModel magic revealed!!! - ProAndroidDev
+https://dagger.dev/hilt/view-model.html	View Models - Dagger
+https://dotnettutorials.net/lesson/view-model-asp-net-core-mvc/	ViewModel in ASP.NET Core MVC Application
+https://write.agrevolution.in/view-model-and-how-it-works-internally-88295e8598ee	Android View Model and How it works internally - DeHaat
+https://012.vuejs.org/guide/	Getting Started - vue.js
+https://www.droidcon.com/2022/01/18/viewmodel-magic-revealed/	ViewModel magic revealed!!! - droidcon
+https://canjs.com/doc/can-component.prototype.ViewModel.html	ViewModel | can-component | Views | API Docs - CanJS
+https://appdevnotes.com/android-viewmodel-tutorial-for-beginners-in-kotlin/	Android ViewModel tutorial for beginners in Kotlin
+https://dev.to/vtsen/recommended-ways-to-create-viewmodel-or-androidviewmodel-5e7k	Recommended Ways To Create ViewModel or ...
+https://docs.sencha.com/extjs/6.5.3/modern/Ext.app.ViewModel.html	Ext.app.ViewModel | Ext JS 6.5.3 - Sencha Documentation
+https://pspdfkit.com/blog/2019/using-viewmodels-to-retain-state-on-android/	Using ViewModels to Retain State on Android - PSPDFKit
+https://pypi.org/project/ViewModel/	ViewModel · PyPI
+https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/	How to Use Model-View-ViewModel on Android Like a Pro
+https://www.mvvmcross.com/documentation/fundamentals/viewmodel-lifecycle	ViewModel Lifecycle - MvvmCross
+https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html	Applying ViewModel - CommonsWare
+https://viewmodel.org/	ViewModel
+https://books.zkoss.org/zk-mvvm-book/8.0/viewmodel/index.html	ViewModel | - Documentation - ZK framework
+https://developer.valvesoftware.com/wiki/Viewmodel	Viewmodel - Valve Developer Community
+https://www.dotvvm.com/docs/2.0/pages/basics-viewmodels	ViewModels | DotVVM Documentation
+https://learnfromsaki.com/configuring-viewmodel-hierarchy/	Configuring ViewModel Hierarchy - Learn from Saki
+https://docs.unrealengine.com/5.1/en-US/umg-viewmodel	UMG Viewmodel | Unreal Engine 5.1 Documentation
+https://heartbeat.comet.ml/using-viewmodels-in-android-to-preserve-your-running-apps-state-e56e63f689f3	Using ViewModels in Android to preserve your running app's ...
+https://cocoacasts.com/how-does-mvvm-work	How Does the Model-View-ViewModel Pattern Work
+https://blog.kotzilla.io/koin-android-stronger-viewmodel-api/	Koin Android 3.3.0 - Easier, Better, Stronger with ViewModels
+https://voyager.adriel.cafe/android-viewmodel	Android ViewModel - Voyager
+https://www.valueof.io/blog/stateflow-sharedflow-flow-viewmodel-lifecycle	StateFlow and SharedFlow in ViewModels - Mobile Dev Notes
+https://androidwave.com/fragment-communication-using-viewmodel/	Fragment Communication using ViewModel - AndroidWave
+https://betterprogramming.pub/everything-to-understand-about-viewmodel-400e8e637a58	How ViewModels Work on Android - Better Programming
+https://arkadiuszchmura.com/posts/how-viewmodels-survive-configuration-changes/	How ViewModels survive configuration changes
+https://www.tutlane.com/tutorial/aspnet-mvc/how-to-use-viewmodel-in-asp-net-mvc-with-example	How to Use ViewModel in Asp.Net MVC with Example - Tutlane
+https://www.educative.io/answers/the-model-view-view-model-as-explained-to-a-6-year-old	The Model-View-View Model as explained to a 6-year old
+https://developer.adobe.com/commerce/php/development/components/view-models/	View Models | Commerce PHP Extensions - Adobe Developer
+https://androidx.tech/artifacts/lifecycle/lifecycle-viewmodel/	androidx.lifecycle:lifecycle-viewmodel - AndroidX Tech
+https://codersguidebook.com/how-to-create-an-android-app/what-is-a-viewmodel	What is a view model and why should you use one in your ...
+https://www.reddit.com/r/android_devs/comments/vhhgq5/you_dont_need_android_viewmodel_here_is_why/	You Don't Need Android ViewModel, Here is Why - Reddit
+https://www.kodeco.com/books/advanced-android-app-architecture/v1.0/chapters/10-model-view-viewmodel-theory	10. Model View ViewModel Theory Written by Aldo Olivares
+https://softwareengineering.stackexchange.com/questions/293224/is-that-good-idea-to-add-viewmodel-exactly-same-as-model	Is that good idea to add ViewModel exactly same as Model
+https://www.techotopia.com/index.php/An_Android_Jetpack_ViewModel_Tutorial	An Android Jetpack ViewModel Tutorial - Techotopia
+https://www.c-sharpcorner.com/UploadFile/abhikumarvatsa/what-is-model-and-viewmodel-in-mvc-pattern/	What is Model and ViewModel in MVC Pattern? - C# Corner
+https://www.atmosera.com/blog/model-view-viewmodel-mvvm-explained/	Model-View-ViewModel (MVVM) Explained - Atmosera
+https://www.systango.com/blog/what-is-viewmodel-in-android-architecture-component	What is ViewModel in Android Architecture Component?
+https://issuetracker.google.com/issues/236561973	The function `viewModel()` need to update or add some more ...
+https://knockoutjs.com/documentation/observables.html	Observables - Knockout.js
+https://schibsted.com/blog/android-databinding-goodbye-presenter-hello-viewmodel/	Android Databinding: Goodbye Presenter, hello ViewModel!
+https://www.jondjones.com/learn-episerver-cms/episerver-developers-tutorials/episerver-mvc/what-should-the-mvc-viewmodel-be-used-for-in-episerver/	What Should The MVC ViewModel Be Used For in Episerver
+https://riggaroo.dev/android-architecture-components-looking-viewmodels-part-2/	Android Architecture Components - Looking at ViewModels
+https://ajkueterman.dev/posts/android-viewmodel-manual-dependency-injection-made-easy/	Android ViewModel - Manual Dependency Injection Made Easy
+https://engineering.q42.nl/compose/	Every Composable deserves a ViewModel - Q42 Engineering
+https://visualstudiomagazine.com/articles/2013/07/01/building-and-testing-a-view-model-in-typescript.aspx	Building and Testing a View Model in TypeScript
+https://teehanlax.com/blog/model-view-viewmodel-for-ios/	– Model-View-ViewModel for iOS - Teehan+Lax
+https://agreeya.com/blogs/how-to-use-livedata-and-viewmodel-in-your-next-development-project/	How to use Live Data and View Model in your next ...
+https://www.digitalocean.com/community/tutorials/android-mvvm-design-pattern	Android MVVM Design Pattern - DigitalOcean
+https://orbit-mvi.org/Android-ViewModel/overview/	Android ViewModel module - Orbit MVI
+https://milestone.topics.it/series/view-model-composition.html	ViewModel Composition - Mauro Servienti
+https://www.sasikanth.dev/using-viewmodels-in-custom-views/	Using ViewModels in custom views
+https://www.answertopia.com/jetpack-compose/a-jetpack-compose-viewmodel-tutorial/	A Jetpack Compose ViewModel Tutorial - Answertopia
+https://www.halfbit.de/posts/composite-viewmodel/	Composite ViewModel
+https://blog.stylingandroid.com/architecture-components-viewmodel/	Architecture Components: ViewModel - Styling Android
+https://www.codeproject.com/Articles/100175/Model-View-ViewModel-MVVM-Explained	Model-View-ViewModel (MVVM) Explained - CodeProject
+https://www.dotnettricks.com/learn/mvc/understanding-viewmodel-in-aspnet-mvc	Understanding ViewModel in ASP.NET MVC - DotNetTricks
+https://www.techtarget.com/whatis/definition/Model-View-ViewModel	What is Model-View-ViewModel (MVVM)? - TechTarget
+https://nicksnettravels.builttoroam.com/post-2019-03-24-viewmodel-to-viewmodel-navigation-in-a-xamarinforms-application-with-prism-and-mvvmcross-aspx/	ViewModel to ViewModel Navigation in a Xamarin.Forms ...
+https://infinum.com/blog/mvvm-architecture/	Implementing Customized Model-View-ViewModel ... - Infinum
+https://blog.jeremylikness.com/blog/model-view-viewmodel-mvvm-explained/	Model-View-ViewModel (MVVM) Explained | Developer for Life
+https://en.wiktionary.org/wiki/view_model	view model - Wiktionary
+https://www.amazon.com/MVVM-Delphi-Architecting-ViewModel-Applications/dp/148422213X	MVVM in Delphi: Architecting and Building Model View ...
+https://docs.mfractor.com/xamarin-forms/working-with-viewmodels/view-viewmodel-navigation/	View-ViewModel Navigation - MFractor Documentation
+https://imhoff.blog/posts/view-purity-with-mobx-viewmodels	Retrofuturistic MVVM: Achieving View Purity with MobX ...
+https://engineering.mercari.com/en/blog/entry/2019-06-12-120000/	Introducing ViewModel Inputs/Outputs: a modern approach to ...
+https://link.springer.com/chapter/10.1007/978-1-4842-8248-9_8	Model-View-ViewModel (MVVM) | SpringerLink
+https://ieeexplore.ieee.org/document/9249215	A Model-View-ViewModel (MVVM) Application Framework for ...
+https://devforum.roblox.com/t/simple-viewmodel/1907404	Simple Viewmodel! - Community Tutorials - DevForum | Roblox
+https://thewolfsound.com/android-synthesizer-3-view-model-using-kotlin-coroutines/	Android Synthesizer App Tutorial Part 3: ViewModel Using ...
+https://steamcommunity.com/sharedfiles/filedetails/?id=365126929	crashz' Viewmodel Generator - Workshop - Steam Community
+https://www.informit.com/articles/article.aspx?p=2990403&seqNum=2	Adding a ViewModel | Persisting Android UI State - InformIT
+https://www.glureau.com/2020/05/15/Jetpack-ViewModel-ProCons/	Should I use Jetpack ViewModel? - Grégory Lureau
+https://www.swiftbysundell.com/articles/different-flavors-of-view-models-in-swift	Different flavors of view models in Swift
+https://graphql.guide/android/viewmodel/	ViewModel - The GraphQL Guide
+https://rehansaeed.com/model-view-viewmodel-mvvm-part2-idisposable/	Model-View-ViewModel (MVVM) - Part 2 - IDisposable
+https://mobikul.com/android-room-live-data-view-model/	Android Room, Live Data And View Model - Mobikul
+https://www.objc.io/issues/13-architecture/mvvm/	Introduction to MVVM - objc.io
+https://rachelappel.com/2014/09/02/use-viewmodels-to-manage-data-amp-organize-code-in-asp-net-mvc-applications/	Use ViewModels to manage data & organize code in ASP ...
+https://blog.devgenius.io/mvvm-architecture-viewmodel-and-livedata-d6c74ef45728	MVVM architecture, ViewModel and LiveData - Dev Genius
+https://developer.android.com/reference/androidx/lifecycle/ViewModel	ViewModel - Android Developers
+https://www.educba.com/viewmodel-in-mvc/	ViewModel in MVC | How to Create ViewModel and Controller ...
+https://onmyway133.com/posts/how-to-use-viewmodel-and-viewmodelsproviders-in-android/	How to use ViewModel and ViewModelsProviders in Android
+https://docs.colectica.com/sdk6/api/Algenta.Colectica.ViewModel/Algenta.Colectica.ViewModel.Reports.html	Namespace Algenta.Colectica.ViewModel.Reports
+https://www.hackingwithswift.com/example-code/language/what-is-mvvm	What is MVVM? - free Swift 5.4 example code and tips
+https://www.quora.com/What-is-ViewModel-in-MVC	What is ViewModel in MVC? - Quora
+http://dontcodetired.com/blog/post/Reducing-MVVM-Light-Viewmodel-Code-with-Fody-Property-Dependencies-and-Custom-Property-Changed-Methods	Reducing MVVM Light Viewmodel Code with Fody Property ...
+https://ithelp.ithome.com.tw/articles/10218506	Day 6 ViewModel (一) 介紹與基本使用 - iT 邦幫忙
+https://blog.udemy.com/c-sharp-viewmodel/	Using the C# ViewModel to Create Great Views for Your ...
+https://codelabs.developers.google.com/	Google Codelabs
+https://www.gamersdecide.com/articles/csgo-best-viewmodel-settings	[Top 10] CSGO Best Viewmodel Settings Used By Pros
+https://creatronix.de/how-to-use-viewmodel/	How to use ViewModel in Android - Creatronix
+https://scottlilly.com/c-design-patterns-mvvm-model-view-viewmodel/	MVVM (Model-View-ViewModel) Design Pattern in C# ...
+https://startandroid.ru/ru/courses/architecture-components/27-course/architecture-components/527-urok-4-viewmodel.html	Урок 4. ViewModel - Start Android
+https://www.damirscorner.com/blog/posts/20221021-AvoidAsyncCallsInViewmodelConstructors.html	Avoid async calls in view model constructors - Damir's Corner
+https://zsmb.co/an-early-look-at-viewmodel-savedstate/	An Early Look at ViewModel SavedState - zsmb.co
+https://www.linkedin.com/pulse/mvvm-architecture-viewmodel-livedata-part-1-hazem-saleh	MVVM architecture, ViewModel and LiveData (Part 1) - LinkedIn
+https://prosettings.net/players/niko/	NiKo CS:GO Settings, Crosshair & Config - ProSettings.net
+https://www.researchgate.net/figure/The-Model-View-ViewModel-MVVM-architectural-pattern-In-MVVM-the-View-layer-is_fig3_275258051	The Model View ViewModel (MVVM) architectural pattern. In ...
+https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf	Architectural Blueprints—The “4+1” View Model of Software ...
+https://climbtheladder.com/10-model-view-viewmodel-mvvm-best-practices/	10 Model-View-ViewModel (MVVM) Best Practices - CLIMB
+https://deutschergrossspitz.de/tf2-viewmodel-mod.html	Tf2 Viewmodel Mod
+https://books.google.com/books?id=USXsDwAAQBAJ&pg=PA242&lpg=PA242&dq=viewmodel&source=bl&ots=iRVMxIRu9r&sig=ACfU3U3mddQ8CTP_DwbaMKnj6HFU2uh1Jw&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNgBEAM	Android Studio 4.0 Development Essentials - Java Edition: ...	Neil Smyth2020Computers
+https://amitshekhar.me/blog/mvvm-architecture-android	MVVM Architecture - Android Tutorial - Amit Shekhar
+https://blog.fossasia.org/handling-configuration-changes-by-implementing-viewmodels-in-the-open-event-android-app/	Handling Configuration Changes by implementing ... - fossasia
+https://tickets.summitov.com/webstore/shop/viewItems.aspx?CG=romance&C=romance	Ticket Selection - SUMMIT One Vanderbilt
+https://books.google.com/books?id=p30gFQycCHEC&pg=PA199&lpg=PA199&dq=viewmodel&source=bl&ots=hnMLTs4nUF&sig=ACfU3U0bg8-09i5NQ0blP36S0hQr6GsNiQ&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNkBEAM	Real World .NET, C#, and Silverlight: Indispensible ...	Dominick BaierGyörgy BalássyGill Gleeren2011Computers
+https://tickets.houstonzoo.org/webstore/shop/viewitems.aspx?CG=GA&C=GADiscountEVENTS	viewModel.title - Houston Zoo Web Store :: Ticket Selection
+https://tickets.spacecenter.org/webstore/shop/viewItems.aspx?cg=admissioncg&c=admissionc	Space Center Houston Web Store :: Ticket Selection
+https://settings.gg/player/376295293	skywhywalker - CS:GO Settings, Crosshair, Config
+https://books.google.com/books?id=6EZsDwAAQBAJ&pg=PA237&lpg=PA237&dq=viewmodel&source=bl&ots=EJcOocHhJ7&sig=ACfU3U3iBgTfzDDICt2Xj2m3npRcYizZ8g&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNsBEAM	Software Architect’s Handbook: Become a successful software ...	Joseph Ingeno2018Computers
+https://books.google.com/books?id=5y-IDQAAQBAJ&pg=PA233&lpg=PA233&dq=viewmodel&source=bl&ots=fPhyLXGQpT&sig=ACfU3U29uGOPv9lt-pFgsQJ6cxnyGGGVlA&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNoBEAM	Professional Sitecore 8 Development: A Complete Guide to ...	Phil WicklundJason Wilkerson2016Computers
+https://books.google.com/books?id=fLeZDwAAQBAJ&pg=PT331&lpg=PT331&dq=viewmodel&source=bl&ots=Zno0ZRsz-a&sig=ACfU3U0pnND55tzxRBV-ze5daaXtR-OHzw&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNcBEAM	Android Studio 3.4 Development Essentials - Kotlin Edition	Neil Smyth2019Computers
+https://books.google.com/books?id=sWgyEAAAQBAJ&pg=PT267&lpg=PT267&dq=viewmodel&source=bl&ots=LvifvVHn_1&sig=ACfU3U1zt-85EZBu4TFjo5Aj1JsUMNUY0g&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCMIBEAM	Android Studio 4.2 Development Essentials - Java Edition: ...	Neil Smyth2021Computers
+https://books.google.com/books?id=xLuXJQUfMH4C&pg=PA376&lpg=PA376&dq=viewmodel&source=bl&ots=rhPr0AqPyz&sig=ACfU3U2GictHl8b_yxyGG1i_oQ7d-ozVpQ&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCMcBEAM	Recent Trends in Wireless and Mobile Networks: Third ...	Abdulkadir ÖzcanJan ZizkaDhinaharan Nagamalai2011Computers
+https://books.google.com/books?id=BtLpDwAAQBAJ&pg=PT10&lpg=PT10&dq=viewmodel&source=bl&ots=pAB557km97&sig=ACfU3U3HiLgcU9YHT230kZob1Ie5mSQ65g&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNYBEAM	Android Studio 4.0 Development Essentials - Kotlin Edition	Neil Smyth2020Computers
+https://franke-anaesthesie.de/wpf-bind-viewmodel.html	Wpf Bind Viewmodel
+https://tickets.oaklandzoo.org/Webstore/shop/viewitems.aspx?CG=GGA&C=GAGlowfari	Oakland Zoo Webstore :: Ticket Selection
+https://www.devmedia.com.br/entendendo-o-pattern-model-view-viewmodel-mvvm/18411	Entendendo o Pattern Model View ViewModel MVVM
+https://qiita.com/sdkei/items/a48ae24536562ed000b3	【Android】2020年からの MVVM【実践】 - Qiita
+https://tickets.aquariumofpacific.org/WebStore/shop/ViewItems.aspx?Merchant=AOP&CategoryGroupExternalID=AOPWEB&CategoryExternalID=AOPPV	Aquarium of the Pacific Web Store :: Ticket Selection
+https://fotografie-jan.de/mrpaladin-hud.html	Mrpaladin Hud - Jan Kalberlah Fotografie
+https://shop.capbridge.com/webstore/shop/viewItems.aspx?cg=consumer&c=TKT	Ticket Selection - Capilano Suspension Bridge Park Web Store
+https://tickets.sandiegozoo.org/webstore/shop/ViewItems.aspx?CG=webstoresdz&C=sdztp	SDZWA Web Store:: Ticket Selection - San Diego Zoo
+https://kiaflowers.it/blazor-mvvm.html	blazor mvvm
+https://toronavi.com/jetpack-viewmodel	ViewModelコンポーネントの使い方編【Android Jetpack】
+https://tickets.skygarden.london/WebStore/shop/viewitems.aspx?cg=SkyGarden&c=Tickets	Sky Garden London :: Ticket Selection
+https://www.lexusindia.co.in/en.html	Lexus India | Luxury & Hybrid Cars | Experience Amazing
+https://eticket.sunwaylagoon.com/webstore/shop/viewItems.aspx?cg=ENGSLSB&c=MSIA	viewModel.price - Sunway Lagoon Web Store :: Ticket Selection
+https://www.fragster.com/es/configuracion-crosshair-y-viewmodel-del-goat-oleksandr-s1mple-kostyliev/	Configuración, crosshair y viewmodel del GOAT Oleksandr ...
+https://www.cnblogs.com/qian-fen/p/17098146.html	什么是mvvm？简单介绍它的概念、原理及实现 - 博客园
+https://3d.cs.money/	3D Skin Viewer: M4A4 | Neo-Noir (Field-Tested)
+https://tickets.historic-scotland.gov.uk/webstore/shop/viewItems.aspx?cg=TKTS&c=GA	Book - Ticket Selection - Historic Environment Scotland
+https://www.syncfusion.com/blogs/post/travel-destination-listing-ui-in-dotnet-maui.aspx	Easily Develop a Travel Destination Listing UI in .NET MAUI
+https://github-wiki-see.page/m/vandn88/android-documentation/wiki/ViewModel	ViewModel - vandn88/android-documentation GitHub Wiki
+https://s.webnhathuoc.com/Account/Login	ĐĂNG NHẬP - Web Nhà Thuốc
+https://fahrvereinigung-lobdengau.de/faze-niko-setup.html	Faze Niko Setup
+https://easing.me/flutter-mvvm-bloc-github.html	flutter mvvm bloc github - easing.me
+http://qxglx.com/wpzuonqr/select-cart-price.html	Select cart price. After seeing a decent amount of ...
+https://www.zditect.com/code/jetpack-all-in-compose-see-the-use-of-various-jetpack-libraries-in-compose.html	Jetpack All In Compose? See the use of various Jetpack ...
+https://gerdstadie.de/kendo-popup.html	Kendo Popup - Gerd Stadie
+https://onironauta.me/blazor-mvvm.html	blazor mvvm
+https://cyril-derobert.fr/northstar-truck-bed.html	Northstar truck bed - Cyril Derobert
+https://themeparktickets.goldreefcity.co.za/WebStore/landingPage?cg=01&c=01	Theme Park Tickets | Book Now - Gold Reef City
+https://tragwohl.de/tf2-viewmodel-mod.html	Tf2 Viewmodel Mod - Tragwohl
+https://sketchfab.com/	Sketchfab - The best 3D viewer on the web
+https://construction.autodesk.com/	Autodesk Construction Cloud: Construction Management ...
+https://netron.app/	Netron

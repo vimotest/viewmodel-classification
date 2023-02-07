@@ -1,0 +1,165 @@
+https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel	Model–view–viewmodel - Wikipedia
+https://www.techtarget.com/whatis/definition/Model-View-ViewModel	What is Model-View-ViewModel (MVVM)? - TechTarget
+https://learn.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm	The Model-View-ViewModel Pattern - Xamarin - Microsoft Learn
+https://www.geeksforgeeks.org/introduction-to-model-view-view-model-mvvm/	Introduction to Model View View Model (MVVM)
+https://www.tutorialspoint.com/mvvm/index.htm	MVVM Tutorial - Tutorialspoint
+https://www.digitalocean.com/community/tutorials/android-mvvm-design-pattern	Android MVVM Design Pattern - DigitalOcean
+https://www.objc.io/issues/13-architecture/mvvm/	Introduction to MVVM - objc.io
+https://www.guru99.com/mvc-vs-mvvm.html	MVC vs MVVM – Difference Between Them - Guru99
+https://www.atmosera.com/blog/model-view-viewmodel-mvvm-explained/	Model-View-ViewModel (MVVM) Explained - Atmosera
+https://builtin.com/software-engineering-perspectives/mvvm-architecture	What Is MVVM Architecture? (Definition, Advantages) | Built In
+https://medium.com/@mshcheglov/mvvm-design-pattern-with-combine-framework-on-ios-5ff911011b0b	MVVM Design Pattern with Combine framework on iOS
+https://docs.devexpress.com/WindowsForms/113955/build-an-application/winforms-mvvm	WinForms MVVM - DevExpress Documentation
+https://demos.telerik.com/kendo-ui/mvvm/index	Kendo UI for jQuery MVVM Overview - Demos - Telerik
+https://www.educba.com/mvvm-design-pattern/	How To Use MVVM Design Pattern? - eduCBA
+https://github.com/CommunityToolkit/MVVM-Samples	GitHub - CommunityToolkit/MVVM-Samples
+https://intellitect.com/blog/getting-started-model-view-viewmodel-mvvm-pattern-using-windows-presentation-framework-wpf/	Master the Basics of MVVM for Building WPF Applications
+https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture	Better Android Apps Using MVVM With Clean Architecture
+https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch10s06.html	MVVM - Learning JavaScript Design Patterns [Book]
+https://docs.avaloniaui.net/guides/basics/mvvm	MVVM Architecture - Avalonia UI
+https://www.clariontech.com/blog/mvvm-in-ios-a-quick-walkthrough	MVVM in iOS – A Quick Walkthrough - Clarion Technologies
+https://www.udemy.com/topic/mvvm/	Top MVVM Courses Online - Updated [February 2023] | Udemy
+https://www.c-sharpcorner.com/article/mvvm-architecture/	MVVM Architecture - C# Corner
+https://books.zkoss.org/zk-mvvm-book/8.0/introduction_of_mvvm.html	Introduction of MVVM | - Documentation
+https://www.dev-insider.de/was-bedeutet-mvvm-a-1103448/	Was bedeutet MVVM? - Dev-Insider
+https://www.kodeco.com/34-design-patterns-by-tutorials-mvvm	Design Patterns by Tutorials: MVVM - RayWenderlich.com
+https://developer.android.com/topic/architecture	Guide to app architecture - Android Developers
+https://cocoacasts.com/model-view-viewmodel-in-swift	Model-View-ViewModel in Swift - Cocoacasts
+https://dzone.com/refcardz/mvvm-design-pattern-formula	The MVVM Design Pattern - DZone Refcardz
+https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3	Clean Architecture and MVVM on iOS - OLX Group Engineering
+https://www.codemag.com/Article/2005031/Use-the-MVVM-Design-Pattern-in-MVC-Core-Part-1	Use the MVVM Design Pattern in MVC Core: Part 1
+https://www.nuget.org/packages/CommunityToolkit.Mvvm	CommunityToolkit.Mvvm 8.1.0 - NuGet
+https://www.hackingwithswift.com/example-code/language/what-is-mvvm	What is MVVM? - free Swift 5.4 example code and tips
+https://www.syncfusion.com/blogs/post/mvvm-pattern-in-blazor-for-state-management.aspx	MVVM Pattern in Blazor For State Management - Syncfusion
+https://www.mvvmcross.com/	MvvmCross | MvvmCross is a convention based MVVM ...
+https://itnext.io/a-simple-mvvm-implementation-in-client-side-blazor-8c875c365435	A simple MVVM implementation in client side Blazor. - ITNEXT
+https://www.sagitec.com/blog/the-5ws-of-mvvm	The 5W's of MVVM - Sagitec
+https://en.wiktionary.org/wiki/MVVM	MVVM - Wiktionary
+https://www.codeproject.com/Articles/100175/Model-View-ViewModel-MVVM-Explained	Model-View-ViewModel (MVVM) Explained - CodeProject
+https://stackoverflow.com/questions/1405739/mvvm-tutorial-from-start-to-finish	MVVM: Tutorial from start to finish? - Stack Overflow
+https://developer.apple.com/forums/thread/699003	Stop using MVVM for SwiftUI | Apple Developer Forums
+https://addyosmani.com/blog/understanding-mvvm-a-guide-for-javascript-developers/	Understanding MVVM - A Guide For JavaScript Developers
+https://in.indeed.com/career-advice/career-development/difference-between-mvvm-and-mvc	The Difference Between MVVM And MVC (With Pros And Cons)
+https://www.reddit.com/r/csharp/comments/ttih4e/what_is_mvvm/	What is MVVM? : r/csharp - Reddit
+https://levelup.gitconnected.com/mvc-vs-mvp-vs-mvvm-35e0d4b933b4	MVC vs MVP vs MVVM. What's different between them?
+https://adevait.com/ios/swift-tutorial-mvvm-design-pattern	Introduction to the MVVM Design Pattern in Swift - Adeva
+https://code.pieces.app/blog/using-mvvm-in-flutter	Using MVVM in Flutter (2022) - Pieces.app
+https://dev.to/vtsen/mvc-vs-mvp-vs-mvvm-design-patterns-443n	MVC vs MVP vs MVVM Design Patterns - DEV Community ‍    ‍
+https://proandroiddev.com/understanding-mvvm-pattern-for-android-in-2021-98b155b37b54	Understanding MVVM pattern for Android in 2021
+https://docs.couchbase.com/tutorials/mobile-travel-tutorial/csharp/develop/mvvm-architecture.html	MVVM Architecture | Couchbase Docs
+https://www.intuz.com/blog/guide-on-mvc-vs-mvvm	MVC vs MVVM- A complete guide with comparison - Intuz
+https://docs.oracle.com/en/middleware/developer-tools/jet/13.1/mvvm.html	Oracle JET 13.1.0 - MVVM
+https://www.appypie.com/mvvm-swiftui-how-to	MVVM and SwiftUI - Appy Pie
+https://itcraftapps.com/blog/mvc-mvp-and-mvvm-architecture-pattern-introduction/	MVC MVP and MVVM architecture pattern - Introduction - - itCraft
+https://www.pluralsight.com/courses/wpf-mvvm-in-depth	WPF MVVM in Depth - Pluralsight
+https://www.makeuseof.com/mvc-mvp-mvvm-which-choose/	MVC, MVP, MVVM: Which One to Choose? - MakeUseOf
+https://www.linkedin.com/pulse/mvvm-fashion-trend-gregory-stein	Is MVVM a fashion trend? - LinkedIn
+https://012.vuejs.org/guide/	Getting Started - vue.js
+https://blog.jeremylikness.com/blog/model-view-viewmodel-mvvm-explained/	Model-View-ViewModel (MVVM) Explained | Developer for Life
+https://scottlilly.com/c-design-patterns-mvvm-model-view-viewmodel/	MVVM (Model-View-ViewModel) Design Pattern in C# ...
+https://www.section.io/engineering-education/implementing-mvvm-architecture-in-android-using-kotlin/	Implementing MVVM architecture in Android using Kotlin
+https://www.amazon.com/Learn-WPF-MVVM-pattern-coding-ebook/dp/B01M365NCZ	Learn WPF MVVM - XAML, C# and the MVVM pattern: Be ...
+https://blog.devgenius.io/mvvm-architecture-viewmodel-and-livedata-d6c74ef45728	MVVM architecture, ViewModel and LiveData - Dev Genius
+https://softwareengineering.stackexchange.com/questions/437119/in-mvvm-how-much-of-the-business-logic-should-reside-in-the-view-model-and-how	In MVVM, how much of the business logic should reside in the ...
+https://mauiman.dev/mvvm.html	MVVM (Model View ViewModel) - MAUI
+https://marcosantadev.com/mvvmc-with-swift/	MVVM-C with Swift - MarcoSantaDev
+https://www.digital-legacy.co.za/XmlLayout/Documentation/MVVM	XmlLayout Documentation: MVVM - Digital Legacy
+https://blogs.msmvps.com/bsonnino/2022/08/06/the-mvvm-pattern-revisited-with-the-mvvm-community-toolkit-8-0/	The MVVM Pattern revisited with the MVVM Community ...
+https://matteomanferdini.com/mvvm-pattern-ios-swift/	MVVM in iOS with SwiftUI (Detailed Example + Pitfalls)
+https://www.what-could-possibly-go-wrong.com/bringing-mvvm-to-unity-part-1-about-mvvm-and-unity-weld/	part 1: About MVVM and Unity-Weld - Code Capers
+https://prismlibrary.com/docs/wpf/legacy/Implementing-MVVM.html	Implementing the MVVM Pattern Using the Prism Library for ...
+https://joshsmithonwpf.wordpress.com/advanced-mvvm/	Advanced MVVM | Josh Smith on WPF - WordPress.com
+https://rachel53461.wordpress.com/2011/05/08/simplemvvmexample/	A Simple MVVM Example | Rachel Lim's Blog - WordPress.com
+https://azamsharp.com/2022/07/17/2022-swiftui-and-mvvm.html	2022 Swiftui And Mvvm - AzamSharp
+https://fivedottwelve.com/blog/flutter-architecture-implementing-the-mvvm-pattern/	Flutter architecture: implementing the MVVM pattern
+https://link.springer.com/chapter/10.1007/978-1-4302-3501-9_13	The Model-View-ViewModel (MVVM) Design Pattern
+https://markheath.net/post/mvvm-is-it-worth-pain	MVVM – Is it Worth the Pain? - Mark Heath
+https://nirajrules.wordpress.com/2009/07/18/mvc-vs-mvp-vs-mvvm/	MVC vs. MVP vs. MVVM - Niraj Bhatt – Architect's Blog
+https://www.webopedia.com/definitions/mvvm-model-view-viewmodel/	What is MVVM (Model-View-ViewModel)? - Webopedia
+https://egvijayanand.in/2022/05/09/mvvm-made-easy-with-microsoft-mvvm-toolkit-part-2/	MVVM – Made Easy with Microsoft MVVM Toolkit – Part 2
+https://firefinch.io/deep-dive-mvvm/	Deep Dive: MVVM in Real-World Applications, Part 1
+https://weblogs.asp.net/dwahlin/getting-started-with-the-mvvm-pattern-in-silverlight-applications	Getting Started with the MVVM Pattern in Silverlight Applications
+https://blog.qmatteoq.com/the-mvvm-pattern-dependency-injection/	The MVVM pattern – Dependency injection
+https://jeremybytes.blogspot.com/2012/04/overview-of-mvvm-design-pattern.html	Overview of the MVVM Design Pattern - Jeremy Bytes
+https://www.vadimbulavin.com/modern-mvvm-ios-app-architecture-with-combine-and-swiftui/	Modern MVVM iOS App Architecture with Combine and SwiftUI
+https://benoitpasquier.com/introduction-mvvm-pattern-objective-c/	Introduction to MVVM pattern in Objective-C
+https://www.sencha.com/blog/how-and-why-of-extjs-mvvm-pattern/	The How and Why of the MVVM Pattern in Ext JS - Sencha
+https://www.planetgeek.ch/2009/08/30/why-mvvm-model-view-view-model-is-not-enough/	Why MVVM (Model View View-Model) Is Not Enough
+https://amitshekhar.me/blog/mvvm-architecture-android	MVVM Architecture - Android Tutorial - Amit Shekhar
+https://decode.agency/article/mvvm-architecture-a-step-by-step-guide/	MVVM architecture: a step-by-step guide - DECODE
+https://qualitycoding.org/refactor-mvvm-in-steps/	Watch Me Refactor to MVVM in Easy, Proven Steps
+https://quickbirdstudios.com/blog/swiftui-architecture-redux-mvvm/	SwiftUI Architectures: Model-View, Redux & MVVM
+https://visualstudiomagazine.com/articles/2011/10/01/mvvm-in-5-minutes.aspx	MVVM in 5 Minutes - Visual Studio Magazine
+https://glossarytech.com/terms/software_architecture/mvvm	What is MVVM — get to know on GlossaryTech
+https://www.ais.com/why-you-should-use-mvvm-for-small-apps/	Why You Should Use MVVM for Small Apps
+https://fjorgedigital.com/insights/blog/whats-the-difference-between-mvc-and-mvvm/	What's the difference between MVC and MVVM? - fjorge
+https://blog.dashlane.com/android-ui-architecture-mvvm/	Android UI architecture migration to MVVM - Dashlane Blog
+https://auth0.com/blog/compare-mvvm-and-viper-architectures/	Comparing MVVM and Viper architectures: When to use one ...
+https://fjorgedigital.com/insights/blog/whats-the-difference-between-mvc-and-mvvm/	What's the difference between MVC and MVVM? - fjorge
+https://auth0.com/blog/compare-mvvm-and-viper-architectures/	Comparing MVVM and Viper architectures: When to use one ...
+https://www.markwithall.com/programming/2013/03/01/worlds-simplest-csharp-wpf-mvvm-example.html	The World's Simplest C# WPF MVVM Example - Mark Withall
+https://www.mrlacey.com/2017/04/3-reasons-to-use-mvvm-pattern.html	3 reasons to use the MVVM pattern - Matt Lacey
+https://medium.cobeisfresh.com/level-up-your-react-architecture-with-mvvm-a471979e3f21	Level up your React architecture with MVVM - COBE
+https://blog.grijjy.com/2018/01/22/mvvm-starter-kit-part-1-of-3/	MVVM Starter Kit (Part 1 of 3) - grijjy blog
+https://teehanlax.com/blog/model-view-viewmodel-for-ios/	– Model-View-ViewModel for iOS - Teehan+Lax
+https://www.danielhall.io/the-problems-with-mvvm-on-ios	The Problems with MVVM on iOS - Daniel Hall
+https://academy.realm.io/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/	MVC vs. MVP vs. MVVM on Android - Realm Academy
+https://rehansaeed.com/model-view-viewmodel-mvvm-part2-idisposable/	Model-View-ViewModel (MVVM) - Part 2 - IDisposable
+https://blog.techchee.com/swiftui-mvvm-with-practical-examples/	SwiftUI MVVM with practical examples - TechChee.com
+https://artsy.github.io/blog/2015/09/24/mvvm-in-swift/	MVVM in Swift - Artsy Engineering
+https://khanlou.com/2015/12/mvvm-is-not-very-good/	MVVM is Not Very Good - Khanlou
+https://www.thirdrocktechkno.com/blog/architecture-presentation-patterns-mvc-vs-mvp-vs-mvvm/	Architecture Presentation Patterns: MVC vs MVP vs MVVM
+https://paulstovell.com/mvvm-instantiation-approaches/	MVVM Instantiation Approaches - Paul Stovell
+https://malcoded.com/posts/angular-2-components-and-mvvm/	Is Angular 2+ MVVM? - malcoded
+https://books.google.com/books?id=fFxCDwAAQBAJ&pg=PA15&lpg=PA15&dq=mvvm&source=bl&ots=fDUvOALZL6&sig=ACfU3U0g8HtVAlfvptqvhGkXcRMQX4IEyA&hl=de&sa=X&ved=2ahUKEwifu5-jmoT9AhUoi_0HHYWnB1E4ZBDoAXoFCOEBEAM	Using MVVM Light with your Xamarin Apps	Paul Johnson2017Computers
+https://infinum.com/blog/mvvm-architecture/	Implementing Customized Model-View-ViewModel ... - Infinum
+https://www.appcoda.com/mvvm-vs-mvc/	Introduction to MVVM: Refactoring a MVC App into ... - AppCoda
+https://books.google.com/books?id=VPVIDwAAQBAJ&pg=PA1&lpg=PA1&dq=mvvm&source=bl&ots=BPMM-V6EzE&sig=ACfU3U36urXpooxAERsXCVuoaYDOREtgcQ&hl=de&sa=X&ved=2ahUKEwifu5-jmoT9AhUoi_0HHYWnB1E4ZBDoAXoFCNEBEAM	Software entwickeln mit C#, WPF und dem MVVM-Konzept	Stefan Kunick2018Computers
+https://www.swiftyplace.com/blog/swiftui-and-mvvm	Why MVVM can help you improve you SwiftUI project?
+https://engineering.mercari.com/en/blog/entry/2019-06-12-120000/	Introducing ViewModel Inputs/Outputs: a modern approach to ...
+https://christiantietze.de/wiki/mvvm/	Model–View–View Model (MVVM) - Christian Tietze
+https://books.google.com/books?id=EC0on5ZY7zkC&pg=PT868&lpg=PT868&dq=mvvm&source=bl&ots=vxZZkPt7SS&sig=ACfU3U1EC1vuzfRQ4PYhanhjK1L6LRlwVA&hl=de&sa=X&ved=2ahUKEwifu5-jmoT9AhUoi_0HHYWnB1E4ZBDoAXoFCNMBEAM	MVVM Survival Guide for Enterprise Architectures in ...	Ryan ViceMuhammad Shujaat Siddiqi2012Computers
+https://books.google.com/books?id=sY8GIF9ZsswC&pg=PA78&lpg=PA78&dq=mvvm&source=bl&ots=UDY6MLMJGe&sig=ACfU3U32YyP_8gx4NOxSMPPFgbB-1Y4yUw&hl=de&sa=X&ved=2ahUKEwifu5-jmoT9AhUoi_0HHYWnB1E4ZBDoAXoFCNoBEAM	Pro WPF and Silverlight MVVM: Effective Application ...	Gary Hall2011Computers
+https://books.google.com/books?id=JaFlDQAAQBAJ&pg=PA13&lpg=PA13&dq=mvvm&source=bl&ots=_4_Z3Frvg3&sig=ACfU3U3brvhIKUPswVBOdJfKJxDUENelyQ&hl=de&sa=X&ved=2ahUKEwifu5-jmoT9AhUoi_0HHYWnB1E4ZBDoAXoFCOABEAM	MVVM in Delphi: Architecting and Building Model View ...	John Kouraklis2016Computers
+https://fatordequalidade.cfn.org.br/display?docid=M04j507&FilesData=learn_wpf_mvvm_xaml_c_and_the_mvvm_pattern.pdf	Learn Wpf Mvvm Xaml C And The Mvvm Pattern Pdf (2023)
+https://www.devmedia.com.br/entendendo-o-pattern-model-view-viewmodel-mvvm/18411	Entendendo o Pattern Model View ViewModel MVVM
+https://kiaflowers.it/blazor-mvvm.html	blazor mvvm
+https://www.cnblogs.com/qian-fen/p/17098146.html	什么是mvvm？简单介绍它的概念、原理及实现 - 博客园
+https://easing.me/flutter-mvvm-bloc-github.html	flutter mvvm bloc github - easing.me
+https://codelabs.developers.google.com/	Google Codelabs
+https://wioe.vibesloungebar.it/814-shocks-teryx.html	814 Shocks Teryx - VIBES Lounge Bar
+https://ebyf.trakehnerrennen.de/xaml-in-c.html	Xaml In C - trakehner-friedrich.de
+https://inmediatum.com/blog/ingenieria/mvvm-que-es-y-como-funciona/	MVVM (Model View ViewModel) - Que es y como funciona
+https://deutschergrossspitz.de/devexpress-examples.html	Devexpress Examples
+https://skillbox.ru/media/code/mvvm_proektirovanie_prilozheniy_dlya_windows/	MVVM: проектирование приложений для Windows - Skillbox
+https://angular.io/guide/architecture	Introduction to Angular concepts
+https://ebikes-carwitz.de/uwp-xaml.html	Uwp Xaml
+https://elitesec-group.de/xaml-in-c.html	Xaml In C - EliteSec GROUP
+https://onironauta.me/blazor-mvvm.html	blazor mvvm
+https://en-academic.com/dic.nsf/enwiki/11756555	Model View ViewModel
+https://franke-anaesthesie.de/wpf-bind-viewmodel.html	Wpf Bind Viewmodel
+https://vuejs.org/	Vue.js - The Progressive JavaScript Framework | Vue.js
+https://www.docdoku.com/blog/2015/02/17/architecturer-ses-applications-js-pattern-mvvm/	Architecturer ses applications JS à l'aide du pattern MVVM |
+https://angularjs.org/	AngularJS — Superheroic JavaScript MVW Framework
+https://www.infoq.com/news/2023/02/dot-net-community-toolkit-810/	.NET Community Toolkit 8.1 Released - InfoQ
+https://kn.itmedia.co.jp/kn/articles/1906/26/news033.html	図解で分かるソフトウェアアーキテクチャ 「MVVM」の ...
+https://blog.clicko.es/patron-diseno-mvvm-usando-wpf-parte-1/	Patrón de diseño MVVM usando WPF (C#). Parte 1 - Blog Clicko
+https://trainings-profis.de/event-wpf.html	Event Wpf
+http://jaddah.000webhostapp.com/wpvc/wpf-project-ideas.html	Ohne Titel
+https://endloskarten.de/event-wpf.html	Event Wpf
+https://juejin.cn/post/7197230639144828988	一篇文章讲清楚Android中的MVC、MVP、MVVM架构（附实现 ...
+https://covid.rioverde.go.gov.br/viewport?pdfid=Q96q241&FilesData=wpf-tutorial-for-dependency-properties.pdf	Wpf Tutorial For Dependency Properties Pdf
+https://www.simplilearn.com/tutorials/angular-tutorial/angular-interview-questions	Top 40+ Angular Interview Questions and Answers for 2023
+https://flora-auf-rhodos.de/event-wpf.html	Event Wpf - Flora auf Kreta und Rhodos
+https://velog.io/@doogie97/Clean-Architecture-MVVM-%EC%9D%B4%ED%95%B4%ED%95%9C-%EB%8C%80%EB%A1%9C%EB%A7%8C-%EC%A0%95%EB%A6%AC	Clean Architecture + MVVM 이해한 대로만 정리
+https://www.calculatorsoup.com/calculators/conversions/roman-numeral-converter.php	Roman Numeral Converter - Calculator Soup
+https://gerdstadie.de/kendo-popup.html	Kendo Popup - Gerd Stadie
+https://www.frankysnotes.com/2023/02/reading-notes-541.html	Reading Notes #541 - Franky's Notes
+https://www.mvmt.com/mens-watches/shop-all-mens-watches/	Shop All Mens Watches - MVMT
+https://cp-services.it/kendo-grid-toolbar-custom.html	kendo grid toolbar custom
+https://cambrio.hire.trakstar.com/jobs/fk0x1oz/	Internship - Software Development - Jobs at CAMBRIO - Trakstar
+https://fitglueck.de/xaml-in-c.html	Xaml In C
+https://it-online.co.za/2023/02/06/application-developer-23/	Application Developer - IT-Online
+https://vasp.it/dmt-demons-reddit.html	dmt demons reddit - vasp.it
+https://rondiniverifiche.it/swiftui-rest-api.html	swiftui rest api
+https://www.0daydown.com/12/2038087.html	Learn MVVM with .NET MAUI |百度网盘 - 0DayDown
