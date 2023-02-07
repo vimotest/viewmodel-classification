@@ -17,10 +17,10 @@ class RepositoryAnalyzer(
         }
         url += ".zip"
 
-        cleanWorkDir()
+        // cleanWorkDir()
 
-        downloadFile(url, "./work/$repositoryName.zip")
-        extractZip("./work/$repositoryName.zip", "./work/$repositoryName")
+        // downloadFile(url, "./work/$repositoryName.zip")
+        // extractZip("./work/$repositoryName.zip", "./work/$repositoryName")
 
         val viewModelInfos = findViewModels("./work/$repositoryName")
 
