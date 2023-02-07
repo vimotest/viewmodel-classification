@@ -30,13 +30,19 @@ private fun getNextUrl(): Website? {
 private fun addWebsiteToClassificationFile(website: Website) {
     val file = File("site_initial_classification.md")
     if (!file.readText().contains(website.url)) {
-        file.appendText("|-|${website.name}|${website.url}|TODO|\n")
+        file.appendText("|-|${website.name}|${website.url}|TODO| |\n")
     }
 }
 
-private fun usedUrls() = emptySet<String>()
+private val usedUrls : Set<String> by lazy {
+    File("site_initial_classification.md")
+        .readText()
+        .lines()
+        .filter { it.matches("\\|[^|]+\\|[^|]+\\|[^|]+\\|\\s*(REJECT|REVIEW|ACCEPT)\\s*\\|[^|]+\\|".toRegex()) }
+        .map { it.split("|")[3].trim() }.toSet()
+}
 
-private fun lineIsAlreadyUsed(line: String) = usedUrls().contains(line.toUrl())
+private fun lineIsAlreadyUsed(line: String) = usedUrls.contains(line.toUrl())
 
 private fun String.toUrl() = substringBefore("\t")
 private fun String.toWebsiteName() = substringAfter("\t")
