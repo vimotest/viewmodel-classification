@@ -1,0 +1,3 @@
+https://cocoacasts.com/swift-and-model-view-viewmodel-in-practice/  From 'Model-View-ViewModel in Swift' -> Swift and Model-View-ViewModel in Practice
+https://cocoacasts.com/more-swift-and-model-view-viewmodel-in-practice/ From 'Model-View-ViewModel in Swift' -> More Swift and Model-View-ViewModel in Practice
+https://cocoacasts.com/series/mastering-mvvm-with-swift From 'Model-View-ViewModel in Swift' -> Mastering MVVM With Swift
