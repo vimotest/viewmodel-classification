@@ -3,6 +3,12 @@ import java.io.File
 data class Website(val url: String, val name: String)
 
 fun main(args: Array<String>) {
+    if (args.size == 1 && args.first() == "count") {
+        val count = countAllUrls()
+        val alreadyHandled = usedUrls.size
+        println("$alreadyHandled of $count initially handled, remaining: ${count - alreadyHandled}")
+        return
+    }
     val website = getNextUrl()
     if (website != null) {
         println("Next website: ${website.name} (${website.url})")
@@ -13,19 +19,17 @@ fun main(args: Array<String>) {
 }
 
 private fun getNextUrl(): Website? {
-    val files = File("input").listFiles()
-    for (file in files) {
-        for (line in file.readText().lines()) {
-            if (containsChineseCharacters(line)) {
-                continue
-            }
-            if (!lineIsAlreadyUsed(line)) {
-                return Website(line.toUrl(), line.toWebsiteName())
-            }
+    var result: Website? = null
+    iterateInputUrls {
+        val stop = !websiteIsAlreadyUsed(it)
+        if (stop) {
+            result = it
         }
+        stop
     }
-    return null
+    return result
 }
+private fun websiteIsAlreadyUsed(website: Website) = usedUrls.contains(website.url)
 
 private fun addWebsiteToClassificationFile(website: Website) {
     val file = File("site_initial_classification.md")
@@ -42,9 +46,32 @@ private val usedUrls : Set<String> by lazy {
         .map { it.split("|")[3].trim() }.toSet()
 }
 
-private fun lineIsAlreadyUsed(line: String) = usedUrls.contains(line.toUrl())
-
 private fun String.toUrl() = substringBefore("\t")
 private fun String.toWebsiteName() = substringAfter("\t")
 
 private fun containsChineseCharacters(line: String) = line.any { it in '\u4e00'..'\u9fa5' }
+
+fun countAllUrls(): Int {
+    val urlSet = mutableSetOf<String>()
+    iterateInputUrls {
+        urlSet += it.url
+        false
+    }
+    return urlSet.size
+}
+
+private fun iterateInputUrls(consumer: (Website) -> Boolean) {
+    val files = File("input").listFiles()
+    for (file in files) {
+        for (line in file.readText().lines()) {
+            if (containsChineseCharacters(line)) {
+                continue
+            }
+            val stop = consumer(Website(line.toUrl(), line.toWebsiteName()))
+            if (stop) {
+                return
+            }
+        }
+    }
+}
+
