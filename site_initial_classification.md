@@ -1,6 +1,6 @@
 Table of results with Key, Title, URL, and Classification
 
-Classification status: TODO, REJECT, ACCEPT, REVIEW
+Classification status: TODO, REJECT, ACCEPT, REVIEW, SUBPAGE
 
 Joined sites:
 
@@ -14,6 +14,7 @@ Joined sites:
 | MicrosoftXamarin   | The Model-View-ViewModel Pattern - Xamarin - Microsoft Learn | https://learn.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm                             | ACCEPT         | Extended Definition, Benefits, ...                                            |
 | -                  | Introduction to Model View View Model (MVVM)                 | https://www.geeksforgeeks.org/introduction-to-model-view-view-model-mvvm/                                                | REJECT         | Standard Definition, Standard Tradeoffs                                       |
 | TutorialspointMvvm | MVVM Tutorial - Tutorialspoint                               | https://www.tutorialspoint.com/mvvm/index.htm                                                                            | ACCEPT         | Extended Definition, SoC, ...                                                 |
+| TutorialspointMvvm | MVVM Introduction - Tutorialspoint                           | https://www.tutorialspoint.com/mvvm/mvvm_introduction.htm                                                                | SUBPAGE        |                                                                               |
 | -                  | Android MVVM Design Pattern - DigitalOcean                   | https://www.digitalocean.com/community/tutorials/android-mvvm-design-pattern                                             | REJECT         | Standard Definition                                                           |
 | -                  | Introduction to MVVM - objc.io                               | https://www.objc.io/issues/13-architecture/mvvm/                                                                         | REJECT         | Standard Definition, Standard Tradeoffs                                       |
 | -                  | MVC vs MVVM – Difference Between Them - Guru99               | https://www.guru99.com/mvc-vs-mvvm.html                                                                                  | REJECT         | Standard Definition, Standard Tradeoffs                                       |
@@ -50,3 +51,5 @@ Joined sites:
 | -                  | Oracle Commerce Platform - Model-View-ViewModel (MVVM)       | https://docs.oracle.com/cd/E55783_02/CRS.11-2/CSADevGuide/html/s0103modelviewviewmodelmvvm01.html                        | REJECT         | Standard Definition                                                           |
 | -                  | The Model-View-ViewModel (MVVM) Design Pattern               | https://link.springer.com/chapter/10.1007/978-1-4302-3501-9_13                                                           | REVIEW         | TODO: see JabRef                                                              |
 | -                  | Flutter: MVVM Architecture - Medium                          | https://medium.com/flutterworld/flutter-mvvm-architecture-f8bed2521958                                                   | REJECT         | Standard Definition                                                           |
+| -                  | Model-View-ViewModel (MVVM)                                  | https://www.smf.de/pdf/Model-View-ViewModel_2011.pdf                                                                     | REJECT         | Standard Definition                                                           |
+|-|A Model-View-ViewModel (MVVM) Application Framework for ...|https://ieeexplore.ieee.org/document/9249215|TODO| |
