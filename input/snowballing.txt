@@ -21,3 +21,7 @@ http://www.wintellect.com/CS/blogs/jlikness/archive/2010/04/14/model-view-viewmo
 http://geekswithblogs.net/mbcrump/archive/2010/06/27/getting-started-with-mvvm-general-infolinks.aspx
 http://mtaulty.com/CommunityServer/blogs/mike_taultys_blog/archive/2014/05/09/windows-phone-8-1-and-xaml-apps-making-it-easier-for-mvvm-developers.aspx
 https://www.endyourif.com/tutorial/aspnetmvc
+http://www.silverlightshow.net/news/The-Advantages-of-MVVM.aspx
+http://stackoverflow.com/questions/883895/what-are-the-problems-of-the-mvvm-pattern
+http://www.codeproject.com/Articles/100175/Model-View-ViewModel-MVVM-Explained
+https://www.quora.com/Pros-and-cons-of-MVVM-framework-and-how-I-can-campare-it-with-MVC
