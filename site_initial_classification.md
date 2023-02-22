@@ -2,6 +2,10 @@ Table of results with Key, Title, URL, and Classification
 
 Classification status: TODO, REJECT, ACCEPT, REVIEW, SUBPAGE
 
+Notes:
+
+* https://stackoverflow.com/questions/1405739/mvvm-tutorial-from-start-to-finish bought many snowballing URLs
+
 Joined sites:
 
 * https://www.tutorialspoint.com/mvvm/index.htm, https://www.tutorialspoint.com/mvvm/mvvm_introduction.htm, https://www.tutorialspoint.com/mvvm/mvvm_advantages.htm, ...
@@ -75,3 +79,9 @@ Joined sites:
 | -                        | What is the MVVM (Model-View-ViewModel)? - Quora                | https://www.quora.com/What-is-the-MVVM-Model-View-ViewModel                                                                  | REJECT         | No free read                                                                  |
 | -                        | The Model-View-ViewModel Pattern and Angular Development        | https://www.htmlgoodies.com/javascript/the-model-view-viewmodel-pattern-and-angular-development/                             | REJECT         | Standard Definition                                                           |
 | -                        | MVVM Pattern Overview - Kendo UI MVVM - Documentation           | https://docs.telerik.com/kendo-ui/framework/mvvm/overview                                                                    | REJECT         | No Definition                                                                 |
+| -                        | MvvmCross is a convention based MVVM ...                        | https://www.mvvmcross.com/                                                                                                   | REJECT         | No Definition                                                                 |
+| -                        | A simple MVVM implementation in client side Blazor. - ITNEXT    | https://itnext.io/a-simple-mvvm-implementation-in-client-side-blazor-8c875c365435                                            | REJECT         | No Definition                                                                 |
+| -                        | The 5W's of MVVM - Sagitec                                      | https://www.sagitec.com/blog/the-5ws-of-mvvm                                                                                 | ACCEPT         | Extended Benefits                                                             |
+| -                        | MVVM - Wiktionary                                               | https://en.wiktionary.org/wiki/MVVM                                                                                          | REJECT         | No Definition                                                                 |
+| -                        | MVVM: Tutorial from start to finish? - Stack Overflow           | https://stackoverflow.com/questions/1405739/mvvm-tutorial-from-start-to-finish                                               | REJECT         | Only URLs for snowballing                                                     |
+| -                        | Stop using MVVM for SwiftUI - Apple Developer Forums            | https://developer.apple.com/forums/thread/699003                                                                             | REJECT         | No Definition                                                                 |
