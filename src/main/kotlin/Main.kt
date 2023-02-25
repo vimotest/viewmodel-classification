@@ -42,7 +42,7 @@ private val usedUrls : Set<String> by lazy {
     File("site_initial_classification.md")
         .readText()
         .lines()
-        .filter { it.matches("\\|[^|]+\\|[^|]+\\|[^|]+\\|\\s*(REJECT|REVIEW|ACCEPT|SUBPAGE|DUPLICATE)\\s*\\|[^|]+\\|".toRegex()) }
+        .filter { it.matches("\\|[^|]+\\|[^|]+\\|[^|]+\\|\\s*(REJECT|REVIEW|ACCEPT|STANDARD_ACCEPT|SUBPAGE|DUPLICATE)\\s*\\|[^|]+\\|".toRegex()) }
         .map { it.split("|")[3].trim() }.toSet()
 }
 
