@@ -25,3 +25,5 @@ http://www.silverlightshow.net/news/The-Advantages-of-MVVM.aspx
 http://stackoverflow.com/questions/883895/what-are-the-problems-of-the-mvvm-pattern
 http://www.codeproject.com/Articles/100175/Model-View-ViewModel-MVVM-Explained
 https://www.quora.com/Pros-and-cons-of-MVVM-framework-and-how-I-can-campare-it-with-MVC
+https://www.infoq.com/articles/View-Model-Definition/
+https://proandroiddev.com/mvi-a-new-member-of-the-mv-band-6f7f0d23bc8a
