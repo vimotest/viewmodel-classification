@@ -2,10 +2,6 @@ Table of results with Key, Title, URL, and Classification
 
 Classification status: TODO, REJECT, ACCEPT, REVIEW, SUBPAGE
 
-Notes:
-
-* https://stackoverflow.com/questions/1405739/mvvm-tutorial-from-start-to-finish bought many snowballing URLs
-
 Joined sites:
 
 * https://www.tutorialspoint.com/mvvm/index.htm, https://www.tutorialspoint.com/mvvm/mvvm_introduction.htm, https://www.tutorialspoint.com/mvvm/mvvm_advantages.htm, ...
