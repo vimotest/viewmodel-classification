@@ -24,6 +24,8 @@ from original URLs:
   * extension to original blog post
 * https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/patterns-wpf-apps-with-the-model-view-viewmodel-design-pattern
   * often cited in addition to Gossman's blog post
+* https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm
+  * Microsoft's current definition of MVVM (re-write of the Xarmarin.Forms version)
 
 ### Standard definition
 
@@ -68,6 +70,10 @@ from original URLs:
 * The design of model classes has almost nothing to do with the MVVM pattern
 * ViewModel might have additional validation logic
 * Codebehind (part of view) shall only contain code that manipulates the controls and resources contained within that view
+
+#### by Mircosoft Learn (extensions to previous definitions)
+
+TODO
 
 ### Standard benefits
 
