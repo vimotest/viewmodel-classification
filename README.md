@@ -19,14 +19,59 @@ This repository contains an automatism to simplity the initial classification of
 from original URLs:
 
 * https://docs.microsoft.com/en-us/archive/blogs/johngossman/introduction-to-modelviewviewmodel-pattern-for-building-wpf-apps
+  * original blog post
 * https://docs.microsoft.com/en-us/archive/blogs/johngossman/advantages-and-disadvantages-of-m-v-vm
+  * extension to original blog post
 * https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/patterns-wpf-apps-with-the-model-view-viewmodel-design-pattern
+  * often cited in addition to Gossman's blog post
 
 ### Standard definition
 
-TODO
+#### by John Gossman
+
+* MVVM is a variation of MVC
+* View is the responsibility of a designer rather than a classic developer
+* Design is almost always done in a declarative form like HTML or XAML
+* MVVM relies on a general mechanism for data binding
+* Model is defined as in MVC: data or business logic (completely UI independent)
+* View consists of visual elements (buttons, graphics, complex controls)
+* View encodes control interactions with input devices like the Controller of MVC
+* Simple example: view is data bound directly to the model
+  * mix of two-way and one-way binding possible
+  * example: boolean of model to CheckBox, string to a TextBox
+* In practice: Model cannot be mapped directly to controls
+  * view state like "edit/view"-mode or selection
+* ViewModel: "Model of a View"
+  * abstraction of the view
+  * provides a specialization of the model for data-binding
+  * contains data-transformers for conversion
+  * contains commands for interactions
+* Based on an example:
+  * Selection is one of the most common components of a ViewModel
+  * ViewModel might provide properties for gradient stop of brushes, converters for mapping colors to text values
+  * View might changed to something radically different, ViewModel might provide abstract representation for reusable parts of a UI
+
+#### by Josh Smith (extensions to John Gossman's definition)
+
+* "ViewModel" is the suffix of a View's ViewModel's class
+* MVVM to be a specialization of the more general PresentationModel pattern by Martin Fowler
+* ViewModel does not need a reference to a view
+* View never performs modifications to the model data
+* View has no idea that the model classes exist
+* ViewModel and model are unaware of the view
+* Model is unaware of the ViewModel and view
+* Through data-binding you get loose coupling between the view and the ViewModel
+* A view is just an arbitrary consumer of a ViewModel
+* View is just an arbitrary consumer of a ViewModel
+  * often there is a need for a ViewModel base class
+* MVVM is a set of guidelines, not rules
+* The design of model classes has almost nothing to do with the MVVM pattern
+* ViewModel might have additional validation logic
+* Codebehind (part of view) shall only contain code that manipulates the controls and resources contained within that view
 
 ### Standard benefits
+
+#### by John Gossman
 
 * abstraction of the View
 * reduction of business logic or glue code stuck in code-behind
@@ -35,6 +80,8 @@ TODO
 * Data-binding performance is quite good
 
 ### Standard disadvantages
+
+#### by John Gossman
 
 * simple UI, M-V-VM can be overkill
 * bigger cases, it can be hard to design the ViewModel up front 
