@@ -64,7 +64,7 @@ from original URLs:
 * Model is unaware of the ViewModel and view
 * Through data-binding you get loose coupling between the view and the ViewModel
 * A view is just an arbitrary consumer of a ViewModel
-* View is just an arbitrary consumer of a ViewModel
+* Most ViewModel classes need the same features
   * often there is a need for a ViewModel base class
 * MVVM is a set of guidelines, not rules
 * The design of model classes has almost nothing to do with the MVVM pattern
@@ -73,7 +73,20 @@ from original URLs:
 
 #### by Mircosoft Learn (extensions to previous definitions)
 
-TODO
+* View defines structure, layout, and appearance of what the user sees on screen
+  * encapsulates UI Logic
+* ViewModel provides properties and commands that define the functionality to be offered by the UI
+  * encapsulates Presentation Logic and State
+* Model represents the app's domain model, which usually includes a data model, business and validation logic
+  * encapsulates Business Logic and Data
+* Tip: Keep the UI responsive with asynchronous operations.
+* There is typically a one-to-many relationship between the ViewModel and the model classes
+* ViewModel provides data from a model in a form that the view can easily consume
+* Tip: Centralize data conversions in a conversion layer.
+* View and ViewModel construction and runtime-association can be done in many approaches
+  * View first composition
+  * ViewModel first composition
+* Tip: Keep ViewModels and views independent.
 
 ### Standard benefits
 
@@ -84,6 +97,13 @@ TODO
 * ViewModel is easier to unit test
 * ViewModel is more Model-ish, test it without awkward UI automation and interaction
 * Data-binding performance is quite good
+
+#### by Mircosoft Learn (extensions to previous definitions)
+
+* MVVM helps cleanly separate an application's business and presentation logic from UI
+* makes the application easier to test, maintain, and evolve
+* ViewModel acts as an adapter for the model classes and prevents from making major changes to the model code
+* UI can be redesigned without touching the view model
 
 ### Standard disadvantages
 
