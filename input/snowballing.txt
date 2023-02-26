@@ -28,3 +28,4 @@ https://www.quora.com/Pros-and-cons-of-MVVM-framework-and-how-I-can-campare-it-w
 https://www.infoq.com/articles/View-Model-Definition/
 https://proandroiddev.com/mvi-a-new-member-of-the-mv-band-6f7f0d23bc8a
 https://developer.android.com/topic/libraries/architecture/viewmodel
+http://blogs.msdn.com/johngossman/archive/2005/10/08/478683.aspx
