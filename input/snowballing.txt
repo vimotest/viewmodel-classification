@@ -29,3 +29,6 @@ https://www.infoq.com/articles/View-Model-Definition/
 https://proandroiddev.com/mvi-a-new-member-of-the-mv-band-6f7f0d23bc8a
 https://developer.android.com/topic/libraries/architecture/viewmodel
 http://blogs.msdn.com/johngossman/archive/2005/10/08/478683.aspx
+https://searchapparchitecture.techtarget.com/tip/MVC-vs-MVVM-2-architecture-patterns-for-modularity
+https://www.mobileappdaily.com/2018/09/5/mvp-vs-mvvm-android-architecture
+https://medium.com/flawless-app-stories/how-to-use-a-model-view-viewmodel-architecture-for-ios-46963c67be1b
