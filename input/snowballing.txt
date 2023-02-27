@@ -32,3 +32,5 @@ http://blogs.msdn.com/johngossman/archive/2005/10/08/478683.aspx
 https://searchapparchitecture.techtarget.com/tip/MVC-vs-MVVM-2-architecture-patterns-for-modularity
 https://www.mobileappdaily.com/2018/09/5/mvp-vs-mvvm-android-architecture
 https://medium.com/flawless-app-stories/how-to-use-a-model-view-viewmodel-architecture-for-ios-46963c67be1b
+http://www.teehanlax.com/blog/model-view-viewmodel-for-ios/
+http://www.teehanlax.com/blog/krush-ios-architecture/
