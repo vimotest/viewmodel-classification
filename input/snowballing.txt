@@ -34,3 +34,6 @@ https://www.mobileappdaily.com/2018/09/5/mvp-vs-mvvm-android-architecture
 https://medium.com/flawless-app-stories/how-to-use-a-model-view-viewmodel-architecture-for-ios-46963c67be1b
 http://www.teehanlax.com/blog/model-view-viewmodel-for-ios/
 http://www.teehanlax.com/blog/krush-ios-architecture/
+https://www.learnmvvm.com/
+https://www.zkoss.org/wiki/ZK%20Developer's%20Reference/MVVM
+http://books.zkoss.org/zk-mvvm-book/9.5/
