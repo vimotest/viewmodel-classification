@@ -98,6 +98,10 @@ from original URLs:
 * ViewModel is more Model-ish, test it without awkward UI automation and interaction
 * Data-binding performance is quite good
 
+#### by Josh Smith
+
+* development team can focus on creating robust ViewModel classes, and the design team can focus on making user-friendly Views
+
 #### by Mircosoft Learn (extensions to previous definitions)
 
 * MVVM helps cleanly separate an application's business and presentation logic from UI
