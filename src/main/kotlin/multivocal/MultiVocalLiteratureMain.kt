@@ -1,3 +1,5 @@
+package multivocal
+
 import java.io.File
 
 data class Website(val url: String, val name: String)
@@ -51,7 +53,7 @@ private fun String.toWebsiteName() = substringAfter("\t")
 
 private fun containsChineseCharacters(line: String) = line.any { it in '\u4e00'..'\u9fa5' }
 
-fun countAllUrls(): Int {
+private fun countAllUrls(): Int {
     val urlSet = mutableSetOf<String>()
     iterateInputUrls {
         urlSet += it.url
