@@ -25,6 +25,8 @@ This repository contains an automatism to simplity the initial classification of
   * Title words: "viewmodel", Source: "SemanticScholar"
 * save each results as CSV
 
+TODO: snowballing (manually?) for original sources + Presentation Model
+
 ## ViewModel Standard Definition
 
 from original URLs:
