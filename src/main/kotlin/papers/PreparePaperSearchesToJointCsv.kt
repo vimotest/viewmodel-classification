@@ -42,7 +42,7 @@ fun main() {
 private fun String.includeReference() =
     !titleContainsChineseOrCoreanOrJapaneseOrRussianCharacters(this) && titleReallyContainsRelevantWord(this)
 private fun titleContainsChineseOrCoreanOrJapaneseOrRussianCharacters(line: String) = line.getTitleLowerCaseLogical().any { it in '\u4e00'..'\u9fa5' || it in '\uac00'..'\ud7a3' || it in '\u3040'..'\u30ff' || it in '\u0400'..'\u04ff' }
-private fun titleReallyContainsRelevantWord(line: String) = line.getTitleLowerCaseLogical().lowercase().containsAnyOf("viewmodel", "view-model", "view model", "mvvm", "m-v-vm", "m-v-v-m")
+private fun titleReallyContainsRelevantWord(line: String) = line.getTitle().lowercase().containsAnyOf("viewmodel", "view-model", "view model", "mvvm", "m-v-vm", "m-v-v-m", "model-view")
 private fun String.containsAnyOf(vararg words: String) = words.any { this.contains(it) }
 
 
