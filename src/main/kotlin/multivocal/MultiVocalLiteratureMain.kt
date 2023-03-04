@@ -34,14 +34,14 @@ private fun getNextUrl(): Website? {
 private fun websiteIsAlreadyUsed(website: Website) = usedUrls.contains(website.url)
 
 private fun addWebsiteToClassificationFile(website: Website) {
-    val file = File("site_initial_classification.md")
+    val file = File("site_initial_classification_multivocal.md")
     if (!file.readText().contains(website.url)) {
         file.appendText("|-|${website.name}|${website.url}|TODO| |\n")
     }
 }
 
 private val usedUrls : Set<String> by lazy {
-    File("site_initial_classification.md")
+    File("site_initial_classification_multivocal.md")
         .readText()
         .lines()
         .filter { it.matches("\\|[^|]+\\|[^|]+\\|[^|]+\\|\\s*(REJECT|REVIEW|ACCEPT|STANDARD_ACCEPT|SUBPAGE|DUPLICATE)\\s*\\|[^|]+\\|".toRegex()) }
