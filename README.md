@@ -14,6 +14,17 @@ This repository contains an automatism to simplity the initial classification of
   * save/append in `input/<date>_<keyword>.txt`
   * go to 2nd page, repeat
 
+## Grabbing Paper Resources
+
+* use "Publish or Perish" (https://harzing.com/resources/publish-or-perish)
+* searched for (max. results 1000)
+  * Title words: "mvvm", Source: "GoogleScholar"
+  * Title words: "view model", Source: "GoogleScholar"
+  * Title words: "viewmodel", Source: "GoogleScholar"
+  * Title words: "mvvm", Source: "SemanticScholar"
+  * Title words: "viewmodel", Source: "SemanticScholar"
+* save each results as CSV
+
 ## ViewModel Standard Definition
 
 from original URLs:
