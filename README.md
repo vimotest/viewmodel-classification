@@ -40,6 +40,11 @@ from original URLs:
 * https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm
   * Microsoft's current definition of MVVM (re-write of the Xarmarin.Forms version)
 
+TODO:
+* also mentioned as source
+  * https://msdn.microsoft.com/en-us/library/hh848246.aspx (by https://link.springer.com/chapter/10.1007/978-3-319-99819-0_4)
+  * which contains: https://learn.microsoft.com/de-de/archive/blogs/msgulfcommunity/understanding-the-basics-of-mvvm-design-pattern
+
 ### Standard definition
 
 #### by John Gossman
