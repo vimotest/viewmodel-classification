@@ -38,3 +38,4 @@ https://www.learnmvvm.com/
 https://www.zkoss.org/wiki/ZK%20Developer's%20Reference/MVVM
 http://books.zkoss.org/zk-mvvm-book/9.5/
 https://upday.github.io/blog/mvvm_rx_common_mistakes/
+http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explained.html
