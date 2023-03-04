@@ -40,3 +40,4 @@ http://books.zkoss.org/zk-mvvm-book/9.5/
 https://upday.github.io/blog/mvvm_rx_common_mistakes/
 http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explained.html
 https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad
+http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx
