@@ -18,7 +18,7 @@ http://bea.stollnitz.com/blog/
 http://www.developmentalmadness.com/archive/2009/10/03/mvvm-with-prism-101-ndash-part-1-the-bootstrapper.aspx
 http://oreilly.com/catalog/0790145309686
 http://www.wintellect.com/CS/blogs/jlikness/archive/2010/04/14/model-view-viewmodel-mvvm-explained.aspx
-http://geekswithblogs.net/mbcrump/archive/2010/06/27/getting-started-with-mvvm-general-infolinks.aspx
+http://geekswithblogs.net/mbcrump/archive/2010/06/27/get-started-with-mvvm-general-infolinks.aspx
 http://mtaulty.com/CommunityServer/blogs/mike_taultys_blog/archive/2014/05/09/windows-phone-8-1-and-xaml-apps-making-it-easier-for-mvvm-developers.aspx
 https://www.endyourif.com/tutorial/aspnetmvc
 http://www.silverlightshow.net/news/The-Advantages-of-MVVM.aspx
@@ -41,3 +41,4 @@ https://upday.github.io/blog/mvvm_rx_common_mistakes/
 http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explained.html
 https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad
 http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx
+http://www.vogella.com/tutorials/AndroidArchitecture/article.html
