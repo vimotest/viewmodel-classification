@@ -44,4 +44,7 @@ http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx
 http://www.vogella.com/tutorials/AndroidArchitecture/article.html
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405484(v=pandp.40)
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405494(v=pandp.40)
+https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/may/mvvm-commands-relaycommands-and-eventtocommand
 https://old.kristofk.com/mvc-mvvm-viper/
+https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf
+https://www.codeproject.com/Articles/42830/Model-View-Controller-Model-View-Presenter-and-Mod

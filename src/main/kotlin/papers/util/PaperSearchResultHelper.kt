@@ -5,10 +5,14 @@ internal fun String.getAuthor() = this.getCsvCell(1, false)
 internal fun String.getTitle() = this.getCsvCell(2, false)
 internal fun String.getTitleLowerCaseLogical() = this.getCsvCell(2).lowercase()
 internal fun String.getType() = this.getCsvCell(10)
+internal fun String.getDoi() = this.getCsvCell(11)
 internal fun String.getPaperUrl(): String {
     var url = getCsvCell(6, false)
     if (url.isEmpty()) {
         url = getCsvCell(7, false)
+    }
+    if (url.isEmpty()) {
+        url = getCsvCell(11, false)
     }
     if (url.isEmpty()) {
         url = getCsvCell(2, false)
