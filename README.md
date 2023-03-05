@@ -39,6 +39,8 @@ from original URLs:
   * often cited in addition to Gossman's blog post
 * https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm
   * Microsoft's current definition of MVVM (re-write of the Xarmarin.Forms version)
+* https://msdn.microsoft.com/en-us/library/hh848246.aspx
+  * several cited 2012 source "The MVVM Pattern" by microsoft
 
 TODO:
 * also mentioned as source
@@ -105,6 +107,11 @@ TODO:
   * View first composition
   * ViewModel first composition
 * Tip: Keep ViewModels and views independent.
+*
+#### by The MVVM Pattern article (extensions to previous definitions)
+
+* A common approach to instantiate a ViewModel in a view is to use a view model locator
+  * means that the application has a single class that is responsible for connecting view models to views
 
 ### Standard benefits
 
@@ -120,12 +127,21 @@ TODO:
 
 * development team can focus on creating robust ViewModel classes, and the design team can focus on making user-friendly Views
 
+#### by The MVVM Pattern article
+
+* MVVM enables a developer-designer workflow
+* each MVVM component (Model, ViewModel, Model) is decoupled from each other, enabling:
+  * Components to be swapped
+  * Internal implementation to be changed without affecting the others
+  * Components to be worked on independently
+
 #### by Mircosoft Learn (extensions to previous definitions)
 
 * MVVM helps cleanly separate an application's business and presentation logic from UI
 * makes the application easier to test, maintain, and evolve
 * ViewModel acts as an adapter for the model classes and prevents from making major changes to the model code
 * UI can be redesigned without touching the view model
+* view model acts as an adapter for the model classes and enables you to avoid making any major changes to the model code
 
 ### Standard disadvantages
 

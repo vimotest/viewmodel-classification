@@ -42,3 +42,5 @@ http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explain
 https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad
 http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx
 http://www.vogella.com/tutorials/AndroidArchitecture/article.html
+https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405484(v=pandp.40)
+https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405494(v=pandp.40)
