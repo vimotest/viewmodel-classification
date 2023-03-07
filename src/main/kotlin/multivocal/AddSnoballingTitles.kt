@@ -12,24 +12,37 @@ fun main() {
             line
         } else {
             val title = line.requestTitleOfHtmlPage()
-            "$line\t$title"
+            if (title == null) {
+                line
+            } else {
+                "$line\t$title"
+            }
         }
     }
     snowballingFile.writeText(newLines.joinToString("\n"))
 }
 
-private fun String.requestTitleOfHtmlPage(): String {
+private fun String.requestTitleOfHtmlPage(): String? {
     println("Requesting title of $this")
     val url = this
 
+    //HttpURLConnection.setFollowRedirects(false)
     val urlConnection = URL(url).openConnection() as HttpURLConnection
     urlConnection.connectTimeout = 1000
-    urlConnection.readTimeout = 1000
+    urlConnection.readTimeout = urlConnection.connectTimeout
+    urlConnection.requestMethod = "GET"
 
     try {
         val html = urlConnection.inputStream.bufferedReader().readText()
-        val title = html.substringAfter("<title>").substringBefore("</title>")
-        return title
+        if (urlConnection.responseCode == HttpURLConnection.HTTP_OK && html.contains("<title>")) {
+            val title = html.substringAfter("<title>").substringBefore("</title>")
+            println("-> $title")
+            return title
+        }
+        return null
+    } catch (e: Exception) {
+        println("-> ERROR: ${e.message}")
+        return null
     } finally {
         urlConnection.disconnect()
     }
