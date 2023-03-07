@@ -26,8 +26,9 @@ private fun String.requestTitleOfHtmlPage(): String? {
     println("Requesting title of $this")
     val url = this
 
-    //HttpURLConnection.setFollowRedirects(false)
+    HttpURLConnection.setFollowRedirects(true)
     val urlConnection = URL(url).openConnection() as HttpURLConnection
+    urlConnection.instanceFollowRedirects = true
     urlConnection.connectTimeout = 1000
     urlConnection.readTimeout = urlConnection.connectTimeout
     urlConnection.requestMethod = "GET"
@@ -38,6 +39,11 @@ private fun String.requestTitleOfHtmlPage(): String? {
             val title = html.substringAfter("<title>").substringBefore("</title>")
             println("-> $title")
             return title
+        }
+        if (urlConnection.responseCode == HttpURLConnection.HTTP_MOVED_TEMP || urlConnection.responseCode == HttpURLConnection.HTTP_MOVED_PERM) {
+            val newUrl = urlConnection.getHeaderField("Location")
+            println("-> Redirected to $newUrl")
+            return newUrl.requestTitleOfHtmlPage()
         }
         return null
     } catch (e: Exception) {

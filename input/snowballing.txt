@@ -6,42 +6,42 @@ https://www.educba.com/mvvm-architecture/
 https://www.educba.com/what-is-mvvm/
 http://msdn.microsoft.com/en-us/magazine/dd419663.aspx
 http://blog.lab49.com/archives/2650
-http://blogs.msdn.com/dancre/archive/2006/10/11/datamodel-view-viewmodel-pattern-series.aspx
+http://blogs.msdn.com/dancre/archive/2006/10/11/datamodel-view-viewmodel-pattern-series.aspx	Dan Crevier's Blog | Microsoft Learn
 http://mvvmfoundation.codeplex.com/
 http://jmorrill.hjtcentral.com/Home/tabid/428/EntryId/432/MVVM-for-Tarded-Folks-Like-Me-or-MVVM-and-What-it-Means-to-Me.aspx
 http://jmorrill.hjtcentral.com/Home/tabid/428/EntryId/433/Anatomy-of-an-MVVM-Application-or-How-Tards-Like-Me-Make-MVVM-Apps.aspx
 http://reedcopsey.com/series/windows-forms-to-mvvm/
-http://channel9.msdn.com/posts/kreekman/TechDays-2010-Understanding-the-Model-View-ViewModel-pattern/
+http://channel9.msdn.com/posts/kreekman/TechDays-2010-Understanding-the-Model-View-ViewModel-pattern/	Shows | Microsoft Learn
 http://blog.raffaeu.com/archive/2009/06/03/wpf-and-vmmv-tutorial-01-introduction.aspx
 http://www.drwpf.com/blog/
-http://bea.stollnitz.com/blog/
+http://bea.stollnitz.com/blog/	Bea Stollnitz - Blog
 http://www.developmentalmadness.com/archive/2009/10/03/mvvm-with-prism-101-ndash-part-1-the-bootstrapper.aspx
-http://oreilly.com/catalog/0790145309686
+http://oreilly.com/catalog/0790145309686	Search
 http://www.wintellect.com/CS/blogs/jlikness/archive/2010/04/14/model-view-viewmodel-mvvm-explained.aspx
 http://geekswithblogs.net/mbcrump/archive/2010/06/27/get-started-with-mvvm-general-infolinks.aspx	Geekswithblogs.net, the End of an Era &#8211; Julian Farms
 http://mtaulty.com/CommunityServer/blogs/mike_taultys_blog/archive/2014/05/09/windows-phone-8-1-and-xaml-apps-making-it-easier-for-mvvm-developers.aspx
 https://www.endyourif.com/tutorial/aspnetmvc	ASP.NET MVC and Web API Tutorial | End Your If
 http://www.silverlightshow.net/news/The-Advantages-of-MVVM.aspx
-http://stackoverflow.com/questions/883895/what-are-the-problems-of-the-mvvm-pattern
-http://www.codeproject.com/Articles/100175/Model-View-ViewModel-MVVM-Explained
+http://stackoverflow.com/questions/883895/what-are-the-problems-of-the-mvvm-pattern	.net - What are the problems of the MVVM pattern? - Stack Overflow
+http://www.codeproject.com/Articles/100175/Model-View-ViewModel-MVVM-Explained	Model-View-ViewModel (MVVM) Explained - CodeProject
 https://www.quora.com/Pros-and-cons-of-MVVM-framework-and-how-I-can-campare-it-with-MVC	Pros and cons of MVVM framework and how I can campare it with MVC? - Quora
 https://www.infoq.com/articles/View-Model-Definition/	So What Exactly is a View-Model?
 https://proandroiddev.com/mvi-a-new-member-of-the-mv-band-6f7f0d23bc8a
 https://developer.android.com/topic/libraries/architecture/viewmodel	ViewModel overview &nbsp;|&nbsp; Android Developers
-http://blogs.msdn.com/johngossman/archive/2005/10/08/478683.aspx
+http://blogs.msdn.com/johngossman/archive/2005/10/08/478683.aspx	Tales from the Smart Client | Microsoft Learn
 https://searchapparchitecture.techtarget.com/tip/MVC-vs-MVVM-2-architecture-patterns-for-modularity	MVC vs. MVVM: 2 architecture patterns for modularity | TechTarget
 https://www.mobileappdaily.com/2018/09/5/mvp-vs-mvvm-android-architecture	MVP vs MVVM difference in Android architecture
 https://medium.com/flawless-app-stories/how-to-use-a-model-view-viewmodel-architecture-for-ios-46963c67be1b
 http://www.teehanlax.com/blog/model-view-viewmodel-for-ios/
 http://www.teehanlax.com/blog/krush-ios-architecture/
 https://www.learnmvvm.com/
-https://www.zkoss.org/wiki/ZK%20Developer's%20Reference/MVVM
+https://www.zkoss.org/wiki/ZK%20Developer's%20Reference/MVVM	ZK Developer's Reference/MVVM - Documentation
 http://books.zkoss.org/zk-mvvm-book/9.5/	Introduction | 
 https://upday.github.io/blog/mvvm_rx_common_mistakes/	MVVM + RxJava: Common Mistakes &mdash; upday tech blog - now at medium
-http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explained.html
+http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explained.html	Model-View-ViewModel (MVVM) Explained
 https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad
 http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx
-http://www.vogella.com/tutorials/AndroidArchitecture/article.html
+http://www.vogella.com/tutorials/AndroidArchitecture/article.html	Android Architecture with MVP or MVVM - Tutorial
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405484(v=pandp.40)	5: Implementing the MVVM Pattern Using the Prism Library 5.0 for WPF | Microsoft Learn
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405494(v=pandp.40)	6: Advanced MVVM Scenarios Using the Prism Library 5.0 for WPF | Microsoft Learn
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/may/mvvm-commands-relaycommands-and-eventtocommand	MVVM - Commands, RelayCommands and EventToCommand | Microsoft Learn
