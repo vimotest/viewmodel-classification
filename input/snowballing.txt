@@ -49,3 +49,4 @@ https://old.kristofk.com/mvc-mvvm-viper/
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf
 https://www.codeproject.com/Articles/42830/Model-View-Controller-Model-View-Presenter-and-Mod
 https://hackernoon.com/mvc-vs-mvvm-how-a-website-communicates-with-its-data-models-18553877bf7d
+https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52
