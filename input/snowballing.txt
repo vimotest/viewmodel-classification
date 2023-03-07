@@ -49,4 +49,6 @@ https://old.kristofk.com/mvc-mvvm-viper/
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf	MVPVM Design Pattern - The Model-View-Presenter-ViewModel Design Pattern for WPF | Microsoft Learn
 https://www.codeproject.com/Articles/42830/Model-View-Controller-Model-View-Presenter-and-Mod	Model View Controller, Model View Presenter, and Model View ViewModel Design Patterns - CodeProject
 https://hackernoon.com/mvc-vs-mvvm-how-a-website-communicates-with-its-data-models-18553877bf7d	MVC vs. MVVM: How a Website Communicates With Its Data Models | HackerNoon
-https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52
+https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52	iOS Architecture Patterns
+https://www.codeproject.com/Articles/278901/MVVM-Pattern-Made-Simple	MVVM Pattern Made Simple
+https://manojjaggavarapu.wordpress.com/2012/05/02/presentation-patterns-mvc-mvp-pm-mvvm/	Presentation Patterns: MVC, MVP, PM, MVVM
