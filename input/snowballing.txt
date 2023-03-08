@@ -52,3 +52,5 @@ https://hackernoon.com/mvc-vs-mvvm-how-a-website-communicates-with-its-data-mode
 https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52	iOS Architecture Patterns
 https://www.codeproject.com/Articles/278901/MVVM-Pattern-Made-Simple	MVVM Pattern Made Simple
 https://manojjaggavarapu.wordpress.com/2012/05/02/presentation-patterns-mvc-mvp-pm-mvvm/	Presentation Patterns: MVC, MVP, PM, MVVM
+https://dzone.com/articles/angularjs-tutorial-lesson-1	Angular JS Tutorial – MVC and MVVM Design Patterns
+https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b	Android Architecture Patterns Part 3: Model-View-ViewModel
