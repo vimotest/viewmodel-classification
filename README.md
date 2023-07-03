@@ -151,3 +151,7 @@ TODO:
 * bigger cases, it can be hard to design the ViewModel up front 
 * Data-binding is declarative and harder to debug
 * Bindings might be heavier than the objects being bound, which can lead to more memory consumption
+
+## Aspects not covered by Standard Definition
+
+* statements about where navigation logic is stored.
