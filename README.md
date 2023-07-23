@@ -155,3 +155,4 @@ TODO:
 ## Aspects not covered by Standard Definition
 
 * statements about where navigation logic is stored.
+* application lifecycle management, e.g., Android's LiveData
