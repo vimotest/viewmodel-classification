@@ -1,0 +1,44 @@
+I want to check if websites which deal with the MVVM pattern provide the standard definition or an extension, or a deviation to it.
+
+I provide you the detailed standard definition:
+
+MVVM (Model-View-ViewModel) is a design pattern that separates an application's business and presentation logic from its user interface (UI). It's a variant of the MVC (Model-View-Controller) pattern, with the ViewModel acting as an abstraction of the View.
+
+The Model represents the application's data and business logic, independent of the UI. The View comprises visual elements (buttons, graphics, controls) and encodes control interactions, typically designed in a declarative form like HTML or XAML. The ViewModel is a specialized version of the Model for data-binding, containing data-transformers for conversion and commands for interactions.
+
+Data-binding, which can be one-way or two-way, is a key feature of MVVM, providing loose coupling between the View and the ViewModel. The ViewModel doesn't need a reference to the View, and the Model is unaware of both the ViewModel and the View. This separation allows each component to be worked on independently, swapped, or have its internal implementation changed without affecting the others.
+
+MVVM is more of a set of guidelines than rules, and its implementation can vary. For instance, ViewModel and View construction and runtime-association can be done through different approaches, such as View-first or ViewModel-first composition. A common approach is using a ViewModel locator, a single class responsible for connecting ViewModels to Views.
+
+Benefits of MVVM include a clear separation of concerns, easier unit testing, and the ability for development and design teams to focus on their respective areas. It also allows for UI redesign without affecting the ViewModel or Model code. However, for simple UIs, MVVM can be overkill, and it can be challenging to design the ViewModel for larger cases. Data-binding, while beneficial, can be harder to debug and potentially consume more memory.
+
+As extensions, you should ignore platform/tool/framework specifics and the common misunderstanding of where business logic is stored, focusing on the concepts and patterns. Further, ignore examples related to Android/iOS and other frameworks, so code does not count as an extension. Also ignore details which are irrelevant to design impacts.
+
+What explicitly counts as an extension or deviation is e.g., if design variants are discussed, further responsibilities are discussed, new benefits or drawbacks are mentioned, or if the cardinality between the view and viewmodel is stricter defined than in the standard definition. Also any further details on reuse of the View/ViewModel is important if it deviates. Also include navigation logic storage and application lifecycle management. aspects
+
+NOW, I continue with stating what I expect from you:
+
+The categories you have to find out are:
+A: No definition of MVVM
+B: Standard Definition of MVVM
+C: Extended Definition of MVVM (aspects which extend the Standard Definition)
+D: Deviation of the Standard Definition
+E: Undefined
+
+The Type shall state the type of the website, e.g., personal blog article, tutorial, forum, etc.
+
+Please loop over the following website URLs and extract the category and type and a clear reasoning of possible extensions compared to our above standard definition.
+
+Here are the websites, loop over all of them:
+https://developer.android.com/topic/libraries/architecture/viewmodel
+https://www.techtarget.com/whatis/definition/Model-View-ViewModel
+https://learn.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm
+https://docs.devexpress.com/WindowsForms/113955/build-an-application/winforms-mvvm
+https://medium.com/@mshcheglov/mvvm-design-pattern-with-combine-framework-on-ios-5ff911011b0b
+https://intellitect.com/blog/getting-started-model-view-viewmodel-mvvm-pattern-using-windows-presentation-framework-wpf/
+https://github.com/CommunityToolkit/MVVM-Samples
+https://upday.github.io/blog/model-view-viewmodel/
+https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
+https://malcoded.com/posts/angular-2-components-and-mvvm/
+
+Finally, generate a overview table with the columns: URL, Category, Type, Reason
