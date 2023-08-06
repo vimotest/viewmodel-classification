@@ -1,4 +1,4 @@
-I want to check if websites which deal with the MVVM pattern provide the standard definition or an extension, or a deviation to it.
+I want to check if websites which deal with the MVVM pattern provide the standard definition or a deviation to it.
 
 I provide you the detailed standard definition:
 
@@ -12,27 +12,26 @@ MVVM is more of a set of guidelines than rules, and its implementation can vary.
 
 Benefits of MVVM include a clear separation of concerns, easier unit testing, and the ability for development and design teams to focus on their respective areas. It also allows for UI redesign without affecting the ViewModel or Model code. However, for simple UIs, MVVM can be overkill, and it can be challenging to design the ViewModel for larger cases. Data-binding, while beneficial, can be harder to debug and potentially consume more memory.
 
-As extensions, you should ignore the technical integration of MVVM into platform/tool/framework specifics, if it is not on a general framework-independent manner. Also ignore the common misunderstanding of where business logic is stored, focusing on the concepts and patterns. Further, ignore examples related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit and similar ones, so code does not count as an extension. Also ignore details which are irrelevant to design impacts. If a definition does not cover anything design related to the ViewModel component, it shall be rejected as "No Definition". To say it differently again: everything which is not generalisable in a tool or framework-independent way shall be ignored as a definition extension.
+We are interested in the conceptual, framework-independent aspects of the definitions. Ignore the common misunderstanding of where business logic is stored, focusing on the concepts and patterns. Further, examples related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit and similar ones do not count as an definition extension. Ignore details which are irrelevant to design impacts. If a definition does not cover anything design related to the ViewModel component, it shall be rejected as "No Definition". Everything which is not generalisable in a tool or framework-independent way shall be ignored as a definition extension.
 
 What explicitly counts as an extension or deviation is e.g., if design variants are discussed, further responsibilities are discussed, new benefits or drawbacks are mentioned, or if the cardinality between the view and ViewModel is stricter defined than in the standard definition. Also any further details on reuse of the View/ViewModel is important if it deviates. Also include navigation logic storage and application lifecycle management aspects.
 
 NOW, I continue with stating what I expect from you:
 
 The categories you have to find out are:
-A: No definition of MVVM
-B: Standard Definition of MVVM
-C: Extended Definition of MVVM (aspects which extend the Standard Definition)
-D: Deviation of the Standard Definition of MVVM
+A: Standard Definition of MVVM
+B: Deviation of the Standard Definition of MVVM
+C: Extended Benefits/Drawbacks
+D: No definition of MVVM
 E: Undefined Category
 
-The Type shall state the type of the website, e.g., personal blog article, tutorial, forum, etc.
+If a website uses concrete tools or frameworks, mark the category with a "*" and notice the technology. E.g., a website stating the default definition of MVVM in context of WPF shall have the category A*. There might also be combinations, e.g. if a website defines the standard definition and extended benefits, then it would be A/C.
 
-Please loop over the following website URLs and extract the category and type and a clear reasoning of possible extensions compared to our above standard definition.
+Also determine the type of the website, e.g., personal blog article, tutorial, forum, etc.
+
+Please loop over the following website URLs and extract the category and type and a concise reasoning why you chose the category compared to our above standard definition.
 
 Here are the websites, loop over all of them:
-https://developer.android.com/topic/libraries/architecture/viewmodel
-https://www.techtarget.com/whatis/definition/Model-View-ViewModel
-https://learn.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm
 https://docs.devexpress.com/WindowsForms/113955/build-an-application/winforms-mvvm
 https://medium.com/@mshcheglov/mvvm-design-pattern-with-combine-framework-on-ios-5ff911011b0b
 https://intellitect.com/blog/getting-started-model-view-viewmodel-mvvm-pattern-using-windows-presentation-framework-wpf/
@@ -41,4 +40,4 @@ https://upday.github.io/blog/model-view-viewmodel/
 https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
 https://malcoded.com/posts/angular-2-components-and-mvvm/
 
-Finally, generate a overview table with the columns: URL, Category, Type, Reason
+Finally, generate a overview table with the columns: URL, Category, Deviation/Extension Aspects, Type, Reason
