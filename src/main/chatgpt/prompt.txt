@@ -54,7 +54,7 @@ I provide you the detailed standard definition:
 
 Standard benefits:
 
-* abstraction of the View
+* ViewModel is an abstraction of the View
 * reduction of business logic or glue code stuck in code-behind
 * ViewModel is easier to unit test
 * ViewModel is more Model-ish, test it without awkward UI automation and interaction
@@ -70,37 +70,38 @@ Standard benefits:
 
 Standard disadvantages:
 
-* simple UI, M-V-VM can be overkill
+* simple UI, MVVM can be overkill
 * bigger cases, it can be hard to design the ViewModel up front
 * Data-binding is declarative and harder to debug
 * Bindings might be heavier than the objects being bound, which can lead to more memory consumption
 
 What I expect from your analysis:
 
-Find out to which of the following categories the websites belong:
+Find out to which of the following categories each website belong:
 A: Standard Definition of MVVM
-B: Deviation of the Standard Definition of MVVM
-C: Further Benefits/Drawbacks
-D: No definition of MVVM found on the whole website
+B: Deviation of the Standard Definition
+C: New Benefits/Drawbacks
+D: No useful definition of MVVM found on the whole website
 E: Undefined Category
 
-If a website uses concrete tools or frameworks, mark the category with a "*" and notice the technology. E.g., a website stating the default definition of MVVM in context of WPF shall have the category A*. There might also be combinations, e.g. if a website defines the standard definition and extended benefits, then it would be A/C. A and B are mutual exclusive.
+If a website uses concrete tools or frameworks, mark the category with a '*' and notice the technology. E.g., a website stating the default definition of MVVM in context of WPF shall have the category A*. There might also be combinations, e.g. if a website defines the standard definition and extended benefits, then it would be A/C. A and B are mutual exclusive.
 
-Hints:
+Hints for you:
 
 Focus on concepts and patterns as framework-independent aspects of the definitions.
-Ignore the common misunderstanding of where business logic is stored
-Examples and Code related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit etc. do not count as an definition extension.
-If a website does not cover anything design related to ViewModel component, reject as "No Definition".
-Ignore aspects which are not generalisable in a framework-independence way.
-Do not count usual standard MVVM usage with a framework as category B.
+Ignore details where business logic is stored.
+Examples and Code related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit etc. do not count as definition parts.
+If a website does not cover anything design related to ViewModel component, count it as D.
+Ignore aspects which are not generalisable in a framework-independent way.
+Count usual standard MVVM usage specific to a framework as A.
 
-Count as B if non-standard design variants are discussed, further responsibilities are discussed
-Count as B if anything concrete about the cardinality between the View/ViewModel is discussed.
-Count as B if anything about the granularity regarding ViewModel properties is written, e.g., if the ViewModel has joint structures as fields, or a more flat view-oriented abstraction (like proposed by the PresentationModel pattern).
+Count as B if non-standard design variants are discussed or further responsibilities are discussed.
+Count as B if anything concrete about the relationship/mapping between the View/ViewModel is discussed (e.g., one-to-one mapping, one-to-many relationship).
+Count as B if anything about the granularity of ViewModel properties is written, e.g., if the ViewModel has composite field structures, or they have flattened fields.
 Any info about reuse of the View/ViewModel is important.
 Count as B, if navigation logic and application lifecycle management aspects are mentioned.
-Count as B, if Regard dealing of UI threading and asynchronous presenter logic.
+Count as B, if the site discusses UI threading or asynchronous presenter logic.
+Count as B, if the definition matches Fowler's PresentationModel, but not MVVM.
 
 Also determine the type of the website, e.g., personal blog article, company blog article, tutorial, forum, etc.
 
