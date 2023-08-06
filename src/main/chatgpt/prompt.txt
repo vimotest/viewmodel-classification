@@ -12,9 +12,9 @@ MVVM is more of a set of guidelines than rules, and its implementation can vary.
 
 Benefits of MVVM include a clear separation of concerns, easier unit testing, and the ability for development and design teams to focus on their respective areas. It also allows for UI redesign without affecting the ViewModel or Model code. However, for simple UIs, MVVM can be overkill, and it can be challenging to design the ViewModel for larger cases. Data-binding, while beneficial, can be harder to debug and potentially consume more memory.
 
-As extensions, you should ignore platform/tool/framework specifics and the common misunderstanding of where business logic is stored, focusing on the concepts and patterns. Further, ignore examples related to Android/iOS and other frameworks, so code does not count as an extension. Also ignore details which are irrelevant to design impacts.
+As extensions, you should ignore platform/tool/framework specifics and the common misunderstanding of where business logic is stored, focusing on the concepts and patterns. Further, ignore examples related to Android/iOS/WPF/WinForms/Angular/React and other frameworks, so code does not count as an extension. Also ignore details which are irrelevant to design impacts. If a definition does not cover anything design related to the ViewModel component, it shall be rejected as "No Definition".
 
-What explicitly counts as an extension or deviation is e.g., if design variants are discussed, further responsibilities are discussed, new benefits or drawbacks are mentioned, or if the cardinality between the view and viewmodel is stricter defined than in the standard definition. Also any further details on reuse of the View/ViewModel is important if it deviates. Also include navigation logic storage and application lifecycle management. aspects
+What explicitly counts as an extension or deviation is e.g., if design variants are discussed, further responsibilities are discussed, new benefits or drawbacks are mentioned, or if the cardinality between the view and ViewModel is stricter defined than in the standard definition. Also any further details on reuse of the View/ViewModel is important if it deviates. Also include navigation logic storage and application lifecycle management. aspects
 
 NOW, I continue with stating what I expect from you:
 
@@ -22,8 +22,8 @@ The categories you have to find out are:
 A: No definition of MVVM
 B: Standard Definition of MVVM
 C: Extended Definition of MVVM (aspects which extend the Standard Definition)
-D: Deviation of the Standard Definition
-E: Undefined
+D: Deviation of the Standard Definition of MVVM
+E: Undefined Category
 
 The Type shall state the type of the website, e.g., personal blog article, tutorial, forum, etc.
 
