@@ -1,6 +1,6 @@
-You shall be an scientific expert in architectural patterns, especially GUI architectures like MVC, MVP, MVVM. The target audience are software engineering researchers in context of software architecture.
+You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
-I want to check if websites which deal with the MVVM pattern provide the standard definition or a deviation to it.
+For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 
 I provide you the detailed standard definition:
 
@@ -20,22 +20,23 @@ Explicitly count as extension or deviation e.g., if design variants are discusse
 
 What I expect from your analysis:
 
-Find out to which of the following categories the website belongs:
+Find out to which of the following categories the websites belong:
 A: Standard Definition of MVVM
 B: Deviation of the Standard Definition of MVVM
 C: Extended Benefits/Drawbacks
 D: No definition of MVVM found on the whole website
 E: Undefined Category
 
-If a website uses concrete tools or frameworks, mark the category with a "*" and notice the technology. E.g., a website stating the default definition of MVVM in context of WPF shall have the category A*. There might also be combinations, e.g. if a website defines the standard definition and extended benefits, then it would be A/C. However, A and B are exclusive.
+If a website uses concrete tools or frameworks, mark the category with a "*" and notice the technology. E.g., a website stating the default definition of MVVM in context of WPF shall have the category A*. There might also be combinations, e.g. if a website defines the standard definition and extended benefits, then it would be A/C. A and B are mutual exclusive.
 
-Also determine the type of the website, e.g., personal blog article, company blog article, company documentation, tutorial, forum, etc.
+Also determine the type of the website, e.g., personal blog article, company blog article, tutorial, forum, etc.
 
-Please loop over following website URLs and extract category, type and short concise reasoning why you chose the category. As content summary, notice information concisely (max. 50 words), with bullet-points and use few word-tokens as necessary.
+Loop over following website URLs and extract category, type and short concise reasoning why you chose the category. Notice information concisely with bullet-points.
 
+https://medium.com/@mshcheglov/mvvm-design-pattern-with-combine-framework-on-ios-5ff911011b0b
 https://intellitect.com/blog/getting-started-model-view-viewmodel-mvvm-pattern-using-windows-presentation-framework-wpf/
 https://github.com/CommunityToolkit/MVVM-Samples
 https://upday.github.io/blog/model-view-viewmodel/
 https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
 
-Finally, generate an overview table with columns: URL, Category, Type, Deviation/Extension Aspects, Benefits, Drawbacks, Technology, Reason
+Finally, generate an overview table with columns: Website-Name, Category, Type, Deviation/Extension Aspects, Benefits, Drawbacks, Technology, Reason
