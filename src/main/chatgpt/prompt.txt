@@ -22,14 +22,14 @@ The categories you have to find out are:
 A: Standard Definition of MVVM
 B: Deviation of the Standard Definition of MVVM
 C: Extended Benefits/Drawbacks
-D: No definition of MVVM
+D: No definition of MVVM found on the whole website
 E: Undefined Category
 
 If a website uses concrete tools or frameworks, mark the category with a "*" and notice the technology. E.g., a website stating the default definition of MVVM in context of WPF shall have the category A*. There might also be combinations, e.g. if a website defines the standard definition and extended benefits, then it would be A/C.
 
-Also determine the type of the website, e.g., personal blog article, tutorial, forum, etc.
+Also determine the type of the website, e.g., personal blog article, company blog article, company documentation, tutorial, forum, etc.
 
-Please loop over the following website URLs and extract the category and type and a concise reasoning why you chose the category compared to our above standard definition. Notice the information concisely, with bullet-points in a relatively word-less manner, such that it does not take many tokens for you as an AI to re-read it.
+Please loop over the following website URLs and extract the category and type and a concise reasoning why you chose the category compared to our above standard definition. As a content summary, notice the information concisely, with bullet-points and try to use less tokens as necessary, that it does not take many tokens for you as an AI to re-read it.
 
 Here are the websites, loop over all of them:
 https://docs.devexpress.com/WindowsForms/113955/build-an-application/winforms-mvvm
