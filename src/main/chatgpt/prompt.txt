@@ -14,13 +14,13 @@ MVVM is more of a set of guidelines than rules, and its implementation can vary.
 
 Benefits of MVVM include a clear separation of concerns, easier unit testing, and the ability for development and design teams to focus on their respective areas. It also allows for UI redesign without affecting the ViewModel or Model code. However, for simple UIs, MVVM can be overkill, and it can be challenging to design the ViewModel for larger cases. Data-binding, while beneficial, can be harder to debug and potentially consume more memory.
 
-We are interested in the conceptual, framework-independent aspects of the definitions. Ignore the common misunderstanding of where business logic is stored, focusing on the concepts and patterns. Further, examples related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit and similar ones do not count as an definition extension. Ignore details which are irrelevant to design impacts. If a definition does not cover anything design related to the ViewModel component, it shall be rejected as "No Definition". Everything which is not generalisable in a tool or framework-independent way shall be ignored as a definition extension. Do not count usual standard MVVM usage with a framework as an extension.
+We are interested in the conceptual, framework-independent aspects of the definitions. Ignore the common misunderstanding of where business logic is stored, focusing on the concepts and patterns. Examples related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit and similar ones do not count as an definition extension. Ignore details irrelevant to design impacts. If a definition does not cover anything design related to ViewModel component, reject as "No Definition". Ignore everything not generalisable in framework-independence as definition extension. Ignore usual standard MVVM usage with a framework as an extension.
 
-What explicitly counts as an extension or deviation is e.g., if design variants are discussed, further responsibilities are discussed, new benefits or drawbacks are mentioned, or if the cardinality between the View and ViewModel is stricter defined than in the standard definition (concrete hints about about 1:1, 1:n or n:m relationships between the View and ViewModel). We are also especially interested in any information of the granularity regarding ViewModel properties, e.g., if the ViewModel has joint structures as fields, or a more flat view-oriented abstraction (like proposed by the PresentationModel pattern). Also any further details on reuse of the View/ViewModel is important if it deviates. Also include navigation logic storage and application lifecycle management aspects. Dealing with UI threading and asynchronous presenter logic is also very interesting.
+Explicitly count as extension or deviation e.g., if design variants are discussed, further responsibilities are discussed, new benefits or drawbacks are mentioned, or if the cardinality between the View/ViewModel is stricter defined than in the standard definition (hints about 1:1, 1:n or n:m relationships of View/ViewModel). We are also especially interested in any information of the granularity regarding ViewModel properties, e.g., if the ViewModel has joint structures as fields, or a more flat view-oriented abstraction (like proposed by the PresentationModel pattern). Any further deviating details on reuse of the View/ViewModel is important. Include navigation logic storage and application lifecycle management aspects. Regard dealing of UI threading and asynchronous presenter logic.
 
-NOW, I continue with stating what I expect from you:
+What I expect from your analysis:
 
-The categories you have to find out are:
+Analysed Categories:
 A: Standard Definition of MVVM
 B: Deviation of the Standard Definition of MVVM
 C: Extended Benefits/Drawbacks
@@ -31,15 +31,12 @@ If a website uses concrete tools or frameworks, mark the category with a "*" and
 
 Also determine the type of the website, e.g., personal blog article, company blog article, company documentation, tutorial, forum, etc.
 
-Please loop over the following website URLs and extract the category and type and a short concise reasoning why you chose the category compared to our above standard definition. As a content summary, notice the information concisely (max. 50 words), with bullet-points and try to use less tokens as necessary, that it does not take many tokens for you as an AI to re-read it.
+Please loop over following website URLs and extract category, type and short concise reasoning why you chose the category. As content summary: notice information concisely (max. 50 words), with bullet-points and use few word-tokens as necessary.
 
 Here are the websites, loop over all of them:
 https://intellitect.com/blog/getting-started-model-view-viewmodel-mvvm-pattern-using-windows-presentation-framework-wpf/
 https://github.com/CommunityToolkit/MVVM-Samples
 https://upday.github.io/blog/model-view-viewmodel/
 https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
-https://malcoded.com/posts/angular-2-components-and-mvvm/
 
-Finally, generate a overview table with the columns: URL, Category, Type, Deviation/Extension Aspects, Benefits, Drawbacks, Technology, Reason
-
-Use the results you already analysed per URL, do not re-interpret things differently.
+Generate an overview table with columns: URL, Category, Type, Deviation/Extension Aspects, Benefits, Drawbacks, Technology, Reason
