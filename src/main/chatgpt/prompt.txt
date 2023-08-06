@@ -14,7 +14,7 @@ Benefits of MVVM include a clear separation of concerns, easier unit testing, an
 
 We are interested in the conceptual, framework-independent aspects of the definitions. Ignore the common misunderstanding of where business logic is stored, focusing on the concepts and patterns. Further, examples related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit and similar ones do not count as an definition extension. Ignore details which are irrelevant to design impacts. If a definition does not cover anything design related to the ViewModel component, it shall be rejected as "No Definition". Everything which is not generalisable in a tool or framework-independent way shall be ignored as a definition extension.
 
-What explicitly counts as an extension or deviation is e.g., if design variants are discussed, further responsibilities are discussed, new benefits or drawbacks are mentioned, or if the cardinality between the view and ViewModel is stricter defined than in the standard definition. Also any further details on reuse of the View/ViewModel is important if it deviates. Also include navigation logic storage and application lifecycle management aspects.
+What explicitly counts as an extension or deviation is e.g., if design variants are discussed, further responsibilities are discussed, new benefits or drawbacks are mentioned, or if the cardinality between the view and ViewModel is stricter defined than in the standard definition. We are also especially interested in any information of the granularity regarding ViewModel properties, e.g., if the ViewModel has joint structures as fields, or a more flat view-oriented abstraction (like proposed by the PresentationModel pattern). Also any further details on reuse of the View/ViewModel is important if it deviates. Also include navigation logic storage and application lifecycle management aspects.
 
 NOW, I continue with stating what I expect from you:
 
@@ -29,7 +29,7 @@ If a website uses concrete tools or frameworks, mark the category with a "*" and
 
 Also determine the type of the website, e.g., personal blog article, company blog article, company documentation, tutorial, forum, etc.
 
-Please loop over the following website URLs and extract the category and type and a concise reasoning why you chose the category compared to our above standard definition. As a content summary, notice the information concisely, with bullet-points and try to use less tokens as necessary, that it does not take many tokens for you as an AI to re-read it.
+Please loop over the following website URLs and extract the category and type and a concise reasoning why you chose the category compared to our above standard definition. As a content summary, notice the information concisely (max. 100 words), with bullet-points and try to use less tokens as necessary, that it does not take many tokens for you as an AI to re-read it.
 
 Here are the websites, loop over all of them:
 https://docs.devexpress.com/WindowsForms/113955/build-an-application/winforms-mvvm
@@ -41,3 +41,5 @@ https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
 https://malcoded.com/posts/angular-2-components-and-mvvm/
 
 Finally, generate a overview table with the columns: URL, Category, Type, Deviation/Extension Aspects, Technology, Reason
+
+Use the results you already analyzed per URL, do not re-interpret things differently.
