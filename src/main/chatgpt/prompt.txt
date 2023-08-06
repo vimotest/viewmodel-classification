@@ -29,7 +29,7 @@ If a website uses concrete tools or frameworks, mark the category with a "*" and
 
 Also determine the type of the website, e.g., personal blog article, tutorial, forum, etc.
 
-Please loop over the following website URLs and extract the category and type and a concise reasoning why you chose the category compared to our above standard definition.
+Please loop over the following website URLs and extract the category and type and a concise reasoning why you chose the category compared to our above standard definition. Notice the information concisely, with bullet-points in a relatively word-less manner, such that it does not take many tokens for you as an AI to re-read it.
 
 Here are the websites, loop over all of them:
 https://docs.devexpress.com/WindowsForms/113955/build-an-application/winforms-mvvm
@@ -40,4 +40,4 @@ https://upday.github.io/blog/model-view-viewmodel/
 https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
 https://malcoded.com/posts/angular-2-components-and-mvvm/
 
-Finally, generate a overview table with the columns: URL, Category, Deviation/Extension Aspects, Type, Reason
+Finally, generate a overview table with the columns: URL, Category, Type, Deviation/Extension Aspects, Technology, Reason
