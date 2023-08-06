@@ -4,30 +4,103 @@ For my SLR, I want to find out if websites dealing with the MVVM pattern provide
 
 I provide you the detailed standard definition:
 
-MVVM (Model-View-ViewModel) is a design pattern that separates an application's business and presentation logic from its user interface (UI). It's a variant of the MVC (Model-View-Controller) pattern, with the ViewModel acting as an abstraction of the View.
+* MVVM is a variation of MVC
+* View is the responsibility of a designer rather than a classic developer
+* Design is almost always done in a declarative form like HTML or XAML
+* MVVM relies on a general mechanism for data binding
+* Model is defined as in MVC: data or business logic (completely UI independent)
+* View consists of visual elements (buttons, graphics, complex controls)
+* View encodes control interactions with input devices like the Controller of MVC
+* Simple example: view is data bound directly to the model
+  * mix of two-way and one-way binding possible
+  * example: boolean of model to CheckBox, string to a TextBox
+* In practice: Model cannot be mapped directly to controls
+  * view state like "edit/view"-mode or selection
+* ViewModel: "Model of a View"
+  * abstraction of the view
+  * provides a specialization of the model for data-binding
+  * contains data-transformers for conversion
+  * contains commands for interactions
+* Based on an example:
+  * Selection is one of the most common components of a ViewModel
+  * ViewModel might provide properties for gradient stop of brushes, converters for mapping colors to text values
+  * View might changed to something radically different, ViewModel might provide abstract representation for reusable parts of a UI
+* "ViewModel" is the suffix of a View's ViewModel's class
+* MVVM to be a specialization of the more general PresentationModel pattern by Martin Fowler
+* ViewModel does not need a reference to a view
+* View never performs modifications to the model data
+* View has no idea that the model classes exist
+* ViewModel and model are unaware of the view
+* Model is unaware of the ViewModel and view
+* Through data-binding you get loose coupling between the view and the ViewModel
+* A view is just an arbitrary consumer of a ViewModel
+* Most ViewModel classes need the same features
+  * often there is a need for a ViewModel base class
+* MVVM is a set of guidelines, not rules
+* The design of model classes has almost nothing to do with the MVVM pattern
+* ViewModel might have additional validation logic
+* Codebehind (part of view) shall only contain code that manipulates the controls and resources contained within that view
+* View defines structure, layout, and appearance of what the user sees on screen (encapsulates UI Logic)
+* ViewModel provides properties and commands that define the functionality to be offered by the UI (encapsulates Presentation Logic and State)
+* Model represents the app's domain model, which usually includes a data model, business and validation logic (encapsulates Business Logic and Data)
+* Tip: Keep the UI responsive with asynchronous operations.
+* There is typically a one-to-many relationship between the ViewModel and the model classes
+* ViewModel provides data from a model in a form that the view can easily consume
+* Tip: Centralize data conversions in a conversion layer.
+* View and ViewModel construction and runtime-association can be done in many approaches
+  * View first composition
+  * ViewModel first composition
+* A common approach to instantiate a ViewModel in a view is to use a view model locator, means that the application has a single class that is responsible for connecting view models to views
 
-The Model represents the application's data and business logic, independent of the UI. The View comprises visual elements (buttons, graphics, controls) and encodes control interactions, typically designed in a declarative form like HTML or XAML. The ViewModel is a specialised version of the Model for data-binding, containing data-transformers for conversion and commands for interactions.
+Standard benefits:
 
-Data-binding, which can be one-way or two-way, is a key feature of MVVM, providing loose coupling between the View and the ViewModel. The ViewModel doesn't need a reference to the View, and the Model is unaware of both the ViewModel and the View. This separation allows each component to be worked on independently, swapped, or have its internal implementation changed without affecting the others.
+* abstraction of the View
+* reduction of business logic or glue code stuck in code-behind
+* ViewModel is easier to unit test
+* ViewModel is more Model-ish, test it without awkward UI automation and interaction
+* Data-binding performance is quite good
+* development team can focus on creating robust ViewModel classes, and the design team can focus on making user-friendly Views
+* MVVM enables a developer-designer workflow
+* each MVVM component (Model, ViewModel, Model) is decoupled from each other, enabling: Components to be swapped, Internal implementation to be changed without affecting the others, Components to be worked on independently
+* MVVM helps cleanly separate an application's business and presentation logic from UI
+* makes the application easier to test, maintain, and evolve
+* ViewModel acts as an adapter for the model classes and prevents from making major changes to the model code
+* UI can be redesigned without touching the view model
+* view model acts as an adapter for the model classes and enables you to avoid making any major changes to the model code
 
-MVVM is more of a set of guidelines than rules, and its implementation can vary. For instance, ViewModel and View construction and runtime-association can be done through different approaches, such as View-first or ViewModel-first composition. A common approach is using a ViewModel locator, a single class responsible for connecting ViewModels to Views.
+Standard disadvantages:
 
-Benefits of MVVM include a clear separation of concerns, easier unit testing, and the ability for development and design teams to focus on their respective areas. It also allows for UI redesign without affecting the ViewModel or Model code. However, for simple UIs, MVVM can be overkill, and it can be challenging to design the ViewModel for larger cases. Data-binding, while beneficial, can be harder to debug and potentially consume more memory.
-
-We are interested in the conceptual, framework-independent aspects of the definitions. Ignore the common misunderstanding of where business logic is stored, focusing on the concepts and patterns. Examples related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit and similar ones do not count as an definition extension. Ignore details irrelevant to design impacts. If a definition does not cover anything design related to ViewModel component, reject as "No Definition". Ignore everything not generalisable in framework-independence as definition extension. Ignore usual standard MVVM usage with a framework as an extension.
-
-Explicitly count as extension or deviation e.g., if design variants are discussed, further responsibilities are discussed, new benefits or drawbacks are mentioned, or if the cardinality between the View/ViewModel is stricter defined than in the standard definition (hints about 1:1, 1:n or n:m relationships of View/ViewModel). We are also especially interested in any information of the granularity regarding ViewModel properties, e.g., if the ViewModel has joint structures as fields, or a more flat view-oriented abstraction (like proposed by the PresentationModel pattern). Any further deviating details on reuse of the View/ViewModel is important. Include navigation logic storage and application lifecycle management aspects. Regard dealing of UI threading and asynchronous presenter logic.
+* simple UI, M-V-VM can be overkill
+* bigger cases, it can be hard to design the ViewModel up front
+* Data-binding is declarative and harder to debug
+* Bindings might be heavier than the objects being bound, which can lead to more memory consumption
 
 What I expect from your analysis:
 
 Find out to which of the following categories the websites belong:
 A: Standard Definition of MVVM
 B: Deviation of the Standard Definition of MVVM
-C: Extended Benefits/Drawbacks
+C: Further Benefits/Drawbacks
 D: No definition of MVVM found on the whole website
 E: Undefined Category
 
 If a website uses concrete tools or frameworks, mark the category with a "*" and notice the technology. E.g., a website stating the default definition of MVVM in context of WPF shall have the category A*. There might also be combinations, e.g. if a website defines the standard definition and extended benefits, then it would be A/C. A and B are mutual exclusive.
+
+Hints:
+
+Focus on concepts and patterns as framework-independent aspects of the definitions.
+Ignore the common misunderstanding of where business logic is stored
+Examples and Code related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit etc. do not count as an definition extension.
+If a website does not cover anything design related to ViewModel component, reject as "No Definition".
+Ignore aspects which are not generalisable in a framework-independence way.
+Do not count usual standard MVVM usage with a framework as category B.
+
+Count as B if non-standard design variants are discussed, further responsibilities are discussed
+Count as B if anything concrete about the cardinality between the View/ViewModel is discussed.
+Count as B if anything about the granularity regarding ViewModel properties is written, e.g., if the ViewModel has joint structures as fields, or a more flat view-oriented abstraction (like proposed by the PresentationModel pattern).
+Any info about reuse of the View/ViewModel is important.
+Count as B, if navigation logic and application lifecycle management aspects are mentioned.
+Count as B, if Regard dealing of UI threading and asynchronous presenter logic.
 
 Also determine the type of the website, e.g., personal blog article, company blog article, tutorial, forum, etc.
 
