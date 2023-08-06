@@ -1,37 +1,42 @@
-You shall be an scientific expert in architectural patterns, especially GUI architectures like MVC, MVP, MVVM. The target audience are software engineering researchers in context of software architecture.
+You need expertise in architectural patterns, focusing on GUI architectures like MVC, MVP, MVVM.
+Your audience: software engineering researchers studying software architecture.
+Goal: Determine if websites provide the standard MVVM definition or a deviation.
 
-I want to check if websites which deal with the MVVM pattern provide the standard definition or a deviation to it.
+MVVM Standard Definition:
+MVVM separates business and presentation logic from UI.
+Variant of MVC; ViewModel abstracts the View.
+Model: application data and logic.
+View: visual elements and interactions.
+ViewModel: Model for data-binding, data-transformers, and commands.
+Data-binding: one-way or two-way; loose coupling between View and ViewModel.
+ViewModel doesn't reference View; Model unaware of ViewModel and View.
+MVVM: guidelines, not strict rules.
+ViewModel-View association varies: View-first, ViewModel-first, ViewModel locator.
+Benefits: clear separation, easier testing, focused development. Drawbacks: overkill for simple UIs, challenging ViewModel design, data-binding issues.
 
-I provide you the detailed standard definition:
+Focus Points:
+Focus on conceptual, framework-independent definitions.
+Ignore misunderstandings about business logic storage.
+Ignore specific examples (Android, iOS, WPF, etc.).
+Reject incomplete definitions as "No Definition".
+Ignore non-generalizable, tool-specific details.
+Extensions include: design variants, new responsibilities, benefits/drawbacks, View-ViewModel cardinality, ViewModel granularity, reuse details, navigation logic, lifecycle management, UI threading, asynchronous presenter logic.
 
-MVVM (Model-View-ViewModel) is a design pattern that separates an application's business and presentation logic from its user interface (UI). It's a variant of the MVC (Model-View-Controller) pattern, with the ViewModel acting as an abstraction of the View.
-
-The Model represents the application's data and business logic, independent of the UI. The View comprises visual elements (buttons, graphics, controls) and encodes control interactions, typically designed in a declarative form like HTML or XAML. The ViewModel is a specialised version of the Model for data-binding, containing data-transformers for conversion and commands for interactions.
-
-Data-binding, which can be one-way or two-way, is a key feature of MVVM, providing loose coupling between the View and the ViewModel. The ViewModel doesn't need a reference to the View, and the Model is unaware of both the ViewModel and the View. This separation allows each component to be worked on independently, swapped, or have its internal implementation changed without affecting the others.
-
-MVVM is more of a set of guidelines than rules, and its implementation can vary. For instance, ViewModel and View construction and runtime-association can be done through different approaches, such as View-first or ViewModel-first composition. A common approach is using a ViewModel locator, a single class responsible for connecting ViewModels to Views.
-
-Benefits of MVVM include a clear separation of concerns, easier unit testing, and the ability for development and design teams to focus on their respective areas. It also allows for UI redesign without affecting the ViewModel or Model code. However, for simple UIs, MVVM can be overkill, and it can be challenging to design the ViewModel for larger cases. Data-binding, while beneficial, can be harder to debug and potentially consume more memory.
-
-We are interested in the conceptual, framework-independent aspects of the definitions. Ignore the common misunderstanding of where business logic is stored, focusing on the concepts and patterns. Further, examples related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit and similar ones do not count as an definition extension. Ignore details which are irrelevant to design impacts. If a definition does not cover anything design related to the ViewModel component, it shall be rejected as "No Definition". Everything which is not generalisable in a tool or framework-independent way shall be ignored as a definition extension. Do not count usual standard MVVM usage with a framework as an extension.
-
-What explicitly counts as an extension or deviation is e.g., if design variants are discussed, further responsibilities are discussed, new benefits or drawbacks are mentioned, or if the cardinality between the View and ViewModel is stricter defined than in the standard definition (concrete hints about about 1:1, 1:n or n:m relationships between the View and ViewModel). We are also especially interested in any information of the granularity regarding ViewModel properties, e.g., if the ViewModel has joint structures as fields, or a more flat view-oriented abstraction (like proposed by the PresentationModel pattern). Also any further details on reuse of the View/ViewModel is important if it deviates. Also include navigation logic storage and application lifecycle management aspects. Dealing with UI threading and asynchronous presenter logic is also very interesting.
-
-NOW, I continue with stating what I expect from you:
-
-The categories you have to find out are:
-A: Standard Definition of MVVM
-B: Deviation of the Standard Definition of MVVM
+Categories:
+A: Standard MVVM Definition
+B: Deviation from Standard
 C: Extended Benefits/Drawbacks
-D: No definition of MVVM found on the whole website
+D: No MVVM Definition
 E: Undefined Category
+Mark tool/framework usage with "". E.g., A for standard MVVM in WPF context.
+A and B are mutually exclusive.
+Identify website type: personal blog, company blog, documentation, tutorial, forum, etc.
+Optimize the Task:
 
-If a website uses concrete tools or frameworks, mark the category with a "*" and notice the technology. E.g., a website stating the default definition of MVVM in context of WPF shall have the category A*. There might also be combinations, e.g. if a website defines the standard definition and extended benefits, then it would be A/C. However, A and B are in conflict, since it can either match the standard definition, or it is a deviation to it.
-
-Also determine the type of the website, e.g., personal blog article, company blog article, company documentation, tutorial, forum, etc.
-
-Please loop over the following website URLs and extract the category and type and a short concise reasoning why you chose the category compared to our above standard definition. As a content summary, notice the information concisely (max. 50 words), with bullet-points and try to use less tokens as necessary, that it does not take many tokens for you as an AI to re-read it.
+Review the provided URLs.
+Extract category, website type, and reasoning.
+Summarize content concisely (max. 50 words) using bullet points.
+Now, please provide the website URLs, and I'll proceed with the analysis based on the optimized instructions.
 
 Here are the websites, loop over all of them:
 https://intellitect.com/blog/getting-started-model-view-viewmodel-mvvm-pattern-using-windows-presentation-framework-wpf/
