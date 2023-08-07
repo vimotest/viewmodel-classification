@@ -86,22 +86,31 @@ E: Undefined Category
 
 If a website uses concrete tools or frameworks, mark the category with a '*' and notice the technology. E.g., a website stating the default definition of MVVM in context of WPF shall have the category A*. There might also be combinations, e.g. if a website defines the standard definition and extended benefits, then it would be A/C. A and B are mutual exclusive.
 
-Hints for you:
+Hints for Deviations from Standard Definition (Category B):
 
-Focus on concepts and patterns as framework-independent aspects of the definitions.
-Ignore details where business logic is stored.
-Examples and Code related to Android/iOS/WPF/WinForms/Angular/React/RxJava/CommunityToolkit etc. do not count as definition parts.
-If a website does not cover anything design related to ViewModel component, count it as D.
-Ignore aspects which are not generalisable in a framework-independent way.
-Count usual standard MVVM usage specific to a framework as A.
+Discusses non-standard design variants or additional responsibilities.
+Mentions specific relationships/mappings between View/ViewModel (e.g., one-to-one mapping).
+Discusses granularity of ViewModel properties (composite vs. flattened fields).
+Mentions reuse of View/ViewModel.
+Includes navigation logic, application lifecycle management, UI threading, or asynchronous presenter logic.
+Aligns more with Fowler's PresentationModel than MVVM.
 
-Count as B if non-standard design variants are discussed or further responsibilities are discussed.
-Count as B if anything concrete about the relationship/mapping between the View/ViewModel is discussed (e.g., one-to-one mapping, one-to-many relationship).
-Count as B if anything about the granularity of ViewModel properties is written, e.g., if the ViewModel has composite field structures, or they have flattened fields.
-Any info about reuse of the View/ViewModel is important.
-Count as B, if navigation logic and application lifecycle management aspects are mentioned.
-Count as B, if the site discusses UI threading or asynchronous presenter logic.
-Count as B, if the definition matches Fowler's PresentationModel, but not MVVM.
+Hints for New Benefits/Drawbacks (Category C):
+Any benefits or drawbacks not mentioned in the standard definition.
+
+No Useful Definition (Category D):
+
+If the website doesn't provide any meaningful information about MVVM or its components.
+If a website doesn't discuss the ViewModel component's design.
+
+Technology Specific (Mark with '*'):
+If a website discusses MVVM in the context of a specific tool or framework (e.g., WPF, Android, RxJava).
+
+General Guidelines:
+Focus on framework-independent aspects.
+Ignore business logic storage details.
+Code examples related to specific platforms/frameworks don't count as definition parts.
+Framework-specific standard MVVM usage counts as A.
 
 Also determine the type of the website, e.g., personal blog article, company blog article, tutorial, forum, etc.
 
