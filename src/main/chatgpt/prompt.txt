@@ -75,26 +75,23 @@ Standard disadvantages:
 * Data-binding is declarative and harder to debug
 * Bindings might be heavier than the objects being bound, which can lead to more memory consumption
 
-What I expect from your analysis:
-
 Carefully determine to which of the following categories each website belongs:
-A: My Standard Definition of MVVM
-B: Deviation of the Standard Definition
+A: Standard Definition of MVVM
+B: Deviation or Stricter Version of the Standard Definition
 C: New Benefits/Drawbacks
 D: No useful definition of MVVM found on the whole website
 E: Undefined Category
 
 If a website uses concrete tools or frameworks, mark the category with a '*' and notice the technology. E.g., a website stating the default definition of MVVM in context of WPF shall have the category A*. If it does not state a clear definition, but examples to a specific technology, it would be D*. There might also be combinations, e.g. if a website defines the standard definition and extended benefits, then it would be A/C. If a website defines a standard definition, and compatible extensions, it is A/B. If it has a definition which significantly deviates from standard, then it is only B.
 
-Hints for Deviations from Standard Definition (Category B):
+Hints for detecting Deviations (Category B):
 
-- Mentions anything about specific relationships/mappings/cardinalities between View/ViewModel, e.g., one-to-one mapping or one-to-many mapping
+If a website:
+- Mentions anything relevant about specific cardinalities between View/ViewModel, e.g., one-to-one mapping or one-to-many
 - Discusses non-standard design variants or additional responsibilities.
 - Discusses granularity of ViewModel properties (composite vs. flattened fields).
-- Mentions reuse of View/ViewModel.
+- Mentions reuse implications of View/ViewModel.
 - Includes navigation logic, application lifecycle management, UI threading, or asynchronous presenter logic.
-- Aligns more with Fowler's PresentationModel than MVVM.
-- Important again: If a website mentions anything about specific relationships/mappings/cardinalities it is category B!!!
 
 Hints what counts as New Benefits/Drawbacks (Category C):
 Any benefits or drawbacks not mentioned in the standard definition.
@@ -107,12 +104,15 @@ No Useful Definition (Category D):
 Technology Specific (Mark with '*'):
 If a website discusses MVVM in the context of a specific tool or framework (e.g., WPF, Android, RxJava).
 
+View/ViewModel Relationship (Mark with '=')
+If a website mentions anything about the cardinality between the View/ViewModel, mark its category (additionally) with '='.
+
 General Guidelines:
 - Focus on framework-independent aspects.
-- Ignore business logic storage details.
+- Ignore business logic placement details.
 - Code examples related to specific platforms/frameworks don't count as definition parts.
-- Framework-specific standard MVVM usage counts as A.
-- Carefully regard all hints I gave you.
+- Framework-specific standard MVVM usage counts as Standard Definition (Category A).
+- Carefully regard all hints I gave you for determining categories. Try to avoid mixing categories if possible, combine categories only if it is not clear to distinguish.
 
 Also determine the type of the website, e.g., personal blog article, company blog article, tutorial, forum, etc.
 
