@@ -104,9 +104,6 @@ No Useful Definition (Category D):
 Technology Specific (Mark with '*'):
 If a website discusses MVVM in the context of a specific tool or framework (e.g., WPF, Android, RxJava).
 
-View/ViewModel Relationship (Mark with '=')
-If a website mentions anything about the cardinality between the View/ViewModel, mark its category (additionally) with '='.
-
 General Guidelines:
 - Focus on framework-independent aspects.
 - Ignore business logic placement details.
@@ -116,7 +113,7 @@ General Guidelines:
 
 Also determine the type of the website, e.g., personal blog article, company blog article, tutorial, forum, etc.
 
-Loop over following website URLs and extract category, type and short concise reasoning why you chose the category. Notice information concisely with bullet-points.
+Loop over following website URLs and extract Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason (why you chose the category). Notice information concisely with bullet-points.
 
 https://medium.com/@mshcheglov/mvvm-design-pattern-with-combine-framework-on-ios-5ff911011b0b
 https://intellitect.com/blog/getting-started-model-view-viewmodel-mvvm-pattern-using-windows-presentation-framework-wpf/
@@ -124,4 +121,4 @@ https://github.com/CommunityToolkit/MVVM-Samples
 https://upday.github.io/blog/model-view-viewmodel/
 https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
 
-Finally, generate an overview table with columns: Website-Name, Category, Type, Deviation/Extension Aspects, Benefits, Drawbacks, Technology, Reason
+Finally, generate an overview table with columns: Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason
