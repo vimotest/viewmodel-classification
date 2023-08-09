@@ -114,17 +114,8 @@ General Guidelines:
 
 Also determine the type of the website, e.g., personal blog article, company blog article, tutorial, forum, etc.
 
-Loop over following 10 website URLs and extract Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason (why you chose the category). Notice information concisely with bullet-points.
+Loop over following 5 website URLs and extract Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason (why you chose the category). Notice information concisely with bullet-points.
 
-https://developer.android.com/topic/libraries/architecture/viewmodel
-https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel
-https://www.techtarget.com/whatis/definition/Model-View-ViewModel
-https://learn.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm
-https://www.geeksforgeeks.org/introduction-to-model-view-view-model-mvvm/
-https://www.tutorialspoint.com/mvvm/index.htm
-https://www.tutorialspoint.com/mvvm/mvvm_introduction.htm
-https://www.digitalocean.com/community/tutorials/android-mvvm-design-pattern
-https://www.objc.io/issues/13-architecture/mvvm/
-https://www.guru99.com/mvc-vs-mvvm.html
+$URLS$
 
 Finally, generate an overview table with columns: Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason
