@@ -46,5 +46,17 @@ fun createNextGptScannedResultsFile(nextUrls: List<String>) {
     val file = File("output/chatgpt/chatgpt_scan_$nextNumberString.md")
     assert(!file.exists())
     file.writeText(nextUrls.joinToString("\n"))
-    println("Wrote ${nextUrls.size} URLs to ${file.absolutePath}")
+
+    val promptFile = File("src/main/chatgpt/prompt.txt")
+    val promptTemplate = promptFile.readText()
+    val promptWithUrls = promptTemplate.replace("\$URLS\$", nextUrls.joinToString("\n"))
+    println("Prompt for Chat-GPT:")
+    println(promptWithUrls)
+
+    // copy to clipboard
+    val clipboard = java.awt.Toolkit.getDefaultToolkit().systemClipboard
+    val selection = java.awt.datatransfer.StringSelection(promptWithUrls)
+    clipboard.setContents(selection, selection)
+
+    println("Prompt copied to clipboard")
 }
