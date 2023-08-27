@@ -55,3 +55,4 @@ https://manojjaggavarapu.wordpress.com/2012/05/02/presentation-patterns-mvc-mvp-
 https://dzone.com/articles/angularjs-tutorial-lesson-1	Angular JS Tutorial – MVC and MVVM Design Patterns
 https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b	Android Architecture Patterns Part 3: Model-View-ViewModel
 http://r.je/evolving-mvc-into-mvvm.html MVVM, MVC it's all just roman numerals to me
+https://dev.to/marcellogalhardo/humble-views-proud-viewmodels-od1
