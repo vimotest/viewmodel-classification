@@ -8,7 +8,7 @@ class ChatGptScanParserTest {
     private lateinit var actual: List<ChatGptScan>
 
     @Test
-    fun test() {
+    fun testFile001() {
         val input = "output/chatgpt/chatgpt_scan_001.md"
         actual = parseGptScan(File(input))
         assertScans(
@@ -19,10 +19,24 @@ class ChatGptScanParserTest {
             "https://www.youtube.com/watch?v=fo6rvTP9kkc" to "D*",
         )
     }
+    @Test
+    fun testFile034() {
+        val input = "output/chatgpt/chatgpt_scan_034.md"
+        actual = parseGptScan(File(input))
+        assertScansContains(
+            "https://en.wiktionary.org/wiki/view_model" to "D",
+        )
+    }
 
     private fun assertScans(vararg expectedPairs: Pair<String, String>) {
         val expected = expectedPairs.map { (url, category) -> "$url:$category" }.joinToString("\n")
         val actual = actual.map { "${it.websiteUrl}:${it.category}" }.joinToString("\n")
         assertEquals(expected, actual)
+    }
+
+    private fun assertScansContains(expectedPair: Pair<String, String>) {
+        val expected = expectedPair.let { (url, category) -> "$url:$category" }
+        val actual = actual.map { "${it.websiteUrl}:${it.category}" }
+        assert(actual.contains(expected))
     }
 }
