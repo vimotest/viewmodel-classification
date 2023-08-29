@@ -20,11 +20,27 @@ class ChatGptScanParserTest {
         )
     }
     @Test
+    fun testFile024() {
+        val input = "output/chatgpt/chatgpt_scan_024.md"
+        actual = parseGptScan(File(input))
+        assertScansContains(
+            "https://canjs.com/doc/can-component.prototype.ViewModel.html" to "B*",
+        )
+    }
+    @Test
     fun testFile034() {
         val input = "output/chatgpt/chatgpt_scan_034.md"
         actual = parseGptScan(File(input))
         assertScansContains(
             "https://en.wiktionary.org/wiki/view_model" to "D",
+        )
+    }
+    @Test
+    fun testFile041() {
+        val input = "output/chatgpt/chatgpt_scan_041.md"
+        actual = parseGptScan(File(input))
+        assertScansContains(
+            "https://amitshekhar.me/blog/mvvm-architecture-android" to "A*",
         )
     }
 
@@ -37,6 +53,6 @@ class ChatGptScanParserTest {
     private fun assertScansContains(expectedPair: Pair<String, String>) {
         val expected = expectedPair.let { (url, category) -> "$url:$category" }
         val actual = actual.map { "${it.websiteUrl}:${it.category}" }
-        assert(actual.contains(expected))
+        assert(actual.contains(expected)) { "Expected $expected in $actual" }
     }
 }
