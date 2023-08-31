@@ -72,7 +72,7 @@ private fun String.countSubstring(substring: String) = this.split(substring).siz
 fun main() {
     val directory = File("output/chatgpt")
     val scans = mutableListOf<ChatGptScan>()
-    directory.listFiles()!!.filter { it.name.endsWith(".md") }.forEach { file ->
+    directory.listFiles()!!.sorted().filter { it.name.endsWith(".md") }.forEach { file ->
         println("Checking ${file.name}")
         scans += parseGptScan(file)
     }
