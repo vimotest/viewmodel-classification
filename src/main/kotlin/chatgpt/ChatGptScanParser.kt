@@ -21,7 +21,7 @@ fun parseGptScan(file: File): List<ChatGptScan> {
     val writtenWebPilotResults = partOfAnswers.divideWrittenWebPilotResults()
     val websiteNames = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Website-Name:**", "?") }
     val categories = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Category:**", "D") }
-        .map { it.trimSuffixOfPattern(" \\(.*\\)") }
+        .map { it.trimSuffixOfPattern(" \\(.*\\)|:[\\w ]*") }
 
     return (1..5)
         .map { ChatGptScan(file.name, websiteNames[it-1], urls[it-1], categories[it-1]) }
@@ -33,6 +33,7 @@ private fun String.harmonizeLabels(vararg labels: String): String {
         result = result
             .replace("**$label**:", "**$label:**")
             .replace("**$label** :", "**$label:**")
+            .replace("#### $label:\n-", "**$label:**")
     }
     return result
 }
@@ -78,5 +79,7 @@ fun main() {
     }
 
     // print all scans as a simple csv table into output/chatgpt/chatgpt_scans.csv with the columns URL, Website, Category
-    File("output/chatgpt/chatgpt_scans.csv").writeText(scans.joinToString("\n") { "${it.websiteUrl},${it.websiteName},${it.category}" })
+    val outputFile = File("output/chatgpt/chatgpt_scans.csv")
+    outputFile.writeText(scans.joinToString("\n") { "${it.websiteUrl},${it.websiteName},${it.category}" })
+    println("Wrote ${scans.size} scans into $outputFile")
 }

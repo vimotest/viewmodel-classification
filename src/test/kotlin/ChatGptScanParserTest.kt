@@ -12,11 +12,19 @@ class ChatGptScanParserTest {
         val input = "output/chatgpt/chatgpt_scan_001.md"
         actual = parseGptScan(File(input))
         assertScans(
-            "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel" to "A*",
-            "https://learn.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm" to "A*",
-            "https://www.geeksforgeeks.org/introduction-to-model-view-view-model-mvvm/" to "A/B",
-            "https://www.techtarget.com/whatis/definition/Model-View-ViewModel" to "A*",
-            "https://www.youtube.com/watch?v=fo6rvTP9kkc" to "D*",
+            "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel -> Wikipedia - Model–view–viewmodel" to "A*",
+            "https://learn.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm -> Microsoft - Xamarin.Forms MVVM" to "A*",
+            "https://www.geeksforgeeks.org/introduction-to-model-view-view-model-mvvm/ -> GeeksforGeeks - Introduction to Model View View Model (MVVM)" to "A/B",
+            "https://www.techtarget.com/whatis/definition/Model-View-ViewModel -> TechTarget - Model-View-ViewModel (MVVM)" to "A*",
+            "https://www.youtube.com/watch?v=fo6rvTP9kkc -> YouTube - What is MVVM (Model-View-ViewModel) Pattern? by Programming with Mosh" to "D*",
+        )
+    }
+    @Test
+    fun testFile002() {
+        val input = "output/chatgpt/chatgpt_scan_002.md"
+        actual = parseGptScan(File(input))
+        assertScansContains(
+            "https://www.atmosera.com/blog/model-view-viewmodel-mvvm-explained/ -> Atmosera" to "A*"
         )
     }
     @Test
@@ -50,13 +58,17 @@ class ChatGptScanParserTest {
 
     private fun assertScans(vararg expectedPairs: Pair<String, String>) {
         val expected = expectedPairs.map { (url, category) -> "$url:$category" }.joinToString("\n")
-        val actual = actual.map { "${it.websiteUrl}:${it.category}" }.joinToString("\n")
+        val forceUrlOnly = !expected.contains(" -> ")
+        val actual = actual.map { "${it.toUrlWithName(forceUrlOnly)}:${it.category}" }.joinToString("\n")
         assertEquals(expected, actual)
     }
 
     private fun assertScansContains(expectedPair: Pair<String, String>) {
         val expected = expectedPair.let { (url, category) -> "$url:$category" }
-        val actual = actual.map { "${it.websiteUrl}:${it.category}" }
+        val forceUrlOnly = !expected.contains(" -> ")
+        val actual = actual.map { "${it.toUrlWithName(forceUrlOnly)}:${it.category}" }
         assert(actual.contains(expected)) { "Expected $expected in $actual" }
     }
+
+    private fun ChatGptScan.toUrlWithName(forceUrlOnly: Boolean = false) = if (websiteName.isEmpty() || forceUrlOnly) websiteUrl else "$websiteUrl -> $websiteName"
 }
