@@ -1,5 +1,6 @@
 package chatgpt
 
+import papers.skip
 import java.io.File
 
 data class ChatGptScan(
@@ -12,14 +13,14 @@ fun parseGptScan(file: File): List<ChatGptScan> {
     val text = file.readText()
     val partOfAnswers =
         text.substringAfter("ChatGPT:")
-            .harmonizeLabels("Website-Name", "Category")
+            .harmonizeLabels("Website-Name", "Category", "Overview Table")
             .replace("**Website:**", "**Website-Name:**")
-    assert(partOfAnswers.countSubstring("**Website-Name:**") == 5)
-    assert(partOfAnswers.countSubstring("**Category:**") == 5)
+            .substringBefore("**Overview Table:**")
 
     val urls = text.lines().take(5).toTypedArray()
-    val websiteNames = extractValuesInLinesOf("**Website-Name:**", partOfAnswers)
-    val categories = extractValuesInLinesOf("**Category:**", partOfAnswers)
+    val writtenWebPilotResults = partOfAnswers.divideWrittenWebPilotResults()
+    val websiteNames = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Website-Name:**", "?") }
+    val categories = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Category:**", "D") }
         .map { it.trimSuffixOfPattern(" \\(.*\\)") }
 
     return (1..5)
@@ -36,11 +37,25 @@ private fun String.harmonizeLabels(vararg labels: String): String {
     return result
 }
 
-private fun extractValuesInLinesOf(prefix: String, partOfAnswers: String): Array<String> {
-    return partOfAnswers.lines()
-        .filter { it.contains(prefix) }
-        .map { it.substringAfter(prefix).trim() }
+private fun String.divideWrittenWebPilotResults(): Array<String> {
+    val parts = this.split("Used WebPilot")
+        .skip(1)
         .toTypedArray()
+    assert(parts.size == 5)
+    return parts
+}
+
+private fun String.extractValueInLinesOf(prefix: String): String {
+    return this.lines()
+        .first { it.contains(prefix) }
+        .substringAfter(prefix).trim()
+}
+
+private fun String.extractValueInLinesOfOrDefault(prefix: String, defaultValue: String): String {
+    return this.lines()
+        .firstOrNull { it.contains(prefix) }
+        ?.substringAfter(prefix)?.trim()
+        ?: defaultValue
 }
 
 private fun String.trimSuffixOfPattern(regex: String): String {

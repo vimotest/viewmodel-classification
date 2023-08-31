@@ -39,8 +39,12 @@ class ChatGptScanParserTest {
     fun testFile041() {
         val input = "output/chatgpt/chatgpt_scan_041.md"
         actual = parseGptScan(File(input))
-        assertScansContains(
+        assertScans(
+            "https://deutschergrossspitz.de/tf2-viewmodel-mod.html" to "D",
+            "https://books.google.com/books?id=USXsDwAAQBAJ&pg=PA242&lpg=PA242&dq=viewmodel&source=bl&ots=iRVMxIRu9r&sig=ACfU3U3mddQ8CTP_DwbaMKnj6HFU2uh1Jw&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNgBEAM" to "D",
             "https://amitshekhar.me/blog/mvvm-architecture-android" to "A*",
+            "https://blog.fossasia.org/handling-configuration-changes-by-implementing-viewmodels-in-the-open-event-android-app/" to "A*",
+            "https://tickets.summitov.com/webstore/shop/viewItems.aspx?CG=romance&C=romance" to "D",
         )
     }
 
