@@ -12,7 +12,7 @@ fun checkNextUrlChunkWithChatGPT(inputUrls: List<String>) {
 }
 
 private fun next5ChatGptUrls(inputUrls: List<String>): List<String> {
-    val scannedUrl = collectScannedUrls().toSet()
+    val scannedUrl = collectScannedUrls().toMutableSet()
 
     val results = mutableListOf<String>()
     for (url in inputUrls) {
@@ -20,6 +20,7 @@ private fun next5ChatGptUrls(inputUrls: List<String>): List<String> {
             continue
         }
         results.add(url)
+        scannedUrl.add(url)
         if (results.size >= 5) {
             break
         }
