@@ -141,7 +141,7 @@ ChatGPT:
 **Website-Name:**  Oracle Documentation
 
 **Category:**
-- Based on the provided content, the website seems to provide a standard definition of MVVM. Therefore, it falls under Category A.
+- A: Based on the provided content, the website seems to provide a standard definition of MVVM. Therefore, it falls under Category A.
 
 **Type:**
 - Official Documentation
@@ -177,7 +177,7 @@ Used WebPilot
 **Website-Name:**  SpringerLink
 
 **Category:**
-- The website provides a brief overview of the Model-View-ViewModel (MVVM) design pattern, especially in the context of Silverlight, Windows Phone 7, and WPF. It mentions that the MVVM pattern is widely discussed and used by many developers in these technologies. However, the exact definition or details of MVVM are not provided in the extracted content. Therefore, it falls under Category D* (No useful definition of MVVM found on the whole website, and it's technology-specific).
+- D*: The website provides a brief overview of the Model-View-ViewModel (MVVM) design pattern, especially in the context of Silverlight, Windows Phone 7, and WPF. It mentions that the MVVM pattern is widely discussed and used by many developers in these technologies. However, the exact definition or details of MVVM are not provided in the extracted content. Therefore, it falls under Category D* (No useful definition of MVVM found on the whole website, and it's technology-specific).
 
 **Type:**
 - Academic Chapter
@@ -213,7 +213,7 @@ Used WebPilot
 **Website-Name:**  Medium (FlutterWorld)
 
 **Category:**
-- The website provides a detailed explanation of the MVVM pattern, especially in the context of Flutter. It describes the purpose and functionality of each component (Model, View, ViewModel) and provides a practical example. The definition aligns with the standard definition but also adds some new benefits. Therefore, it falls under Category A/C*.
+- A/C*: The website provides a detailed explanation of the MVVM pattern, especially in the context of Flutter. It describes the purpose and functionality of each component (Model, View, ViewModel) and provides a practical example. The definition aligns with the standard definition but also adds some new benefits. Therefore, it falls under Category A/C*.
 
 **Type:**
 - Personal Blog Article
@@ -251,7 +251,7 @@ Used WebPilot
 **Website-Name:**  SMF (PDF Document)
 
 **Category:**
-- The website provides a comprehensive overview of the MVVM pattern, discussing its origins, components, strengths, and challenges. It aligns with the standard definition and also mentions some challenges associated with MVVM. Therefore, it falls under Category A.
+- A: The website provides a comprehensive overview of the MVVM pattern, discussing its origins, components, strengths, and challenges. It aligns with the standard definition and also mentions some challenges associated with MVVM. Therefore, it falls under Category A.
 
 **Type:**
 - Academic Presentation/Document
@@ -293,7 +293,7 @@ Used WebPilot
 **Website-Name:**  TutorialsPoint
 
 **Category:**
-- The website provides a detailed introduction to the MVVM pattern, discussing its components and the importance of separated presentation. The definition aligns with the standard definition. Therefore, it falls under Category A.
+- A: The website provides a detailed introduction to the MVVM pattern, discussing its components and the importance of separated presentation. The definition aligns with the standard definition. Therefore, it falls under Category A.
 
 **Type:**
 - Tutorial
@@ -339,7 +339,7 @@ Used WebPilot
 **Website-Name:**  SMF (PDF Document)
 
 **Category:**
-- The website provides a comprehensive overview of the MVVM pattern, discussing its origins, components, strengths, and challenges. It aligns with the standard definition and also mentions some challenges associated with MVVM. Therefore, it falls under Category A.
+- A: The website provides a comprehensive overview of the MVVM pattern, discussing its origins, components, strengths, and challenges. It aligns with the standard definition and also mentions some challenges associated with MVVM. Therefore, it falls under Category A.
 
 **Type:**
 - Academic Presentation/Document

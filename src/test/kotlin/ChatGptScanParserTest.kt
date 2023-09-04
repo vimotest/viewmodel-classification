@@ -28,6 +28,13 @@ class ChatGptScanParserTest {
         )
     }
     @Test
+    fun testFile003() {
+        val input = "output/chatgpt/chatgpt_scan_003.md"
+        actual = parseGptScan(File(input))
+        assertScansContains("https://java-design-patterns.com/patterns/model-view-viewmodel/ -> Java Design Patterns" to "A/C")
+        assertScansContains("https://developer.android.com/topic/libraries/architecture/viewmodel -> Android Developers" to "A*")
+    }
+    @Test
     fun testFile024() {
         val input = "output/chatgpt/chatgpt_scan_024.md"
         actual = parseGptScan(File(input))
