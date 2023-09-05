@@ -41,7 +41,7 @@ private fun extractUrls(it: File) = it.readText().lines().take(5).filter { it.st
 
 fun createNextGptScannedResultsFile(nextUrls: List<String>) {
     val chatgptOutputDir = File("output/chatgpt")
-    val nextNumber = (chatgptOutputDir.listFiles()?.size ?: 0) + 1
+    val nextNumber = (chatgptOutputDir.listFiles()?.count { it.name.startsWith("chatgpt_scan_") && it.extension == "md" } ?: 0) + 1
     val nextNumberString = nextNumber.toString().padStart(3, '0')
     
     val file = File("output/chatgpt/chatgpt_scan_$nextNumberString.md")
