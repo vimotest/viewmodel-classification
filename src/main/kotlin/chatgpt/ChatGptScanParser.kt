@@ -123,6 +123,10 @@ fun main() {
     val directory = File("output/chatgpt")
     val scans = mutableListOf<ChatGptScan>()
     directory.listFiles()!!.sorted().filter { it.name.endsWith(".md") }.forEach { file ->
+        if (file.readText().startsWith("SKIP")) {
+            println("Skipping ${file.name}")
+            return@forEach
+        }
         println("Checking ${file.name}")
         scans += parseGptScan(file)
     }
