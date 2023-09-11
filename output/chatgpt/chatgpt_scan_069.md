@@ -135,14 +135,19 @@ Finally, generate an overview table with columns: Website-Name, Category, Type, 
 ChatGPT:
 - Used WebPilot
 
-
-
-
+1. **Simplilearn** :
+- **Website-Name** : Simplilearn
+- **Category** : D (No useful definition of MVVM found on the whole website)
+- **Type** : Tutorial/Interview Questions
+- **Reason** : The website provides Angular interview questions, but there's no mention or discussion of the MVVM pattern.
 
 Used WebPilot
 
-
-
+2. **Trainings-Profis** :
+- **Website-Name** : Trainings-Profis
+- **Category** : D* (Unable to access content, but the URL suggests it might be related to WPF)
+- **Type** : Unknown (Unable to access content)
+- **Reason** : Unable to access the content of the website.
 
 It seems I encountered an issue accessing the content of the website "[https://trainings-profis.de/event-wpf.html](https://trainings-profis.de/event-wpf.html) ". I will proceed to the next URL.
 
@@ -153,8 +158,11 @@ Let's continue with the third URL: "[http://jaddah.000webhostapp.com/wpvc/wpf-pr
 
 Used WebPilot
 
-
-
+3. **Jaddah 000webhostapp** :
+- **Website-Name** : Jaddah 000webhostapp
+- **Category** : D (Website is no longer available)
+- **Type** : Unknown (Website is no longer available)
+- **Reason** : The website is no longer available and has been deleted by the authors.
 
 The website "[http://jaddah.000webhostapp.com/wpvc/wpf-project-ideas.html](http://jaddah.000webhostapp.com/wpvc/wpf-project-ideas.html) " is no longer available and has been deleted by the authors.
 
@@ -165,8 +173,11 @@ Let's proceed with the fourth URL: "[https://endloskarten.de/event-wpf.html](htt
 
 Used WebPilot
 
-
-
+4. **Endloskarten** :
+- **Website-Name** : Endloskarten
+- **Category** : D* (Unable to access content, but the URL suggests it might be related to WPF)
+- **Type** : Unknown (Unable to access content)
+- **Reason** : Unable to access the content of the website.
 
 I encountered another issue accessing the content of the website "[https://endloskarten.de/event-wpf.html](https://endloskarten.de/event-wpf.html) ".
 
@@ -177,34 +188,13 @@ Let's move on to the fifth and final URL: "[https://covid.rioverde.go.gov.br/vie
 
 Used WebPilot
 
-
-
-
-It seems I encountered issues accessing the content of several of the provided websites. Here's a summary of the results so far:
-1. **Simplilearn** :
-- **Website-Name** : Simplilearn
-- **Category** : D (No useful definition of MVVM found on the whole website)
-- **Type** : Tutorial/Interview Questions
-- **Reason** : The website provides Angular interview questions, but there's no mention or discussion of the MVVM pattern.
-2. **Trainings-Profis** :
-- **Website-Name** : Trainings-Profis
-- **Category** : D* (Unable to access content, but the URL suggests it might be related to WPF)
-- **Type** : Unknown (Unable to access content)
-- **Reason** : Unable to access the content of the website.
-3. **Jaddah 000webhostapp** :
-- **Website-Name** : Jaddah 000webhostapp
-- **Category** : D (Website is no longer available)
-- **Type** : Unknown (Website is no longer available)
-- **Reason** : The website is no longer available and has been deleted by the authors.
-4. **Endloskarten** :
-- **Website-Name** : Endloskarten
-- **Category** : D* (Unable to access content, but the URL suggests it might be related to WPF)
-- **Type** : Unknown (Unable to access content)
-- **Reason** : Unable to access the content of the website.
 5. **Covid Rioverde** :
 - **Website-Name** : Covid Rioverde
 - **Category** : D* (Unable to access content, but the URL suggests it might be related to WPF)
 - **Type** : Unknown (Unable to access content)
 - **Reason** : Unable to access the content of the website.
+
+It seems I encountered issues accessing the content of several of the provided websites. Here's a summary of the results so far:
+
 
 Given the issues encountered, I recommend manually visiting the websites that couldn't be accessed to gather the necessary information. I apologize for the inconvenience. Would you like to proceed in any other way?
