@@ -133,6 +133,6 @@ fun main() {
 
     // print all scans as a simple csv table into output/chatgpt/chatgpt_scans.csv with the columns URL, Website, Category
     val outputFile = File("output/chatgpt/chatgpt_scans.csv")
-    outputFile.writeText(scans.joinToString("\n") { "${it.websiteUrl},${it.websiteName},${it.category}" })
+    outputFile.writeText("URL;Name;Category\n" + scans.joinToString("\n") { "${it.websiteUrl};${it.websiteName};${it.category}" })
     println("Wrote ${scans.size} scans into $outputFile")
 }
