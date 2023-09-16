@@ -56,3 +56,5 @@ https://dzone.com/articles/angularjs-tutorial-lesson-1	Angular JS Tutorial – M
 https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b	Android Architecture Patterns Part 3: Model-View-ViewModel
 http://r.je/evolving-mvc-into-mvvm.html MVVM, MVC it's all just roman numerals to me
 https://dev.to/marcellogalhardo/humble-views-proud-viewmodels-od1
+https://russelleast.wordpress.com/2008/08/09/overview-of-the-modelview-viewmodel-mvvm-pattern-and-data-binding/
+https://medium.com/android-news/why-to-choose-mvvm-over-mvp-android-architecture-33c0f2de5516
