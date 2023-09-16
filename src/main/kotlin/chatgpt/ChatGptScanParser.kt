@@ -16,15 +16,17 @@ fun parseGptScan(file: File): List<ChatGptScan> {
             .harmonize()
             .substringBefore("**Overview Table:**")
 
-    val urls = text.lines().take(5).toTypedArray()
+    val urls = text.takeUrlLines().toTypedArray()
     val writtenWebPilotResults = partOfAnswers.divideWrittenWebPilotResults()
     val websiteNames = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Website-Name:**", "?") }
     val categories = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Category:**", "D") }
         .map { it.trimSuffixOfPattern(" \\(.*\\)|:[\\w ]*") }
 
-    return (1..5)
+    return (1..urls.size)
         .map { ChatGptScan(file.name, websiteNames[it-1], urls[it-1], categories[it-1]) }
 }
+
+private fun String.takeUrlLines() = this.lines().takeWhile { it.startsWith("http") }
 
 private fun String.harmonize() = this
     .harmonizeLabels("Website-Name", "Category", "Overview Table")
