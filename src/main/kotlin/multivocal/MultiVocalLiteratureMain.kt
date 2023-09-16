@@ -11,6 +11,10 @@ fun main(args: Array<String>) {
         println("$alreadyHandled of $count initially handled, remaining: ${count - alreadyHandled}")
         return
     }
+    if (args.size == 1 && args.first() == "chatgpt") {
+        checkNextUrlChunkWithChatGPT(collectAllInputUrls())
+        return
+    }
     val website = getNextUrl()
     if (website != null) {
         println("Next website: ${website.name} (${website.url})")
@@ -31,8 +35,8 @@ private fun getNextUrl(): Website? {
     }
     return result
 }
-private fun websiteIsAlreadyUsed(website: Website) = usedUrls.contains(website.url)
 
+private fun websiteIsAlreadyUsed(website: Website) = usedUrls.contains(website.url)
 private fun addWebsiteToClassificationFile(website: Website) {
     val file = File("site_initial_classification_multivocal.md")
     if (!file.readText().contains(website.url)) {
@@ -52,6 +56,15 @@ private fun String.toUrl() = substringBefore("\t")
 private fun String.toWebsiteName() = substringAfter("\t")
 
 private fun containsChineseCharacters(line: String) = line.any { it in '\u4e00'..'\u9fa5' }
+
+private fun collectAllInputUrls(): List<String> {
+    val urls = mutableListOf<String>()
+    iterateInputUrls {
+        urls += it.url
+        false
+    }
+    return urls
+}
 
 private fun countAllUrls(): Int {
     val urlSet = mutableSetOf<String>()
