@@ -66,3 +66,5 @@ https://academy.realm.io/posts/krzysztof-zablocki-mDevCamp-ios-architecture-mvvm
 https://www.geeksforgeeks.org/mvvm-model-view-viewmodel-architecture-pattern-in-android/
 https://medium.com/swlh/ios-design-patterns-a9bd07818129
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/february/mvvm-ioc-containers-and-mvvm
+https://www.codeproject.com/Articles/364485/MVVM-Model-View-ViewModel-Patte
+https://www.codeproject.com/Articles/274982/Commands-in-MVVM
