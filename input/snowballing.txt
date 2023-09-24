@@ -68,3 +68,4 @@ https://medium.com/swlh/ios-design-patterns-a9bd07818129
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/february/mvvm-ioc-containers-and-mvvm
 https://www.codeproject.com/Articles/364485/MVVM-Model-View-ViewModel-Patte
 https://www.codeproject.com/Articles/274982/Commands-in-MVVM
+https://learn.microsoft.com/en-us/previous-versions/windows/apps/jj721615(v=vs.105)
