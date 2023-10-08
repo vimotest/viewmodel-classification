@@ -20,7 +20,7 @@ internal fun String.getPaperUrl(): String {
     return url
 }
 
-private fun String.getCsvCell(index: Int, onlyAbcChars: Boolean = true): String {
+internal fun String.getCsvCell(index: Int, onlyAbcChars: Boolean = true): String {
     var currentIndex = 0
     val result = StringBuilder()
 
