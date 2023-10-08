@@ -69,4 +69,5 @@ https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/february/mvvm-ioc-c
 https://www.codeproject.com/Articles/364485/MVVM-Model-View-ViewModel-Patte
 https://www.codeproject.com/Articles/274982/Commands-in-MVVM
 https://learn.microsoft.com/en-us/previous-versions/windows/apps/jj721615(v=vs.105)
+https://visualstudiomagazine.com/Articles/2011/01/01/Using-MEF-to-Expose-Interfaces-in-Your-Silverlight-MVVM-Apps.aspx
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/september/fsharp-programming-build-mvvm-applications-in-fsharp
