@@ -108,7 +108,7 @@ TODO:
   * View first composition
   * ViewModel first composition
 * Tip: Keep ViewModels and views independent.
-*
+
 #### by The MVVM Pattern article (extensions to previous definitions)
 
 * A common approach to instantiate a ViewModel in a view is to use a view model locator
