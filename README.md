@@ -46,6 +46,7 @@ TODO:
 * also mentioned as source
   * https://msdn.microsoft.com/en-us/library/hh848246.aspx (by https://link.springer.com/chapter/10.1007/978-3-319-99819-0_4)
   * which contains: https://learn.microsoft.com/de-de/archive/blogs/msgulfcommunity/understanding-the-basics-of-mvvm-design-pattern
+* ensure not recognized websites are read manually (e.g. MVPVM in chatgpt_081)
 
 ### Standard definition
 
@@ -107,7 +108,7 @@ TODO:
   * View first composition
   * ViewModel first composition
 * Tip: Keep ViewModels and views independent.
-*
+
 #### by The MVVM Pattern article (extensions to previous definitions)
 
 * A common approach to instantiate a ViewModel in a view is to use a view model locator
