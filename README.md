@@ -142,7 +142,6 @@ TODO:
 * makes the application easier to test, maintain, and evolve
 * ViewModel acts as an adapter for the model classes and prevents from making major changes to the model code
 * UI can be redesigned without touching the view model
-* view model acts as an adapter for the model classes and enables you to avoid making any major changes to the model code
 
 ### Standard disadvantages
 
