@@ -1,7 +1,0 @@
-Check again:
-https://blog.udemy.com/mvvm-pattern
-https://stackoverflow.com/questions/11064316/what-is-viewmodel-in-mvc
-https://pypi.org/project/ViewModel/
-https://www.mvvmcross.com/documentation/fundamentals/viewmodel-lifecycle
-https://blog.udemy.com/c-sharp-viewmodel/
-https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf

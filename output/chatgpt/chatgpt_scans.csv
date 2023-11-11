@@ -33,7 +33,7 @@ https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-sw
 https://www.objc.io/issues/13-architecture/mvvm/;objc.io;A*
 https://www.syncfusion.com/blogs/post/mvvm-pattern-in-blazor-for-state-management.aspx;Syncfusion Blogs;A*
 https://www.appypie.com/mvvm-swiftui-how-to;Appy Pie;A*
-https://blog.udemy.com/mvvm-pattern/;?;D
+https://blog.udemy.com/mvvm-pattern/;Udemy Blog on MVVM Pattern;A*
 https://levelup.gitconnected.com/mvc-vs-mvp-vs-mvvm-35e0d4b933b4;LevelUp on Medium (MVC vs MVP vs MVVM by Anh T. Dang);D
 https://www.educba.com/mvvm-c-sharp/;EDUCBA (MVVM C# by EDUCBA);A*
 https://subscription.packtpub.com/book/programming/9781788624060/7/ch07lvl1sec58/the-model-view-viewmodel-pattern;Packt (The Model-View-ViewModel pattern | Software Architect's Handbook);D
@@ -99,7 +99,7 @@ https://dev.to/whatminjacodes/simple-example-of-mvvm-architecture-in-kotlin-4j5b
 https://www.upwork.com/hire/mvvm-freelancers/;Upwork;D*
 https://medium.com/androiddevelopers/viewmodels-a-simple-example-ed5ac416317e;Medium (Android Developers);A*
 https://www.geeksforgeeks.org/viewmodel-in-android-architecture-components/;GeeksforGeeks;A*
-https://stackoverflow.com/questions/11064316/what-is-viewmodel-in-mvc;?;D
+https://stackoverflow.com/questions/11064316/what-is-viewmodel-in-mvc;Stack Overflow Discussion on ViewModel in MVC;D
 https://www.youtube.com/watch?v=orH4K6qBzvE;[YouTube - ViewModel Explained - Android Architecture Component | Tutorial](https://www.youtube.com/watch?v=orH4K6qBzvE);A*
 https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm;[Microsoft - MVVM pattern](https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm);A*
 https://github.com/rickclephas/KMM-ViewModel;[GitHub - rickclephas/KMM-ViewModel](https://github.com/rickclephas/KMM-ViewModel);A*
@@ -119,7 +119,7 @@ https://appdevnotes.com/android-viewmodel-tutorial-for-beginners-in-kotlin/;AppD
 https://dev.to/vtsen/recommended-ways-to-create-viewmodel-or-androidviewmodel-5e7k;DEV Community (Article by Vincent Tsen);B*
 https://docs.sencha.com/extjs/6.5.3/modern/Ext.app.ViewModel.html;Sencha Docs (Ext JS 6.5.3);B*
 https://pspdfkit.com/blog/2019/using-viewmodels-to-retain-state-on-android/;PSPDFKit;A*
-https://pypi.org/project/ViewModel/;?;D
+https://pypi.org/project/ViewModel/;PyPI Project ViewModel;D*
 https://www.freecodecamp.org/news/  model-view-viewmodel-android-tutorial/;freeCodeCamp.org;B*
 https://www.mvvmcross.com/documentation/fundamentals/viewmodel-lifecycle;?;D
 https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html;CommonsWare: Android App Development Books - Applying ViewModel;B*
@@ -188,7 +188,7 @@ https://docs.colectica.com/sdk6/api/Algenta.Colectica.ViewModel/Algenta.Colectic
 https://www.hackingwithswift.com/example-code/language/what-is-mvvm;Hacking with Swift;A*
 https://www.quora.com/What-is-ViewModel-in-MVC;Quora;D
 http://dontcodetired.com/blog/post/Reducing-MVVM-Light-Viewmodel-Code-with-Fody-Property-Dependencies-and-Custom-Property-Changed-Methods;Don't Code Tired;B*
-https://blog.udemy.com/c-sharp-viewmodel/;?;D
+https://blog.udemy.com/c-sharp-viewmodel/;Udemy Blog on C# ViewModel;A*/B
 https://codelabs.developers.google.com/;Google Codelabs;D*
 https://www.gamersdecide.com/articles/csgo-best-viewmodel-settings;GamersDecide.com;B*
 https://creatronix.de/how-to-use-viewmodel/;Creatronix;A*
@@ -395,7 +395,7 @@ https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405484(v=pandp.40)
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405494(v=pandp.40);Microsoft Patterns & Practices;A/B
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/may/mvvm-commands-relaycommands-and-eventtocommand;MSDN Magazine;A/B
 https://old.kristofk.com/mvc-mvvm-viper/;?;E
-https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf;?;D
+https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf;Microsoft MSDN Magazine;A*
 https://www.codeproject.com/Articles/42830/Model-View-Controller-Model-View-Presenter-and-Mod;CodeProject;A/B*
 https://hackernoon.com/mvc-vs-mvvm-how-a-website-communicates-with-its-data-models-18553877bf7d;HackerNoon;A/B*
 https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52;Medium (by Bohdan Orlov);A/B*
