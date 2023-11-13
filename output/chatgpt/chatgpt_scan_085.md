@@ -136,7 +136,7 @@ ChatGPT:
 ### Website Analysis: Sencha Blog on Ext JS 5 - MVC, MVVM, and More
 
 #### Website Name:
-Sencha Blog
+- Sencha Blog
 
 #### Category:
 - A* (Standard Definition of MVVM in the context of Ext JS framework)
@@ -167,10 +167,12 @@ Sencha Blog
 
 I will now proceed to analyze the next website.
 
+Used WebPilot
+
 ### Website Analysis: Realm Academy - iOS Architecture: MVVM, MVC, VIPER
 
 #### Website Name:
-Realm Academy
+- Realm Academy
 
 #### Category:
 - B* (Deviation or Stricter Version of the Standard Definition, in the context of iOS development)
@@ -202,10 +204,12 @@ Realm Academy
 
 I will now proceed to analyze the next website.
 
+Used WebPilot
+
 ### Website Analysis: GeeksforGeeks - MVVM (Model View ViewModel) Architecture Pattern in Android
 
 #### Website Name:
-GeeksforGeeks
+- GeeksforGeeks
 
 #### Category:
 - A* (Standard Definition of MVVM in the context of Android development)
@@ -236,10 +240,12 @@ GeeksforGeeks
 
 I will now proceed to analyze the next website.
 
+Used WebPilot
+
 ### Website Analysis: Medium - iOS Design Patterns — Part 1 (MVC, MVP, MVVM)
 
 #### Website Name:
-Medium (Article by Anup Harbade)
+- Medium (Article by Anup Harbade)
 
 #### Category:
 - B* (Deviation or Stricter Version of the Standard Definition, in the context of iOS development)
@@ -273,13 +279,15 @@ Medium (Article by Anup Harbade)
 
 Next, I will analyze the content of the fifth website: "https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/february/mvvm-ioc-containers-and-mvvm".
 
+Used WebPilot
+
 ### Website Analysis: Microsoft MSDN Magazine - MVVM, IoC Containers, and MVVM
 
 #### Website Name:
-Microsoft MSDN Magazine
+- Microsoft MSDN Magazine
 
 #### Category:
-A* (Standard Definition of MVVM with specific technology focus)
+- A* (Standard Definition of MVVM with specific technology focus)
 
 #### Type:
 Professional Article

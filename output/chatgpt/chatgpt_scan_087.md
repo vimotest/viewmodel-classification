@@ -126,12 +126,9 @@ ChatGPT:
 
 ### Website Analysis: Climb the Ladder - MVVM Android Interview Questions
 
-#### Website Name
-Climb the Ladder
+**Website Name:** Climb the Ladder
 
-#### Category
-- **B*** (Deviation or Stricter Version of the Standard Definition)
-- **C** (New Benefits/Drawbacks)
+**Category:** B*/C
 
 #### Type
 - Interview Preparation Article
