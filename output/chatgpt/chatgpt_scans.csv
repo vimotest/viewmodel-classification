@@ -1,5 +1,5 @@
 URL;Name;Category
-https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel;Wikipedia - Model–view–viewmodel;A*
+https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel;Wikipedia - Model-view-viewmodel;A*
 https://learn.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm;Microsoft - Xamarin.Forms MVVM;A*
 https://www.geeksforgeeks.org/introduction-to-model-view-view-model-mvvm/;GeeksforGeeks - Introduction to Model View View Model (MVVM);A/B
 https://www.techtarget.com/whatis/definition/Model-View-ViewModel;TechTarget - Model-View-ViewModel (MVVM);A*
@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=fo6rvTP9kkc;YouTube - What is MVVM (Model-View-V
 https://www.atmosera.com/blog/model-view-viewmodel-mvvm-explained/;Atmosera;A*
 https://www.guru99.com/mvc-vs-mvvm.html;Guru99;A/B*
 https://cocoacasts.com/model-view-viewmodel-in-swift;Cocoacasts;A/B*
-https://www.oreilly.com/library/view/architectural-patterns/9781787287495/7942467e-12e4-4e6f-920e-4ef86088daed.xhtml;O’Reilly Online Learning;A
+https://www.oreilly.com/library/view/architectural-patterns/9781787287495/7942467e-12e4-4e6f-920e-4ef86088daed.xhtml;O'Reilly Online Learning;A
 https://builtin.com/software-engineering-perspectives/mvvm-architecture;Built In;A/B*
 https://java-design-patterns.com/patterns/model-view-viewmodel/;Java Design Patterns;A/C
 https://developer.android.com/topic/libraries/architecture/viewmodel;Android Developers;A*
@@ -38,7 +38,7 @@ https://levelup.gitconnected.com/mvc-vs-mvp-vs-mvvm-35e0d4b933b4;LevelUp on Medi
 https://www.educba.com/mvvm-c-sharp/;EDUCBA (MVVM C# by EDUCBA);A*
 https://subscription.packtpub.com/book/programming/9781788624060/7/ch07lvl1sec58/the-model-view-viewmodel-pattern;Packt (The Model-View-ViewModel pattern | Software Architect's Handbook);D
 https://www.linkedin.com/learning/software-architecture-patterns-for-developers/model-view-viewmodel-mvvm;LinkedIn Learning (Model-view-viewmodel (MVVM) - Software Architecture: Patterns for Developers);A
-https://scottlilly.com/c-design-patterns-mvvm-model-view-viewmodel/;Scott Lilly (C# Design Patterns – MVVM (Model-View-ViewModel));A*
+https://scottlilly.com/c-design-patterns-mvvm-model-view-viewmodel/;Scott Lilly (C# Design Patterns - MVVM (Model-View-ViewModel));A*
 https://stefanoborini.com/book-modelviewcontroller/02-mvc-variations/05-variations-on-the-triad/10-model-view-viewmodel.html;stefanoborini.com;A*
 https://www.reddit.com/r/csELI5/comments/1r0amd/eli5_how_it_works_and_why_of_modelviewviewmodel/;reddit.com (r/csELI5);A/C
 https://daddycoding.com/2021/06/10/model-view-viewmodel-mvvm/;daddycoding.com;A*
@@ -76,7 +76,7 @@ https://www.wpftutorial.net/mvvm.html;WPF Tutorial;A*
 https://infinum.com/blog/mvvm-architecture/;Infinum;A
 http://agafonovslava.com/post/2010/09/21/MVVM-(Model-View-ViewModel)-desing-pattern;Digest About Software, Entrepreneurship and AI - MVVM (Model-View-ViewModel) design pattern by Slava-Agafonov;A*
 https://books.zkoss.org/zk-mvvm-book/8.0/introduction_of_mvvm.html;Introduction of MVVM - ZK MVVM Book;A*
-https://www.softwareideas.net/a/370/model-view-viewmodel-layer-diagram-;Model–View–Viewmodel (Layer Diagram) - Software Ideas;A*
+https://www.softwareideas.net/a/370/model-view-viewmodel-layer-diagram-;Model-View-Viewmodel (Layer Diagram) - Software Ideas;A*
 https://www.slideshare.net/AhmedEmad13/mvvm-model-view-view-model;MVVM (Model View View Model) - SlideShare;A*
 http://swiftyjimmy.com/category/model-view-viewmodel/;SwiftyJimmy - Model-View-ViewModel with Swift;A*
 https://adevait.com/ios/swift-tutorial-mvvm-design-pattern;Adeva - Introduction to the MVVM Design Pattern in Swift;A*
@@ -88,7 +88,7 @@ https://www.detroitlabs.com/blog/intro-to-mvvm-in-react-with-mobx/;Detroit Labs 
 https://teehanlax.com/blog/model-view-viewmodel-for-ios/;Teehan+Lax - Model-View-ViewModel for iOS;A*
 https://visualstudiomagazine.com/articles/2011/10/01/mvvm-in-5-minutes.aspx;Visual Studio Magazine - MVVM in 5 Minutes;A*
 https://softwareengineering.stackexchange.com/questions/402653/layered-model-view-viewmodel-design;Software Engineering Stack Exchange - Layered Model-View-ViewModel design;B*
-https://www.wikidata.org/wiki/Q1247905;Wikidata - model–view–viewmodel;D
+https://www.wikidata.org/wiki/Q1247905;Wikidata - model-view-viewmodel;D
 https://jeremybytes.blogspot.com/2012/04/overview-of-mvvm-design-pattern.html;Jeremy Bytes;A*
 https://www.codingninjas.com/codestudio/library/android-mvvm-model-view-viewmodel-architecture;Coding Ninjas;A*
 https://www.evozon.com/model-view-viewmodel-in-reactjs/;Evozon;B*
@@ -208,7 +208,7 @@ https://books.google.com/books?id=p30gFQycCHEC&pg=PA199&lpg=PA199&dq=viewmodel&s
 https://tickets.houstonzoo.org/webstore/shop/viewitems.aspx?CG=GA&C=GADiscountEVENTS;Houston Zoo;D
 https://tickets.spacecenter.org/webstore/shop/viewItems.aspx?cg=admissioncg&c=admissionc;Space Center Houston;D
 https://settings.gg/player/376295293;SETTINGS.GG;D
-https://books.google.com/books?id=6EZsDwAAQBAJ&pg=PA237&lpg=PA237&dq=viewmodel&source=bl&ots=EJcOocHhJ7&sig=ACfU3U3iBgTfzDDICt2Xj2m3npRcYizZ8g&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNsBEAM;Google Books - "Software Architect’s Handbook";D
+https://books.google.com/books?id=6EZsDwAAQBAJ&pg=PA237&lpg=PA237&dq=viewmodel&source=bl&ots=EJcOocHhJ7&sig=ACfU3U3iBgTfzDDICt2Xj2m3npRcYizZ8g&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNsBEAM;Google Books - "Software Architect's Handbook";D
 https://books.google.com/books?id=5y-IDQAAQBAJ&pg=PA233&lpg=PA233&dq=viewmodel&source=bl&ots=fPhyLXGQpT&sig=ACfU3U29uGOPv9lt-pFgsQJ6cxnyGGGVlA&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNoBEAM;Google Books - Professional Sitecore 8 Development by Phil Wicklund, Jason Wilkerson;D
 https://books.google.com/books?id=fLeZDwAAQBAJ&pg=PT331&lpg=PT331&dq=viewmodel&source=bl&ots=Zno0ZRsz-a&sig=ACfU3U0pnND55tzxRBV-ze5daaXtR-OHzw&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNcBEAM;Google Books - Android Studio 3.4 Development Essentials - Kotlin Edition by Neil Smyth;D
 https://books.google.com/books?id=sWgyEAAAQBAJ&pg=PT267&lpg=PT267&dq=viewmodel&source=bl&ots=LvifvVHn_1&sig=ACfU3U1zt-85EZBu4TFjo5Aj1JsUMNUY0g&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCMIBEAM;Google Books - Android Studio 4.2 Development Essentials - Java Edition by Neil Smyth;D
@@ -249,7 +249,7 @@ https://docs.devexpress.com/WindowsForms/113955/build-an-application/winforms-mv
 https://demos.telerik.com/kendo-ui/mvvm/index;Telerik Kendo UI for jQuery;A*
 https://www.educba.com/mvvm-design-pattern/;EDUCBA;A*
 https://github.com/CommunityToolkit/MVVM-Samples;GitHub - CommunityToolkit/MVVM-Samples;A*
-https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch10s06.html;O’Reilly Online Learning - Learning JavaScript Design Patterns;A*
+https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch10s06.html;O'Reilly Online Learning - Learning JavaScript Design Patterns;A*
 https://docs.avaloniaui.net/guides/basics/mvvm;Avalonia UI;D
 https://www.udemy.com/topic/mvvm/;Udemy;D
 https://www.c-sharpcorner.com/article/mvvm-architecture/;C# Corner;A*
@@ -284,7 +284,7 @@ https://fivedottwelve.com/blog/flutter-architecture-implementing-the-mvvm-patter
 https://markheath.net/post/mvvm-is-it-worth-pain;Mark Heath's Development Blog;A*/B/C
 https://nirajrules.wordpress.com/2009/07/18/mvc-vs-mvp-vs-mvvm/;Niraj Bhatt - Architect's Blog;A*/B
 https://www.webopedia.com/definitions/mvvm-model-view-viewmodel/;Webopedia;A
-https://egvijayanand.in/2022/05/09/mvvm-made-easy-with-microsoft-mvvm-toolkit-part-2/;Developer Thoughts - MVVM – Made Easy with Microsoft MVVM Toolkit – Part 2;B*---
+https://egvijayanand.in/2022/05/09/mvvm-made-easy-with-microsoft-mvvm-toolkit-part-2/;Developer Thoughts - MVVM - Made Easy with Microsoft MVVM Toolkit - Part 2;B*---
 https://firefinch.io/deep-dive-mvvm/;Firefinch Software - Deep Dive: MVVM in Real-World Applications, Part 1;B*---
 https://weblogs.asp.net/dwahlin/getting-started-with-the-mvvm-pattern-in-silverlight-applications;Dan Wahlin - Getting Started with the MVVM Pattern in Silverlight Applications;A*---
 https://blog.qmatteoq.com/the-mvvm-pattern-dependency-injection/;Matteo Pagani - The MVVM pattern: Dependency Injection;A/B*---
@@ -315,14 +315,14 @@ https://books.google.com/books?id=fFxCDwAAQBAJ&pg=PA15&lpg=PA15&dq=mvvm&source=b
 https://www.appcoda.com/mvvm-vs-mvc/;AppCoda;A*
 https://books.google.com/books?id=VPVIDwAAQBAJ&pg=PA1&lpg=PA1&dq=mvvm&source=bl&ots=BPMM-V6EzE&sig=ACfU3U36urXpooxAERsXCVuoaYDOREtgcQ&hl=de&sa=X&ved=2ahUKEwifu5-jmoT9AhUoi_0HHYWnB1E4ZBDoAXoFCNEBEAM;Google Books - Software entwickeln mit C#, WPF und dem MVVM-Konzept by Stefan Kunick;D*
 https://www.swiftyplace.com/blog/swiftui-and-mvvm;SwiftyPlace - "Why MVVM can help you improve you SwiftUI project?";A*/B
-https://christiantietze.de/wiki/mvvm/;Christian Tietze - "Model–View–View Model (MVVM)";A*/B
+https://christiantietze.de/wiki/mvvm/;Christian Tietze - "Model-View-View Model (MVVM)";A*/B
 https://books.google.com/books?id=EC0on5ZY7zkC&pg=PT868&lpg=PT868&dq=mvvm&source=bl&ots=vxZZkPt7SS&sig=ACfU3U1EC1vuzfRQ4PYhanhjK1L6LRlwVA&hl=de&sa=X&ved=2ahUKEwifu5-jmoT9AhUoi_0HHYWnB1E4ZBDoAXoFCNMBEAM;Google Books - "MVVM Survival Guide for Enterprise Architectures in Silverlight and WPF";D*
 https://books.google.com/books?id=sY8GIF9ZsswC&pg=PA78&lpg=PA78&dq=mvvm&source=bl&ots=UDY6MLMJGe&sig=ACfU3U32YyP_8gx4NOxSMPPFgbB-1Y4yUw&hl=de&sa=X&ved=2ahUKEwifu5-jmoT9AhUoi_0HHYWnB1E4ZBDoAXoFCNoBEAM;Google Books - "Pro WPF and Silverlight MVVM: Effective Application Development with Model ...";D*
 https://books.google.com/books?id=JaFlDQAAQBAJ&pg=PA13&lpg=PA13&dq=mvvm&source=bl&ots=_4_Z3Frvg3&sig=ACfU3U3brvhIKUPswVBOdJfKJxDUENelyQ&hl=de&sa=X&ved=2ahUKEwifu5-jmoT9AhUoi_0HHYWnB1E4ZBDoAXoFCOABEAM;Google Books - "MVVM in Delphi: Architecting and Building Model View ViewModel Applications";D*
 https://fatordequalidade.cfn.org.br/display?docid=M04j507&FilesData=learn_wpf_mvvm_xaml_c_and_the_mvvm_pattern.pdf;?;E
 https://wioe.vibesloungebar.it/814-shocks-teryx.html;?;E
 https://ebyf.trakehnerrennen.de/xaml-in-c.html;?;E
-https://inmediatum.com/blog/ingenieria/mvvm-que-es-y-como-funciona/;MVVM – Que es y como funciona;E
+https://inmediatum.com/blog/ingenieria/mvvm-que-es-y-como-funciona/;MVVM - Que es y como funciona;E
 https://deutschergrossspitz.de/devexpress-examples.html;?;E
 https://skillbox.ru/media/code/mvvm_proektirovanie_prilozheniy_dlya_windows/;skillbox.ru;A*
 https://angular.io/guide/architecture;angular.io;D*
@@ -340,7 +340,7 @@ http://jaddah.000webhostapp.com/wpvc/wpf-project-ideas.html;Jaddah 000webhostapp
 https://endloskarten.de/event-wpf.html;?;E
 https://covid.rioverde.go.gov.br/viewport?pdfid=Q96q241&FilesData=wpf-tutorial-for-dependency-properties.pdf;Covid Rioverde;D*
 https://flora-auf-rhodos.de/event-wpf.html;?;E
-https://velog.io/@doogie97/Clean-Architecture-MVVM-%EC%9D%B4%ED%95%B4%ED%95%9C-%EB%8C%80%EB%A1%9C%EB%A7%8C-%EC%A0%95%EB%A6%AC;velog.io/@doogie97/Clean-Architecture-MVVM-이해한-대로만-정리;B*
+https://velog.io/@doogie97/Clean-Architecture-MVVM-%EC%9D%B4%ED%95%B4%ED%95%9C-%EB%8C%80%EB%A1%9C%EB%A7%8C-%EC%A0%95%EB%A6%AC;velog.io/@doogie97/Clean-Architecture-MVVM;B*
 https://www.calculatorsoup.com/calculators/conversions/roman-numeral-converter.php;calculatorsoup.com/calculators/conversions/roman-numeral-converter.php;D
 https://www.frankysnotes.com/2023/02/reading-notes-541.html;frankysnotes.com/2023/02/reading-notes-541.html;D
 https://www.mvmt.com/mens-watches/shop-all-mens-watches/;mvmt.com/mens-watches/shop-all-mens-watches/;D
@@ -376,7 +376,7 @@ http://www.silverlightshow.net/news/The-Advantages-of-MVVM.aspx;silverlightshow.
 http://stackoverflow.com/questions/883895/what-are-the-problems-of-the-mvvm-pattern;Stack Overflow;C
 http://www.codeproject.com/Articles/100175/Model-View-ViewModel-MVVM-Explained;CodeProject - Model-View-ViewModel (MVVM) Explained;A*
 https://www.quora.com/Pros-and-cons-of-MVVM-framework-and-how-I-can-campare-it-with-MVC;Quora - Pros and cons of MVVM framework and how I can compare it with MVC?;B/C
-https://proandroiddev.com/mvi-a-new-member-of-the-mv-band-6f7f0d23bc8a;ProAndroidDev - MVI — a new member of the MV* band;D
+https://proandroiddev.com/mvi-a-new-member-of-the-mv-band-6f7f0d23bc8a;ProAndroidDev - MVI-a new member of the MV* band;D
 http://blogs.msdn.com/johngossman/archive/2005/10/08/478683.aspx;Tales from the Smart Client (John Gossman's Blog on MSDN);A*
 https://searchapparchitecture.techtarget.com/tip/MVC-vs-MVVM-2-architecture-patterns-for-modularity;TechTarget - MVC vs. MVVM: 2 architecture patterns for modularity;A/B
 https://www.mobileappdaily.com/2018/09/5/mvp-vs-mvvm-android-architecture;MobileAppDaily;A*
@@ -401,7 +401,7 @@ https://hackernoon.com/mvc-vs-mvvm-how-a-website-communicates-with-its-data-mode
 https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52;Medium (by Bohdan Orlov);A/B*
 https://www.codeproject.com/Articles/278901/MVVM-Pattern-Made-Simple;CodeProject - MVVM Pattern Made Simple;A*
 https://manojjaggavarapu.wordpress.com/2012/05/02/presentation-patterns-mvc-mvp-pm-mvvm/;Manoj Jaggavarapu - Presentation Patterns: MVC, MVP, PM, MVVM;A/B*
-https://dzone.com/articles/angularjs-tutorial-lesson-1;DZone - Angular JS Tutorial – MVC and MVVM Design Patterns;B*
+https://dzone.com/articles/angularjs-tutorial-lesson-1;DZone - Angular JS Tutorial - MVC and MVVM Design Patterns;B*
 https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b;Medium - Android Architecture Patterns Part 3: Model-View-ViewModel;A/B*
 http://r.je/evolving-mvc-into-mvvm.html MVVM, MVC it's all just roman numerals to me;r.je - Evolving MVC into MVVM;A/B
 https://dev.to/marcellogalhardo/humble-views-proud-viewmodels-od1;Humble Views, Proud ViewModels by Marcello Galhardo;B*
