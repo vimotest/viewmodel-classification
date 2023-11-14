@@ -1,0 +1,3 @@
+https://www.geeksforgeeks.org/introduction-to-model-view-view-model-mvvm/
+https://www.guru99.com/mvc-vs-mvvm.html
+https://cocoacasts.com/model-view-viewmodel-in-swift

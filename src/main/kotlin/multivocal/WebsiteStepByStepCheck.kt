@@ -1,0 +1,32 @@
+package multivocal
+
+import papers.skip
+import java.io.File
+
+fun main() {
+    val scansOverviewFile = File("output/chatgpt/chatgpt_scans.csv")
+    val alreadyScannedFile = File("output/chatgpt/alreadyChecked.txt")
+
+    val scansOverview = scansOverviewFile.readLines()
+    val alreadyScanned = alreadyScannedFile.readLines().toSet()
+
+    val nextScan = scansOverview.skip(1)
+        .filter { !alreadyScanned.contains(it.url()) }
+        .first { it.category().contains("B") || it.category().contains("C") }
+
+    alreadyScannedFile.appendText("${nextScan.url()}\n")
+
+    println("Next scan")
+    println("${nextScan.url()}")
+    println("${nextScan.category()}")
+    printWhichScanFileHandlesUrl(nextScan.url())
+}
+
+private fun String.url() = this.split(";").first()
+private fun String.category() = this.split(";").last()
+
+private fun printWhichScanFileHandlesUrl(url: String) {
+    val scanFiles = File("output/chatgpt/").listFiles()!!
+    val scanFile = scanFiles.first { it.extension == "md" && it.readText().contains(url) }
+    println("In file: ${scanFile.name}")
+}
