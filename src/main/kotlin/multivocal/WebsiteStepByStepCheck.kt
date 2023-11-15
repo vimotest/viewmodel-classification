@@ -29,4 +29,20 @@ private fun printWhichScanFileHandlesUrl(url: String) {
     val scanFiles = File("output/chatgpt/").listFiles()!!
     val scanFile = scanFiles.first { it.extension == "md" && it.readText().contains(url) }
     println("In file: ${scanFile.name}")
+    scanFile.printRelatedScanPartFileHandlesUrl(url)
+}
+
+private fun File.printRelatedScanPartFileHandlesUrl(url: String) {
+    val lines = this.readLines()
+    val i = lines.indexOf(url)
+    val parts = this.readText().split("WebPilot")
+    val relevantPart = parts[i+1]
+    println(relevantPart)
+
+    // copy to clipboard
+    val clipboard = java.awt.Toolkit.getDefaultToolkit().systemClipboard
+    val selection = java.awt.datatransfer.StringSelection(relevantPart)
+    clipboard.setContents(selection, selection)
+
+    println(">>> Part copied to clipboard")
 }
