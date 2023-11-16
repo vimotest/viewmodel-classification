@@ -35,14 +35,16 @@ private fun printWhichScanFileHandlesUrl(url: String) {
 private fun File.printRelatedScanPartFileHandlesUrl(url: String) {
     val lines = this.readLines()
     val i = lines.indexOf(url)
-    val parts = this.readText().split("WebPilot")
-    val relevantPart = parts[i+1]
+    val parts = this.readText().split("Used WebPilot")
+    val relevantPart = parts[i+1].trim()
     println(relevantPart)
+
+    val websiteInfosText = url + "\n" + relevantPart
 
     // copy to clipboard
     val clipboard = java.awt.Toolkit.getDefaultToolkit().systemClipboard
-    val selection = java.awt.datatransfer.StringSelection(relevantPart)
+    val selection = java.awt.datatransfer.StringSelection(websiteInfosText)
     clipboard.setContents(selection, selection)
 
-    println(">>> Part copied to clipboard")
+    println(">>> Copied to clipboard")
 }
