@@ -3,3 +3,5 @@ https://www.guru99.com/mvc-vs-mvvm.html
 https://cocoacasts.com/model-view-viewmodel-in-swift
 https://builtin.com/software-engineering-perspectives/mvvm-architecture
 https://java-design-patterns.com/patterns/model-view-viewmodel/
+https://www.dev-insider.de/was-bedeutet-mvvm-a-1103448/
+https://www.c-sharpcorner.com/UploadFile/0b73e1/mvvm-model-view-viewmodel-introduction-part-1/
