@@ -5,3 +5,9 @@ https://builtin.com/software-engineering-perspectives/mvvm-architecture
 https://java-design-patterns.com/patterns/model-view-viewmodel/
 https://www.dev-insider.de/was-bedeutet-mvvm-a-1103448/
 https://www.c-sharpcorner.com/UploadFile/0b73e1/mvvm-model-view-viewmodel-introduction-part-1/
+https://012.vuejs.org/guide/
+https://www.reddit.com/r/csELI5/comments/1r0amd/eli5_how_it_works_and_why_of_modelviewviewmodel/
+https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
+https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture
+https://www.sitepoint.com/community/t/what-is-a-view-model/32676
+https://mobiosolutions.com/model-view-viewmodel/
