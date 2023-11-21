@@ -19,27 +19,27 @@ fun main() {
     println("Next scan")
     println("${nextScan.url()}")
     println("${nextScan.category()}")
-    printWhichScanFileHandlesUrl(nextScan.url())
+    printWhichScanFileHandlesUrl(nextScan.url(), nextScan.category())
 }
 
 private fun String.url() = this.split(";").first()
 private fun String.category() = this.split(";").last()
 
-private fun printWhichScanFileHandlesUrl(url: String) {
+private fun printWhichScanFileHandlesUrl(url: String, category: String) {
     val scanFiles = File("output/chatgpt/").listFiles()!!
     val scanFile = scanFiles.first { it.extension == "md" && it.readText().contains(url) }
     println("In file: ${scanFile.name}")
-    scanFile.printRelatedScanPartFileHandlesUrl(url)
+    scanFile.printRelatedScanPartFileHandlesUrl(url, category)
 }
 
-private fun File.printRelatedScanPartFileHandlesUrl(url: String) {
+private fun File.printRelatedScanPartFileHandlesUrl(url: String, category: String) {
     val lines = this.readLines()
     val i = lines.indexOf(url)
     val parts = this.readText().split("Used WebPilot")
     val relevantPart = parts[i+1].trim()
     println(relevantPart)
 
-    val websiteInfosText = url + "\n" + relevantPart
+    val websiteInfosText = url + "\n" + category + "\n" + relevantPart
 
     // copy to clipboard
     val clipboard = java.awt.Toolkit.getDefaultToolkit().systemClipboard

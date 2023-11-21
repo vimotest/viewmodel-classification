@@ -11,3 +11,7 @@ https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
 https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture
 https://www.sitepoint.com/community/t/what-is-a-view-model/32676
 https://mobiosolutions.com/model-view-viewmodel/
+https://info.erdosmiller.com/blog/implementing-model/view/view-model-mvvm-architecture-in-labview
+https://medium.cobeisfresh.com/level-up-your-react-architecture-with-mvvm-a471979e3f21
+https://matteomanferdini.com/mvvm-pattern-ios-swift/
+https://softwareengineering.stackexchange.com/questions/402653/layered-model-view-viewmodel-design
