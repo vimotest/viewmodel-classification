@@ -19,3 +19,7 @@ https://www.evozon.com/model-view-viewmodel-in-reactjs/
 https://insert-koin.io/docs/reference/koin-android/viewmodel
 https://www.techyourchance.com/you-dont-need-android-viewmodel/
 https://canjs.com/doc/can-component.prototype.ViewModel.html
+https://dev.to/vtsen/recommended-ways-to-create-viewmodel-or-androidviewmodel-5e7k
+https://docs.sencha.com/extjs/6.5.3/modern/Ext.app.ViewModel.html
+https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
+https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html
