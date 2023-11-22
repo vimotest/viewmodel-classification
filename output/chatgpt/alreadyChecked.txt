@@ -23,3 +23,5 @@ https://dev.to/vtsen/recommended-ways-to-create-viewmodel-or-androidviewmodel-5e
 https://docs.sencha.com/extjs/6.5.3/modern/Ext.app.ViewModel.html
 https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
 https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html
+https://learnfromsaki.com/configuring-viewmodel-hierarchy/
+https://heartbeat.comet.ml/using-viewmodels-in-android-to-preserve-your-running-apps-state-e56e63f689f3
