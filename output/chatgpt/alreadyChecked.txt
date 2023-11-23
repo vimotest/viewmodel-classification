@@ -25,3 +25,4 @@ https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
 https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html
 https://learnfromsaki.com/configuring-viewmodel-hierarchy/
 https://heartbeat.comet.ml/using-viewmodels-in-android-to-preserve-your-running-apps-state-e56e63f689f3
+https://blog.kotzilla.io/koin-android-stronger-viewmodel-api/
