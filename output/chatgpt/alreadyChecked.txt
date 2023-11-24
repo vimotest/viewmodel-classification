@@ -26,3 +26,15 @@ https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html
 https://learnfromsaki.com/configuring-viewmodel-hierarchy/
 https://heartbeat.comet.ml/using-viewmodels-in-android-to-preserve-your-running-apps-state-e56e63f689f3
 https://blog.kotzilla.io/koin-android-stronger-viewmodel-api/
+https://voyager.adriel.cafe/android-viewmodel
+https://www.valueof.io/blog/stateflow-sharedflow-flow-viewmodel-lifecycle
+https://androidwave.com/fragment-communication-using-viewmodel/
+https://www.tutlane.com/tutorial/aspnet-mvc/how-to-use-viewmodel-in-asp-net-mvc-with-example
+https://developer.adobe.com/commerce/php/development/components/view-models/
+https://www.reddit.com/r/android_devs/comments/vhhgq5/you_dont_need_android_viewmodel_here_is_why/
+https://www.kodeco.com/books/advanced-android-app-architecture/v1.0/chapters/10-model-view-viewmodel-theory
+https://softwareengineering.stackexchange.com/questions/293224/is-that-good-idea-to-add-viewmodel-exactly-same-as-model
+https://www.techotopia.com/index.php/An_Android_Jetpack_ViewModel_Tutorial
+https://www.c-sharpcorner.com/UploadFile/abhikumarvatsa/what-is-model-and-viewmodel-in-mvc-pattern/
+https://www.systango.com/blog/what-is-viewmodel-in-android-architecture-component
+https://www.jondjones.com/learn-episerver-cms/episerver-developers-tutorials/episerver-mvc/what-should-the-mvc-viewmodel-be-used-for-in-episerver/
