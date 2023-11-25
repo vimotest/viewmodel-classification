@@ -38,3 +38,10 @@ https://www.techotopia.com/index.php/An_Android_Jetpack_ViewModel_Tutorial
 https://www.c-sharpcorner.com/UploadFile/abhikumarvatsa/what-is-model-and-viewmodel-in-mvc-pattern/
 https://www.systango.com/blog/what-is-viewmodel-in-android-architecture-component
 https://www.jondjones.com/learn-episerver-cms/episerver-developers-tutorials/episerver-mvc/what-should-the-mvc-viewmodel-be-used-for-in-episerver/
+https://milestone.topics.it/series/view-model-composition.html
+https://www.answertopia.com/jetpack-compose/a-jetpack-compose-viewmodel-tutorial/
+https://www.halfbit.de/posts/composite-viewmodel/
+https://blog.stylingandroid.com/architecture-components-viewmodel/
+https://www.dotnettricks.com/learn/mvc/understanding-viewmodel-in-aspnet-mvc
+https://nicksnettravels.builttoroam.com/post-2019-03-24-viewmodel-to-viewmodel-navigation-in-a-xamarinforms-application-with-prism-and-mvvmcross-aspx/
+https://imhoff.blog/posts/view-purity-with-mobx-viewmodels
