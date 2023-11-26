@@ -51,3 +51,16 @@ http://dontcodetired.com/blog/post/Reducing-MVVM-Light-Viewmodel-Code-with-Fody-
 https://blog.udemy.com/c-sharp-viewmodel/
 https://www.damirscorner.com/blog/posts/20221021-AvoidAsyncCallsInViewmodelConstructors.html
 https://zsmb.co/an-early-look-at-viewmodel-savedstate/
+https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3
+https://itnext.io/a-simple-mvvm-implementation-in-client-side-blazor-8c875c365435
+https://www.sagitec.com/blog/the-5ws-of-mvvm
+https://in.indeed.com/career-advice/career-development/difference-between-mvvm-and-mvc
+https://www.reddit.com/r/csharp/comments/ttih4e/what_is_mvvm/
+https://dev.to/vtsen/mvc-vs-mvp-vs-mvvm-design-patterns-443n
+https://proandroiddev.com/understanding-mvvm-pattern-for-android-in-2021-98b155b37b54
+https://www.linkedin.com/pulse/mvvm-fashion-trend-gregory-stein
+https://www.section.io/engineering-education/implementing-mvvm-architecture-in-android-using-kotlin/
+https://softwareengineering.stackexchange.com/questions/437119/in-mvvm-how-much-of-the-business-logic-should-reside-in-the-view-model-and-how
+https://marcosantadev.com/mvvmc-with-swift/
+https://blogs.msmvps.com/bsonnino/2022/08/06/the-mvvm-pattern-revisited-with-the-mvvm-community-toolkit-8-0/
+https://www.what-could-possibly-go-wrong.com/bringing-mvvm-to-unity-part-1-about-mvvm-and-unity-weld/
