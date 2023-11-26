@@ -87,3 +87,14 @@ http://www.teehanlax.com/blog/krush-ios-architecture/
 http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explained.html
 http://www.vogella.com/tutorials/AndroidArchitecture/article.html
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405484(v=pandp.40)
+https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405494(v=pandp.40)
+https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/may/mvvm-commands-relaycommands-and-eventtocommand
+https://www.codeproject.com/Articles/42830/Model-View-Controller-Model-View-Presenter-and-Mod
+https://hackernoon.com/mvc-vs-mvvm-how-a-website-communicates-with-its-data-models-18553877bf7d
+https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52
+https://manojjaggavarapu.wordpress.com/2012/05/02/presentation-patterns-mvc-mvp-pm-mvvm/
+https://dzone.com/articles/angularjs-tutorial-lesson-1
+https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b
+http://r.je/evolving-mvc-into-mvvm.html MVVM, MVC it's all just roman numerals to me
+https://dev.to/marcellogalhardo/humble-views-proud-viewmodels-od1
+https://medium.com/android-news/why-to-choose-mvvm-over-mvp-android-architecture-33c0f2de5516
