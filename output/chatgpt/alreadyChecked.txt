@@ -64,3 +64,13 @@ https://softwareengineering.stackexchange.com/questions/437119/in-mvvm-how-much-
 https://marcosantadev.com/mvvmc-with-swift/
 https://blogs.msmvps.com/bsonnino/2022/08/06/the-mvvm-pattern-revisited-with-the-mvvm-community-toolkit-8-0/
 https://www.what-could-possibly-go-wrong.com/bringing-mvvm-to-unity-part-1-about-mvvm-and-unity-weld/
+https://azamsharp.com/2022/07/17/2022-swiftui-and-mvvm.html
+https://fivedottwelve.com/blog/flutter-architecture-implementing-the-mvvm-pattern/
+https://markheath.net/post/mvvm-is-it-worth-pain
+https://nirajrules.wordpress.com/2009/07/18/mvc-vs-mvp-vs-mvvm/
+https://egvijayanand.in/2022/05/09/mvvm-made-easy-with-microsoft-mvvm-toolkit-part-2/
+https://firefinch.io/deep-dive-mvvm/
+https://blog.qmatteoq.com/the-mvvm-pattern-dependency-injection/
+https://www.sencha.com/blog/how-and-why-of-extjs-mvvm-pattern/
+https://www.planetgeek.ch/2009/08/30/why-mvvm-model-view-view-model-is-not-enough/
+https://www.mrlacey.com/2017/04/3-reasons-to-use-mvvm-pattern.html
