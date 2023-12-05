@@ -72,3 +72,4 @@ https://learn.microsoft.com/en-us/previous-versions/windows/apps/jj721615(v=vs.1
 https://visualstudiomagazine.com/Articles/2011/01/01/Using-MEF-to-Expose-Interfaces-in-Your-Silverlight-MVVM-Apps.aspx
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/september/fsharp-programming-build-mvvm-applications-in-fsharp
 https://climbtheladder.com/mvvm-android-interview-questions/
+https://www.objc.io/issues/13-architecture/mvvm/
