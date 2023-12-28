@@ -25,8 +25,6 @@ This repository contains an automatism to simplity the initial classification of
   * Title words: "viewmodel", Source: "SemanticScholar"
 * save each results as CSV
 
-TODO: snowballing (manually?) for original sources + Presentation Model
-
 ## ViewModel Standard Definition
 
 from original URLs:
@@ -41,12 +39,6 @@ from original URLs:
   * Microsoft's current definition of MVVM (re-write of the Xarmarin.Forms version)
 * https://msdn.microsoft.com/en-us/library/hh848246.aspx
   * several cited 2012 source "The MVVM Pattern" by microsoft
-
-TODO:
-* also mentioned as source
-  * https://msdn.microsoft.com/en-us/library/hh848246.aspx (by https://link.springer.com/chapter/10.1007/978-3-319-99819-0_4)
-  * which contains: https://learn.microsoft.com/de-de/archive/blogs/msgulfcommunity/understanding-the-basics-of-mvvm-design-pattern
-* ensure not recognized websites are read manually (e.g. MVPVM in chatgpt_081)
 
 ### Standard definition
 

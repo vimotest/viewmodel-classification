@@ -73,3 +73,6 @@ https://visualstudiomagazine.com/Articles/2011/01/01/Using-MEF-to-Expose-Interfa
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/september/fsharp-programming-build-mvvm-applications-in-fsharp
 https://climbtheladder.com/mvvm-android-interview-questions/
 https://www.objc.io/issues/13-architecture/mvvm/
+https://www.codeproject.com/Articles/186705/A-Totally-Simple-Introduction-to-the-MVVM-Concept
+https://msdn.microsoft.com/en-us/magazine/dd419663.aspx
+https://learn.microsoft.com/de-de/archive/blogs/msgulfcommunity/understanding-the-basics-of-mvvm-design-pattern
