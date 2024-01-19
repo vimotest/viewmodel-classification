@@ -8,11 +8,22 @@ This repository contains an automatism to simplity the initial classification of
   * https://www.google.com/preferences
 * change location to United States
 * used 'SEO Minion' extension in Chrome
-* Google "MVVM", "ViewModel"
+* Google `MVVM OR ViewModel OR "Model-View-ViewModel"`
 * using the extension
   * set to "Copy" and click "Go"
   * save/append in `input/<date>_<keyword>.txt`
   * go to 2nd page, repeat
+
+### Repeated 2024-01-19
+
+* used 'ahrefs' extension in Chrome
+* Google `MVVM OR ViewModel OR "Model-View-ViewModel"`
+  * range from "2023-02-07" - "2024-01-19"
+* using the extension
+  * in the ahrefs panel, click 'Save URLS'
+  * click on the Extension icon to open popup
+  * click "Saved URLs"
+  * click "Copy List" and paste into txt-file
 
 ## Grabbing Paper Resources
 
