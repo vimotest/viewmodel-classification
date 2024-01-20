@@ -36,6 +36,16 @@ This repository contains an automatism to simplity the initial classification of
   * Title words: "viewmodel", Source: "SemanticScholar"
 * save each results as CSV
 
+### Repeated 2024-01-20
+
+* use "Publish or Perish" (https://harzing.com/resources/publish-or-perish)
+* searched for (max. results 1000)
+  * Title words: `mvvm OR "view model" OR viewmodel`, Source: "GoogleScholar", Years from "2023" - "0"
+  * Title words: "mvvm", Source: "SemanticScholar"
+  * Title words: "viewmodel", Source: "SemanticScholar"
+* save each results as CSV
+
+
 ## ViewModel Standard Definition
 
 from original URLs:
