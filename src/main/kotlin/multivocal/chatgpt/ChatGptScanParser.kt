@@ -1,4 +1,4 @@
-package chatgpt
+package multivocal.chatgpt
 
 import papers.skip
 import java.io.File
