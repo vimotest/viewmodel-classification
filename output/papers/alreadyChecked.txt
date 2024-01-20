@@ -29,3 +29,4 @@ https://link.springer.com/content/pdf/10.1007/978-1-4302-4909-2_4.pdf
 https://link.springer.com/book/10.1007/978-1-4842-9069-9
 https://www.ijert.org/introduction-evolution-data-binding-programming-of-advanced-model-view-controller-mvc-technology-model-view-view-model-mvvm-with-asp.net-4.5-and-above-versions
 https://link.springer.com/chapter/10.1007/978-3-030-41407-8_5
+10.29100/jipi.v8i1.3293

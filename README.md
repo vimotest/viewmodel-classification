@@ -35,6 +35,12 @@ Then we manually filtered the joined.csv entries by removing:
 * titles which do not really deal with "mvvm" (e.g., "view model" word combinations of other areas)
 The filtered result is written to the file `relevantPapers.csv`.` 
 
+Finally, the program `PaperLiteratureMain.kt` is used for initial classification in `site_initial_classification_papers.md`.
+The program iteratively prints the next entry of `relevantPapers.csv` and we manually classify it to `REJECT`, `ACCEPT`, or `REVIEW`.
+
+After processing the initial classification, the program `PaperStepByStepCheck.kt` is used to assist in migrating the initial accepted (`ACCEPT`) papers to "mps-literature-review".
+There the attribution and in-depth analysis of the scholar entries takes place.
+
 ### Initial 2023-02-26
 
 * use "Publish or Perish" (https://harzing.com/resources/publish-or-perish)
