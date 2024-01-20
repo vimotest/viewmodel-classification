@@ -27,6 +27,16 @@ This repository contains an automatism to simplity the initial classification of
 
 ## Grabbing Paper Resources
 
+To grab paper resources, we retrieved systematically scholar entries from GoogleScholar and SemanticScholar.
+Afterward, we created a "joined.csv" with the program `PreparePaperSearchesToJoinedCsv.kt`.
+Then we manually filtered the joined.csv entries by removing:
+* duplicates
+* non-english entries
+* titles which do not really deal with "mvvm" (e.g., "view model" word combinations of other areas)
+The filtered result is written to the file `relevantPapers.csv`.` 
+
+### Initial 2023-02-26
+
 * use "Publish or Perish" (https://harzing.com/resources/publish-or-perish)
 * searched for (max. results 1000)
   * Title words: "mvvm", Source: "GoogleScholar"
