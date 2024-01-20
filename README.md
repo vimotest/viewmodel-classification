@@ -4,6 +4,18 @@ This repository contains an automatism to simplity the initial classification of
 
 ## Grabbing Google Results (manually)
 
+To grab google results, we retrieved systematically website URLs from Google.
+We use the Chrome browser to search for relevant keywords, and then extract the found URLs to txt-files.
+
+Those txt-files are then used as an input for the program `MultiVocalLiteratureMain.kt` (started with argument "chatgpt") to compute URL chunks of 5.
+Those chunks are then used as input for ChatGPT with the plugin "WebPilot" to let it automatically classify for our literature search.
+The results are then manually pasted in the automatically created files "output/chatgpt/chatgpt_scan_<chunknumber>.md".
+
+Afterward, the program `ChatGptScanParser.kt` is used for creating a file "chatgpt_scans.csv" which contains the results of the initial classification by ChatGPT.
+We then use the program `WebsiteStepByStepCheck.kt` to assist in migrating the initial accepted (Category `B` or `C`) websites to "mps-literature-review".
+
+### Initial 2023-02-07
+
 * change Google settings to show 100 results per page
   * https://www.google.com/preferences
 * change location to United States
