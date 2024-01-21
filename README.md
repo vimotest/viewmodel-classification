@@ -37,6 +37,14 @@ We then use the program `WebsiteStepByStepCheck.kt` to assist in migrating the i
   * click "Saved URLs"
   * click "Copy List" and paste into txt-file
 
+## Meta-Check ChatGPT Scan Results
+
+Sometimes ChatGPT was not sure what to classify and wrote something about its decision. We searched for those decisions systematically.
+We re-checked the chatgpt scans classified as `A` by systematically searching all analysis texts for:
+* "variation"
+* "but" OR "however"
+* "considered" AND ("deviation" OR "extension")
+
 ## Grabbing Paper Resources
 
 To grab paper resources, we retrieved systematically scholar entries from GoogleScholar and SemanticScholar.
