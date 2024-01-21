@@ -20,5 +20,5 @@ private fun String.getUnsureLines() = lines().filterNot { it.contains("overview 
 .filter {
     it.contains("not part of the standard definition") ||
     it.contains("consider[^\\.]+(deviation|extension)".toRegex()) ||
-    it.contains("additional[^\\.]+(challenges|drawbacks|benefits|advantages|insights)".toRegex())
+    it.contains("additional[^\\.]+(challenge|drawback|benefit|advantage|disadvantage|insight|tradeoff)".toRegex())
 }

@@ -40,9 +40,7 @@ We then use the program `WebsiteStepByStepCheck.kt` to assist in migrating the i
 ## Meta-Check ChatGPT Scan Results
 
 Sometimes ChatGPT was not sure what to classify and wrote something about its decision. We searched for those decisions systematically.
-We re-checked the chatgpt scans classified as `A` by systematically searching all analysis texts for:
-* "but" OR "however"
-* "considered" AND ("deviation" OR "extension")
+We re-checked the chatgpt scans not classified as `B` or `C` by systematically searching all analysis texts for indications, see `ChatGptUnsureChecker.kt`.
 
 ## Grabbing Paper Resources
 
