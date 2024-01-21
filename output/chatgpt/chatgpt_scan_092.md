@@ -4,7 +4,7 @@ https://agdl.dev/posts/mvvm-csharp
 https://www.reddit.com/r/dotnet/comments/12my5qo/opinions_on_mvvm_model_and_separation_of_concerns/
 https://qiita.com/caique_almeida/items/849bcaac15d5455c2914
 
-You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

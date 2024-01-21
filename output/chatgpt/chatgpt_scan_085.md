@@ -4,7 +4,7 @@ https://www.geeksforgeeks.org/mvvm-model-view-viewmodel-architecture-pattern-in-
 https://medium.com/swlh/ios-design-patterns-a9bd07818129
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/february/mvvm-ioc-containers-and-mvvm
 
-You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

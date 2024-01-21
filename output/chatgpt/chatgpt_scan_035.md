@@ -6,7 +6,7 @@ https://www.informit.com/articles/article.aspx?p=2990403&seqNum=2
 
 
 Person:
-- You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+- You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

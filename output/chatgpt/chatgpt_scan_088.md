@@ -2,7 +2,7 @@ https://www.codeproject.com/Articles/186705/A-Totally-Simple-Introduction-to-the
 https://msdn.microsoft.com/en-us/magazine/dd419663.aspx
 https://learn.microsoft.com/de-de/archive/blogs/msgulfcommunity/understanding-the-basics-of-mvvm-design-pattern
 
-You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

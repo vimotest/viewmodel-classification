@@ -5,7 +5,7 @@ https://medium.com/@maheshmaddi92/6-3-model-view-viewmodel-mvvm-45d101e25fe3
 https://dev.to/mochafreddo/mastering-mvvm-a-comprehensive-guide-to-the-model-view-viewmodel-architecture-221g
 
 
-You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

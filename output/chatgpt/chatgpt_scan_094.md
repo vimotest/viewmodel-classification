@@ -4,7 +4,7 @@ https://www.dhiwise.com/post/architecting-flutter-apps-using-the-mvvm-pattern
 https://symphony-solutions.com/insights/implementing-mvvm-pattern
 https://reintech.io/blog/implementing-mvvm-architecture-kotlin
 
-You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

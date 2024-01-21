@@ -4,7 +4,7 @@ https://learn.microsoft.com/en-us/archive/msdn-magazine/2014/april/mvvm-multithr
 https://www.codeproject.com/Articles/66585/Comparison-of-Architecture-presentation-patterns-M
 https://www.azoft.com/blog/mvvm-android-data-binding/
 
-You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

@@ -4,7 +4,7 @@ https://www.codingninjas.com/studio/library/android-mvvm-model-view-viewmodel-ar
 https://softwareengineering.stackexchange.com/questions/445945/data-getter-inside-model-or-viewmodel-in-mvvm
 https://www.syncfusion.com/blogs/post/mvvm-pattern-blazor-state-management.aspx
 
-You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

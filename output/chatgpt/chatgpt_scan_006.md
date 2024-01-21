@@ -6,7 +6,7 @@ https://www.semanticscholar.org/paper/9ba28c37401600df08dc0cce42c87ce18380e8f2
 
 
 Person:
-- You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+- You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

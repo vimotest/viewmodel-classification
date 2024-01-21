@@ -4,7 +4,7 @@ https://learn.microsoft.com/de-de/xamarin/xamarin-forms/enterprise-application-p
 https://www.c-sharpcorner.com/UploadFile/raj1979/simple-mvvm-pattern-in-wpf/
 https://platform.uno/blog/demystifying-mvvm-and-introducing-mvux-approach/
 
-You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

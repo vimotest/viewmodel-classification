@@ -4,7 +4,7 @@ https://careerpath-gs.com/model-view-viewmodel-mvvm/
 https://levelup.gitconnected.com/demystifying-web-development-architectural-patterns-mvc-vs-mvvm-ca79ee5df228
 https://blog.stackademic.com/understanding-mvc-mvvm-and-mvp-a-comprehensive-comparison-324fd6e3c730
 
-You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 

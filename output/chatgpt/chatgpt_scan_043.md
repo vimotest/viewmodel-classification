@@ -5,7 +5,7 @@ https://books.google.com/books?id=xLuXJQUfMH4C&pg=PA376&lpg=PA376&dq=viewmodel&s
 https://books.google.com/books?id=BtLpDwAAQBAJ&pg=PT10&lpg=PT10&dq=viewmodel&source=bl&ots=pAB557km97&sig=ACfU3U3HiLgcU9YHT230kZob1Ie5mSQ65g&hl=de&sa=X&ved=2ahUKEwjkp7_HmoT9AhWai_0HHVYRDf44ZBDoAXoFCNYBEAM
 
 Person:
-- You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
+- You shall be a scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
 
