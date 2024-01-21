@@ -7,7 +7,8 @@ data class ChatGptScan(
     val fileName: String,
     val websiteName: String,
     val websiteUrl: String,
-    val category: String)
+    val category: String,
+    val chatGptAnswer: String)
 
 fun parseGptScan(file: File): List<ChatGptScan> {
     val text = file.readText()
@@ -23,7 +24,7 @@ fun parseGptScan(file: File): List<ChatGptScan> {
         .map { it.trimSuffixOfPattern(" \\(.*\\)|:[\\w ]*") }
 
     return (1..urls.size)
-        .map { ChatGptScan(file.name, websiteNames[it-1], urls[it-1], categories[it-1]) }
+        .map { ChatGptScan(file.name, websiteNames[it-1], urls[it-1], categories[it-1], writtenWebPilotResults[it-1]) }
 }
 
 private fun String.takeUrlLines() = this.lines().takeWhile { it.startsWith("http") }
@@ -123,6 +124,15 @@ private fun String.trimSuffixOfPattern(regex: String): String {
 private fun String.countSubstring(substring: String) = this.split(substring).size - 1
 
 fun main() {
+    val scans = collectAndParseScans()
+
+    // print all scans as a simple csv table into output/chatgpt/chatgpt_scans.csv with the columns URL, Website, Category
+    val outputFile = File("output/chatgpt/chatgpt_scans.csv")
+    outputFile.writeText("URL;Name;Category\n" + scans.joinToString("\n") { "${it.websiteUrl};${it.websiteName};${it.category}" })
+    println("Wrote ${scans.size} scans into $outputFile")
+}
+
+internal fun collectAndParseScans(): MutableList<ChatGptScan> {
     val directory = File("output/chatgpt")
     val scans = mutableListOf<ChatGptScan>()
     directory.listFiles()!!.sorted().filter { it.name.endsWith(".md") }.forEach { file ->
@@ -133,9 +143,5 @@ fun main() {
         println("Checking ${file.name}")
         scans += parseGptScan(file)
     }
-
-    // print all scans as a simple csv table into output/chatgpt/chatgpt_scans.csv with the columns URL, Website, Category
-    val outputFile = File("output/chatgpt/chatgpt_scans.csv")
-    outputFile.writeText("URL;Name;Category\n" + scans.joinToString("\n") { "${it.websiteUrl};${it.websiteName};${it.category}" })
-    println("Wrote ${scans.size} scans into $outputFile")
+    return scans
 }

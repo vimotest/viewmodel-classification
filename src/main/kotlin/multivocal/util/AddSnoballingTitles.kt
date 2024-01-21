@@ -1,4 +1,4 @@
-package multivocal
+package multivocal.util
 
 import java.io.File
 import java.net.HttpURLConnection

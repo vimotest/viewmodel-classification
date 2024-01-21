@@ -1,4 +1,4 @@
-package multivocal
+package multivocal.mps
 
 import papers.skip
 import java.io.File

@@ -1,5 +1,6 @@
 package multivocal
 
+import multivocal.chatgpt.checkNextUrlChunkWithChatGPT
 import java.io.File
 
 data class Website(val url: String, val name: String)
