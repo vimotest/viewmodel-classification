@@ -218,6 +218,8 @@ Proceeding to the next website.
 - **View/ViewModel Cardinality**: Not explicitly discussed, but the pattern suggests a standard one-to-many relationship
 - **Reason**: This blog post provides a detailed explanation of applying the MVVM pattern for state management in Blazor applications. It adheres to the standard definition of MVVM, with a specific focus on Blazor, thus marked with a '*'. The article introduces benefits related to code organization and unit testing, which are specific to the application of MVVM in Blazor for state management. These benefits extend the standard definition by highlighting the advantages of using MVVM in a specific technology context.
 
+---
+
 ### Overview Table
 
 | Website-Name | Category | Type | Deviation/Extension Aspects | New Benefits | New Drawbacks | Technology | View/ViewModel Cardinality | Reason |

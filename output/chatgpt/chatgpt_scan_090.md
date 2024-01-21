@@ -221,6 +221,8 @@ Proceeding to the next website.
 - **View/ViewModel Cardinality**: Not specifically mentioned
 - **Reason**: This article introduces MVUX as a paradigm shift from MVVM, focusing on immutable models and unidirectional data flow, which are significant deviations from the standard MVVM pattern. It also outlines new benefits of using MVUX, such as reduced boilerplate code and improved data consistency, marking it as both a deviation (B) and introduction of new benefits/drawbacks (C) within the context of the Uno Platform, hence the B/C* categorization.
 
+---
+
 Now, let's generate the overview table based on the information gathered from each website:
 
 | Website-Name       | Category | Type       | Deviation/Extension Aspects                                                                 | New Benefits                                                                                   | New Drawbacks | Technology      | View/ViewModel Cardinality | Reason                                                                                                                                                                                                                                    |

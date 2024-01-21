@@ -237,6 +237,8 @@ Proceeding to the next website.
 - **View/ViewModel Cardinality:** Not specifically discussed.
 - **Reason:** The article provides a detailed overview of MVVM, emphasizing its benefits in Android app development and comparing it with other architectural patterns. It discusses the practical application of MVVM, including the use of DataBinding and RxJava, and highlights the pattern's advantages in improving the development process, code maintainability, and team collaboration.
 
+---
+
 ### Overview Table
 
 | Website-Name        | Category | Type                | Deviation/Extension Aspects | New Benefits                                                                 | New Drawbacks                                                              | Technology              | View/ViewModel Cardinality | Reason                                                                                      |
