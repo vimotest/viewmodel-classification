@@ -1,3 +1,10 @@
+https://www.ramotion.com/blog/what-is-mvvm/#:~:text=Model%2DView%2DViewModel%20(MVVM,easier%20to%20build%20and%20test.
+https://learn.microsoft.com/de-de/dotnet/architecture/maui/mvvm
+https://developer-campus.de/tracks/architecture/mikroarchitektur-geschaeftsprozess-komponenten/benutzeroberflaechen/mvvm/
+https://medium.com/@maheshmaddi92/6-3-model-view-viewmodel-mvvm-45d101e25fe3
+https://dev.to/mochafreddo/mastering-mvvm-a-comprehensive-guide-to-the-model-view-viewmodel-architecture-221g
+
+
 You shall be an scientific expert in GUI architectural patterns. The target audience are software engineering researchers in context of software architecture.
 
 For my SLR, I want to find out if websites dealing with the MVVM pattern provide the standard definition or a deviation to it.
@@ -114,14 +121,87 @@ General Guidelines:
 
 Also determine the type of the website, e.g., personal blog article, company blog article, tutorial, forum, etc.
 
-In one joint answer, Loop over following 5 website URLs and extract Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason (why you chose the category).
-Notice information concisely with bullet-points (not in the final overview table directly!).
+Loop over following 5 website URLs and extract Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason (why you chose the category). Notice information concisely with bullet-points.
+Sequentially process each URL, without stopping the answer in-between.
 
-$URLS$
+https://www.ramotion.com/blog/what-is-mvvm/#:~:text=Model%2DView%2DViewModel%20(MVVM,easier%20to%20build%20and%20test.
+https://learn.microsoft.com/de-de/dotnet/architecture/maui/mvvm
+https://developer-campus.de/tracks/architecture/mikroarchitektur-geschaeftsprozess-komponenten/benutzeroberflaechen/mvvm/
+https://medium.com/@maheshmaddi92/6-3-model-view-viewmodel-mvvm-45d101e25fe3
+https://dev.to/mochafreddo/mastering-mvvm-a-comprehensive-guide-to-the-model-view-viewmodel-architecture-221g
 
-After writing the bullet points for each website, generate an overview table with columns: Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason
-So to summarize:
-- you visit a website
-- you write the bullet points
-- you proceed with the next website
-- if you processed all websites, you generate the overview table
+
+ChatGPT:
+- Used WebPilot
+
+### Website: Ramotion Blog
+- **Category**: A
+- **Type**: Company blog article
+- **Deviation/Extension Aspects**: None identified
+- **New Benefits**: None beyond standard
+- **New Drawbacks**: None beyond standard
+- **Technology**: Not specific; general discussion
+- **View/ViewModel Cardinality**: Not discussed
+- **Reason**: The article provides a general overview of the MVVM pattern, sticking closely to the standard definition without introducing deviations or new benefits/drawbacks. It emphasizes the separation of concerns, ease of testing, and maintainability as key advantages, aligning with the standard benefits of MVVM. The lack of discussion on specific technologies, cardinalities, or deviations from the standard model places it squarely in category A.
+
+Now, let's proceed to the next URL for analysis.
+
+- Used WebPilot
+
+### Website: Microsoft Docs (.NET MAUI MVVM)
+- **Category**: A*
+- **Type**: Official documentation
+- **Deviation/Extension Aspects**: None identified
+- **New Benefits**: None beyond standard
+- **New Drawbacks**: None beyond standard
+- **Technology**: .NET MAUI
+- **View/ViewModel Cardinality**: 1:n relationship between ViewModel and model classes mentioned
+- **Reason**: This documentation provides a detailed explanation of the MVVM pattern within the context of .NET MAUI, adhering closely to the standard definition of MVVM. It emphasizes the separation of concerns, the role of ViewModel as a mediator, and the benefits of using MVVM for testing and UI design. The mention of .NET MAUI as the technology context qualifies it for a technology-specific notation (*), but the core explanation remains faithful to the standard MVVM definition, placing it in category A*.
+
+Proceeding to the next URL for analysis.
+
+- Used WebPilot
+
+### Website: Developer Campus
+- **Category**: A/B
+- **Type**: Educational content
+- **Deviation/Extension Aspects**:
+    - Emphasis on ViewModel not being designed for reuse across different Views.
+    - Detailed explanation of ViewModel responsibilities, including command logic execution and data loading.
+- **New Benefits**: None identified beyond standard.
+- **New Drawbacks**: None identified beyond standard.
+- **Technology**: Not specific; general discussion with references to Schleupen.CS and services.
+- **View/ViewModel Cardinality**: Not explicitly discussed, but implies a one-to-one relationship in the context of specific views.
+- **Reason**: The content adheres to the standard definition of MVVM but introduces a nuanced perspective on ViewModel design, suggesting it is not optimized for reuse in different views, which slightly deviates from the standard definition where ViewModel reuse is a common practice. This deviation places the website in category A/B, as it provides standard definitions with slight deviations in the interpretation of ViewModel reuse and responsibilities.
+
+Moving on to the next URL for analysis.
+
+- Used WebPilot
+
+### Website: Medium (Article by Maheshmaddi)
+- **Category**: A
+- **Type**: Personal blog article
+- **Deviation/Extension Aspects**: None identified
+- **New Benefits**: None beyond standard
+- **New Drawbacks**: None beyond standard
+- **Technology**: JavaFX
+- **View/ViewModel Cardinality**: Not explicitly discussed, but the example implies a close relationship between the view and ViewModel.
+- **Reason**: The article provides a straightforward explanation of the MVVM pattern, focusing on data binding and the separation of concerns, which aligns with the standard definition. The use of JavaFX for the example adds a technology-specific context, but the core explanation and example adhere closely to the standard MVVM principles, placing it in category A.
+
+Let's move on to the final URL for analysis.
+
+- Used WebPilot
+
+### Website: DEV Community (Article by Geoffrey Kim)
+- **Category**: A/C
+- **Type**: Community blog article
+- **Deviation/Extension Aspects**: None identified
+- **New Benefits**:
+    - Enhanced testability due to separation of components.
+    - Efficient code reuse and parallel development facilitated by decoupling of Model, View, and ViewModel.
+- **New Drawbacks**: Mentioned that MVVM might be overkill for simple applications with minimal UI complexity.
+- **Technology**: Flutter
+- **View/ViewModel Cardinality**: Not explicitly discussed, but the example implies a close relationship.
+- **Reason**: This comprehensive guide to MVVM adheres to the standard definition while also elaborating on new benefits and potential drawbacks not explicitly mentioned in the standard definition provided. The inclusion of a Flutter example demonstrates the application of MVVM in a specific technology context, but the core principles discussed are technology-agnostic. The new benefits and potential drawbacks identified place this article in categories A and C, as it extends the standard definition with practical insights on the pattern's applicability and efficiency.
+
+This concludes the analysis of the provided URLs. Each website has been evaluated based on the standard definition of MVVM, deviations or extensions to this definition, and the context in which MVVM is discussed.
