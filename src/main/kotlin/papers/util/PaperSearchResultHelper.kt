@@ -7,6 +7,7 @@ internal fun String.getTitleLowerCaseLogical() = this.getCsvCell(2).lowercase()
 internal fun String.getYear() = this.getCsvCell(3)
 internal fun String.getType() = this.getCsvCell(10)
 internal fun String.getDoi() = this.getCsvCell(11)
+internal fun String.getAbstract() = this.getCsvCell(23, false)
 internal fun String.getPaperUrl(): String {
     var url = getCsvCell(6, false)
     if (url.isEmpty()) {
