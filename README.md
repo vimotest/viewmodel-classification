@@ -78,6 +78,17 @@ There the attribution and in-depth analysis of the scholar entries takes place.
   * Title words: "viewmodel", Source: "SemanticScholar"
 * save each results as CSV
 
+### By Keywords
+
+Search for keywords "mvvm" and "viewmodel" if not included in title. (title is found by Google Scholar)
+
+* dl.acm.org
+  * [[Keywords: mvvm] OR [Keywords: viewmodel]] AND NOT [Title: mvvm] AND NOT [Title: viewmodel]
+  * https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AllField=Keyword%3A%28mvvm+OR+viewmodel%29+AND+Title%3A%28-mvvm+AND+-viewmodel%29
+* ieeexplore.ieee.org
+  * ("Author Keywords":mvvm OR "Author Keywords":viewmodel) NOT ("Publication Title":mvvm OR "Publication Title":viewmodel)
+  * https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22Author%20Keywords%22:mvvm%20OR%20%22Author%20Keywords%22:viewmodel)%20NOT%20(%22Publication%20Title%22:mvvm%20OR%20%22Publication%20Title%22:viewmodel)
+
 
 ## ViewModel Standard Definition
 
