@@ -1,5 +1,6 @@
 package papers
 
+import papers.util.extractBibTex
 import java.io.File
 
 // each CSV file has the columns: Cites,Authors,Title,Year,Source,Publisher,ArticleURL,CitesURL,GSRank,QueryDate,Type,DOI,ISSN,CitationURL,Volume,Issue,StartPage,EndPage,ECC,CitesPerYear,CitesPerAuthor,AuthorCount,Age,Abstract,FullTextURL,RelatedURL
@@ -7,14 +8,14 @@ import java.io.File
 
 fun main() {
     val directoryOfCsvFiles = File("searches/raw/")
-    val csvFiles = directoryOfCsvFiles.listFiles { _, name -> name.endsWith(".csv") }
+    val csvFiles = directoryOfCsvFiles.listFiles { _, name -> name.endsWith(".csv") }!!.toList().sortedBy { it.name }
     val joinedFile = File("output/joined.csv")
     joinedFile.delete()
     joinedFile.parentFile.mkdir()
 
     val mapOfPapersByTitle = mutableMapOf<String, String>()
 
-    csvFiles?.forEach { csvFile ->
+    csvFiles.forEach { csvFile ->
         csvFile.readLines().skip(1)
             .filter { it.includeReference() }
             .forEach { line ->
@@ -35,14 +36,22 @@ fun main() {
         stringBuilder.append("\n")
     }
 
+    extractBibTex("searches/raw/").forEach { bibTexInfo ->
+        if (!stringBuilder.contains(bibTexInfo.doi)) {
+            // stringBuilder.append(bibTexInfo.toCsvLine())
+            // stringBuilder.append("\n")
+            println("Found additional entry: $bibTexInfo")
+        }
+    }
+
     joinedFile.writeText(stringBuilder.toString())
     println("Successfully wrote ${mapOfPapersByTitle.size} papers to file: ${joinedFile.absolutePath}")
 }
 
 private fun String.includeReference() =
-    !titleContainsChineseOrCoreanOrJapaneseOrRussianCharacters(this) && titleReallyContainsRelevantWord(this)
+    !titleContainsChineseOrCoreanOrJapaneseOrRussianCharacters(this) && lineReallyContainsRelevantWord(this)
 private fun titleContainsChineseOrCoreanOrJapaneseOrRussianCharacters(line: String) = line.getTitleLowerCaseLogical().any { it in '\u4e00'..'\u9fa5' || it in '\uac00'..'\ud7a3' || it in '\u3040'..'\u30ff' || it in '\u0400'..'\u04ff' }
-private fun titleReallyContainsRelevantWord(line: String) = line.getTitle().lowercase().containsAnyOf("viewmodel", "view-model", "view model", "mvvm", "m-v-vm", "m-v-v-m", "model-view")
+private fun lineReallyContainsRelevantWord(line: String) = line.getTitle().lowercase().containsAnyOf("viewmodel", "view-model", "view model", "mvvm", "m-v-vm", "m-v-v-m", "model-view")
 private fun String.containsAnyOf(vararg words: String) = words.any { this.contains(it) }
 
 
