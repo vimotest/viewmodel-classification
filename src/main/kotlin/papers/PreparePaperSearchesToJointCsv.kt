@@ -46,7 +46,29 @@ fun main() {
 
     joinedFile.writeText(stringBuilder.toString())
     println("Successfully wrote ${mapOfPapersByTitle.size} papers to file: ${joinedFile.absolutePath}")
+
+    println("\n\n")
+    writeRelvantPapersCsv(stringBuilder.toString())
 }
+
+private fun writeRelvantPapersCsv(joinedCsv: String) {
+    println("Now write relevantPapers.csv based on joined.csv and manually_excluded.txt")
+    val manuallyExcludedFile = File("searches/manuallyExcluded.txt")
+
+    val manuallyExclusionCriteria = manuallyExcludedFile.readLines()
+        .map { it.pickRelevantExclusionCriteria() }
+        .toSet()
+
+    val relevantLines = joinedCsv.lines().filterNot { it.isManuallyExcluded(manuallyExclusionCriteria) }
+    val relevantPapersCsv = File("searches/relevantPapers.csv")
+    relevantPapersCsv.writeText(relevantLines.joinToString("\r\n"))
+
+    println("Successfully wrote ${relevantLines.size-1} filtered papers to file: ${relevantPapersCsv.absolutePath}")
+}
+
+private fun String.isManuallyExcluded(manuallyExcluded: Set<String>) = manuallyExcluded.contains(this.pickRelevantExclusionCriteria())
+
+private fun String.pickRelevantExclusionCriteria() = this.getAuthor() + "," + this.getTitle() + "," + this.getYear()
 
 private fun String.includeReference() =
     !titleContainsChineseOrCoreanOrJapaneseOrRussianCharacters(this) && lineReallyContainsRelevantWord(this)

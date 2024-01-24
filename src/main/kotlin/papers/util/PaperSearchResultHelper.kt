@@ -4,6 +4,7 @@ internal fun String.getCiticationCount() = this.getCsvCell(0).toInt()
 internal fun String.getAuthor() = this.getCsvCell(1, false)
 internal fun String.getTitle() = this.getCsvCell(2, false)
 internal fun String.getTitleLowerCaseLogical() = this.getCsvCell(2).lowercase()
+internal fun String.getYear() = this.getCsvCell(3)
 internal fun String.getType() = this.getCsvCell(10)
 internal fun String.getDoi() = this.getCsvCell(11)
 internal fun String.getPaperUrl(): String {
