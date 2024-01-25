@@ -38,9 +38,9 @@ private fun String.parseBibTexInfo(publisher: String) = BibTexInfo(
 
 private fun String.readProperty(propertyName: String): String {
     val simplified = this.replace(" = ", "=")
-    val searchKey = "$propertyName={"
+    val searchKey = " $propertyName={"
 
-    val propertyStart = simplified.indexOf(searchKey)
+    val propertyStart = simplified.replace("\n", " ").indexOf(searchKey)
     if (propertyStart == -1) {
         return ""
     }
