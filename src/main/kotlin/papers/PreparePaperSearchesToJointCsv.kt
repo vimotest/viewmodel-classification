@@ -37,8 +37,9 @@ fun main() {
         stringBuilder.append("\n")
     }
 
+    val entriesLowerCaseSoFar = stringBuilder.toString().lowercase()
     extractBibTex("searches/raw/").forEach { bibTexInfo ->
-        if (!stringBuilder.contains(bibTexInfo.doi)) {
+        if (!entriesLowerCaseSoFar.contains(bibTexInfo.title.lowercase()) && !entriesLowerCaseSoFar.contains(bibTexInfo.doi)) {
             stringBuilder.append(bibTexInfo.toCsvLine())
         }
     }
