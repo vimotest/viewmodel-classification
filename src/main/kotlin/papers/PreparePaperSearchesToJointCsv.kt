@@ -1,5 +1,6 @@
 package papers
 
+import papers.util.BibTexInfo
 import papers.util.extractBibTex
 import java.io.File
 
@@ -38,9 +39,7 @@ fun main() {
 
     extractBibTex("searches/raw/").forEach { bibTexInfo ->
         if (!stringBuilder.contains(bibTexInfo.doi)) {
-            // stringBuilder.append(bibTexInfo.toCsvLine())
-            // stringBuilder.append("\n")
-            println("Found additional entry: $bibTexInfo")
+            stringBuilder.append(bibTexInfo.toCsvLine())
         }
     }
 
@@ -50,6 +49,8 @@ fun main() {
     println("\n\n")
     writeRelvantPapersCsv(stringBuilder.toString())
 }
+
+private fun BibTexInfo.toCsvLine() = "0,\"$authors\",\"$title\",$year,,\"$publisher\",,,,,,\"$doi\",,,,,,,,,,,,,,\n"
 
 private fun writeRelvantPapersCsv(joinedCsv: String) {
     println("Now write relevantPapers.csv based on joined.csv and manually_excluded.txt")
@@ -77,7 +78,6 @@ private fun String.reallyContainsRelevantWord() = this.lowercase().containsAnyOf
 private fun String.containsAnyOf(vararg words: String) = words.any { this.contains(it) }
 
 private fun String.isRelevant() =
-    this.getTitle().reallyContainsRelevantWord()/* ||
-    this.getAbstract().reallyContainsRelevantWord()*/
+    this.getTitle().reallyContainsRelevantWord()
 
 private fun Char.isLetterOrNumber() = this.isLetter() || this.isDigit()
