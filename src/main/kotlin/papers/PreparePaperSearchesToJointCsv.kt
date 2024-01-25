@@ -68,16 +68,16 @@ private fun writeRelvantPapersCsv(joinedCsv: String) {
 
 private fun String.isManuallyExcluded(manuallyExcluded: Set<String>) = manuallyExcluded.contains(this.pickRelevantExclusionCriteria())
 
-private fun String.pickRelevantExclusionCriteria() = this.getAuthor() + "," + this.getTitle() + "," + this.getYear()
+private fun String.pickRelevantExclusionCriteria() = this.getAuthor().replace("[^a-zA-Z]".toRegex(), "?") + "," + this.getTitle() + "," + this.getYear()
 
 private fun String.includeReference() =
     !titleContainsChineseOrCoreanOrJapaneseOrRussianCharacters(this) && isRelevant()
 private fun titleContainsChineseOrCoreanOrJapaneseOrRussianCharacters(line: String) = line.getTitleLowerCaseLogical().any { it in '\u4e00'..'\u9fa5' || it in '\uac00'..'\ud7a3' || it in '\u3040'..'\u30ff' || it in '\u0400'..'\u04ff' }
-private fun String.reallyContainsRelevantWord() = this.lowercase().containsAnyOf("viewmodel", "view-model", " view model", "mvvm", "m-v-vm", "m-v-v-m", "model-view", "model-view-view model", "model view view model")
+private fun String.reallyContainsRelevantWord() = this.lowercase().containsAnyOf("viewmodel", "view-model", "mvvm", "m-v-vm", "m-v-v-m", "model-view", "model-view-view model", "model view view model")
 private fun String.containsAnyOf(vararg words: String) = words.any { this.contains(it) }
 
 private fun String.isRelevant() =
-    this.getTitle().reallyContainsRelevantWord()/* ||
-    this.getAbstract().reallyContainsRelevantWord()*/
+    this.getTitle().reallyContainsRelevantWord() ||
+    this.getAbstract().reallyContainsRelevantWord()
 
 private fun Char.isLetterOrNumber() = this.isLetter() || this.isDigit()
