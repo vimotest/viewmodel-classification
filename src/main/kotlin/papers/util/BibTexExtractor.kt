@@ -44,9 +44,24 @@ private fun String.readProperty(propertyName: String): String {
     if (propertyStart == -1) {
         return ""
     }
-    val propertyEnd = simplified.indexOf("}", propertyStart)
+    val propertyEnd = simplified.findMatchingCurlyBracket(propertyStart + searchKey.length)
     if (propertyEnd == -1) {
         throw IllegalArgumentException("Could not find end of property: $propertyName in string: $simplified")
     }
     return simplified.substring(propertyStart + searchKey.length, propertyEnd)
+}
+
+private fun String.findMatchingCurlyBracket(indexStart: Int): Int {
+    var bracketCount = 1
+    for (i in indexStart until this.length) {
+        if (this[i] == '{') {
+            bracketCount++
+        } else if (this[i] == '}') {
+            bracketCount--
+        }
+        if (bracketCount == 0) {
+            return i
+        }
+    }
+    throw IllegalArgumentException("Could not find matching curly bracket for string: $this")
 }
