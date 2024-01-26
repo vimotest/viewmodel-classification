@@ -31,7 +31,9 @@ private fun getNextPaper(): Paper? {
     }
     return result
 }
-private fun paperIsAlreadyUsed(paper: Paper) = usedUrls.contains(paper.url)
+private fun paperIsAlreadyUsed(paper: Paper) =
+    usedUrls.contains(paper.url) ||
+    usedTitles.contains(paper.url) // some entries do not have a URL (they store the title as a fallback into .url), then we have to use the title
 
 private fun addPaperToClassificationFile(paper: Paper) {
     val file = File("site_initial_classification_papers.md")
@@ -41,12 +43,20 @@ private fun addPaperToClassificationFile(paper: Paper) {
 }
 
 private val usedUrls : Set<String> by lazy {
-    File("site_initial_classification_papers.md")
-        .readText()
-        .lines()
-        .filter { it.matches("\\|[^|]+\\|[^|]+\\|[^|]+\\|[^|]+\\|\\s*(REJECT|REVIEW|ACCEPT|STANDARD_ACCEPT|DUPLICATE)\\s*\\|[^|]+\\|".toRegex()) }
+    getUsedInitialClassificationLines()
         .map { it.split("|")[4].trim() }.toSet()
 }
+
+private val usedTitles : Set<String> by lazy {
+    getUsedInitialClassificationLines()
+        .map { it.split("|")[2].trim() }.toSet()
+}
+
+private fun getUsedInitialClassificationLines() = File("site_initial_classification_papers.md")
+    .readText()
+    .lines()
+    .filter { it.matches("\\|[^|]+\\|[^|]+\\|[^|]+\\|[^|]+\\|\\s*(REJECT|REVIEW|ACCEPT|STANDARD_ACCEPT|DUPLICATE)\\s*\\|[^|]+\\|".toRegex()) }
+
 
 private fun String.toUrl() = getPaperUrl()
 private fun String.toPaperName() = getTitle()
