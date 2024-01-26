@@ -17,6 +17,9 @@ internal fun String.getPaperUrl(): String {
         url = getCsvCell(11, false)
     }
     if (url.isEmpty()) {
+        url = getCsvCell(25, false)
+    }
+    if (url.isEmpty()) {
         url = getCsvCell(2, false)
     }
     return url
