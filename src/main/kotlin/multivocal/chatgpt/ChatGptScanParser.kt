@@ -34,6 +34,7 @@ private fun String.harmonize() = this
     .harmonizeLabels("Website-Name", "Category", "Overview Table")
     .replace("**Website**", "**Website-Name:**")
     .replace("### Website:", "**Website-Name:**")
+    .replace("- Used WebPilot\n\n###", "- Used WebPilot\n\n**Website-Name:**")
     .harmonizeMultiBullets()
 
 private fun String.harmonizeLabels(vararg labels: String): String {
