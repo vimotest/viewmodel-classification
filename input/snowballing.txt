@@ -78,3 +78,5 @@ https://msdn.microsoft.com/en-us/magazine/dd419663.aspx
 https://learn.microsoft.com/de-de/archive/blogs/msgulfcommunity/understanding-the-basics-of-mvvm-design-pattern
 https://learn.microsoft.com/de-de/archive/blogs/ivo_manolov/model-view-viewmodel-mvvm-applications-general-introduction
 https://msdn.microsoft.com/en-us/library/ff798384.aspx
+https://joelkingsleyr.com/2022/06/10/data-binding-techniques-in-MVVM-swift-uikit/
+https://fitzafful.medium.com/data-binding-in-MVVM-on-ios-714eb15e3913
