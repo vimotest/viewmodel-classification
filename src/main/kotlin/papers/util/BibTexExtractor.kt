@@ -48,8 +48,13 @@ private fun String.readProperty(propertyName: String): String {
     if (propertyEnd == -1) {
         throw IllegalArgumentException("Could not find end of property: $propertyName in string: $simplified")
     }
-    return simplified.substring(propertyStart + searchKey.length, propertyEnd)
+    return simplified.substring(propertyStart + searchKey.length, propertyEnd).replaceSpecialSymbols()
 }
+
+private fun String.replaceSpecialSymbols() = this
+    .replace("\\\"{a}", "ä")
+    .replace("\\\"{u}", "ü")
+    .replace("\\\"{o}", "ö")
 
 private fun String.findMatchingCurlyBracket(indexStart: Int): Int {
     var bracketCount = 1
