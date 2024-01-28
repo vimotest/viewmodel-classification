@@ -19,7 +19,7 @@ https://link.springer.com/chapter/10.1007/978-1-4302-3501-9_13;SpringerLink;D*
 https://medium.com/flutterworld/flutter-mvvm-architecture-f8bed2521958;Medium (FlutterWorld);A
 https://www.smf.de/pdf/Model-View-ViewModel_2011.pdf;SMF (PDF Document);A
 https://www.tutorialspoint.com/mvvm/mvvm_introduction.htm;TutorialsPoint;A
-https://ieeexplore.ieee.org/document/9249215;IEEE Xplore;D
+https://ieeexplore.ieee.org/document/9249215;IEEE Xplore;A/B
 https://github.com/topics/model-view-viewmodel;GitHub (model-view-viewmodel topic);D*
 https://www.c-sharpcorner.com/UploadFile/0b73e1/mvvm-model-view-viewmodel-introduction-part-1/;C# Corner;A*/B
 https://docs.avaloniaui.net/docs/getting-started/programming-with-avalonia/the-model-view-viewmodel-pattern-mvvm;Avalonia UI;A*
@@ -120,7 +120,7 @@ https://dev.to/vtsen/recommended-ways-to-create-viewmodel-or-androidviewmodel-5e
 https://docs.sencha.com/extjs/6.5.3/modern/Ext.app.ViewModel.html;Sencha Docs (Ext JS 6.5.3);B*
 https://pspdfkit.com/blog/2019/using-viewmodels-to-retain-state-on-android/;PSPDFKit;A*
 https://pypi.org/project/ViewModel/;PyPI Project ViewModel;D*
-https://www.mvvmcross.com/documentation/fundamentals/viewmodel-lifecycle;?;D
+https://www.mvvmcross.com/documentation/fundamentals/viewmodel-lifecycle;MvvmCross Documentation on ViewModel Lifecycle;B*
 https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html;CommonsWare: Android App Development Books - Applying ViewModel;B*
 https://viewmodel.org/;ViewModel.org;D*
 https://books.zkoss.org/zk-mvvm-book/8.0/viewmodel/index.html;books.zkoss.org;A*
@@ -189,7 +189,7 @@ https://www.quora.com/What-is-ViewModel-in-MVC;Quora;D
 http://dontcodetired.com/blog/post/Reducing-MVVM-Light-Viewmodel-Code-with-Fody-Property-Dependencies-and-Custom-Property-Changed-Methods;Don't Code Tired;B*
 https://blog.udemy.com/c-sharp-viewmodel/;Udemy Blog on C# ViewModel;A*/B
 https://codelabs.developers.google.com/;Google Codelabs;D*
-https://www.gamersdecide.com/articles/csgo-best-viewmodel-settings;GamersDecide.com;D
+https://www.gamersdecide.com/articles/csgo-best-viewmodel-settings;GamersDecide.com;B*
 https://creatronix.de/how-to-use-viewmodel/;Creatronix;A*
 https://startandroid.ru/ru/courses/architecture-components/27-course/architecture-components/527-urok-4-viewmodel.html;StartAndroid;A*
 https://www.damirscorner.com/blog/posts/20221021-AvoidAsyncCallsInViewmodelConstructors.html;Damir's Corner;A/B*
@@ -293,11 +293,11 @@ https://www.sencha.com/blog/how-and-why-of-extjs-mvvm-pattern/;Sencha.com;B*
 https://www.planetgeek.ch/2009/08/30/why-mvvm-model-view-view-model-is-not-enough/;planetgeek.ch;B
 https://decode.agency/article/mvvm-architecture-a-step-by-step-guide/;DECODE;A
 https://qualitycoding.org/refactor-mvvm-in-steps/;Quality Coding;D
-https://quickbirdstudios.com/blog/swiftui-architecture-redux-mvvm/;QuickBird Studios Blog;D
-https://glossarytech.com/terms/software_architecture/mvvm;GlossaryTech;D
-https://www.ais.com/why-you-should-use-mvvm-for-small-apps/;Applied Information Sciences;D
-https://fjorgedigital.com/insights/blog/whats-the-difference-between-mvc-and-mvvm/;fjorge;D
-https://blog.dashlane.com/android-ui-architecture-mvvm/;Dashlane Blog;D
+https://quickbirdstudios.com/blog/swiftui-architecture-redux-mvvm/;QuickBird Studios Blog;?
+https://glossarytech.com/terms/software_architecture/mvvm;GlossaryTech;?
+https://www.ais.com/why-you-should-use-mvvm-for-small-apps/;Applied Information Sciences;?
+https://fjorgedigital.com/insights/blog/whats-the-difference-between-mvc-and-mvvm/;fjorge;?
+https://blog.dashlane.com/android-ui-architecture-mvvm/;Dashlane Blog;?
 https://auth0.com/blog/compare-mvvm-and-viper-architectures/;auth0.com;A*
 https://www.markwithall.com/programming/2013/03/01/worlds-simplest-csharp-wpf-mvvm-example.html;markwithall.com;A*
 https://www.mrlacey.com/2017/04/3-reasons-to-use-mvvm-pattern.html;mrlacey.com;A/C
@@ -321,8 +321,8 @@ https://books.google.com/books?id=JaFlDQAAQBAJ&pg=PA13&lpg=PA13&dq=mvvm&source=b
 https://fatordequalidade.cfn.org.br/display?docid=M04j507&FilesData=learn_wpf_mvvm_xaml_c_and_the_mvvm_pattern.pdf;?;E
 https://wioe.vibesloungebar.it/814-shocks-teryx.html;?;E
 https://ebyf.trakehnerrennen.de/xaml-in-c.html;?;E
-https://inmediatum.com/blog/ingenieria/mvvm-que-es-y-como-funciona/;MVVM - Que es y como funciona;E
-https://deutschergrossspitz.de/devexpress-examples.html;?;E
+https://inmediatum.com/blog/ingenieria/mvvm-que-es-y-como-funciona/;?;?
+https://deutschergrossspitz.de/devexpress-examples.html;?;?
 https://skillbox.ru/media/code/mvvm_proektirovanie_prilozheniy_dlya_windows/;skillbox.ru;A*
 https://angular.io/guide/architecture;angular.io;D*
 https://ebikes-carwitz.de/uwp-xaml.html;?;E
@@ -339,7 +339,7 @@ http://jaddah.000webhostapp.com/wpvc/wpf-project-ideas.html;Jaddah 000webhostapp
 https://endloskarten.de/event-wpf.html;?;E
 https://covid.rioverde.go.gov.br/viewport?pdfid=Q96q241&FilesData=wpf-tutorial-for-dependency-properties.pdf;Covid Rioverde;D*
 https://flora-auf-rhodos.de/event-wpf.html;?;E
-https://velog.io/@doogie97/Clean-Architecture-MVVM-%EC%9D%B4%ED%95%B4%ED%95%9C-%EB%8C%80%EB%A1%9C%EB%A7%8C-%EC%A0%95%EB%A6%AC;velog.io/@doogie97/Clean-Architecture-MVVM;D
+https://velog.io/@doogie97/Clean-Architecture-MVVM-%EC%9D%B4%ED%95%B4%ED%95%9C-%EB%8C%80%EB%A1%9C%EB%A7%8C-%EC%A0%95%EB%A6%AC;velog.io/@doogie97/Clean-Architecture-MVVM;B*
 https://www.calculatorsoup.com/calculators/conversions/roman-numeral-converter.php;calculatorsoup.com/calculators/conversions/roman-numeral-converter.php;D
 https://www.frankysnotes.com/2023/02/reading-notes-541.html;frankysnotes.com/2023/02/reading-notes-541.html;D
 https://www.mvmt.com/mens-watches/shop-all-mens-watches/;mvmt.com/mens-watches/shop-all-mens-watches/;D
@@ -358,11 +358,11 @@ http://msdn.microsoft.com/en-us/magazine/dd419663.aspx;MSDN Magazine;A*
 http://blog.lab49.com/archives/2650;Lab49;D
 http://blogs.msdn.com/dancre/archive/2006/10/11/datamodel-view-viewmodel-pattern-series.aspx;Dan Crevier's Blog on MSDN;D
 http://mvvmfoundation.codeplex.com/;MVVM Foundation on CodePlex;D
-http://jmorrill.hjtcentral.com/Home/tabid/428/EntryId/432/MVVM-for-Tarded-Folks-Like-Me-or-MVVM-and-What-it-Means-to-Me.aspx;MVVM for Tarded Folks Like Me or MVVM and What it Means to Me;B*
-http://jmorrill.hjtcentral.com/Home/tabid/428/EntryId/433/Anatomy-of-an-MVVM-Application-or-How-Tards-Like-Me-Make-MVVM-Apps.aspx;Anatomy of an MVVM Application or How Tards Like Me Make MVVM Apps;A*
-http://reedcopsey.com/series/windows-forms-to-mvvm/;Better User and Developer Experiences From Windows Forms to WPF with MVVM;A*
-http://channel9.msdn.com/posts/kreekman/TechDays-2010-Understanding-the-Model-View-ViewModel-pattern/;TechDays 2010: Understanding the Model-View-ViewModel pattern;A*
-http://blog.raffaeu.com/archive/2009/06/03/wpf-and-vmmv-tutorial-01-introduction.aspx;WPF and MVVM tutorial 01 Introduction;A*
+http://jmorrill.hjtcentral.com/Home/tabid/428/EntryId/432/MVVM-for-Tarded-Folks-Like-Me-or-MVVM-and-What-it-Means-to-Me.aspx;?;?
+http://jmorrill.hjtcentral.com/Home/tabid/428/EntryId/433/Anatomy-of-an-MVVM-Application-or-How-Tards-Like-Me-Make-MVVM-Apps.aspx;?;?
+http://reedcopsey.com/series/windows-forms-to-mvvm/;?;?
+http://channel9.msdn.com/posts/kreekman/TechDays-2010-Understanding-the-Model-View-ViewModel-pattern/;?;?
+http://blog.raffaeu.com/archive/2009/06/03/wpf-and-vmmv-tutorial-01-introduction.aspx;?;?
 http://www.drwpf.com/blog/;DR. WPF;D*
 http://bea.stollnitz.com/blog/;Bea Stollnitz;D
 http://www.developmentalmadness.com/archive/2009/10/03/mvvm-with-prism-101-ndash-part-1-the-bootstrapper.aspx;Developmental Madness;D
@@ -384,17 +384,17 @@ http://www.teehanlax.com/blog/model-view-viewmodel-for-ios/;Teehan+Lax;A*
 http://www.teehanlax.com/blog/krush-ios-architecture/;Teehan+Lax;B*
 https://www.learnmvvm.com/;LearnMVVM;A*
 https://www.zkoss.org/wiki/ZK%20Developer's%20Reference/MVVM;ZK Developer's Reference;A*
-http://books.zkoss.org/zk-mvvm-book/9.5/;ZK MVVM Book 9.5;D
+http://books.zkoss.org/zk-mvvm-book/9.5/;ZK MVVM Book 9.5;?
 https://upday.github.io/blog/mvvm_rx_common_mistakes/;ZK MVVM Book 9.5 - Introduction of MVVM;A*
 http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explained.html;upday blog - MVVM + RxJava: Common Mistakes;B*
 https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad;The C#er : IMage - Model-View-ViewModel (MVVM) Explained;A
-http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx;MVVM Compared To MVC and MVP;A*
+http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx;?;?
 http://www.vogella.com/tutorials/AndroidArchitecture/article.html;Vogella.com;A/B
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405484(v=pandp.40);Microsoft Patterns & Practices;A/B
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405494(v=pandp.40);Microsoft Patterns & Practices;A/B
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/may/mvvm-commands-relaycommands-and-eventtocommand;MSDN Magazine;A/B
 https://old.kristofk.com/mvc-mvvm-viper/;?;E
-https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf;Microsoft MSDN Magazine;A*
+https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf;Microsoft MSDN Magazine;?
 https://www.codeproject.com/Articles/42830/Model-View-Controller-Model-View-Presenter-and-Mod;CodeProject;A/B*
 https://hackernoon.com/mvc-vs-mvvm-how-a-website-communicates-with-its-data-models-18553877bf7d;HackerNoon;A/B*
 https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52;Medium (by Bohdan Orlov);A/B*
