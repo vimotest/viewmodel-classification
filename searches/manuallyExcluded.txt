@@ -431,3 +431,4 @@ UNFOCUSED 0,"Islam, MD. Khairul and Boshra, Syeda Jannatul and Rahman, Mahfuzur 
 UNFOCUSED 0,"Lyu, Bu and Chen, Jianhui and Wang, Na","Live Teaching Platform for Human Resource Development and Management Based on Big Data Recommendation Technology",2020,,"IEEE",,,,,,"10.1109/ICSGEA51094.2020.00115",,,,,,,,,,,,,,
 UNFOCUSED 0,"Zhou, Kaiwen and Pei, Fengque and Zhang, Chenxi and Zheng, Liang","A Personnel Data Acquisition Model Research Based on Online/Offline Integration Mode",2021,,"IEEE",,,,,,"10.1109/ISRIMT53730.2021.9596887",,,,,,,,,,,,,,
 UNFOCUSED 0,"Dong, KuanShuo and Tu, SaiFei","Intelligent safe driving solution based on multi-source information fusion",2022,,"IEEE",,,,,,"10.1109/CISCE55963.2022.9851092",,,,,,,,,,,,,,
+UNFOCUSED 0,"Paul, Regin and Hamilton, Margaret and D'Souza, Daryl","A Cloud Model for Distributed Transport System Integration",2014,,"IEEE",,,,,,"10.1109/BDCloud.2014.91",,,,,,,,,,,,,,
