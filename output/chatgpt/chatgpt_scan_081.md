@@ -173,6 +173,9 @@ Based on the content extracted from the provided URL, here's the analysis:
 - The article provides a useful definition of MVVM, so it does not fall under category D.
 - The article does not fall under any undefined category, so it does not fall under category E.
 
+### Category:
+- A*
+
 ### Technology:
 
 - The article discusses MVVM in the context of WPF, so the technology is **WPF**.

@@ -143,6 +143,7 @@ ChatGPT:
 
 - **Type**: Book Overview
 - **Technology**: .NET MAUI*
+- **Category**: A*
 - **Key Points**:
     - Focuses on the MVVM design pattern within the context of .NET MAUI for cross-platform app development.
     - Emphasizes the separation of concerns, enabling loosely coupled UI and application logic.
@@ -160,6 +161,7 @@ Proceeding to the next website.
 
 - **Type**: Company Blog Article
 - **Technology**: General Discussion (MVC, MVP, MVVM mentioned)
+- **Category**: C
 - **Key Points**:
     - Discusses the importance of architectural patterns in mobile app development.
     - Highlights MVC, MVP, and MVVM as three widely used designs.
@@ -177,6 +179,7 @@ Proceeding to the next website.
 
 - **Type**: Tutorial
 - **Technology**: Android, Kotlin*
+- **Category**: A*
 - **Key Points**:
     - Provides a comprehensive guide on implementing MVVM architecture in Android apps using Kotlin.
     - Explains the separation of concerns principle, enhancing code maintainability and testability.
@@ -194,6 +197,7 @@ Proceeding to the next website.
 
 - **Type**: Company Blog Article
 - **Technology**: Android*
+- **Category**: A*
 - **Key Points**:
     - Provides an overview of MVVM architecture, its components, and benefits.
     - Emphasizes separation of concerns, testability, data binding, and scalability.
@@ -210,6 +214,7 @@ Proceeding to the next website.
 
 - **Type**: Blog Article
 - **Technology**: General Discussion
+- **Category**: A*
 - **Key Points**:
     - MVVM (Model-View-ViewModel) is a software architecture that separates business logic from the user interface.
     - It aims to simplify application development, increase readability, and enhance performance.

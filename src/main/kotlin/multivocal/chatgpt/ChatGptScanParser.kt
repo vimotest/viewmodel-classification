@@ -2,6 +2,7 @@ package multivocal.chatgpt
 
 import papers.skip
 import java.io.File
+import kotlin.system.exitProcess
 
 data class ChatGptScan(
     val fileName: String,
@@ -43,7 +44,13 @@ private fun String.harmonizeLabels(vararg labels: String): String {
         result = result
             .replace("**$label**:", "**$label:**")
             .replace("**$label** :", "**$label:**")
-            .replace("#### $label:\n-", "**$label:**")
+
+            // handle headline labels
+            .replace("# $label:", "# $label") // remove colons
+            .replace("#### $label\n-", "**$label:**")
+            .replace("### $label\n-", "**$label:**")
+            .replace("## $label\n-", "**$label:**")
+
             .replace("**$label:**(\n- [])+", "**$label:**")
     }
     return result
@@ -126,12 +133,45 @@ private fun String.trimSuffixOfPattern(regex: String): String {
 private fun String.countSubstring(substring: String) = this.split(substring).size - 1
 
 fun main() {
+    //checkInconsistentScans()
     val scans = collectAndParseScans()
 
     // print all scans as a simple csv table into output/chatgpt/chatgpt_scans.csv with the columns URL, Website, Category
     val outputFile = File("output/chatgpt/chatgpt_scans.csv")
     outputFile.writeText("URL;Name;Category\n" + scans.joinToString("\n") { "${it.websiteUrl};${it.websiteName};${it.category}" })
     println("Wrote ${scans.size} scans into $outputFile")
+}
+
+fun checkInconsistentScans() {
+
+    val directory = File("output/chatgpt")
+    directory.listFiles()!!.sorted().filter { it.name.endsWith(".md") }.forEach { file ->
+        val content = file.readText()
+        if (content.startsWith("SKIP")) {
+            println("Skipping ${file.name}")
+            return@forEach
+        }
+
+        val countUrlsAtBeginning = content.lines().take(5).count { it.startsWith("http") }
+
+        val categoryCount = content.harmonize()
+            .countCategorys()
+        if (categoryCount != countUrlsAtBeginning) {
+            println("ERROR: $file has $countUrlsAtBeginning URLs at the beginning but $categoryCount categories")
+        }
+        val usedWebPilotCount = content.countSubstring("Used WebPilot")
+        if (usedWebPilotCount != countUrlsAtBeginning) {
+            println("ERROR: $file has $usedWebPilotCount 'Used WebPilot' sections")
+        }
+    }
+
+
+    exitProcess(0)
+}
+
+private fun String.countCategorys(): Int {
+    // count occurences of ""**Category:**"
+    return this.countSubstring("**Category:**")
 }
 
 internal fun collectAndParseScans(): MutableList<ChatGptScan> {
