@@ -20,7 +20,7 @@ fun parseGptScan(file: File): List<ChatGptScan> {
     val urls = text.takeUrlLines().toTypedArray()
     val writtenWebPilotResults = partOfAnswers.divideWrittenWebPilotResults()
     val websiteNames = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Website-Name:**", "?") }
-    val categories = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Category:**", "D") }
+    val categories = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Category:**", "?") }
         .map { it.trimSuffixOfPattern(" \\(.*\\)|:[\\w ]*") }
 
     return (1..urls.size)
