@@ -141,7 +141,7 @@ Here's the analysis of the provided webpage regarding the MVVM pattern:
 - Jmorrill.hjtcentral.com
 
 ### Category
-- **B**: Deviation or Stricter Version of the Standard Definition
+- B: Deviation or Stricter Version of the Standard Definition
 
 ### Type of Website
 - Personal Blog Article

@@ -209,7 +209,7 @@ Used WebPilot
 
 
 
-**Website-Name:**  ProAndroidDev - MVI — a new member of the MV* band
+**Website-Name:**  ProAndroidDev - MVI - a new member of the MV* band
 
 **Type:**  Blog Article
 
@@ -309,6 +309,6 @@ Next, I will generate an overview table with the analyzed data from all the prov
 
 
 
-Here's the overview table based on the analysis of the provided URLs:Website-NameCategoryTypeDeviation/Extension AspectsNew BenefitsNew DrawbacksTechnologyView/ViewModel CardinalityReasonCodeProject - Model-View-ViewModel (MVVM) ExplainedA*Tutorial---WPFNot mentionedStandard definition in context of WPFQuora - Pros and cons of MVVM framework and how I can compare it with MVC?B/CForumDifferences between MVVM and MVC--Not mentionedNot mentionedInsights into MVVM vs. MVCProAndroidDev - MVI — a new member of the MV* bandDBlog Article---Not mentioned (focuses on MVI)Not mentionedFocus on MVI architectureTales from the Smart Client (John Gossman's Blog on MSDN)A*Personal Blog Article---WPFNot mentionedInsights into MVVM in context of WPFTechTarget - MVC vs. MVVM: 2 architecture patterns for modularityA/BArticleDifferences between MVVM and MVC--Not mentionedNot mentionedInsights into MVVM vs. MVC
+Here's the overview table based on the analysis of the provided URLs:Website-NameCategoryTypeDeviation/Extension AspectsNew BenefitsNew DrawbacksTechnologyView/ViewModel CardinalityReasonCodeProject - Model-View-ViewModel (MVVM) ExplainedA*Tutorial---WPFNot mentionedStandard definition in context of WPFQuora - Pros and cons of MVVM framework and how I can compare it with MVC?B/CForumDifferences between MVVM and MVC--Not mentionedNot mentionedInsights into MVVM vs. MVCProAndroidDev - MVI - a new member of the MV* bandDBlog Article---Not mentioned (focuses on MVI)Not mentionedFocus on MVI architectureTales from the Smart Client (John Gossman's Blog on MSDN)A*Personal Blog Article---WPFNot mentionedInsights into MVVM in context of WPFTechTarget - MVC vs. MVVM: 2 architecture patterns for modularityA/BArticleDifferences between MVVM and MVC--Not mentionedNot mentionedInsights into MVVM vs. MVC
 
 This table provides a concise summary of the analysis for each website URL provided. Each row represents a website, and the columns provide details on the category, type, deviation/extension aspects, new benefits, new drawbacks, technology, view/viewModel cardinality, and the reason for the categorization.

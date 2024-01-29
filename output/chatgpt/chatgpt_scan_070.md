@@ -154,7 +154,7 @@ Used WebPilot
 
 
 
-**Website-Name** : velog.io/@doogie97/Clean-Architecture-MVVM-이해한-대로만-정리
+**Website-Name** : velog.io/@doogie97/Clean-Architecture-MVVM
 
 **Content Analysis** :
 - The website appears to be discussing the Clean Architecture in combination with MVVM.

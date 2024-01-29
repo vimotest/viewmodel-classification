@@ -147,7 +147,7 @@ Used WebPilot
 
 
 
-**Website:**  [YouTube - ViewModel Explained - Android Architecture Component | Tutorial](https://www.youtube.com/watch?v=orH4K6qBzvE)
+**Website-Name:**  YouTube - ViewModel Explained - Android Architecture Component | Tutorial
 
 **Content Summary:**
 The video tutorial explains the ViewModel component in the context of Android development. The ViewModel class is designed to store and manage UI-related data in a way that is conscious of the lifecycle. This class allows data to survive configuration changes, such as screen rotations. The tutorial emphasizes that when discussing Activity or Fragment, they are referring to UI Controllers. A ViewModel class should be created for each UI Controller to separate data and different calculations from the UI Controller. In the UI Controller, there should only be necessary code for managing the UI, and everything else should be placed inside a ViewModel class.
@@ -186,7 +186,7 @@ Used WebPilot
 
 
 
-**Website:**  [Microsoft - MVVM pattern](https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm)
+**Website-Name:**  Microsoft - MVVM pattern
 
 **Content Summary:**
 The Microsoft documentation provides a comprehensive overview of the MVVM pattern, especially in the context of .NET MAUI applications. The MVVM pattern is described as a design pattern that separates the user interface (UI) from its underlying logic. The pattern consists of three main components: Model, View, and ViewModel. The documentation emphasizes the importance of data binding, which allows the automatic synchronization of the View and ViewModel. The ViewModel is described as a class that holds the presentation logic and is the intermediary between the View and the Model. The documentation also provides guidance on implementing the MVVM pattern in .NET MAUI applications, including the use of commands, data binding, and dependency injection.
@@ -227,7 +227,7 @@ Used WebPilot
 
 
 
-**Website:**  [GitHub - rickclephas/KMM-ViewModel](https://github.com/rickclephas/KMM-ViewModel)
+**Website-Name:**  GitHub - rickclephas/KMM-ViewModel
 
 **Content Summary:**
 The GitHub repository is for a library named "KMM-ViewModel" that allows sharing of Kotlin ViewModels with SwiftUI. The library aims to bridge Kotlin Multiplatform Mobile (KMM) with SwiftUI, enabling shared ViewModel logic between Android and iOS. The repository provides instructions on how to integrate the library into Kotlin and Swift projects, emphasizing the differences between standard Android ViewModel and KMMViewModel. It also provides guidance on handling child view models and recommends using the `@NativeCoroutinesState` annotation to turn StateFlows into properties in Swift.
@@ -269,7 +269,7 @@ Used WebPilot
 
 
 
-**Website:**  [Google Developer Training - Room, LiveData, ViewModel](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-4-saving-user-data/lesson-10-storing-data-with-room/10-1-c-room-livedata-viewmodel/10-1-c-room-livedata-viewmodel.html)
+**Website-Name:**  Google Developer Training - Room, LiveData, ViewModel
 
 **Content Summary:**
 The website is a part of Google's Android Developer Fundamentals course. It focuses on the integration of Room, LiveData, and ViewModel in Android app development. The content explains how to use Room to store data, LiveData to observe changes, and ViewModel to manage UI-related data. The ViewModel is described as a class designed to store and manage UI-related data, and it's lifecycle-aware. The ViewModel doesn't hold a reference to the View, ensuring that data survives configuration changes. The website provides code examples and exercises to help learners understand the concepts.

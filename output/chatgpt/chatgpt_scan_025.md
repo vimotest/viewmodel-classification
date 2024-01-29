@@ -1,5 +1,4 @@
 https://pypi.org/project/ViewModel/
-https://www.freecodecamp.org/news/  model-view-viewmodel-android-tutorial/
 https://www.mvvmcross.com/documentation/fundamentals/viewmodel-lifecycle
 https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html
 https://viewmodel.org/
@@ -122,10 +121,9 @@ General Guidelines:
 
 Also determine the type of the website, e.g., personal blog article, company blog article, tutorial, forum, etc.
 
-Loop over following 5 website URLs and extract Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason (why you chose the category). Notice information concisely with bullet-points.
+Loop over following 4 website URLs and extract Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason (why you chose the category). Notice information concisely with bullet-points.
 
 https://pypi.org/project/ViewModel/
-https://www.freecodecamp.org/news/  model-view-viewmodel-android-tutorial/
 https://www.mvvmcross.com/documentation/fundamentals/viewmodel-lifecycle
 https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html
 https://viewmodel.org/
@@ -140,34 +138,6 @@ ChatGPT:
 **Type**: Software Package Repository
 **Technology**: Python
 **Reason**: The page is about a Python package named 'ViewModel' but does not provide a definition of the MVVM pattern. It is more focused on the package's functionality and usage in Python.
-
-
-
-Used WebPilot
-
-
-
-
-**Website-Name** : freeCodeCamp.org
-- **Category** : B*
-- **Type** : Tutorial/Article
-- **Deviation/Extension Aspects** :
-- Discusses two distinct approaches to MVVM, emphasizing that there's no single way to implement MVVM.
-- Highlights the importance of not referencing the View from the ViewModel.
-- Describes the "Humble View, Control-Freak ViewModel" approach.
-- Mentions the possibility of mixing MVVM with other patterns like MVP.
-- **New Benefits** :
-- MVVM can be adapted based on project requirements.
-- Different MVVM approaches can offer distinct benefits and consequences.
-- **New Drawbacks** :
-- MVVM can present an awkward separation of concerns in certain situations.
-- Overemphasis on ViewModel reusability can lead to Views filled with logic, which can be challenging to test.
-- **Technology** : Android, LiveData, ViewModel from Architecture Components
-- **View/ViewModel Cardinality** : Discusses the possibility of many-to-one ratio (many Views to one ViewModel) but also mentions one-to-one scenarios.
-- **Reason** : The article provides a detailed discussion on MVVM, emphasizing that there's no single way to implement it. It also delves into the nuances of the pattern, discussing potential pitfalls and considerations, especially in the context of Android development.
-
-Let's proceed to the next website.
-
 
 
 

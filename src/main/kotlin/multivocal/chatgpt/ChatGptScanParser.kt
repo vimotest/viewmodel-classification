@@ -11,6 +11,11 @@ data class ChatGptScan(
     val category: String,
     val chatGptAnswer: String)
 
+val overrideWebsiteCategory by lazy {
+    val file = File("output/chatgpt/overrideWebsiteCategory.txt")
+    file.readLines().map { it.split("=") }.map { it[0] to it[1] }.toMap()
+}
+
 fun parseGptScan(file: File): List<ChatGptScan> {
     val text = file.readText()
     val partOfAnswers =
@@ -21,8 +26,9 @@ fun parseGptScan(file: File): List<ChatGptScan> {
     val urls = text.takeUrlLines().toTypedArray()
     val writtenWebPilotResults = partOfAnswers.divideWrittenWebPilotResults()
     val websiteNames = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Website-Name:**", "?") }
-    val categories = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Category:**", "?") }
+    val categories = writtenWebPilotResults.map { it.extractValueInLinesOfOrDefault("**Category:**", "E") }
         .map { it.trimSuffixOfPattern(" \\(.*\\)|:[\\w ]*") }
+        .mapIndexed { index, it -> overrideWebsiteCategory[urls[index]] ?: it }
 
     return (1..urls.size)
         .map { ChatGptScan(file.name, websiteNames[it-1], urls[it-1], categories[it-1], writtenWebPilotResults[it-1]) }
@@ -36,12 +42,20 @@ private fun String.harmonize() = this
     .replace("**Website**", "**Website-Name:**")
     .replace("### Website:", "**Website-Name:**")
     .replace("- Used WebPilot\n\n###", "- Used WebPilot\n\n**Website-Name:**")
+    .replace("**Website-Name:** Website Analysis:", "**Website-Name:**")
     .replaceSpecialCharacters()
     .harmonizeMultiBullets()
 
 private fun String.replaceSpecialCharacters() = this
     .replace("–", "-")
     .replace("’", "'")
+
+private fun String.replaceIf(pattern: String, replacement: String, predicate: (String) -> Boolean) =
+    if (predicate(this)) {
+        this.replace(pattern, replacement)
+    } else {
+        this
+    }
 
 private fun String.harmonizeLabels(vararg labels: String): String {
     var result = this

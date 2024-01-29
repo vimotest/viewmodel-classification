@@ -148,7 +148,7 @@ Let's move on to the next URL: "[https://books.google.com/books?id=USXsDwAAQBAJ&
 Used WebPilot
 
 
-
+**Website-Name:** Android Studio 4.0 Development Essentials - Java Edition
 
 It appears that the content from the Google Books link "Android Studio 4.0 Development Essentials - Java Edition" by Neil Smyth is restricted and cannot be displayed. This means I won't be able to extract detailed information about MVVM from this source.
 
@@ -162,7 +162,7 @@ Used WebPilot
 
 
 
-**Website:**  amitshekhar.me/blog/mvvm-architecture-android
+**Website-Name:**  amitshekhar.me/blog/mvvm-architecture-android
 
 **Content Analysis:**
 - The website discusses the MVVM architecture in the context of Android.
@@ -214,7 +214,7 @@ Used WebPilot
 
 
 
-**Website:**  blog.fossasia.org/handling-configuration-changes-by-implementing-viewmodels-in-the-open-event-android-app/
+**Website-Name:** blog.fossasia.org/handling-configuration-changes-by-implementing-viewmodels-in-the-open-event-android-app/
 
 **Content Analysis:**
 - The article discusses the implementation of a ViewModel in the Open Event Android app.
@@ -261,7 +261,7 @@ Used WebPilot
 
 
 
-**Website:**  tickets.summitov.com/webstore/shop/viewItems.aspx?CG=romance&C=romance
+**Website-Name:**  tickets.summitov.com/webstore/shop/viewItems.aspx?CG=romance&C=romance
 
 **Content Analysis:**
 - The website appears to be a ticketing platform for an event named "SUMMIT Romance Package for Two."

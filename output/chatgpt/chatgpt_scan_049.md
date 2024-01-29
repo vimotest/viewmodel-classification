@@ -154,7 +154,7 @@ Used WebPilot
 
 
 
-**Website:**  Sketchfab
+**Website-Name:** Sketchfab
 - **Content Summary:**  Sketchfab is the world's largest platform to publish, share, and discover 3D content on web, mobile, AR, and VR. The platform allows users to explore, buy, and sell 3D models. It offers business solutions such as 3D & AR experiences, collaboration tools, and showcases for 3D assets. The site also provides a 3D viewer that is interactive, configurable, and compatible with VR and AR. The platform is trusted by leading brands and has a community of millions of 3D creators.
 
 **Analysis:**
@@ -177,7 +177,7 @@ Used WebPilot
 
 
 
-**Website:**  Autodesk Construction Cloud
+**Website-Name:** Autodesk Construction Cloud
 - **Content Summary:**  Autodesk Construction Cloud is a construction management software platform that aims to streamline construction projects by connecting every project stage on a single platform. It offers a range of tools and features for general contractors, specialty contractors, and owners. The platform provides real-time insights into costs, schedules, and other project metrics. It also integrates with other software tools and has over 250 pre-built integrations for ERPs, CRMs, and more.
 
 **Analysis:**
@@ -200,7 +200,7 @@ Used WebPilot
 
 
 
-**Website:**  Netron
+**Website-Name:**  Netron
 - **Content Summary:**  The content from the Netron website is minimal and does not provide a detailed description or overview of its offerings. It seems to be a platform or tool where users can open a model, but further details are not available from the extracted content.
 
 **Analysis:**
@@ -223,7 +223,7 @@ Used WebPilot
 
 
 
-**Website:**  TutorialsPoint (MVVM Tutorial)
+**Website-Name:**  TutorialsPoint (MVVM Tutorial)
 - **Content Summary:**  The MVVM tutorial on TutorialsPoint aims to guide developers on how to create applications with a clean structure of code using the MVVM pattern. The tutorial emphasizes the importance of maintaining a clean and reusable structure of code to manage code complexity, especially as applications grow and evolve. The tutorial is designed for software developers who wish to develop quality applications and have a prior understanding of WPF and its bindings.
 
 **Analysis:**

@@ -138,7 +138,7 @@ ChatGPT:
 
 
 
-**Website:**  [Digital Legacy - XmlLayout Documentation](https://www.digital-legacy.co.za/XmlLayout/Documentation/MVVM)
+**Website-Name:**  Digital Legacy - XmlLayout Documentation
 
 **Content Summary:**
 - The website provides documentation for XmlLayout, a UI framework for Unity.
@@ -172,7 +172,7 @@ Used WebPilot
 
 
 
-**Website:**  [The MVVM Pattern Revisited with the MVVM Community Toolkit 8.0](https://blogs.msmvps.com/bsonnino/2022/08/06/the-mvvm-pattern-revisited-with-the-mvvm-community-toolkit-8-0/)
+**Website-Name:**  The MVVM Pattern Revisited with the MVVM Community Toolkit 8.0
 
 **Content Summary:**
 - The article revisits the MVVM pattern in the context of the MVVM Community Toolkit 8.0.
@@ -208,7 +208,7 @@ Used WebPilot
 
 
 
-**Website:**  [Bringing MVVM to Unity - part 1: About MVVM and Unity-Weld](https://www.what-could-possibly-go-wrong.com/bringing-mvvm-to-unity-part-1-about-mvvm-and-unity-weld/)
+**Website-Name:**  Bringing MVVM to Unity - part 1: About MVVM and Unity-Weld
 
 **Content Summary:**
 - The article introduces Unity-Weld, an open-source implementation of the MVVM design pattern for Unity.
@@ -246,7 +246,7 @@ Used WebPilot
 
 
 
-**Website:**  [Implementing the MVVM Pattern](https://prismlibrary.com/docs/wpf/legacy/Implementing-MVVM.html)
+**Website-Name:**  Implementing the MVVM Pattern
 
 **Content Summary:**
 - The article is a documentation page for the Prism Library, discussing the implementation of the MVVM pattern.
@@ -282,7 +282,7 @@ Used WebPilot
 
 
 
-**Website:**  [Advanced MVVM](https://joshsmithonwpf.wordpress.com/advanced-mvvm/)
+**Website-Name:**  Advanced MVVM
 
 **Content Summary:**
 - The article is a personal blog post by Josh Smith, discussing advanced concepts in MVVM.
