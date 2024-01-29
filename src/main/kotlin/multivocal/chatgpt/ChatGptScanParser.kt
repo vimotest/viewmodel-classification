@@ -36,7 +36,12 @@ private fun String.harmonize() = this
     .replace("**Website**", "**Website-Name:**")
     .replace("### Website:", "**Website-Name:**")
     .replace("- Used WebPilot\n\n###", "- Used WebPilot\n\n**Website-Name:**")
+    .replaceSpecialCharacters()
     .harmonizeMultiBullets()
+
+private fun String.replaceSpecialCharacters() = this
+    .replace("–", "-")
+    .replace("’", "'")
 
 private fun String.harmonizeLabels(vararg labels: String): String {
     var result = this
