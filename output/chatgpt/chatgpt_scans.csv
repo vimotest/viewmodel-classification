@@ -393,7 +393,7 @@ http://www.vogella.com/tutorials/AndroidArchitecture/article.html;Vogella.com;A/
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405484(v=pandp.40);Microsoft Patterns & Practices;A/B
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405494(v=pandp.40);Microsoft Patterns & Practices;A/B
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/may/mvvm-commands-relaycommands-and-eventtocommand;MSDN Magazine;A/B
-https://old.kristofk.com/mvc-mvvm-viper/;?;E
+https://old.kristofk.com/mvc-mvvm-viper/;?;?
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf;Microsoft MSDN Magazine;B*
 https://www.codeproject.com/Articles/42830/Model-View-Controller-Model-View-Presenter-and-Mod;CodeProject;A/B*
 https://hackernoon.com/mvc-vs-mvvm-how-a-website-communicates-with-its-data-models-18553877bf7d;HackerNoon;A/B*
@@ -441,12 +441,12 @@ https://www.netguru.com/blog/mvvm-architecture;Netguru - Getting to Grips with M
 https://www.scaler.com/topics/mvvm-architecture-android/;Scaler Topics: MVVM Architecture Android;A*
 https://link.springer.com/chapter/10.1007/978-1-4842-9069-9_4;SpringerLink: MVVM: Model-View-ViewModel;A*
 https://agdl.dev/posts/mvvm-csharp;Alexis C. GRIDEL: Introducting MVVM (Model-View-ViewModel) software architecture;A*
-https://www.reddit.com/r/dotnet/comments/12my5qo/opinions_on_mvvm_model_and_separation_of_concerns/;r/dotnet: Opinions on MVVM model and separation of concerns;E
+https://www.reddit.com/r/dotnet/comments/12my5qo/opinions_on_mvvm_model_and_separation_of_concerns/;r/dotnet: Opinions on MVVM model and separation of concerns;?
 https://qiita.com/caique_almeida/items/849bcaac15d5455c2914;Qiita: MVVM architecture (Model-View-ViewModel);A*
 https://reintech.io/blog/developing-android-app-mvvm-livedata-viewmodel;Reintech - Developing an Android app with MVVM architecture using LiveData and ViewModel;A*
 https://docs.avaloniaui.net/docs/0.10.x/getting-started/programming-with-avalonia/the-model-view-viewmodel-pattern-mvvm;Avalonia Docs - The Model-View-ViewModel Pattern;A*
 https://www.codingninjas.com/studio/library/android-mvvm-model-view-viewmodel-architecture;Coding Ninjas - MVVM (Model View ViewModel) Architecture Pattern in Android;A*
-https://softwareengineering.stackexchange.com/questions/445945/data-getter-inside-model-or-viewmodel-in-mvvm;Software Engineering Stack Exchange - Data getter inside Model or ViewModel in MVVM;E
+https://softwareengineering.stackexchange.com/questions/445945/data-getter-inside-model-or-viewmodel-in-mvvm;Software Engineering Stack Exchange - Data getter inside Model or ViewModel in MVVM;?
 https://www.syncfusion.com/blogs/post/mvvm-pattern-blazor-state-management.aspx;Syncfusion Blogs - MVVM Pattern in Blazor For State Management;A*
 https://betterprogramming.pub/how-to-use-mvvm-in-flutter-4b28b63da2ca;How To Use MVVM in Flutter;A*
 https://www.yourteaminindia.com/blog/mvc-vs-mvvm;MVC Vs MVVM - Exploring iOS App Design Patterns;A*
@@ -464,7 +464,7 @@ https://careerpath-gs.com/model-view-viewmodel-mvvm/;CareerPath GS - Model View 
 https://levelup.gitconnected.com/demystifying-web-development-architectural-patterns-mvc-vs-mvvm-ca79ee5df228;Level Up - Demystifying Web Development Architectural Patterns: MVC vs. MVVM;A
 https://blog.stackademic.com/understanding-mvc-mvvm-and-mvp-a-comprehensive-comparison-324fd6e3c730;Stackademic - Understanding MVC, MVVM, and MVP;A
 https://tutorials.eu/the-foundations-of-mvvm-inheritance-and-interfaces-day-8-android-14-masterclass/;TutorialsEU - The Foundations of MVVM, Inheritance, and Interfaces - Day 8 Android 14 Masterclass;A*
-https://softwareanders.com/mvvm-in-swiftui-a-easy-guide/;SoftwareAnders - MVVM in SwiftUI — a easy guide;A*
+https://softwareanders.com/mvvm-in-swiftui-a-easy-guide/;SoftwareAnders - MVVM in SwiftUI - a easy guide;A*
 https://www.researchgate.net/publication/310493153_MVVM_as_Design_Pattern;ResearchGate - (PDF) MVVM as Design Pattern;A*
 https://github.com/ferhatozcelik/android-mvvm-template;GitHub - ferhatozcelik/android-mvvm-template;D*
 https://www.youtube.com/watch?v=B-5e0PJtSDs;YouTube - DotNet MAUI MVVM: Deep Dive into MVVM Architecture with .NET MAUI;A*
@@ -477,7 +477,7 @@ https://gunhansancar.com/mvvm-architecture-with-kotlin-and-flows/;Gunhan Sancar 
 https://newsletter.jorgecastillo.dev/p/using-jetpack-compose-with-mvvm;Jorge Castillo - Using Jetpack Compose with MVVM;A*
 https://dev.to/mossi4476/mvvm-in-c-net-24a6;Nguyễn Tiến Dũng - MVVM In C# .NET;A*
 https://auberginesolutions.com/blog/mvvm-architecture-and-modular-pattern-for-building-scalable-ios-apps/;Aubergine - MVVM Architecture and Modular Pattern for Building Scalable iOS Apps;A*
-https://www.reactiveui.net/vs/mvvmlight;ReactiveUI.net - A Comparison of MvvmLight and ReactiveUI;E
+https://www.reactiveui.net/vs/mvvmlight;ReactiveUI.net - A Comparison of MvvmLight and ReactiveUI;?
 https://github.com/icerockdev/moko-mvvm;GitHub - icerockdev/moko-mvvm;A*
 https://www.quora.com/How-can-you-show-a-window-using-the-Model-View-ViewModel-MVVM-pattern-in-Windows-Presentation-Foundation-WPF;Quora - How can you show a window using the MVVM pattern in WPF?;A*
 https://www.explainthis.io/en/swe/mvvm;ExplainThis - What Is MVVM?;A
@@ -503,7 +503,7 @@ https://in.indeed.com/career-advice/interviewing/mvvm-interview-questions;Indeed
 https://xamlabs.com/page/2/;Divikiran Ravela's Blog on XAMLabs;A*/B*
 https://developer.mescius.com/blogs/using-mvvm-to-remove-rows-from-wpf-datagrid;MESCIUS (ComponentOne Blog);A*
 https://www.researchgate.net/publication/368823335_ANALYSIS_OF_THE_IMPLEMENTATION_OF_MVVM_ARCHITECTURE_PATTERN_ON_PERFORMANCE_OF_IOS_MOBILE-BASED_APPLICATIONS;ResearchGate;C*
-https://de.fiverr.com/m_gulzaibkhan/build-robust-mvvm-applications-for-desktop-as-expert-wpf-developer;?;E
+https://de.fiverr.com/m_gulzaibkhan/build-robust-mvvm-applications-for-desktop-as-expert-wpf-developer;?;?
 https://pinartechtips.com/clean-architecture-the-key-to-modular-and-testable-android-apps/;Tech Tips with Pinar;A*/C*
 https://clouddevs.com/swift/ios-app-architecture/;CloudDevs;A*
 https://docs.unrealengine.com/5.3/en-US/umg-viewmodel;Unreal Engine Documentation;A*

@@ -154,7 +154,7 @@ Moving on to the next website.
 
 - Used WebPilot
 
-### SoftwareAnders - MVVM in SwiftUI — a easy guide
+### SoftwareAnders - MVVM in SwiftUI - a easy guide
 
 - **Website Type**: Tutorial
 - **Technology**: SwiftUI
