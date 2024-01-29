@@ -105,3 +105,4 @@ https://medium.com/swlh/ios-design-patterns-a9bd07818129
 https://www.codeproject.com/Articles/364485/MVVM-Model-View-ViewModel-Patte
 https://www.codeproject.com/Articles/274982/Commands-in-MVVM
 https://climbtheladder.com/mvvm-android-interview-questions/
+https://www.mvvmcross.com/documentation/fundamentals/viewmodel-lifecycle
