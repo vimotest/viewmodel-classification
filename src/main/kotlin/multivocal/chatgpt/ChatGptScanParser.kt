@@ -196,7 +196,10 @@ private fun String.countCategorys(): Int {
 internal fun collectAndParseScans(): MutableList<ChatGptScan> {
     val directory = File("output/chatgpt")
     val scans = mutableListOf<ChatGptScan>()
-    directory.listFiles()!!.sorted().filter { it.name.endsWith(".md") }.forEach { file ->
+    directory.listFiles()!!.sorted()
+        .filter { it.name.endsWith(".md") }
+        .filterNot { it.name.startsWith("waybackmachine") }
+        .forEach { file ->
         if (file.readText().startsWith("SKIP")) {
             println("Skipping ${file.name}")
             return@forEach

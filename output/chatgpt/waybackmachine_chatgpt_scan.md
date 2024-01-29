@@ -114,7 +114,7 @@ General Guidelines:
 
 Also determine the type of the website, e.g., personal blog article, company blog article, tutorial, forum, etc.
 
-Loop over following 5 website URLs and extract Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason (why you chose the category). Notice information concisely with bullet-points.
+Loop over following website URLs and extract Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason (why you chose the category). Notice information concisely with bullet-points.
 
 https://web.archive.org/web/20210923064132/http://jmorrill.hjtcentral.com/Home/tabid/428/EntryId/432/MVVM-for-Tarded-Folks-Like-Me-or-MVVM-and-What-it-Means-to-Me.aspx
 https://web.archive.org/web/20210923044953/http://jmorrill.hjtcentral.com/Home/tabid/428/EntryId/433/Anatomy-of-an-MVVM-Application-or-How-Tards-Like-Me-Make-MVVM-Apps.aspx
@@ -122,6 +122,8 @@ https://web.archive.org/web/20220408112054/http://reedcopsey.com/series/windows-
 https://web.archive.org/web/20130709142147/http://channel9.msdn.com/blogs/kreekman/techdays-2010-understanding-the-model-view-viewmodel-pattern
 https://web.archive.org/web/20091215150528/http://blog.raffaeu.com/archive/2009/06/03/wpf-and-vmmv-tutorial-01-introduction.aspx
 https://web.archive.org/web/20091126050718/http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx
+https://web.archive.org/web/20231003034959/https://www.jbs.dev/resources/resource-center/blog/introduction-net-maui/
+https://web.archive.org/web/20200926191405/https://turbofuture.com/computers/MVVM-An-Improvement-to-MVC-In-iOS
 
 Finally, generate an overview table with columns: Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason
 
@@ -207,3 +209,38 @@ Here's the overview table:
 | geekswithblogs.net       | A*       | Personal Blog Article | None                        | None         | None          | WPF, Silverlight   | Suggests one-to-one        | Standard definition of MVVM in the context of WPF and Silverlight with a suggestion of one-to-one mapping |
 
 This table provides a concise summary of the MVVM content on each website, categorized according to your specifications.
+
+---
+
+- Used WebPilot
+
+The content from the JBS website focuses on comparing .NET MAUI with other frameworks like React Native and Flutter, and it discusses the evolution of Xamarin into .NET MAUI. However, it does not provide specific information about the MVVM pattern, its standard definition, deviations, benefits, or drawbacks. Here are the key points:
+
+- **Comparison with Other Frameworks**: The article compares .NET MAUI with React Native and Flutter, highlighting differences in state management and UI generation.
+- **Xamarin and .NET MAUI**: It discusses Xamarin's limitations in cross-platform support and how .NET MAUI improves upon it, offering better platform support and integration with .NET CLI.
+- **Technology Focus**: The content is centered around .NET MAUI, React Native, and Flutter, but without specific reference to the MVVM pattern.
+
+Based on this analysis, the website falls into Category D (No useful definition of MVVM found on the whole website) and is marked with a '*' due to its focus on specific technologies like .NET MAUI, React Native, and Flutter. The type of the website appears to be a company blog article.
+
+Now, let's proceed to analyze the second website.
+
+- Used WebPilot
+
+The content from the TurboFuture website provides an overview of the MVVM pattern, particularly in the context of iOS development. Here are the key points:
+
+- **MVVM in iOS**: The article explains MVVM as an improvement to MVC, particularly for iOS applications. It describes the roles of the View, Model, and ViewModel, emphasizing the separation of concerns and the benefits of this architecture in iOS development.
+- **Example Application**: A temperature app example is used to illustrate the MVVM pattern. The article explains how the ViewModel interacts with the View and Model, highlighting the ViewModel's role in managing UI state and data transformations.
+- **Comparison with MVC**: The article discusses how MVVM improves upon MVC by reducing the complexity and size of controllers, making the application easier to test and maintain.
+- **Pros and Cons**: It lists the advantages of MVVM, such as weak coupling and better testability, and also mentions some drawbacks like increased complexity and development cost for simple applications.
+- **Technology Specific**: The article is specific to iOS development, discussing MVVM in the context of iOS application architecture.
+
+Based on this analysis, the website falls into Category A* (Standard Definition of MVVM with a focus on a specific technology) due to its accurate depiction of the MVVM pattern within the context of iOS development. The type of the website appears to be a tutorial or educational article.
+
+Now, let's create the overview table summarizing the analysis of both websites:
+
+| Website-Name | Category | Type | Deviation/Extension Aspects | New Benefits | New Drawbacks | Technology | View/ViewModel Cardinality | Reason |
+|--------------|----------|------|-----------------------------|--------------|---------------|------------|---------------------------|--------|
+| JBS Website  | D*       | Company Blog Article | N/A | N/A | N/A | .NET MAUI, React Native, Flutter | N/A | No MVVM definition, focus on specific technologies |
+| TurboFuture  | A*       | Tutorial/Educational Article | N/A | N/A | N/A | iOS | N/A | Accurate depiction of MVVM in iOS context |
+
+This table provides a concise summary of the analysis of the two websites regarding their treatment of the MVVM pattern.
