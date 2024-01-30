@@ -110,3 +110,5 @@ https://fjorgedigital.com/insights/blog/whats-the-difference-between-mvc-and-mvv
 https://upday.github.io/blog/mvvm_rx_common_mistakes/
 https://blog.jeremylikness.com/blog/model-view-viewmodel-mvvm-explained/
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf
+https://dev.to/mochafreddo/mastering-mvvm-a-comprehensive-guide-to-the-model-view-viewmodel-architecture-221g
+https://platform.uno/blog/demystifying-mvvm-and-introducing-mvux-approach/
