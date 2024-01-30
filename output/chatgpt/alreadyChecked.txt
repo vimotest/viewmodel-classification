@@ -112,3 +112,13 @@ https://blog.jeremylikness.com/blog/model-view-viewmodel-mvvm-explained/
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf
 https://dev.to/mochafreddo/mastering-mvvm-a-comprehensive-guide-to-the-model-view-viewmodel-architecture-221g
 https://platform.uno/blog/demystifying-mvvm-and-introducing-mvux-approach/
+https://www.linkedin.com/pulse/mvvm-viewmodel-livedata-amit-nadiger
+https://www.muvi.com/blogs/model-view-viewmodel-mvvm
+https://itcreativelabs.com/blog/what-the-mvvm/
+https://www.netguru.com/blog/mvvm-architecture
+https://nicksnettravels.builttoroam.com/mvvm-versus-mvux-2/
+https://xamlabs.com/page/2/
+https://pinartechtips.com/clean-architecture-the-key-to-modular-and-testable-android-apps/
+https://www.cinnamon.agency/blog/post/exploring_stacked_a_powerful_flutter_framework_for_building_well_structured
+https://madgicaltechdom.com/architectural-patterns-build-high-quality-apps-in-less-time/
+https://www.c-sharpcorner.com/UploadFile/f1047f/mapping-viewmodel-to-model-using-implicit-conversion-operato/

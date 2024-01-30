@@ -14,3 +14,4 @@ https://turbofuture.com/computers/MVVM-An-Improvement-to-MVC-In-iOS=A*
 https://blog.jeremylikness.com/blog/model-view-viewmodel-mvvm-explained/=B*
 https://velog.io/@doogie97/Clean-Architecture-MVVM-%EC%9D%B4%ED%95%B4%ED%95%9C-%EB%8C%80%EB%A1%9C%EB%A7%8C-%EC%A0%95%EB%A6%AC=E
 https://developer-campus.de/tracks/architecture/mikroarchitektur-geschaeftsprozess-komponenten/benutzeroberflaechen/mvvm/=E
+https://www.researchgate.net/publication/368823335_ANALYSIS_OF_THE_IMPLEMENTATION_OF_MVVM_ARCHITECTURE_PATTERN_ON_PERFORMANCE_OF_IOS_MOBILE-BASED_APPLICATIONS=D
