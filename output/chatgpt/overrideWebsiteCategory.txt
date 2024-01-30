@@ -11,3 +11,5 @@ http://blog.raffaeu.com/archive/2009/06/03/wpf-and-vmmv-tutorial-01-introduction
 http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx=A*
 https://www.jbs.dev/resources/resource-center/blog/introduction-net-maui/=A*
 https://turbofuture.com/computers/MVVM-An-Improvement-to-MVC-In-iOS=A*
+https://blog.jeremylikness.com/blog/model-view-viewmodel-mvvm-explained/=B*
+https://velog.io/@doogie97/Clean-Architecture-MVVM-%EC%9D%B4%ED%95%B4%ED%95%9C-%EB%8C%80%EB%A1%9C%EB%A7%8C-%EC%A0%95%EB%A6%AC=E

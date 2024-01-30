@@ -25,7 +25,7 @@ https://dev.to/vtsen/recommended-ways-to-create-viewmodel-or-androidviewmodel-5e
 https://docs.sencha.com/extjs/6.5.3/modern/Ext.app.ViewModel.html	Ext.app.ViewModel | Ext JS 6.5.3 - Sencha Documentation
 https://pspdfkit.com/blog/2019/using-viewmodels-to-retain-state-on-android/	Using ViewModels to Retain State on Android - PSPDFKit
 https://pypi.org/project/ViewModel/	ViewModel · PyPI
-https://www.freecodecamp.org/news/  model-view-viewmodel-android-tutorial/	How to Use Model-View-ViewModel on Android Like a Pro
+https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/	How to Use Model-View-ViewModel on Android Like a Pro
 https://www.mvvmcross.com/documentation/fundamentals/viewmodel-lifecycle	ViewModel Lifecycle - MvvmCross
 https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html	Applying ViewModel - CommonsWare
 https://viewmodel.org/	ViewModel

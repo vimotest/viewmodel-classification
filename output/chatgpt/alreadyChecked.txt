@@ -106,3 +106,7 @@ https://www.codeproject.com/Articles/364485/MVVM-Model-View-ViewModel-Patte
 https://www.codeproject.com/Articles/274982/Commands-in-MVVM
 https://climbtheladder.com/mvvm-android-interview-questions/
 https://www.mvvmcross.com/documentation/fundamentals/viewmodel-lifecycle
+https://fjorgedigital.com/insights/blog/whats-the-difference-between-mvc-and-mvvm/
+https://upday.github.io/blog/mvvm_rx_common_mistakes/
+https://blog.jeremylikness.com/blog/model-view-viewmodel-mvvm-explained/
+https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/december/mvpvm-design-pattern-the-model-view-presenter-viewmodel-design-pattern-for-wpf
