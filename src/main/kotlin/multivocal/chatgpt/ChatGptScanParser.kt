@@ -37,6 +37,7 @@ fun parseGptScan(file: File): List<ChatGptScan> {
 private fun String.takeUrlLines() = this.lines().takeWhile { it.startsWith("http") }
 
 private fun String.harmonize() = this
+    .replace("\r\n", "\n")
     .replace("Website Name", "Website-Name")
     .harmonizeLabels("Website-Name", "Category", "Overview Table")
     .replace("**Website**", "**Website-Name:**")
