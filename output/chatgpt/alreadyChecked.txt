@@ -120,3 +120,6 @@ https://pinartechtips.com/clean-architecture-the-key-to-modular-and-testable-and
 https://www.cinnamon.agency/blog/post/exploring_stacked_a_powerful_flutter_framework_for_building_well_structured
 https://madgicaltechdom.com/architectural-patterns-build-high-quality-apps-in-less-time/
 https://www.c-sharpcorner.com/UploadFile/f1047f/mapping-viewmodel-to-model-using-implicit-conversion-operato/
+https://www.reddit.com/r/dotnet/comments/12my5qo/opinions_on_mvvm_model_and_separation_of_concerns/
+https://softwareengineering.stackexchange.com/questions/445945/data-getter-inside-model-or-viewmodel-in-mvvm
+https://kristofk.com/posts/mvc-mvvm-viper
