@@ -189,7 +189,7 @@ https://www.quora.com/What-is-ViewModel-in-MVC;Quora;D
 http://dontcodetired.com/blog/post/Reducing-MVVM-Light-Viewmodel-Code-with-Fody-Property-Dependencies-and-Custom-Property-Changed-Methods;Don't Code Tired;B*
 https://blog.udemy.com/c-sharp-viewmodel/;Udemy Blog on C# ViewModel;A*/B
 https://codelabs.developers.google.com/;Google Codelabs;D*
-https://www.gamersdecide.com/articles/csgo-best-viewmodel-settings;GamersDecide.com;D
+https://www.gamersdecide.com/articles/csgo-best-viewmodel-settings;GamersDecide.com;E
 https://creatronix.de/how-to-use-viewmodel/;Creatronix;A*
 https://startandroid.ru/ru/courses/architecture-components/27-course/architecture-components/527-urok-4-viewmodel.html;StartAndroid;A*
 https://www.damirscorner.com/blog/posts/20221021-AvoidAsyncCallsInViewmodelConstructors.html;Damir's Corner;A/B*
@@ -386,7 +386,7 @@ https://www.learnmvvm.com/;LearnMVVM;A*
 https://www.zkoss.org/wiki/ZK%20Developer's%20Reference/MVVM;ZK Developer's Reference;A*
 http://books.zkoss.org/zk-mvvm-book/9.5/;ZK MVVM Book 9.5 - Introduction of MVVM;A*
 https://upday.github.io/blog/mvvm_rx_common_mistakes/;upday blog - MVVM + RxJava: Common Mistakes;B*
-http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explained.html;The C#er : IMage - Model-View-ViewModel (MVVM) Explained;A
+http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explained.html;The C#er : IMage - Model-View-ViewModel (MVVM) Explained;E
 https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad;Medium - MVC, MVP and MVVM Design Pattern by Ankit Sinhal;A
 http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx;?;A*
 http://www.vogella.com/tutorials/AndroidArchitecture/article.html;Vogella.com;A/B
@@ -502,7 +502,7 @@ https://blog.nonstopio.com/mvvm-magic-in-flutter-unleashing-flexibility-and-test
 https://in.indeed.com/career-advice/interviewing/mvvm-interview-questions;Indeed Career Advice;A
 https://xamlabs.com/page/2/;Divikiran Ravela's Blog on XAMLabs;A*/B*
 https://developer.mescius.com/blogs/using-mvvm-to-remove-rows-from-wpf-datagrid;MESCIUS (ComponentOne Blog);A*
-https://www.researchgate.net/publication/368823335_ANALYSIS_OF_THE_IMPLEMENTATION_OF_MVVM_ARCHITECTURE_PATTERN_ON_PERFORMANCE_OF_IOS_MOBILE-BASED_APPLICATIONS;ResearchGate;D
+https://www.researchgate.net/publication/368823335_ANALYSIS_OF_THE_IMPLEMENTATION_OF_MVVM_ARCHITECTURE_PATTERN_ON_PERFORMANCE_OF_IOS_MOBILE-BASED_APPLICATIONS;ResearchGate;E
 https://de.fiverr.com/m_gulzaibkhan/build-robust-mvvm-applications-for-desktop-as-expert-wpf-developer;?;E
 https://pinartechtips.com/clean-architecture-the-key-to-modular-and-testable-android-apps/;Tech Tips with Pinar;A*/C*
 https://clouddevs.com/swift/ios-app-architecture/;CloudDevs;A*

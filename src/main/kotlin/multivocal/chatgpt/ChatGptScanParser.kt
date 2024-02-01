@@ -13,7 +13,10 @@ data class ChatGptScan(
 
 val overrideWebsiteCategory by lazy {
     val file = File("output/chatgpt/overrideWebsiteCategory.txt")
-    file.readLines().map { it.split("=") }.map { it[0] to it[1] }.toMap()
+    file.readLines()
+        .map { it.substringBefore(" ->") }
+        .map { it.split("=") }
+        .map { it[0] to it[1] }.toMap()
 }
 
 fun parseGptScan(file: File): List<ChatGptScan> {

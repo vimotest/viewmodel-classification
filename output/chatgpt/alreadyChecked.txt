@@ -21,7 +21,6 @@ https://www.techyourchance.com/you-dont-need-android-viewmodel/
 https://canjs.com/doc/can-component.prototype.ViewModel.html
 https://dev.to/vtsen/recommended-ways-to-create-viewmodel-or-androidviewmodel-5e7k
 https://docs.sencha.com/extjs/6.5.3/modern/Ext.app.ViewModel.html
-https://www.freecodecamp.org/news/model-view-viewmodel-android-tutorial/
 https://commonsware.com/Jetpack/pages/chap-viewmodel-004.html
 https://learnfromsaki.com/configuring-viewmodel-hierarchy/
 https://heartbeat.comet.ml/using-viewmodels-in-android-to-preserve-your-running-apps-state-e56e63f689f3
@@ -84,7 +83,6 @@ http://stackoverflow.com/questions/883895/what-are-the-problems-of-the-mvvm-patt
 https://www.quora.com/Pros-and-cons-of-MVVM-framework-and-how-I-can-campare-it-with-MVC
 https://searchapparchitecture.techtarget.com/tip/MVC-vs-MVVM-2-architecture-patterns-for-modularity
 http://www.teehanlax.com/blog/krush-ios-architecture/
-http://csharperimage.jeremylikness.com/2010/04/model-view-viewmodel-mvvm-explained.html
 http://www.vogella.com/tutorials/AndroidArchitecture/article.html
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405484(v=pandp.40)
 https://learn.microsoft.com/en-us/previous-versions/msp-n-p/gg405494(v=pandp.40)
@@ -95,7 +93,7 @@ https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52
 https://manojjaggavarapu.wordpress.com/2012/05/02/presentation-patterns-mvc-mvp-pm-mvvm/
 https://dzone.com/articles/angularjs-tutorial-lesson-1
 https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b
-http://r.je/evolving-mvc-into-mvvm.html MVVM, MVC it's all just roman numerals to me
+http://r.je/evolving-mvc-into-mvvm.html
 https://dev.to/marcellogalhardo/humble-views-proud-viewmodels-od1
 https://medium.com/android-news/why-to-choose-mvvm-over-mvp-android-architecture-33c0f2de5516
 https://learn.microsoft.com/en-us/archive/msdn-magazine/2014/april/mvvm-multithreading-and-dispatching-in-mvvm-applications
