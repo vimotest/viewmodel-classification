@@ -2,7 +2,7 @@ https://www.codeproject.com/Articles/278901/MVVM-Pattern-Made-Simple
 https://manojjaggavarapu.wordpress.com/2012/05/02/presentation-patterns-mvc-mvp-pm-mvvm/
 https://dzone.com/articles/angularjs-tutorial-lesson-1
 https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b
-http://r.je/evolving-mvc-into-mvvm.html MVVM, MVC it's all just roman numerals to me
+http://r.je/evolving-mvc-into-mvvm.html
 
 
 Person:
@@ -128,7 +128,7 @@ https://www.codeproject.com/Articles/278901/MVVM-Pattern-Made-Simple
 https://manojjaggavarapu.wordpress.com/2012/05/02/presentation-patterns-mvc-mvp-pm-mvvm/
 https://dzone.com/articles/angularjs-tutorial-lesson-1
 https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b
-http://r.je/evolving-mvc-into-mvvm.html MVVM, MVC it's all just roman numerals to me
+http://r.je/evolving-mvc-into-mvvm.html
 
 Finally, generate an overview table with columns: Website-Name, Category, Type, Deviation/Extension Aspects, New Benefits, New Drawbacks, Technology, View/ViewModel Cardinality, Reason
 
