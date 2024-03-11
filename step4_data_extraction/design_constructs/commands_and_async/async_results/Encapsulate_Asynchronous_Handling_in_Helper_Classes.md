@@ -14,3 +14,7 @@ Resource: WeissenbergModelViewDesignPatterns2019
 ## Relates to
 
 * [Asynchronous_Results_Handling_by_Mediator__abstracted_Dispatcher_.md](Asynchronous Results Handling by Mediator (abstracted Dispatcher))
+
+## Used By
+* Paper: Model-View Design Patterns
+

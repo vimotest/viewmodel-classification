@@ -16,3 +16,12 @@ Results can be returned either by return (synchronous) or by a callback (asynchr
 * [ViewModel_to_ViewModel_Communication_via_Messaging_Mediators.md](ViewModel to ViewModel Communication via Messaging/Mediators)
 * [Asynchronous_Commands_Requirements.md](Asynchronous Commands Requirements)
 * [MessageBox_by_Messaging_Mediators.md](MessageBox by Messaging/Mediators)
+
+## Used By
+* Website: Microsoft Patterns & Practices - Advanced MVVM Scenarios Using the Prism Library
+* Book: Building enterprise applications with Windows Presentation Foundation and the model view ViewModel Pattern
+* Book: MVVM Survival Guide for Enterprise Architectures in Silverlight and WPF
+* Book: Windows Phone 8 Application Development Essentials (A practical guide to creating a Windows Phone 8 application using C#, XAML, and MVVM)
+* Book: Developer's Guide to Microsoft Prism 4: Building Modular MVVM Applications with Windows Presentation Foundation and Microsoft Silverlight
+* Thesis: Using MVVM for enhanced cross platform development of mobile and desktop applications
+

@@ -15,3 +15,8 @@ From Kouraklis2016:
 ## Relates to
 
 * [MessageBox_by_Messaging_Mediators.md](MessageBox by Messaging/Mediators)
+
+## Used By
+* Book: MVVM in Delphi
+* Book: Windows Phone 8 Application Development Essentials (A practical guide to creating a Windows Phone 8 application using C#, XAML, and MVVM)
+

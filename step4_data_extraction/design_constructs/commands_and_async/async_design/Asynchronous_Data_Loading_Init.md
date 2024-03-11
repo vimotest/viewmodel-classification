@@ -13,3 +13,9 @@ In WPF this can also be achieved with "IsAsync"+"FallbackValue" bindings, and `<
 
 * [Static_UI_Thread_Dispatcher.md](Static UI Thread Dispatcher)
 * [Busy_Flag_for_Asynchronous_Operations.md](Busy Flag for Asynchronous Operations)
+
+## Used By
+* Website: Damir's Corner - Avoid async calls in view model constructors
+* Book: MVVM Survival Guide for Enterprise Architectures in Silverlight and WPF
+* BookChapter: Windows 8 MVVM Patterns Revealed: Implementing the ViewModel
+

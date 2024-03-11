@@ -16,3 +16,9 @@ Resource: LearnMicrosoftAdvancedMvvmPrism
 ## Relates to
 
 * [MVVM_Controller__ViewModel_and_Controller.md](MVVM/Controller: ViewModel and Controller)
+
+## Used By
+* Website: Halfbit - Composite ViewModel
+* Website: Microsoft Patterns & Practices - Advanced MVVM Scenarios Using the Prism Library
+* BookChapter: Windows 8 MVVM Patterns Revealed: Implementing the ViewModel
+

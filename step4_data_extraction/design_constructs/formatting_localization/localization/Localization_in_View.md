@@ -11,3 +11,9 @@ The view uses its UI-framework specific dictionary features to localize strings.
 
 * [Formatting_not_in_ViewModel.md](Formatting not in ViewModel)
 * [Localization_in_ViewModel.md](Localization in ViewModel)
+
+## Used By
+* Website: Evozon - Model-View-ViewModel in ReactJS
+* Thesis: Using MVVM for enhanced cross platform development of mobile and desktop applications
+* Paper: Model-View Design Patterns
+

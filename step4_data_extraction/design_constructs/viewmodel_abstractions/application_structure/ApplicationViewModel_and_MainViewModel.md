@@ -41,3 +41,7 @@ private void Application_Startup(object sender, StartupEventArgs e)
             }
         }
 ```
+
+## Used By
+* Book: Pro WPF and Silverlight MVVM: Effective Application Development with Model-View-ViewModel
+

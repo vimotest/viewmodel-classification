@@ -22,3 +22,7 @@ var mvvmView = FluentEngine
 ## Relates to
 
 * [DSL_for_Specifying_ViewModel_API.md](DSL for Specifying ViewModel API)
+
+## Used By
+* Book: Building enterprise applications with Windows Presentation Foundation and the model view ViewModel Pattern
+

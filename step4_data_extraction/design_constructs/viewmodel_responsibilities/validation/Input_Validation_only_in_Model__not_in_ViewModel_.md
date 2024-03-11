@@ -13,3 +13,7 @@ See ProCsWpf2017 "Anemic Models or Anemic View Models"
 ## Relates to
 
 * [Input_Validation_only_in_ViewModel__not_in_Model_.md](Input Validation only in ViewModel (not in Model))
+
+## Used By
+* BookChapter: Pro C# 7: WPF Notifications, Validations, Commands, and MVVM
+

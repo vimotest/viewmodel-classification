@@ -9,3 +9,7 @@ The View does not validate what a user provides as input. E.g., a user might ent
 ## Resources
 Kouraklis2016:
 > the View (InvoiceForm) is not (and should not be) aware of the type of data users enter; in other words, the form does not know that the quantity edit field must be a number.
+
+## Used By
+* Book: MVVM in Delphi
+

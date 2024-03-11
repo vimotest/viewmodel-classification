@@ -16,3 +16,7 @@ Idea is to let ViewModel expose model objects directly to the view.
 * [Model_shall_provide_Binding_Capabilities.md](Model shall provide Binding-Capabilities)
 * [ViewModel_Only_Expose_Data_Needed_by_View.md](ViewModel Only Expose Data Needed by View)
 * [ViewModel_should_not_Expose_Model_Objects.md](ViewModel should not Expose Model Objects)
+
+## Used By
+* Book: MVVM Survival Guide for Enterprise Architectures in Silverlight and WPF
+

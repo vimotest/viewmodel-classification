@@ -1,4 +1,12 @@
 # Easier Debugging of Components
 
-Decoupling "user interface, business logic, server communications, etc." brings a easier debugging to the developer (UsingMvvmLightXamarin2017).
+## Summary
+Decoupling "user interface, business logic, server communications, etc." brings an easier debugging to the developer.
+
+## Resources
+UsingMvvmLightXamarin2017
+
+
+## Used By
+* BookChapter: Using MVVM Light with your Xamarin Apps: Installing MVVM Light
 

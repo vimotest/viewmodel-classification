@@ -28,3 +28,8 @@ Data Filling: The ViewModel directly or indirectly (through services or use case
 ## Relates to
 
 * [MVVM_C__Navigation_in_Coordinator___Navigation_Service.md](MVVM-C: Navigation in Coordinator / Navigation Service)
+
+## Used By
+* Paper: A Linked Data Model-View-* Approach for Decoupled Client-Server Applications
+* Website: Microsoft MSDN - MVPVM Design Pattern - The Model-View-Presenter-ViewModel Design Pattern for WPF
+

@@ -15,3 +15,9 @@ Example: this includes WPF-specific helper classes, which prevent a ViewModel to
 
 * [Commands_Alternative_by_EventHandlers_ViewModel_Method_Calls.md](Commands Alternative by EventHandlers/ViewModel Method Calls)
 * [Visibility_Enable_Types_as_Booleans.md](Visibility/Enable Types as Booleans)
+
+## Used By
+* Website: Reddit - "What is MVVM?"
+* BookChapter: iOS Code Testing: The MVVM Architectural Pattern
+* Paper: Applicability of the ViMoTest Approach for Automated GUI Testing: A Field Study
+

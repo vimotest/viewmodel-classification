@@ -13,3 +13,8 @@ The View might implement/provide the abstracted dictionary service via dependenc
 * [Formatting_not_in_ViewModel.md](Formatting not in ViewModel)
 * [Localization_in_View.md](Localization in View)
 * [Static_Text_in_ViewModel.md](Static Text in ViewModel)
+
+## Used By
+* BookChapter: Getting Started with the Uno Platform and WinUI 3: Model-View-ViewModel (MVVM)
+* Paper: Model-View Design Patterns
+

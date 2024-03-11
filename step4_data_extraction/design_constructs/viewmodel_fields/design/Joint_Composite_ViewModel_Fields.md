@@ -14,3 +14,8 @@ Example:
 ## Relates to
 
 * [Reusable_and_View_Unaware_ViewModel.md](Reusable and View-Unaware ViewModel)
+
+## Used By
+* Website: Medium - Android Architecture Patterns Part 3: Model-View-ViewModel
+* Website: r.je - MVVM, MVC it's all just roman numerals to me
+

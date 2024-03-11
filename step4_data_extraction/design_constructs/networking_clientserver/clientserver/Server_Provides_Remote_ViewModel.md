@@ -20,3 +20,7 @@ Main idea from RMVRVM: (SinghRmvrvm2022)
 ## Relates to
 
 * [Web_Client_Contains_MVVM.md](Web Client Contains MVVM)
+
+## Used By
+* Paper: RMVRVM – A Paradigm for Creating Energy Efficient User Applications Connected to Cloud through REST API
+

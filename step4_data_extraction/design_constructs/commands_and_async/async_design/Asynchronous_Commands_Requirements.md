@@ -16,3 +16,11 @@ d) cancel a running asynchronous command
 * [Static_UI_Thread_Dispatcher.md](Static UI Thread Dispatcher)
 * [Busy_Flag_for_Asynchronous_Operations.md](Busy Flag for Asynchronous Operations)
 * [MessageBox_by_Interaction_Service.md](MessageBox by Interaction Service)
+
+## Used By
+* Website: Evozon - Model-View-ViewModel in ReactJS
+* Website: Microsoft Patterns & Practices - Implementing the MVVM Pattern Using the Prism Library
+* Website: Microsoft Patterns & Practices - Advanced MVVM Scenarios Using the Prism Library
+* Website: CodeProject - Commands in MVVM
+* Thesis: Using MVVM for enhanced cross platform development of mobile and desktop applications
+

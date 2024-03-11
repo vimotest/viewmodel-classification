@@ -14,3 +14,7 @@ Contra: this puts logic into the view, which is not testable within the ViewMode
 ## Relates to
 
 * [Networking_Code_in_Networking_Layer.md](Networking Code in Networking Layer)
+
+## Used By
+* Website: Medium - iOS design patterns — Part 1 (MVC, MVP, MVVM)
+

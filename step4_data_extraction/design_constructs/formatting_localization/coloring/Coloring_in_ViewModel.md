@@ -10,3 +10,7 @@ The ViewModel provides fields if colors in the view are needed. This way, the Vi
 ## Relates to
 
 * [Coloring_in_View.md](Coloring in View)
+
+## Used By
+* Book: MVVM in Delphi
+

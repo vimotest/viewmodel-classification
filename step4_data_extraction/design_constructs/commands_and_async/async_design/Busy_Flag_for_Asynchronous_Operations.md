@@ -16,3 +16,8 @@ Generally, you will expose a property from the ViewModel named IsBusy. This is a
 
 * [Asynchronous_Commands_Requirements.md](Asynchronous Commands Requirements)
 * [Asynchronous_Data_Loading_Init.md](Asynchronous Data Loading Init)
+
+## Used By
+* BookChapter: Pro Business Applications with Silverlight 5: The Model-View-ViewModel (MVVM) Design Pattern
+* Book: Developer's Guide to Microsoft Prism 4: Building Modular MVVM Applications with Windows Presentation Foundation and Microsoft Silverlight
+

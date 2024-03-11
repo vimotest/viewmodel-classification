@@ -17,3 +17,10 @@ Resource: LinkedInMvvmTrend
 * [ViewModel_Only_Expose_Data_Needed_by_View.md](ViewModel Only Expose Data Needed by View)
 * [View_has_One_ViewModel.md](View has One ViewModel)
 * [ViewModel_has_One_View.md](ViewModel has One View)
+
+## Used By
+* Website: LinkedIn - "Is MVVM a fashion trend?" by Gregory Stein
+* Book: Developer's Guide to Microsoft Prism 4: Building Modular MVVM Applications with Windows Presentation Foundation and Microsoft Silverlight
+* BookChapter: Pro C# 7: WPF Notifications, Validations, Commands, and MVVM
+* BookChapter: Beginning Windows 8 Application Development: XAML Edition: Introducing MVVM
+

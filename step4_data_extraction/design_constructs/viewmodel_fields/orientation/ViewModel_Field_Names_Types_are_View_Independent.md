@@ -24,3 +24,8 @@ ing and data type strategy enables the ViewModel to be much more generic and reu
 * [ViewModel_Field_Names_Types_are_View_Oriented.md](ViewModel Field Names/Types are View Oriented)
 * [Reusable_and_View_Unaware_ViewModel.md](Reusable and View-Unaware ViewModel)
 * [Humble_View.md](Humble View)
+
+## Used By
+* Thesis: A comparison of Android native app architecture MVC, MVP and MVVM
+* BookChapter: Pro Business Applications with Silverlight 5: The Model-View-ViewModel (MVVM) Design Pattern
+

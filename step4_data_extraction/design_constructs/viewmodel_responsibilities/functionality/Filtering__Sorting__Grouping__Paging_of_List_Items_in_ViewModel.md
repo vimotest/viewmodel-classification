@@ -9,3 +9,8 @@ In .NET, this could be `PageCollectionView`.
 
 ## Resources
 > Expose the collection from the ViewModel as a collection view, such as a PagedCollectionView, as detailed in Chapter 6. This will permit you to control the filtering, sorting, grouping, and paging of the data from the ViewModel by configuring these requirements on the collection view. (Anderson2012MvvmPattern)
+
+## Used By
+* BookChapter: Pro Business Applications with Silverlight 5: The Model-View-ViewModel (MVVM) Design Pattern
+* Book: Pro WPF and Silverlight MVVM: Effective Application Development with Model-View-ViewModel
+

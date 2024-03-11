@@ -15,3 +15,7 @@ Resource: ManferdiniMvvmSwift
 ## Relates to
 
 * [Networking_Code_in_View.md](Networking Code in View)
+
+## Used By
+* Website: Matteo Manferdini - MVVM Design Pattern in iOS with Swift
+

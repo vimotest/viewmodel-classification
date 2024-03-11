@@ -13,3 +13,7 @@ See: Anderson2012MvvmPattern p514 "How Do I Enable/Disable Controls?" / "How Do 
 ## Relates to
 
 * [ViewModel_Independent_of_UI_Framework_Utility_Classes.md](ViewModel Independent of UI-Framework Utility Classes)
+
+## Used By
+* BookChapter: Pro Business Applications with Silverlight 5: The Model-View-ViewModel (MVVM) Design Pattern
+

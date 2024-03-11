@@ -47,3 +47,7 @@ void TimerElapsed(object sender, ElapsedEventArgs e)
 
 * [Static_UI_Thread_Dispatcher.md](Static UI Thread Dispatcher)
 * [Asynchronous_Results_Handling_by_Mediator__abstracted_Dispatcher_.md](Asynchronous Results Handling by Mediator (abstracted Dispatcher))
+
+## Used By
+* Book: Pro WPF and Silverlight MVVM: Effective Application Development with Model-View-ViewModel
+

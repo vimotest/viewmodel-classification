@@ -15,3 +15,7 @@ Resource: MercariViewModelInputsOutputs
 
 * [ViewModel_with_View_Interface.md](ViewModel with View Interface)
 * [ViewModel_with_Events_Triggers.md](ViewModel with Events/Triggers)
+
+## Used By
+* Website: Mercari Engineering Portal - Introducing ViewModel Inputs/Outputs: a modern approach to MVVM architecture
+

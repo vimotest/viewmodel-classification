@@ -19,3 +19,7 @@ Note: In other languages like Java, this could be realized by a simple observer/
 * [Navigation_Trigger_by_ViewModel_Event.md](Navigation Trigger by ViewModel Event)
 * [ViewModel_with_View_Interface.md](ViewModel with View Interface)
 * [MessageBox_by_Event.md](MessageBox by Event)
+
+## Used By
+* BookChapter: Pro Business Applications with Silverlight 5: The Model-View-ViewModel (MVVM) Design Pattern
+

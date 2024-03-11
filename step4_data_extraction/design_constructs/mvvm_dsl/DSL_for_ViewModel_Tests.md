@@ -13,3 +13,7 @@ See: ViMoTest2023
 ## Relates to
 
 * [DSL_for_Specifying_ViewModel_API.md](DSL for Specifying ViewModel API)
+
+## Used By
+* Paper: Applicability of the ViMoTest Approach for Automated GUI Testing: A Field Study
+

@@ -25,3 +25,8 @@ FirstName of the Person Model:
 * [ViewModel_for_Model_Wrappers___Proxy_Property.md](ViewModel for Model Wrappers / Proxy Property)
 * [ViewModel_Only_Expose_Data_Needed_by_View.md](ViewModel Only Expose Data Needed by View)
 * [Aggregate_Model.md](Aggregate Model)
+
+## Used By
+* Book: Building enterprise applications with Windows Presentation Foundation and the model view ViewModel Pattern
+* Book: Pro WPF and Silverlight MVVM: Effective Application Development with Model-View-ViewModel
+

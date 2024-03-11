@@ -17,3 +17,8 @@ Note: this design construct does not restrict how many ViewModels the View can h
 * [View_has_One_ViewModel.md](View has One ViewModel)
 * [ViewModel_has_Many_Views.md](ViewModel has Many Views)
 * [View_and_ViewModel_are_a_Tandem__one_to_one_relationship_.md](View and ViewModel are a Tandem (one-to-one relationship))
+
+## Used By
+* Book: MVVM in Delphi
+* Book: Windows Phone 8 Application Development Essentials (A practical guide to creating a Windows Phone 8 application using C#, XAML, and MVVM)
+

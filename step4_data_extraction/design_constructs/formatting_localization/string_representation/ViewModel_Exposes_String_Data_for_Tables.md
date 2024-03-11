@@ -22,3 +22,7 @@ TInvoiceItemsText = record
     InvoiceTotalBalance: string;
   end;
 ```
+
+## Used By
+* Book: MVVM in Delphi
+

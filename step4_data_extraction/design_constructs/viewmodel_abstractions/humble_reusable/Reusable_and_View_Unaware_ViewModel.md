@@ -17,3 +17,12 @@ Resource: FreeCodeCampMvvmAndroidPro
 * [View_and_ViewModel_are_a_Tandem__one_to_one_relationship_.md](View and ViewModel are a Tandem (one-to-one relationship))
 * [Joint_Composite_ViewModel_Fields.md](Joint/Composite ViewModel Fields)
 * [ViewModel_Field_Names_Types_are_View_Independent.md](ViewModel Field Names/Types are View Independent)
+
+## Used By
+* Website: freeCodeCamp - How to Use Model-View-ViewModel on Android Like a Pro
+* Website: jeremylikeness - Model-View-ViewModel (MVVM) Explained
+* Website: r.je - MVVM, MVC it's all just roman numerals to me
+* BookChapter: Pro Business Applications with Silverlight 5: The Model-View-ViewModel (MVVM) Design Pattern
+* Book: Windows Phone 8 Application Development Essentials (A practical guide to creating a Windows Phone 8 application using C#, XAML, and MVVM)
+* TechnicalReport: Modern Approaches to Android APP Architecture: MVVM, MVP, VIPER
+

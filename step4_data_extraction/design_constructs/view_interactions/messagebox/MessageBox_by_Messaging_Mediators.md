@@ -12,3 +12,9 @@ The View subscribes to such messages and uses it to show the actual messagebox.
 
 * [MessageBox_by_Interaction_Service.md](MessageBox by Interaction Service)
 * [ViewModel_to_View_Communication_via_Messaging.md](ViewModel to View Communication via Messaging)
+
+## Used By
+* Book: Building enterprise applications with Windows Presentation Foundation and the model view ViewModel Pattern
+* Book: MVVM in Delphi
+* Book: MVVM Survival Guide for Enterprise Architectures in Silverlight and WPF
+

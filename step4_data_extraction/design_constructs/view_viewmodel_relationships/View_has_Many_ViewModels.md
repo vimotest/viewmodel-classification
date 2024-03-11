@@ -14,3 +14,8 @@ Note: this design construct does not restrict how many Views the ViewModel can h
 ## Relates to
 
 * [View_has_One_ViewModel.md](View has One ViewModel)
+
+## Used By
+* Book: MVVM in Delphi
+* Book: Windows Phone 8 Application Development Essentials (A practical guide to creating a Windows Phone 8 application using C#, XAML, and MVVM)
+

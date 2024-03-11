@@ -15,3 +15,7 @@ Resource: MsdnMultithreadingMvvm
 * [Asynchronous_Commands_Requirements.md](Asynchronous Commands Requirements)
 * [Asynchronous_Data_Loading_Init.md](Asynchronous Data Loading Init)
 * [Asynchronous_Results_Handling_by_Aspect_Oriented_Programming__AOP_.md](Asynchronous Results Handling by Aspect Oriented Programming (AOP))
+
+## Used By
+* Website: Microsoft MSDN Magazine - Multithreading and Dispatching in MVVM Applications
+

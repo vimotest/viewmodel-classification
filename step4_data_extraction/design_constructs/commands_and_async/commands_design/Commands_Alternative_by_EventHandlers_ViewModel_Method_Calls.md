@@ -29,3 +29,10 @@ void LoadGames(string genre)
 ## Relates to
 
 * [ViewModel_Independent_of_UI_Framework_Utility_Classes.md](ViewModel Independent of UI-Framework Utility Classes)
+
+## Used By
+* BookChapter: Pro Business Applications with Silverlight 5: The Model-View-ViewModel (MVVM) Design Pattern
+* Book: Developer's Guide to Microsoft Prism 4: Building Modular MVVM Applications with Windows Presentation Foundation and Microsoft Silverlight
+* TechnicalReport: Model-View-ViewModel In Silverlight 2 Apps
+* TechnicalReport: Modern Approaches to Android APP Architecture: MVVM, MVP, VIPER
+

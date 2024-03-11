@@ -26,3 +26,11 @@ void ViewDestroy (bool viewFinishing = true);
 ## Relates to
 
 * [Persisted_ViewModel_Properties.md](Persisted ViewModel Properties)
+
+## Used By
+* Website: TechYourChance - You Don't Need Android ViewModel, Here is Why
+* Website: Styling Android - Architecture Components: ViewModel
+* Website: zsmb.co - An Early Look at ViewModel SavedState
+* TechnicalReport: Modern Approaches to Android APP Architecture: MVVM, MVP, VIPER
+* Website: MvvmCross Documentation on ViewModel Lifecycle
+

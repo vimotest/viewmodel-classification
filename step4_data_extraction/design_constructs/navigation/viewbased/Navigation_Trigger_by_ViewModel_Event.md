@@ -20,3 +20,7 @@ ViewTitle: This event is raised by the ViewModel to indicate that a Title has be
 * [Navigation_in_View___Navigation_System.md](Navigation in View / Navigation System)
 * [ViewModel_with_Events_Triggers.md](ViewModel with Events/Triggers)
 * [MessageBox_by_Event.md](MessageBox by Event)
+
+## Used By
+* BookChapter: Beginning Windows 8 Application Development: XAML Edition: Starting the ViewModel
+

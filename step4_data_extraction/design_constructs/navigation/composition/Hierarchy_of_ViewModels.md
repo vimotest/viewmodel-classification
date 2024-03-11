@@ -39,3 +39,8 @@ OrdersViewModel.cs:
         }
     }
 ```
+
+## Used By
+* Website: learnfromsaki - Configuring ViewModel Hierarchy
+* Book: MVVM Survival Guide for Enterprise Architectures in Silverlight and WPF
+

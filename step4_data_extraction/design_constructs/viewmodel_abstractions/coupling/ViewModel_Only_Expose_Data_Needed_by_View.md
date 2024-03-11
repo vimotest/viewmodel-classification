@@ -16,3 +16,8 @@ This mainly aligns with the idea of a View-aware ViewModel. The ViewModel has th
 * [ViewModel_should_not_Expose_Model_Objects.md](ViewModel should not Expose Model Objects)
 * [ViewModel_for_Model_Wrappers___Proxy_Property.md](ViewModel for Model Wrappers / Proxy Property)
 * [Aggregate_Model.md](Aggregate Model)
+
+## Used By
+* TechnicalReport: Model-View-ViewModel In Silverlight 2 Apps
+* Paper: Applicability of the ViMoTest Approach for Automated GUI Testing: A Field Study
+

@@ -11,3 +11,8 @@ Example: Left view has a textbox, where the input binds to the field "name". Rig
 ## Relates to
 
 * [ViewModel_has_Many_Views.md](ViewModel has Many Views)
+
+## Used By
+* Website: AndroidWave - Fragment Communication using ViewModel
+* Thesis: A comparison of native and multiplatform development of mobile applications following the MVVM pattern
+

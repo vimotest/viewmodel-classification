@@ -15,3 +15,7 @@ Resource of this idea: FirefinchDeepDiveMvvm (Requirement #3: View models hold a
 ## Relates to
 
 * [Command_Layer_for_non_UI_Triggers.md](Command Layer for non-UI Triggers)
+
+## Used By
+* Website: Firefinch Software - Deep Dive: MVVM in Real-World Applications, Part 1
+

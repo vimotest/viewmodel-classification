@@ -14,3 +14,10 @@ DevelopersGuidePrism2011:
 ## Relates to
 
 * [Aggregate_Model.md](Aggregate Model)
+
+## Used By
+* Book: MVVM Survival Guide for Enterprise Architectures in Silverlight and WPF
+* Book: Windows Phone 8 Application Development Essentials (A practical guide to creating a Windows Phone 8 application using C#, XAML, and MVVM)
+* Book: Developer's Guide to Microsoft Prism 4: Building Modular MVVM Applications with Windows Presentation Foundation and Microsoft Silverlight
+* Paper: User Interface Rendering Time in Android Applications: Revealing the Effects of Design Patterns
+

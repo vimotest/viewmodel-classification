@@ -9,3 +9,7 @@ To get the information that a ViewModel's state has changed, a Dirty-Flag can be
 ## Resources
 ProCsWpf2017:
 > dirty tracking (tracking when one or more of an object’s values have changed) is trivial. Add a bool property named IsChanged to the Inventory class. Make sure to call OnPropertyChanged() just like the other properties in the Inventory class.
+
+## Used By
+* BookChapter: Pro C# 7: WPF Notifications, Validations, Commands, and MVVM
+

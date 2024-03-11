@@ -16,3 +16,8 @@ Resource: MarkHeathDevBlogMvvmWorthPain
 * [Input_and_Output_Callback_Interfaces.md](Input and Output/Callback Interfaces)
 * [MessageBox_by_Interaction_Service.md](MessageBox by Interaction Service)
 * [ViewModel_with_Events_Triggers.md](ViewModel with Events/Triggers)
+
+## Used By
+* Website: Mark Heath's Development Blog - MVVM – Is it Worth the Pain?
+* BookChapter: iOS Code Testing: The MVVM Architectural Pattern
+

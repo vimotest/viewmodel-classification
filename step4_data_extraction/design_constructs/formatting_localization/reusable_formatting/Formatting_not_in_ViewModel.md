@@ -23,3 +23,8 @@ It shall be placed in a separate helper module to increase reusability. Then the
 * [Date_Formatting_in_ViewModel.md](Date Formatting in ViewModel)
 * [Localization_in_ViewModel.md](Localization in ViewModel)
 * [Number_Formatting_in_ViewModel.md](Number Formatting in ViewModel)
+
+## Used By
+* Website: Matteo Manferdini - MVVM Design Pattern in iOS with Swift
+* Thesis: A comparison of native and multiplatform development of mobile applications following the MVVM pattern
+

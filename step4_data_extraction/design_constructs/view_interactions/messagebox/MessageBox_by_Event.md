@@ -13,3 +13,9 @@ Alternatively, the ViewModel could directly define an event if the programming l
 * [MessageBox_by_Interaction_Service.md](MessageBox by Interaction Service)
 * [ViewModel_with_Events_Triggers.md](ViewModel with Events/Triggers)
 * [Navigation_Trigger_by_ViewModel_Event.md](Navigation Trigger by ViewModel Event)
+
+## Used By
+* Website: Microsoft Patterns & Practices - Advanced MVVM Scenarios Using the Prism Library
+* Book: MVVM Survival Guide for Enterprise Architectures in Silverlight and WPF
+* Book: Developer's Guide to Microsoft Prism 4: Building Modular MVVM Applications with Windows Presentation Foundation and Microsoft Silverlight
+

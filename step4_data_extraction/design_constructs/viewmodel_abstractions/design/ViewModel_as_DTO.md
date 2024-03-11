@@ -11,3 +11,8 @@ This allows that the ViewModel can be transmitted/serialized for network communi
 ## Relates to
 
 * [Web_Client_Contains_MVVM.md](Web Client Contains MVVM)
+
+## Used By
+* Website: Sagitec - The 5W's of MVVM
+* Website: Christian Tietze - "Model–View–View Model (MVVM)"
+

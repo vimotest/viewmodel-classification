@@ -21,3 +21,7 @@ listenTo("increment", function( {value} ){
   resolve(count++);
 });
 ```
+
+## Used By
+* Website: CanJS - ViewModel
+

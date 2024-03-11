@@ -16,3 +16,9 @@ func viewModelForSelectedRow() -> ColorDetailViewModel? {}
 MasterView:
 let detailViewModel = viewModel.viewModelForSelectedRow()
 ```
+
+## Used By
+* Book: Pro WPF and Silverlight MVVM: Effective Application Development with Model-View-ViewModel
+* Book: MVVM Survival Guide for Enterprise Architectures in Silverlight and WPF
+* BookChapter: iOS Code Testing: The MVVM Architectural Pattern
+

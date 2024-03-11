@@ -12,3 +12,8 @@ Alternatively, the controller could also contain this data conversion logic - th
 
 * [MVVM_C__Navigation_in_Coordinator___Navigation_Service.md](MVVM-C: Navigation in Coordinator / Navigation Service)
 * [ViewModel_Composite_of_Delegates.md](ViewModel Composite of Delegates)
+
+## Used By
+* Website: r.je - MVVM, MVC it's all just roman numerals to me
+* TechnicalReport: In-depth Survey of MVVM Web Application Frameworks
+

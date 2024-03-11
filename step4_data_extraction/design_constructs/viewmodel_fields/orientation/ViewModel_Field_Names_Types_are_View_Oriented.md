@@ -16,3 +16,8 @@ Reference: FiveDotTwelveFlutterMvvm
 ## Relates to
 
 * [ViewModel_Field_Names_Types_are_View_Independent.md](ViewModel Field Names/Types are View Independent)
+
+## Used By
+* Website: FiveDotTwelve - Flutter architecture: implementing the MVVM pattern
+* Paper: Applicability of the ViMoTest Approach for Automated GUI Testing: A Field Study
+

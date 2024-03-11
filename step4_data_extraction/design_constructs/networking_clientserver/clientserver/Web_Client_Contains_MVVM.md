@@ -14,3 +14,9 @@ Also mentioned as "MVVM Client-Side Application" (Zarifis2017)
 
 * [ViewModel_as_DTO.md](ViewModel as DTO)
 * [Server_Provides_Remote_ViewModel.md](Server Provides Remote ViewModel)
+
+## Used By
+* TechnicalReport: In-depth Survey of MVVM Web Application Frameworks
+* TechnicalReport: Model-View-ViewModel In Silverlight 2 Apps
+* Paper: Design and Implementation of Real Time and History multi-view IoT trend Display and Control System
+

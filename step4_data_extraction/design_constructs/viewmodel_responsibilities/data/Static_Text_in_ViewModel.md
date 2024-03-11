@@ -10,3 +10,7 @@ To make the view as thin as possible, static text like labels/button-text is pro
 ## Relates to
 
 * [Localization_in_ViewModel.md](Localization in ViewModel)
+
+## Used By
+* Book: MVVM in Delphi
+

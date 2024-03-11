@@ -13,3 +13,7 @@ Example: a currency object is converted to a string
 
 * [Humble_View.md](Humble View)
 * [Formatting_not_in_ViewModel.md](Formatting not in ViewModel)
+
+## Used By
+* Book: MVVM in Delphi
+

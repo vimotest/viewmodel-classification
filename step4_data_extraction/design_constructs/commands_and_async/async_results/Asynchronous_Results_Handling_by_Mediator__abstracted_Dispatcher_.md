@@ -24,3 +24,7 @@ Resource: Hall2010ProWpf:
 
 * [Asynchronous_Results_Handling_by_Aspect_Oriented_Programming__AOP_.md](Asynchronous Results Handling by Aspect Oriented Programming (AOP))
 * [Encapsulate_Asynchronous_Handling_in_Helper_Classes.md](Encapsulate Asynchronous Handling in Helper Classes)
+
+## Used By
+* Book: Pro WPF and Silverlight MVVM: Effective Application Development with Model-View-ViewModel
+

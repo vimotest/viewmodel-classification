@@ -22,3 +22,8 @@ class MyViewModel(private val handle: SavedStateHandle) : ViewModel() {
 ## Relates to
 
 * [Application_Lifecycle_Aware_ViewModels.md](Application Lifecycle Aware ViewModels)
+
+## Used By
+* Website: zsmb.co - An Early Look at ViewModel SavedState
+* BookChapter: Windows 8 MVVM Patterns Revealed: Implementing the ViewModel
+

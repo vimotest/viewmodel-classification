@@ -13,3 +13,7 @@ should be defined by the view model.
 ## Relates to
 
 * [Coloring_in_ViewModel.md](Coloring in ViewModel)
+
+## Used By
+* Book: Developer's Guide to Microsoft Prism 4: Building Modular MVVM Applications with Windows Presentation Foundation and Microsoft Silverlight
+

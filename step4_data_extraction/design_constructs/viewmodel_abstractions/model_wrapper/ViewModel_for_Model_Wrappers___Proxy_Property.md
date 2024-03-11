@@ -19,3 +19,11 @@ For example, a view may populate a list box with a collection of ProductViewMode
 * [Aggregate_Model.md](Aggregate Model)
 * [ViewModel_should_not_Expose_Model_Objects.md](ViewModel should not Expose Model Objects)
 * [ViewModel_Only_Expose_Data_Needed_by_View.md](ViewModel Only Expose Data Needed by View)
+
+## Used By
+* BookChapter: Pro Business Applications with Silverlight 5: The Model-View-ViewModel (MVVM) Design Pattern
+* Book: MVVM Survival Guide for Enterprise Architectures in Silverlight and WPF
+* Book: Windows Phone 8 Application Development Essentials (A practical guide to creating a Windows Phone 8 application using C#, XAML, and MVVM)
+* Paper: Model-View Design Patterns
+* Website: Reddit - Opinions on MVVM model and separation of concerns
+

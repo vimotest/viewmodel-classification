@@ -10,3 +10,7 @@ Resource of this idea: FirefinchDeepDiveMvvm (Requirement #2: View models are al
 ## Relates to
 
 * [ViewModel_Refreshes_all_Bindings_on_Model_Change.md](ViewModel Refreshes all Bindings on Model Change)
+
+## Used By
+* Website: Firefinch Software - Deep Dive: MVVM in Real-World Applications, Part 1
+

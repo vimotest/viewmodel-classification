@@ -14,3 +14,7 @@ See: ViMoTest2023
 
 * [DSL_for_MVVM_Implementation.md](DSL for MVVM Implementation)
 * [DSL_for_ViewModel_Tests.md](DSL for ViewModel Tests)
+
+## Used By
+* Paper: Applicability of the ViMoTest Approach for Automated GUI Testing: A Field Study
+

@@ -11,3 +11,8 @@ ViewModel formats the date into a string, view only displays this string and is 
 
 * [Humble_View.md](Humble View)
 * [Formatting_not_in_ViewModel.md](Formatting not in ViewModel)
+
+## Used By
+* Website: jeremylikeness - Model-View-ViewModel (MVVM) Explained
+* Website: Medium - iOS design patterns — Part 1 (MVC, MVP, MVVM)
+
