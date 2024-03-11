@@ -1,6 +1,9 @@
-# ViewModel Classification
+# Step 2: Search Process
 
-This repository contains an automatism to simplity the initial classification of the ViewModel related google search results.
+The second step of the MLR is about the search process.
+It has two main parts:
+* Grabbing Google Entries (Websites)
+* Grabbing Scholar Entries
 
 ## Grabbing Google Results (manually)
 
@@ -42,9 +45,9 @@ We then use the program `WebsiteStepByStepCheck.kt` to assist in migrating the i
 Sometimes ChatGPT was not sure what to classify and wrote something about its decision. We searched for those decisions systematically.
 We re-checked the chatgpt scans not classified as `B` or `C` by systematically searching all analysis texts for indications, see `ChatGptUnsureChecker.kt`.
 
-## Grabbing Paper Resources
+## Grabbing Scholar Entries
 
-To grab paper resources, we retrieved systematically scholar entries from GoogleScholar and SemanticScholar.
+To grab scholar entries, we retrieved systematically scholar entries from GoogleScholar and SemanticScholar.
 Afterward, we created a "joined.csv" with the program `PreparePaperSearchesToJoinedCsv.kt`.
 Then we manually filtered the joined.csv entries by removing:
 * duplicates
@@ -82,12 +85,21 @@ There the attribution and in-depth analysis of the scholar entries takes place.
 
 Search for keywords "mvvm" and "viewmodel" if not included in title. (title is found by Google Scholar)
 
-* dl.acm.org
+* `dl.acm.org`
     * [Keywords: mvvm] OR [Keywords: viewmodel]
     * [Title: mvvm] OR [Title: viewmodel]
     * [Abstract: mvvm] OR [Abstract: viewmodel]
     * https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AllField=Keyword%3A%28mvvm+OR+viewmodel%29+AND+Title%3A%28-mvvm+AND+-viewmodel%29
     * ...
-* ieeexplore.ieee.org
+* `ieeexplore.ieee.org`
     * `("Author Keywords":mvvm OR "Author Keywords":viewmodel) OR ("Abstract":mvvm OR "Abstract":viewmodel) OR ("Publication Title":mvvm OR "Publication Title":viewmodel) OR ("Document Title":mvvm OR "Document Title":viewmodel)`
     * https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22Author%20Keywords%22:mvvm%20OR%20%22Author%20Keywords%22:viewmodel)%20OR%20(%22Abstract%22:mvvm%20OR%20%22Abstract%22:viewmodel)%20OR%20(%22Publication%20Title%22:mvvm%20OR%20%22Publication%20Title%22:viewmodel)%20OR%20(%22Document%20Title%22:mvvm%20OR%20%22Document%20Title%22:viewmodel)
+
+## Outcome
+
+An initial pool of 520 scholar entries 522 website entries.
+They are scanned/voted to filer out 38 scholar entries and 125 website entries for the next step.
+
+## Next Step
+
+See `step3_attribute_classification_design/README.md`
