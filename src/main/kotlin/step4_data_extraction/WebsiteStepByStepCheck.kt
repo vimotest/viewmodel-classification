@@ -12,7 +12,11 @@ fun main() {
 
     val nextScan = scansOverview.skip(1)
         .filter { !alreadyScanned.contains(it.url()) }
-        .first { it.category().contains("B") || it.category().contains("C") }
+        .firstOrNull { it.category().contains("B") || it.category().contains("C") }
+    if (nextScan == null) {
+        println("No more websites to check")
+        return
+    }
 
     alreadyScannedFile.appendText("${nextScan.url()}\n")
 

@@ -12,7 +12,11 @@ fun main() {
 
     val nextEntry = markdownLines.skip(6)
         .filter { !alreadyScanned.contains(it.url()) }
-        .first { it.classification() == "ACCEPT" }
+        .firstOrNull { it.classification() == "ACCEPT" }
+    if (nextEntry == null) {
+        println("No more scholar entries to check")
+        return
+    }
 
     alreadyScannedFile.appendText("${nextEntry.url()}\n")
 
