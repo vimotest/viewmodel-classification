@@ -1,16 +1,21 @@
-package papers
+package step2_search_process.papers.processing
 
-import papers.util.BibTexInfo
-import papers.util.extractBibTex
+import papers.*
+import papers.getAuthor
+import papers.getCiticationCount
+import papers.getTitleLowerCaseLogical
+import papers.skip
+import step2_search_process.papers.util.BibTexInfo
+import step2_search_process.papers.util.extractBibTex
 import java.io.File
 
 // each CSV file has the columns: Cites,Authors,Title,Year,Source,Publisher,ArticleURL,CitesURL,GSRank,QueryDate,Type,DOI,ISSN,CitationURL,Volume,Issue,StartPage,EndPage,ECC,CitesPerYear,CitesPerAuthor,AuthorCount,Age,Abstract,FullTextURL,RelatedURL
 // the separator is a comma
 
-fun main() {
-    val directoryOfCsvFiles = File("searches/raw/")
+fun joinResultsToCsv() {
+    val directoryOfCsvFiles = File("step2_search_process/scholar_searches/raw/")
     val csvFiles = directoryOfCsvFiles.listFiles { _, name -> name.endsWith(".csv") }!!.toList().sortedBy { it.name }
-    val joinedFile = File("output/joined.csv")
+    val joinedFile = File("step2_search_process/output/papers/joined.csv")
     joinedFile.delete()
     joinedFile.parentFile.mkdir()
 
@@ -38,7 +43,7 @@ fun main() {
     }
 
     val entriesLowerCaseSoFar = stringBuilder.toString().lowercase()
-    extractBibTex("searches/raw/").forEach { bibTexInfo ->
+    extractBibTex("step2_search_process/scholar_searches/raw/").forEach { bibTexInfo ->
         if (!entriesLowerCaseSoFar.contains(bibTexInfo.title.lowercase()) && !entriesLowerCaseSoFar.contains(bibTexInfo.doi)) {
             stringBuilder.append(bibTexInfo.toCsvLine())
         }
@@ -55,14 +60,14 @@ private fun BibTexInfo.toCsvLine() = "0,\"$authors\",\"$title\",$year,,\"$publis
 
 private fun writeRelvantPapersCsv(joinedCsv: String) {
     println("Now write relevantPapers.csv based on joined.csv and manually_excluded.txt")
-    val manuallyExcludedFile = File("searches/manuallyExcluded.txt")
+    val manuallyExcludedFile = File("step2_search_process/scholar_searches/manuallyExcluded.txt")
 
     val manuallyExclusionCriteria = manuallyExcludedFile.readLines()
         .map { it.pickRelevantExclusionCriteria() }
         .toSet()
 
     val relevantLines = joinedCsv.lines().filterNot { it.isManuallyExcluded(manuallyExclusionCriteria) }
-    val relevantPapersCsv = File("searches/relevantPapers.csv")
+    val relevantPapersCsv = File("step2_search_process/scholar_searches/relevantPapers.csv")
     relevantPapersCsv.writeText(relevantLines.joinToString("\r\n"))
 
     println("Successfully wrote ${relevantLines.size-1} filtered papers to file: ${relevantPapersCsv.absolutePath}")

@@ -1,11 +1,11 @@
-package multivocal.mps
+package step4_data_extraction
 
 import papers.skip
 import java.io.File
 
 fun main() {
-    val scansOverviewFile = File("output/chatgpt/chatgpt_scans.csv")
-    val alreadyScannedFile = File("output/chatgpt/alreadyChecked.txt")
+    val scansOverviewFile = File("step2_search_process/output/chatgpt/chatgpt_scans.csv")
+    val alreadyScannedFile = File("step2_search_process/output/chatgpt/alreadyChecked.txt")
 
     val scansOverview = scansOverviewFile.readLines()
     val alreadyScanned = alreadyScannedFile.readLines().toSet()
@@ -26,7 +26,7 @@ private fun String.url() = this.split(";").first()
 private fun String.category() = this.split(";").last()
 
 private fun printWhichScanFileHandlesUrl(url: String, category: String) {
-    val scanFiles = File("output/chatgpt/").listFiles()!!
+    val scanFiles = File("step2_search_process/output/chatgpt/").listFiles()!!
     val scanFile = scanFiles.first { it.extension == "md" && it.readText().contains(url) }
     println("In file: ${scanFile.name}")
     scanFile.printRelatedScanPartFileHandlesUrl(url, category)

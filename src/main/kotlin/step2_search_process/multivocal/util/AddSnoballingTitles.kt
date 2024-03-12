@@ -1,11 +1,11 @@
-package multivocal.util
+package step2_search_process.multivocal.util
 
 import java.io.File
 import java.net.HttpURLConnection
 import java.net.URL
 
 fun main() {
-    val snowballingFile = File("input/snowballing.txt")
+    val snowballingFile = File("step2_search_process/website_searches/snowballing.txt")
     val lines = snowballingFile.readLines()
     val newLines = lines.map { line ->
         if (line.contains("\t")) {

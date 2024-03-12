@@ -1,8 +1,6 @@
-package multivocal.chatgpt
+package step2_search_process.multivocal.chatgpt
 
-import java.io.File
-
-fun main() {
+fun checkUnsureResults() {
     val scans = collectAndParseScans()
 
     println("Scans with unsure answers:")

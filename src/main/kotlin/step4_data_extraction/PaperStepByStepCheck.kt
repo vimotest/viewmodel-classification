@@ -1,10 +1,11 @@
-package papers
+package step4_data_extraction
 
+import papers.skip
 import java.io.File
 
 fun main() {
-    val classificationFile = File("site_initial_classification_papers.md")
-    val alreadyScannedFile = File("output/papers/alreadyChecked.txt")
+    val classificationFile = File("step2_search_process/output/papers/site_initial_classification_papers.md")
+    val alreadyScannedFile = File("step2_search_process/output/papers/alreadyChecked.txt")
 
     val markdownLines = classificationFile.readLines()
     val alreadyScanned = alreadyScannedFile.readLines().toSet()

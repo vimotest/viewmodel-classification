@@ -10,12 +10,11 @@ It has two main parts:
 To grab google results, we retrieved systematically website URLs from Google.
 We use the Chrome browser to search for relevant keywords, and then extract the found URLs to txt-files.
 
-Those txt-files are then used as an input for the program `MultiVocalLiteratureMain.kt` (started with argument "chatgpt") to compute URL chunks of 5.
+Those txt-files are then used as an input for the program `MultiVocalLiteratureMain.kt` (argument "chatgpt-next-chunk") to compute URL chunks of 5.
 Those chunks are then used as input for ChatGPT with the plugin "WebPilot" to let it automatically classify for our literature search.
 The results are then manually pasted in the automatically created files "output/chatgpt/chatgpt_scan_<chunknumber>.md".
 
-Afterward, the program `ChatGptScanParser.kt` is used for creating a file "chatgpt_scans.csv" which contains the results of the initial classification by ChatGPT.
-We then use the program `WebsiteStepByStepCheck.kt` to assist in migrating the initial accepted (Category `B` or `C`) websites to "mps-literature-review".
+Afterward, the program `MultiVocalLiteratureMain.kt` (argument "chatgpt-scan-results") is used for creating a file "chatgpt_scans.csv" which contains the results of the initial classification by ChatGPT.
 
 ### Initial 2023-02-07
 
@@ -40,26 +39,23 @@ We then use the program `WebsiteStepByStepCheck.kt` to assist in migrating the i
     * click "Saved URLs"
     * click "Copy List" and paste into txt-file
 
-## Meta-Check ChatGPT Scan Results
+### Meta-Check ChatGPT Scan Results
 
-Sometimes ChatGPT was not sure what to classify and wrote something about its decision. We searched for those decisions systematically.
-We re-checked the chatgpt scans not classified as `B` or `C` by systematically searching all analysis texts for indications, see `ChatGptUnsureChecker.kt`.
+Sometimes ChatGPT was not sure what to classify and wrote something about its decision. We searched for those decisions systematically (e.g., by noticable terms like "additional").
+We re-checked the chatgpt scans not classified as `B` or `C` by systematically searching all analysis texts for indications, see `MultiVocalLiteratureMain.kt` (argument "chatgpt-unsure-check").
 
 ## Grabbing Scholar Entries
 
 To grab scholar entries, we retrieved systematically scholar entries from GoogleScholar and SemanticScholar.
-Afterward, we created a "joined.csv" with the program `PreparePaperSearchesToJoinedCsv.kt`.
+Afterward, we created a "joined.csv" with the program `PaperLiteratureMain.kt` (argument "join-search-results").
 Then we manually filtered the joined.csv entries by removing:
 * duplicates
 * non-english entries
 * titles which do not really deal with "mvvm" (e.g., "view model" word combinations of other areas)
   The filtered result is written to the file `relevantPapers.csv`.`
 
-Finally, the program `PaperLiteratureMain.kt` is used for initial classification in `site_initial_classification_papers.md`.
+Finally, the program `PaperLiteratureMain.kt` (argument "initial-classification") is used for initial classification in `site_initial_classification_papers.md`.
 The program iteratively prints the next entry of `relevantPapers.csv` and we manually classify it to `REJECT`, `ACCEPT`, or `REVIEW`.
-
-After processing the initial classification, the program `PaperStepByStepCheck.kt` is used to assist in migrating the initial accepted (`ACCEPT`) papers to "mps-literature-review".
-There the attribution and in-depth analysis of the scholar entries takes place.
 
 ### Initial 2023-02-26
 

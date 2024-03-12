@@ -1,9 +1,13 @@
-package multivocal.chatgpt
+package step2_search_process.multivocal.chatgpt
 
 import java.io.File
 
 fun checkNextUrlChunkWithChatGPT(inputUrls: List<String>) {
     val nextUrls = next5ChatGptUrls(inputUrls)
+    if (nextUrls.isEmpty()) {
+        println("No next URLs - all processed")
+        return
+    }
     println("Next websites for Chat-GPT:")
     for (nextUrl in nextUrls) {
         println(nextUrl)
@@ -29,7 +33,7 @@ private fun next5ChatGptUrls(inputUrls: List<String>): List<String> {
 }
 
 private fun collectScannedUrls(): List<String> {
-    val chatgptOutputDir = File("output/chatgpt")
+    val chatgptOutputDir = File("step2_search_process/output/chatgpt")
     val files = chatgptOutputDir.listFiles()
     if (files == null || files.isEmpty()) {
         return emptyList()
@@ -40,15 +44,15 @@ private fun collectScannedUrls(): List<String> {
 private fun extractUrls(it: File) = it.readText().lines().take(5).filter { it.startsWith("http") }
 
 fun createNextGptScannedResultsFile(nextUrls: List<String>) {
-    val chatgptOutputDir = File("output/chatgpt")
+    val chatgptOutputDir = File("step2_search_process/output/chatgpt")
     val nextNumber = (chatgptOutputDir.listFiles()?.count { it.name.startsWith("chatgpt_scan_") && it.extension == "md" } ?: 0) + 1
     val nextNumberString = nextNumber.toString().padStart(3, '0')
     
-    val file = File("output/chatgpt/chatgpt_scan_$nextNumberString.md")
+    val file = File("step2_search_process/output/chatgpt/chatgpt_scan_$nextNumberString.md")
     assert(!file.exists())
     file.writeText(nextUrls.joinToString("\n"))
 
-    val promptFile = File("src/main/chatgpt/prompt.txt")
+    val promptFile = File("step2_search_process/chatgpt/prompt.txt")
     val promptTemplate = promptFile.readText()
     val promptWithUrls = promptTemplate.replace("\$URLS\$", nextUrls.joinToString("\n"))
     println("Prompt for Chat-GPT:")

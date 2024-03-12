@@ -1,5 +1,5 @@
-import multivocal.chatgpt.ChatGptScan
-import multivocal.chatgpt.parseGptScan
+package step2_search_process.multivocal.chatgpt
+
 import java.io.File
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -9,7 +9,7 @@ class ChatGptScanParserTest {
 
     @Test
     fun testFile001() {
-        val input = "output/chatgpt/chatgpt_scan_001.md"
+        val input = "step2_search_process/output/chatgpt/chatgpt_scan_001.md"
         actual = parseGptScan(File(input))
         assertScans(
             "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel -> Wikipedia - Model-view-viewmodel" to "A*",
@@ -21,7 +21,7 @@ class ChatGptScanParserTest {
     }
     @Test
     fun testFile002() {
-        val input = "output/chatgpt/chatgpt_scan_002.md"
+        val input = "step2_search_process/output/chatgpt/chatgpt_scan_002.md"
         actual = parseGptScan(File(input))
         assertScansContains(
             "https://www.atmosera.com/blog/model-view-viewmodel-mvvm-explained/ -> Atmosera" to "A*"
@@ -29,14 +29,14 @@ class ChatGptScanParserTest {
     }
     @Test
     fun testFile003() {
-        val input = "output/chatgpt/chatgpt_scan_003.md"
+        val input = "step2_search_process/output/chatgpt/chatgpt_scan_003.md"
         actual = parseGptScan(File(input))
         assertScansContains("https://java-design-patterns.com/patterns/model-view-viewmodel/ -> Java Design Patterns" to "A/C")
         assertScansContains("https://developer.android.com/topic/libraries/architecture/viewmodel -> Android Developers" to "A*")
     }
     @Test
     fun testFile024() {
-        val input = "output/chatgpt/chatgpt_scan_024.md"
+        val input = "step2_search_process/output/chatgpt/chatgpt_scan_024.md"
         actual = parseGptScan(File(input))
         assertScansContains(
             "https://canjs.com/doc/can-component.prototype.ViewModel.html" to "B*",
@@ -44,7 +44,7 @@ class ChatGptScanParserTest {
     }
     @Test
     fun testFile034() {
-        val input = "output/chatgpt/chatgpt_scan_034.md"
+        val input = "step2_search_process/output/chatgpt/chatgpt_scan_034.md"
         actual = parseGptScan(File(input))
         assertScansContains(
             "https://en.wiktionary.org/wiki/view_model" to "D",
@@ -52,7 +52,7 @@ class ChatGptScanParserTest {
     }
     @Test
     fun testFile041() {
-        val input = "output/chatgpt/chatgpt_scan_041.md"
+        val input = "step2_search_process/output/chatgpt/chatgpt_scan_041.md"
         actual = parseGptScan(File(input))
         assertScans(
             "https://deutschergrossspitz.de/tf2-viewmodel-mod.html" to "E",

@@ -1,16 +1,28 @@
-package papers
+package step2_search_process.papers
 
+import papers.getPaperUrl
+import papers.getTitle
+import papers.getType
+import step2_search_process.papers.processing.joinResultsToCsv
 import java.io.File
 
 data class Paper(val url: String, val name: String, val type: String)
 
 fun main(args: Array<String>) {
-    if (args.size == 1 && args.first() == "count") {
+    if (args.size == 1 && args.first() == "join-search-results") {
+        joinResultsToCsv()
+    } else if (args.size == 1 && args.first() == "initial-classification") {
+        nextStepForInitialClassification()
+    } else if (args.size == 1 && args.first() == "count") {
         val count = countAllUrls()
         val alreadyHandled = usedUrls.size
         println("$alreadyHandled of $count initially handled, remaining: ${count - alreadyHandled}")
-        return
+    } else {
+        println("Invalid args")
     }
+}
+
+private fun nextStepForInitialClassification() {
     val paper = getNextPaper()
     if (paper != null) {
         println("Next paper: ${paper.name} <${paper.type}> (${paper.url})")

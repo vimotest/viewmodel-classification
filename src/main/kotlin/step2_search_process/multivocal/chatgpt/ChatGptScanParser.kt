@@ -1,4 +1,4 @@
-package multivocal.chatgpt
+package step2_search_process.multivocal.chatgpt
 
 import papers.skip
 import java.io.File
@@ -12,14 +12,24 @@ data class ChatGptScan(
     val chatGptAnswer: String)
 
 val overrideWebsiteCategory by lazy {
-    val file = File("output/chatgpt/overrideWebsiteCategory.txt")
+    val file = File("step2_search_process/output/chatgpt/overrideWebsiteCategory.txt")
     file.readLines()
         .map { it.substringBefore(" ->") }
         .map { it.split("=") }
         .map { it[0] to it[1] }.toMap()
 }
 
-fun parseGptScan(file: File): List<ChatGptScan> {
+fun chatgpParseScans() {
+    //checkInconsistentScans()
+    val scans = collectAndParseScans()
+
+    // print all scans as a simple csv table into output/chatgpt/chatgpt_scans.csv with the columns URL, Website, Category
+    val outputFile = File("step2_search_process/output/chatgpt/chatgpt_scans.csv")
+    outputFile.writeText("URL;Name;Category\n" + scans.joinToString("\n") { "${it.websiteUrl};${it.websiteName};${it.category}" })
+    println("Wrote ${scans.size} scans into $outputFile")
+}
+
+internal fun parseGptScan(file: File): List<ChatGptScan> {
     val text = file.readText()
     val partOfAnswers =
         text.substringAfter("ChatGPT:")
@@ -155,19 +165,9 @@ private fun String.trimSuffixOfPattern(regex: String): String {
 
 private fun String.countSubstring(substring: String) = this.split(substring).size - 1
 
-fun main() {
-    //checkInconsistentScans()
-    val scans = collectAndParseScans()
-
-    // print all scans as a simple csv table into output/chatgpt/chatgpt_scans.csv with the columns URL, Website, Category
-    val outputFile = File("output/chatgpt/chatgpt_scans.csv")
-    outputFile.writeText("URL;Name;Category\n" + scans.joinToString("\n") { "${it.websiteUrl};${it.websiteName};${it.category}" })
-    println("Wrote ${scans.size} scans into $outputFile")
-}
-
 fun checkInconsistentScans() {
 
-    val directory = File("output/chatgpt")
+    val directory = File("step2_search_process/output/chatgpt")
     directory.listFiles()!!.sorted().filter { it.name.endsWith(".md") }.forEach { file ->
         val content = file.readText()
         if (content.startsWith("SKIP")) {
@@ -198,7 +198,7 @@ private fun String.countCategorys(): Int {
 }
 
 internal fun collectAndParseScans(): MutableList<ChatGptScan> {
-    val directory = File("output/chatgpt")
+    val directory = File("step2_search_process/output/chatgpt")
     val scans = mutableListOf<ChatGptScan>()
     directory.listFiles()!!.sorted()
         .filter { it.name.endsWith(".md") }
