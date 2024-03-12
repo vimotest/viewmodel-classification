@@ -7,7 +7,7 @@ import java.io.File
 
 fun main() {
 
-    val file = File("searches/relevantPapers.csv")
+    val file = File("step2_search_process/scholar_searches/relevantPapers.csv")
     val result = mutableListOf<String>()
     var i = 0
     for (line in file.readText().lines()) {
@@ -28,5 +28,5 @@ fun main() {
         i++
     }
 
-    File("searches/relevantPapers.csv").writeText(result.joinToString("\r\n"))
+    File("step2_search_process/scholar_searches/relevantPapers.csv").writeText(result.joinToString("\r\n"))
 }

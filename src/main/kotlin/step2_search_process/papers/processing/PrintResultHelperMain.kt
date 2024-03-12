@@ -9,7 +9,7 @@ import java.io.File
 // the separator is a comma
 
 fun main() {
-    val file = File("searches/relevantPapers.csv")
+    val file = File("step2_search_process/scholar_searches/relevantPapers.csv")
     file.readLines().skip(1).sortedBy { it.getType() }.forEach {
         val url = it.getPaperUrl()
         println(url)

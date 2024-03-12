@@ -48,7 +48,7 @@ private fun paperIsAlreadyUsed(paper: Paper) =
     usedTitles.contains(paper.url) // some entries do not have a URL (they store the title as a fallback into .url), then we have to use the title
 
 private fun addPaperToClassificationFile(paper: Paper) {
-    val file = File("site_initial_classification_papers.md")
+    val file = File("step2_search_process/output/papers/site_initial_classification_papers.md")
     if (!file.readText().contains(paper.url)) {
         file.appendText("|-|${paper.name}|${paper.type}|${paper.url}|TODO| |\n")
     }
@@ -64,8 +64,8 @@ private val usedTitles : Set<String> by lazy {
         .map { it.split("|")[2].trim() }.toSet()
 }
 
-private fun getUsedInitialClassificationLines() = File("site_initial_classification_papers.md")
-    .readText()
+private fun getUsedInitialClassificationLines() = File("step2_search_process/output/papers/site_initial_classification_papers.md")
+    .readText().trim()
     .lines()
     .filter { it.matches("\\|[^|]+\\|[^|]+\\|[^|]+\\|[^|]+\\|\\s*(REJECT|REVIEW|ACCEPT|STANDARD_ACCEPT|DUPLICATE)\\s*\\|[^|]+\\|".toRegex()) }
 
@@ -84,8 +84,8 @@ private fun countAllUrls(): Int {
 }
 
 private fun iterateInputUrls(consumer: (Paper) -> Boolean) {
-    val file = File("searches/relevantPapers.csv")
-    for (line in file.readText().lines().drop(1)) {
+    val file = File("step2_search_process/scholar_searches/relevantPapers.csv")
+    for (line in file.readText().trim().lines().drop(1)) {
         val stop = consumer(Paper(line.toUrl(), line.toPaperName(), line.toUrlType()))
         if (stop) {
             return
