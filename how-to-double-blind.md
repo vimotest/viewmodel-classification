@@ -24,3 +24,16 @@ Important: Do not include:
 * how-to-double-blind.md
 
 Important: ensure `https://github.com/Fumapps` is replaced with https://github.com/anonymized
+
+## Sanity Check of ZIP to Submit
+
+* full-text search
+  * "Fuksa", "Speth" => only in search results etc.
+  * "Fumapps" => must not occur
+* `gradlew step2_MultiVocalLiteratureMain-chatgpt-next-chunk` works
+* `gradlew step2_MultiVocalLiteratureMain-chatgpt-scan-results` works
+* `gradlew step2_MultiVocalLiteratureMain-chatgpt-unsure-check` works
+* `gradlew step2_PaperLiteratureMain-join-search-results` works
+* `gradlew step2_PaperLiteratureMain-initial-classification` works
+* `gradlew step4_WebsiteStepByStepCheck` works
+* `gradlew step4_PaperStepByStepCheck` works

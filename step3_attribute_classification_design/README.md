@@ -3,7 +3,7 @@
 In this step, we design the classification of the attributes of the literature.
 We use the language workbench JetBrains MPS to define a language to structure the scheme.
 
-See https://github.com/Fumapps/mps-literature-review language definition.
+See https://github.com/anonymized/mps-literature-review language definition.
 
 ## Outcome
 
