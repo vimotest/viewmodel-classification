@@ -93,7 +93,7 @@ Search for keywords "mvvm" and "viewmodel" if not included in title. (title is f
 
 ## Outcome
 
-An initial pool of 520 scholar entries 522 website entries.
+An initial pool of 519 scholar entries 523 website entries.
 They are scanned/voted to filer out 38 scholar entries and 125 website entries for the next step.
 
 ## Next Step
