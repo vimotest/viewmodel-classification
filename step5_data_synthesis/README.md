@@ -20,3 +20,8 @@ Execute in MPS console:
   * store as `unique_designconstructs_per_sourcetype.csv`
 * `TradeoffsOverview.printTradeoffsOverview(#instances(LiteratureReview).first)`
   * store as `tradeoffs_usage_statistics.csv`
+
+## Outcome
+
+[usage_statistics.md](usage_statistics.md)
+[answers_of_research_questions.md](answers_of_research_questions.md)
