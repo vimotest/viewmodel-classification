@@ -25,6 +25,14 @@ ViewModel: Remains responsible for the presentation logic and state, interacting
 Data Filling: The ViewModel directly or indirectly (through services or use cases) fetches and manages the data it needs to present. The Coordinator does not fill the ViewModel with data but may initiate the transition to a ViewModel that corresponds to a new part of the application flow.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel modularization" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [MVVM_C__Navigation_in_Coordinator___Navigation_Service.md](MVVM-C: Navigation in Coordinator / Navigation Service)

@@ -16,6 +16,14 @@ ViewModel class shall not do data formatting, like (ManferdiniMvvmSwift):
 It shall be placed in a separate helper module to increase reusability. Then the view can use the simple helpers to format.
 
 
+## Construct Type
+
+**DivergentConstruct:** divergents an intention/tip of a standard MVVM rule
+
+**Why:** "data-transformers" are intended in the ViewModel by standard definition
+
+
+
 ## Relates to
 
 * [Localization_in_View.md](Localization in View)

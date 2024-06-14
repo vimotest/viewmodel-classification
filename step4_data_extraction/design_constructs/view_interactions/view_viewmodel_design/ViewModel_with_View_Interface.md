@@ -11,6 +11,14 @@ E.g., StartAnimation()
 Resource: MarkHeathDevBlogMvvmWorthPain
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel to view communication" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Input_and_Output_Callback_Interfaces.md](Input and Output/Callback Interfaces)

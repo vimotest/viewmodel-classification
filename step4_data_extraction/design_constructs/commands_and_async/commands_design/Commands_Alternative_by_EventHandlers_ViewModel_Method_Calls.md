@@ -26,6 +26,14 @@ void LoadGames(string genre)
 ```
 
 
+## Construct Type
+
+**RealizationGuideline:** realization guideline for an aspect mentioned by the MVVM standard rules
+
+**Why:** "commands" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [ViewModel_Independent_of_UI_Framework_Utility_Classes.md](ViewModel Independent of UI-Framework Utility Classes)

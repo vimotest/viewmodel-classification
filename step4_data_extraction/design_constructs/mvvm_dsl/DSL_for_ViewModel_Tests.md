@@ -10,6 +10,14 @@ Based on DSLs for specifying ViewModel APIs, a further DSL is created to create 
 See: ViMoTest2023
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [DSL_for_Specifying_ViewModel_API.md](DSL for Specifying ViewModel API)

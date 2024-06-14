@@ -10,6 +10,14 @@ Prioritize Reusable ViewModels: ViewModel knows as little as possible about a ce
 Resource: FreeCodeCampMvvmAndroidPro
 
 
+## Construct Type
+
+**ConfirmingConstruct:** confirms/substantiates/clarifies an intention/tip of a standard MVVM rule
+
+**Why:** Confirms the idea of ViewModel provides an "abstract representation for reusable parts"
+
+
+
 ## Relates to
 
 * [Humble_View.md](Humble View)

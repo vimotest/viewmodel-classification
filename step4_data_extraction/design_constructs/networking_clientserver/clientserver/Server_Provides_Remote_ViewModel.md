@@ -17,6 +17,14 @@ Main idea from RMVRVM: (SinghRmvrvm2022)
 > The client-side has a JSON to View Model converter object that transforms the incoming response in JSON to the structure of the view model proxy. The response object already has a field that identifies which view model proxy needs to be updated.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "client/server distribution" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Web_Client_Contains_MVVM.md](Web Client Contains MVVM)

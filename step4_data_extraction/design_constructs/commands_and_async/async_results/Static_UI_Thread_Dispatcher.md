@@ -10,6 +10,14 @@ If a ViewModel receives data from background threads, use a (static) dispatcher 
 Resource: MsdnMultithreadingMvvm
 
 
+## Construct Type
+
+**RealizationGuideline:** realization guideline for an aspect mentioned by the MVVM standard rules
+
+**Why:** "asynchronous operation" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [Asynchronous_Commands_Requirements.md](Asynchronous Commands Requirements)

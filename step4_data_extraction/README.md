@@ -22,7 +22,7 @@ The program `PaperStepByStepCheck.kt` is used to assist in migrating the initial
 
 ## Generate Data to Markdown
 
-Open project in MPS and generate "sandbox", see generated files under `<project-root>/languages/LiteratureReviewLang.sandbox/source_gen`
+Open project in MPS and generate `LiteratureReviewLang.sandbox`/`MvvmReview`, see generated files under `<project-root>/languages/LiteratureReviewLang.sandbox/source_gen`
 
 ## Outcome
 

@@ -19,6 +19,14 @@ class MyViewModel(private val handle: SavedStateHandle) : ViewModel() {
 ```
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "persistence" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Application_Lifecycle_Aware_ViewModels.md](Application Lifecycle Aware ViewModels)

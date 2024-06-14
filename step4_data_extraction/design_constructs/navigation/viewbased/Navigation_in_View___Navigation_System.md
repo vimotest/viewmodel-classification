@@ -7,6 +7,14 @@ Navigation logic is placed in the view or a framework-specific navigation (workf
 UI frameworks often provide routing/navigation features to realize the workflow of the application. The design construct is about using those workflow features for view navigation, instead of placing the responsibility to ViewModels.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "navigation" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Navigation_Trigger_by_ViewModel_Event.md](Navigation Trigger by ViewModel Event)

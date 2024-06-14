@@ -11,6 +11,14 @@ Example:
 > if we need to display the name and the email address of a User, rather than creating two streams for this, we create a DisplayableUser object (MediumAndroidPatternsMvvm)
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel field design" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Reusable_and_View_Unaware_ViewModel.md](Reusable and View-Unaware ViewModel)

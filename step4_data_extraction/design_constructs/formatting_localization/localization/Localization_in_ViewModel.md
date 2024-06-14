@@ -8,6 +8,14 @@ The ViewModel uses an UI-framework independent dictionary service or an abstract
 The View might implement/provide the abstracted dictionary service via dependency injection to the ViewModel. Alternatively, the ViewModel could directly use UI-framework independent dictionary services if available.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Formatting_not_in_ViewModel.md](Formatting not in ViewModel)

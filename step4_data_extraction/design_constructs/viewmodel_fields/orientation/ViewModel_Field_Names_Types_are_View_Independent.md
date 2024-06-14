@@ -19,6 +19,14 @@ boolean to a Visibility enumeration value. It may seem like more work, but follo
 ing and data type strategy enables the ViewModel to be much more generic and reusable." (Anderson2012MvvmPattern)
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel field design" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [ViewModel_Field_Names_Types_are_View_Oriented.md](ViewModel Field Names/Types are View Oriented)

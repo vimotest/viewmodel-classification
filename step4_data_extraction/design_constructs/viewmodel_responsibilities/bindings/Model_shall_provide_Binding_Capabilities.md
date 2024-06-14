@@ -11,6 +11,14 @@ DevelopersGuidePrism2011:
 > Model's Data Binding and Validation Capabilities: The text places significant emphasis on the model's ability to support data binding and validation, going beyond the typical description of the model in standard MVVM. It discusses INotifyPropertyChanged, INotifyCollectionChanged, IDataErrorInfo, and INotifyDataErrorInfo interfaces in detail, which is an extension to the standard definition.
 
 
+## Construct Type
+
+**ConfirmingConstruct:** confirms/substantiates/clarifies an intention/tip of a standard MVVM rule
+
+**Why:** "view is data bound directly to the model" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [Aggregate_Model.md](Aggregate Model)

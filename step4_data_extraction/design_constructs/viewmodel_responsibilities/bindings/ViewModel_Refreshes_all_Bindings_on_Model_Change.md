@@ -12,6 +12,14 @@ If the model changes, a ViewModel does not know which exact properties are inval
 Resource of this idea: FirefinchDeepDiveMvvm (Requirement #3: View models hold as little state as possible)
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Command_Layer_for_non_UI_Triggers.md](Command Layer for non-UI Triggers)

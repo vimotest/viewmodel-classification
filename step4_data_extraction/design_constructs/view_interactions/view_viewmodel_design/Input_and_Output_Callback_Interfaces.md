@@ -11,6 +11,14 @@ View implements an Callback/Output interface, which ViewModel can use, similar t
 Resource: MercariViewModelInputsOutputs
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel to view communication" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [ViewModel_with_View_Interface.md](ViewModel with View Interface)

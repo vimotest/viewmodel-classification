@@ -17,6 +17,14 @@ Note: this design construct does not restrict how many ViewModels the View can h
 case, the ViewModel-first approach might be best. (Anderson2012MvvmPattern)
 
 
+## Construct Type
+
+**RestrictsStandardDefinition:** restricts standard MVVM rules
+
+**Why:** Restrict "View/ViewModel relationship" aspect
+
+
+
 ## Relates to
 
 * [ViewModel_as_State_Share.md](ViewModel as State Share)

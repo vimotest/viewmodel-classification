@@ -26,6 +26,14 @@ navigationService.NavigateTo(ViewModelLocator.MapPageKey, new List<double>{Latit
 ```
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "navigation" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [MVVM_Controller__ViewModel_and_Controller.md](MVVM/Controller: ViewModel and Controller)

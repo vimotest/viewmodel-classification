@@ -8,6 +8,14 @@ Provide a Mediator (or Messaging, or Pub/Sub) which the ViewModel can use to pub
 The View subscribes to such messages and uses it to show the actual messagebox.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "messagebox handling" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [MessageBox_by_Interaction_Service.md](MessageBox by Interaction Service)

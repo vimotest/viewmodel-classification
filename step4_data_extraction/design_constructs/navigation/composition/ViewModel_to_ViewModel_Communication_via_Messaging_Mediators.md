@@ -12,6 +12,14 @@ Note: We see this design construct relevant in the context of composing/coordina
 Concrete framework realizations: Prism's EventAggregator, MVVM Light's Messenger
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [MessageBox_by_Interaction_Service.md](MessageBox by Interaction Service)

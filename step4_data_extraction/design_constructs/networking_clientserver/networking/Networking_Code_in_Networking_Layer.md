@@ -12,6 +12,14 @@ The ViewModel then is free of networking code, since it uses the networking laye
 Resource: ManferdiniMvvmSwift
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "networking" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Networking_Code_in_View.md](Networking Code in View)

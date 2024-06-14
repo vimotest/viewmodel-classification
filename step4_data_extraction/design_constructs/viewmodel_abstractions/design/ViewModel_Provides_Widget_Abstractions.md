@@ -11,6 +11,14 @@ Each widget then has mandatory or further optional features like the text, text-
 See: ViMoTest2023
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel field design" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Humble_View.md](Humble View)

@@ -9,6 +9,14 @@ For asynchronous dta loading, the ViewModel can use an asynchronous Task/Thread 
 In WPF this can also be achieved with "IsAsync"+"FallbackValue" bindings, and `<ObjectDataProvider IsAsynchronous="True"...` mechanisms.
 
 
+## Construct Type
+
+**RealizationGuideline:** realization guideline for an aspect mentioned by the MVVM standard rules
+
+**Why:** "asynchronous operation" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [Static_UI_Thread_Dispatcher.md](Static UI Thread Dispatcher)

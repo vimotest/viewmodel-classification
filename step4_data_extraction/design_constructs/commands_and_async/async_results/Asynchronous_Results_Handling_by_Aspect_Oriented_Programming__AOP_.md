@@ -43,6 +43,14 @@ void TimerElapsed(object sender, ElapsedEventArgs e)
 > The attribute’s static Dispatcher property can then be set at application startup. It is probably best that the reference be factored out into an interface as in the previous examples so that the decorated methods can be run in a unit testing environment with no ill effects.
 
 
+## Construct Type
+
+**RealizationGuideline:** realization guideline for an aspect mentioned by the MVVM standard rules
+
+**Why:** "asynchronous operation" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [Static_UI_Thread_Dispatcher.md](Static UI Thread Dispatcher)

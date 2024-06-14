@@ -10,6 +10,14 @@ A declarative DSL is used to describe the API of a ViewModel. This includes the 
 See: ViMoTest2023
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [DSL_for_MVVM_Implementation.md](DSL for MVVM Implementation)

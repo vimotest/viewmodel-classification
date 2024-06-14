@@ -12,6 +12,14 @@ Also called: Humble View, Control-Freak ViewModel
 Resource: FreeCodeCampMvvmAndroidPro
 
 
+## Construct Type
+
+**ContradictsStandardDefinition:** contradicts standard MVVM rules
+
+**Why:** Contradicts the idea of ViewModel provides an "abstract representation for reusable parts"
+
+
+
 ## Relates to
 
 * [Reusable_and_View_Unaware_ViewModel.md](Reusable and View-Unaware ViewModel)
@@ -20,6 +28,7 @@ Resource: FreeCodeCampMvvmAndroidPro
 * [Number_Formatting_in_ViewModel.md](Number Formatting in ViewModel)
 * [ViewModel_Provides_Widget_Abstractions.md](ViewModel Provides Widget Abstractions)
 * [ViewModel_Field_Names_Types_are_View_Independent.md](ViewModel Field Names/Types are View Independent)
+* [ViewModel_Only_Expose_Data_Needed_by_View.md](ViewModel Only Expose Data Needed by View)
 
 ## Used By
 * Website: freeCodeCamp - How to Use Model-View-ViewModel on Android Like a Pro

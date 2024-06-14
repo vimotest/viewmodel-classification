@@ -7,6 +7,14 @@ The command layer allows that the models stays free from observer-mechanisms, wh
 Resource of this idea: FirefinchDeepDiveMvvm (Requirement #2: View models are alerted to changes to the model, regardless of the source of the changes)
 
 
+## Construct Type
+
+**RealizationGuideline:** realization guideline for an aspect mentioned by the MVVM standard rules
+
+**Why:** "commands" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [ViewModel_Refreshes_all_Bindings_on_Model_Change.md](ViewModel Refreshes all Bindings on Model Change)

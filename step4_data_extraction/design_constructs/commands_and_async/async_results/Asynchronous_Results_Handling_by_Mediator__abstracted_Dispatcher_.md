@@ -20,6 +20,14 @@ Resource: Hall2010ProWpf:
 > The best answer lies somewhere between the two previous examples. A mediator can be created that will fulfil all of the requirements while limiting the negative impact. The dispatcher should stay in the view layer, only one implementation is required for the entire view, and the interface is passed into all ViewModels that require cross-thread marshalling.
 
 
+## Construct Type
+
+**RealizationGuideline:** realization guideline for an aspect mentioned by the MVVM standard rules
+
+**Why:** "asynchronous operation" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [Asynchronous_Results_Handling_by_Aspect_Oriented_Programming__AOP_.md](Asynchronous Results Handling by Aspect Oriented Programming (AOP))

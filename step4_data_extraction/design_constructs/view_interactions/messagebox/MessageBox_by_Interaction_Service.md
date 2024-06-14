@@ -8,6 +8,14 @@ Provide an interaction layer/service (e.g., an interface) which the ViewModel ca
 Results can be returned either by return (synchronous) or by a callback (asynchronous).
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "messagebox handling" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [ViewModel_with_View_Interface.md](ViewModel with View Interface)

@@ -10,6 +10,14 @@ Input validation is not done in ViewModel, but only in model to improve reusabil
 See ProCsWpf2017 "Anemic Models or Anemic View Models"
 
 
+## Construct Type
+
+**RestrictsStandardDefinition:** restricts standard MVVM rules
+
+**Why:** Restricts "ViewModel might have additional validation logic" aspect
+
+
+
 ## Relates to
 
 * [Input_Validation_only_in_ViewModel__not_in_Model_.md](Input Validation only in ViewModel (not in Model))

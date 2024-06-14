@@ -11,6 +11,14 @@ c) update progress information for UI
 d) cancel a running asynchronous command
 
 
+## Construct Type
+
+**RealizationGuideline:** realization guideline for an aspect mentioned by the MVVM standard rules
+
+**Why:** "asynchronous operation" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [Static_UI_Thread_Dispatcher.md](Static UI Thread Dispatcher)

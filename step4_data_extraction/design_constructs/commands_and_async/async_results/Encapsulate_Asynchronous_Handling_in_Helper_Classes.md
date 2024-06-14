@@ -11,6 +11,14 @@ Resource: WeissenbergModelViewDesignPatterns2019
 > The services of the API are channeled in manager classes. These classes implement asynchronous function calls, to utilize a parallel processing of the GUI and the API. Having all services of the same nature in one class improves the debugging of this services. [..] As mentioned in section 4 it is necessary to switch to the current GUI process to change a property which is visualized. One could argue that it is a potential problem for all ViewModel and therefore all these properties should handle switching to the current GUI process. However the cause of the problem is subject of asynchronous functions and thus should be handled in them. Because all asynchronous tasks are collected in the manager classes, they should be responsible for the switch of processes.
 
 
+## Construct Type
+
+**RealizationGuideline:** realization guideline for an aspect mentioned by the MVVM standard rules
+
+**Why:** "asynchronous operation" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [Asynchronous_Results_Handling_by_Mediator__abstracted_Dispatcher_.md](Asynchronous Results Handling by Mediator (abstracted Dispatcher))

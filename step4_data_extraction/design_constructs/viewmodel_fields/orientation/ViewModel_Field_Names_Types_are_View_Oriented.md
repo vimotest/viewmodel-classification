@@ -13,6 +13,14 @@ For example: instead of naming 'isLoading', use the more view-oriented name 'sho
 Reference: FiveDotTwelveFlutterMvvm
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel field design" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [ViewModel_Field_Names_Types_are_View_Independent.md](ViewModel Field Names/Types are View Independent)

@@ -12,6 +12,14 @@ If the ViewModel controls the focus of a "OK button", then it can have a "FocusO
 Note: In other languages like Java, this could be realized by a simple observer/listener pattern.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel to view communication" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Input_and_Output_Callback_Interfaces.md](Input and Output/Callback Interfaces)

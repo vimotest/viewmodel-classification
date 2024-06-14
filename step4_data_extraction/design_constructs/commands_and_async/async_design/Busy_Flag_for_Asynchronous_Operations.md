@@ -12,6 +12,14 @@ From Anderson2012MvvmPattern
 Generally, you will expose a property from the ViewModel named IsBusy. This is a Boolean value that your ViewModel can set to true when an asynchronous operation is in progress. You can then bind this IsBusy property to the IsBusy property on a BusyIndicator control in your View, which results in the BusyIndicator control appearing in the View when the ViewModel’s IsBusy property is set to true. The BusyIndicator control serves two purposes: to inform the user that something is happening and to block the user from interacting with the View until the operation is complete. See Chapter 6 for more details on the BusyIndicator control."
 
 
+## Construct Type
+
+**RealizationGuideline:** realization guideline for an aspect mentioned by the MVVM standard rules
+
+**Why:** "asynchronous operation" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [Asynchronous_Commands_Requirements.md](Asynchronous Commands Requirements)

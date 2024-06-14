@@ -19,6 +19,14 @@ var mvvmView = FluentEngine
 ```
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [DSL_for_Specifying_ViewModel_API.md](DSL for Specifying ViewModel API)

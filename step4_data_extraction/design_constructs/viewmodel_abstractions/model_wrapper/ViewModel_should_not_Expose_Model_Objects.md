@@ -20,6 +20,14 @@ FirstName of the Person Model:
 <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding FirstName}" />
 
 
+## Construct Type
+
+**RestrictsStandardDefinition:** restricts standard MVVM rules
+
+**Why:** Restrict "ViewModel: Model of a View" aspect
+
+
+
 ## Relates to
 
 * [ViewModel_for_Model_Wrappers___Proxy_Property.md](ViewModel for Model Wrappers / Proxy Property)

@@ -14,6 +14,14 @@ For example, a view may populate a list box with a collection of ProductViewMode
 > you can consider is to create proxy properties in your view model for each model property. This technique is known as Proxy Property. The proxy properties simply pass along the model property and implement INotifyPropertyChanged (and potentially IDataErrorInfo, which will be covered in the validations chapter). The advantages of Proxy Property include simplifying the view model, as you don't need to go through an intermediate object when binding, and simplifying your models as they no longer need to worry about change notification. The main disadvantage is that it requires more code. (MvvmSurvivalGuideSiddiqi2012)
 
 
+## Construct Type
+
+**RealizationGuideline:** realization guideline for an aspect mentioned by the MVVM standard rules
+
+**Why:** "ViewModel: Model of a View" aspect mentioned in standard definition
+
+
+
 ## Relates to
 
 * [Aggregate_Model.md](Aggregate Model)

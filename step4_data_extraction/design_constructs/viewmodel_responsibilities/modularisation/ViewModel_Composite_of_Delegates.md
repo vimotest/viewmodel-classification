@@ -13,6 +13,14 @@ Resource: HalfbitCompositeViewModel
 Resource: LearnMicrosoftAdvancedMvvmPrism
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel modularization" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [MVVM_Controller__ViewModel_and_Controller.md](MVVM/Controller: ViewModel and Controller)

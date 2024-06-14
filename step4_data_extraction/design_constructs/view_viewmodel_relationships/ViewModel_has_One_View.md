@@ -12,6 +12,14 @@ Note: this design construct does not restrict how many ViewModels the View can h
 > Typically, one ViewModel is for one View, and this is the most common situation but not the only one allowed. (WinPhone8Essentials2013)
 
 
+## Construct Type
+
+**RestrictsStandardDefinition:** restricts standard MVVM rules
+
+**Why:** Restrict "View/ViewModel relationship" aspect
+
+
+
 ## Relates to
 
 * [View_has_One_ViewModel.md](View has One ViewModel)

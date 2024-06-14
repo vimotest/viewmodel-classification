@@ -10,6 +10,14 @@ If the ViewModel controls visibilities or enable/disable states, then it shall n
 See: Anderson2012MvvmPattern p514 "How Do I Enable/Disable Controls?" / "How Do I Show/Hide Controls?"
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel field design" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [ViewModel_Independent_of_UI_Framework_Utility_Classes.md](ViewModel Independent of UI-Framework Utility Classes)

@@ -10,6 +10,14 @@ in the view, but the list of items to display, and the reference to the selected
 should be defined by the view model.
 
 
+## Construct Type
+
+**DivergentConstruct:** divergents an intention/tip of a standard MVVM rule
+
+**Why:** "mapping colors" / "data conversion" is proposed in ViewModel by standard definition (only tip)
+
+
+
 ## Relates to
 
 * [Coloring_in_ViewModel.md](Coloring in ViewModel)

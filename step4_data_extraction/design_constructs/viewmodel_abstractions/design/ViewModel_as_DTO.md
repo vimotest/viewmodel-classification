@@ -8,6 +8,14 @@ ViewModel as a dumb data-transfer-object coupled to the view. A presenter assemb
 This allows that the ViewModel can be transmitted/serialized for network communication.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "client/server distribution" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Web_Client_Contains_MVVM.md](Web Client Contains MVVM)

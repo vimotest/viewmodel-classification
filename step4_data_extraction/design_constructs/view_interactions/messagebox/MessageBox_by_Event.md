@@ -8,6 +8,14 @@ A ViewModel defines a field like "bool ShowMessage" and "string Message", which 
 Alternatively, the ViewModel could directly define an event if the programming language supports it (e.g., C# event), where the ViewModel can pass the message as an event argument and trigger it, while the view describes to the event.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "messagebox handling" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [MessageBox_by_Interaction_Service.md](MessageBox by Interaction Service)

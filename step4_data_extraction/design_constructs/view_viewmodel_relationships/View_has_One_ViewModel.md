@@ -9,6 +9,14 @@ A View does have exactly one ViewModel. This implies, that it does not have diff
 Note: this design construct does not restrict how many Views the ViewModel can have.
 
 
+## Construct Type
+
+**RestrictsStandardDefinition:** restricts standard MVVM rules
+
+**Why:** Restrict "View/ViewModel relationship" aspect
+
+
+
 ## Relates to
 
 * [View_and_ViewModel_are_a_Tandem__one_to_one_relationship_.md](View and ViewModel are a Tandem (one-to-one relationship))

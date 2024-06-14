@@ -23,6 +23,14 @@ void ViewDestroy (bool viewFinishing = true);
 ```
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Persisted_ViewModel_Properties.md](Persisted ViewModel Properties)

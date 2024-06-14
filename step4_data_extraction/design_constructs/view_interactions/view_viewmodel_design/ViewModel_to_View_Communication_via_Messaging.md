@@ -12,6 +12,14 @@ From Kouraklis2016:
 > The ProSu framework (observer pattern) provides a way to establish bi-directional communication between the different components of the MVVM.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "ViewModel to view communication" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [MessageBox_by_Messaging_Mediators.md](MessageBox by Messaging/Mediators)

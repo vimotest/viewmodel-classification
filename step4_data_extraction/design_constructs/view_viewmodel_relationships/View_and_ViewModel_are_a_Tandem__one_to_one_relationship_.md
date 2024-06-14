@@ -11,6 +11,14 @@ Resource: LinkedInMvvmTrend
 > don’t try to create a ViewModel with a thought toward being able to reuse it for some other View (BeginningWin8AppXamlMvvm)
 
 
+## Construct Type
+
+**RestrictsStandardDefinition:** restricts standard MVVM rules
+
+**Why:** Restrict "View/ViewModel relationship" aspect
+
+
+
 ## Relates to
 
 * [Reusable_and_View_Unaware_ViewModel.md](Reusable and View-Unaware ViewModel)

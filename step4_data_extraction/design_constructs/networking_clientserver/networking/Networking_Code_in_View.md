@@ -11,6 +11,14 @@ Contra: this puts logic into the view, which is not testable within the ViewMode
 > error scenarios can directly be handled by the view which can allow view to display errors to the user or retry the action again. If a View model wants to keep the networking code to make it abstracted from the view, it needs to respond back to the view with the errors, in which case the extra layer of abstraction is added (MediumIOSPatternMvcMvpMvvm)
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "networking" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Networking_Code_in_Networking_Layer.md](Networking Code in Networking Layer)

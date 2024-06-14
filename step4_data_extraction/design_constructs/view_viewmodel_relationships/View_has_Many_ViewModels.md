@@ -11,6 +11,14 @@ We see two possible alternatives here:
 Note: this design construct does not restrict how many Views the ViewModel can have.
 
 
+## Construct Type
+
+**RestrictsStandardDefinition:** restricts standard MVVM rules
+
+**Why:** Restrict "View/ViewModel relationship" aspect
+
+
+
 ## Relates to
 
 * [View_has_One_ViewModel.md](View has One ViewModel)

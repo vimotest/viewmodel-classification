@@ -11,6 +11,14 @@ Motivation: the ViewModel is really independent of UI frameworks and those can b
 Example: this includes WPF-specific helper classes, which prevent a ViewModel to be reused for other UI-Frameworks, without modifying them.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "UI-Framework independence" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Commands_Alternative_by_EventHandlers_ViewModel_Method_Calls.md](Commands Alternative by EventHandlers/ViewModel Method Calls)

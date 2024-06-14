@@ -15,6 +15,14 @@ ViewTitle: This event is raised by the ViewModel to indicate that a Title has be
 > There are many ways available to keep navigation code out of the ViewModel, and frameworks are available that handle this task in sophisticated manners. You will keep this application simple, however, by raising events from the ViewModel, which can be handled in the UI code of the application to perform navigation.
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "navigation" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [Navigation_in_View___Navigation_System.md](Navigation in View / Navigation System)

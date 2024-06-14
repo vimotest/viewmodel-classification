@@ -10,6 +10,14 @@ The model is the piece which is transmitted from the server, not the ViewModel.
 Also mentioned as "MVVM Client-Side Application" (Zarifis2017)
 
 
+## Construct Type
+
+**ExtendsStandardDefinition:** extends standard MVVM by new rules
+
+**Why:** "client/server distribution" aspect not addressed in standard definition
+
+
+
 ## Relates to
 
 * [ViewModel_as_DTO.md](ViewModel as DTO)
