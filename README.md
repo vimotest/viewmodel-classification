@@ -30,3 +30,7 @@ The MLR Study is divided into 5 steps, which each has an own README.me with a mo
 **Step 4**: Data Extraction `step4_data_extraction/README.md`
 
 **Step 5**: Data Synthesis `step5_data_synthesis/README.md`
+
+## Study Protocol
+
+You can find the study protocol here: [Study Protocol](study_protocol.md)
