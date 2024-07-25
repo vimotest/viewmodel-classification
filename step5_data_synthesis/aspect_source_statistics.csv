@@ -1,0 +1,12 @@
+Aspect;websiteArticles;forumDiscussions;books;technicalReports;publishedPapers;theses  ;SUM
+commands_and_async;7;0;9;2;1;1;20
+view_interactions;4;0;13;0;0;1;18
+app_lifecycle;4;0;0;1;0;0;5
+navigation;7;0;17;0;1;4;29
+networking_clientserver;2;0;0;2;2;0;6
+view_viewmodel_relationships;8;0;10;0;0;4;22
+formatting_localization;4;0;5;0;2;2;13
+viewmodel_abstractions;9;3;11;2;5;1;31
+viewmodel_fields;4;0;3;0;1;1;9
+viewmodel_responsibilities;5;0;12;1;2;0;20
+mvvm_dsl;0;0;1;0;2;0;3

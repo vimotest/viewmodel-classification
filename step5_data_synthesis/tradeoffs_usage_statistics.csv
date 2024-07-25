@@ -1,0 +1,32 @@
+Type;Name;Use-Count  
+ContraCriteria;ViewModel with many Responsibilities;12  
+BenefitCriteria;Easier Reuse of Components (e.g., the ViewModel);8  
+ContraCriteria;High Learning Curve to Efficiently Apply MVVM;7  
+ContraCriteria;Lot of Boilerplate;7  
+BenefitCriteria;Better Application Performance compared to MVC/MVP;5  
+BenefitCriteria;Increased Decoupling of View / ViewModel;4  
+BenefitCriteria;New UI Requirements more Quickly or Easily Adapted;3  
+BenefitCriteria;View Easily Replaced/Extended;3  
+BenefitCriteria;Less Boilerplate by Library;3  
+ContraCriteria;Difficult Testability;2  
+BenefitCriteria;View Layer with Different UI Technologies;2  
+BenefitCriteria;Development Speed Increased;2  
+ContraCriteria;Lack of Guidance of MVVM Pattern;2  
+BenefitCriteria;N-Tier: ViewModel can Expose Parts of Model for better Security/Performance;2  
+ContraCriteria;Asynchronous Data Fetching / Threading Challenges;2  
+ContraCriteria;Separation of Developer-Designer Workflows does not work;2  
+ContraCriteria;Using UI-Framework Features on View-layer Decreases Testability;1  
+ContraCriteria;Framework-Independent Command Implementation Overhead;1  
+BenefitCriteria;Reduced CPU Usage;1  
+BenefitCriteria;Easier Debugging of Components;1  
+ContraCriteria;Usage of Third-Party Libraries affect Application Size/Performance/Learning Curve;1  
+ContraCriteria;User Interactions are Complexer to Implement;1  
+ContraCriteria;ViewModel Conversions have Higher CPU Consumption;1  
+BenefitCriteria;Reduced Energy Consumption;1  
+ContraCriteria;Repeated Code in ViewModels leading to Maintainance Challenges;1  
+BenefitCriteria;Easier to Cache View-state;1  
+ContraCriteria;Poor Reusability of ViewModels;1  
+BenefitCriteria;Less Imperative Code in View-Layer (Code-behind);1  
+ContraCriteria;Increase Number of Classes/Components;1  
+BenefitCriteria;Easier to Maintain Application Lifecycle;1  
+BenefitCriteria;Well-organized Design;1   
