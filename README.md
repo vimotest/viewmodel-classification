@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/570661569.svg)](https://zenodo.org/doi/10.5281/zenodo.13350487)
+
 # Model-View-ViewModel Multi-vocal Literature Review
 
 This repository contains all artifacts of the Model-View-ViewModel (MVVM) Multi-vocal Literature Review (MLR) study.
