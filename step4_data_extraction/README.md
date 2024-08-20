@@ -5,7 +5,7 @@ We use the MPS language to efficiently structure the data into a model.
 
 ## See Model
 
-See https://github.com/anonymized/mps-literature-review design constructs and trade-offs
+See https://github.com/Fumapps/mps-literature-review design constructs and trade-offs
 
 ## Transfer to MPS
 
